@@ -1,6 +1,8 @@
 # society
 PreTeXt conversion of Lippman's Math In Society
 
+Prototype URL: https://matthematician.github.io/society
+
 TODO:
 
 [X] Share repo with Chase
