@@ -7,7 +7,7 @@ TODO:
 
 [X] Share repo with Chase
 
-[ ] Contact Lippman dlippman@pierce.ctc.edu
+[X] Contact David Lippman dlippman@pierce.ctc.edu
 
 [X] Contact Oscar Levin re DOC to PreTeXt XML oscar.levin@unco.edu
 

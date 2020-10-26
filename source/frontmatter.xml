@@ -36,9 +36,36 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <email>dlippman@pierce.ctc.edu</email>
         </author>
 
+
         <date><today /></date>
 
     </titlepage>
+
+    <colophon>
+
+    <p>PreTeXt conversion <em>(in progress)</em> by: <ul>
+        <li>
+            <p>Matt Salomone                
+            </p>
+            <p>Department of Mathematics</p>
+            <p>Bridgewater State University</p>
+            <p>msalomone@bridgew.edu</p>
+        </li>
+    </ul>
+    </p>
+
+    <p><image source="images/cc-by-sa.png" width="10%"/>Except where otherwise noted, this work is licensed under a Creative Commons Attribution ShareAlike 4.0 International (CC-BY-SA 4.0) license. See <url href="http://creativecommons.org/licenses/by-sa/4.0/" /> for details.</p>
+    
+
+        <copyright>
+            <holder>David Lippman</holder>
+            <year>2017</year>
+            <minilicense>Creative Commons CC-BY-SA</minilicense>
+        </copyright>
+    </colophon>
+
+
+      
    
 
 </frontmatter>
