@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+    <xi:include href="./bookinfo.xml" /> <!-- ISBN, website, other metadata -->
+
+    <book xml:id="math-in-society">
+        <title>Math In Society</title>
+
+        <xi:include href="./frontmatter.xml" />
+
+        <xi:include href="./ch-problemsolving.xml" /> <!-- Problem Solving -->
+
+        <part xml:id="pt_civics">
+            <title>Civic Mathematics</title>
+            <xi:include href="./ch-votingtheory.xml" /> <!-- Voting Theory -->
+            <xi:include href="./ch-weightedvoting.xml" /> <!-- Weighted Voting -->
+            <xi:include href="./ch-apportionment.xml" /> <!-- Apportionment -->
+            <xi:include href="./ch-fairdivision.xml" /> <!-- Fair Division -->
+        </part>
+
+        <part xml:id="pt_finite">
+            <title>Finite Mathematics</title>
+            <xi:include href="./ch-graphtheory.xml" /> <!-- Graph Theory -->
+            <xi:include href="./ch-scheduling.xml" /> <!-- Scheduling -->
+            <xi:include href="./ch-growthmodels.xml" /> <!-- Growth Models -->
+            <xi:include href="./ch-finance.xml" /> <!-- Finance -->
+        </part>
+
+        <part xml:id="pt_data">
+            <title>Data Literacy</title>
+            <xi:include href="./ch-statistics.xml" /> <!-- Graph Theory -->
+            <xi:include href="./ch-describingdata.xml" /> <!-- Scheduling -->
+            <xi:include href="./ch-probability.xml" /> <!-- Growth Models -->
+        </part>
+
+        <part xml:id="pt_topics">
+            <title>Topics in Math</title>
+            <xi:include href="./ch-sets.xml" /> <!-- Graph Theory -->
+            <xi:include href="./ch-historical.xml" /> <!-- Scheduling -->
+            <xi:include href="./ch-fractals.xml" /> <!-- Growth Models -->
+            <xi:include href="./ch-cryptography.xml" /> <!-- Growth Models -->
+            <xi:include href="./ch-logic.xml" /> <!-- Growth Models -->
+        </part>
+        
+        <xi:include href="./backmatter.xml" />                  <!-- GFDL, Hints, Notation -->
+
+    </book>
+
+</pretext>
