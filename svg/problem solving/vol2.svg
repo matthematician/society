@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="22.486mm" height="24.236mm" version="1.1" viewBox="0 0 22.485559 24.235773" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath2-63">
+   <path d="m0 40.449h45.725v24.461h-45.725z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-6">
+   <path d="m59.315 0h22.223v24.461h-22.223z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-291.17 -151.49)">
+  <g fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="201.60533" y="173.24791" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+   <text x="240.44316" y="225.95308" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+   <text x="156.06284" y="131.59941" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+   <text x="322.26288" y="182.31813" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  </g>
+  <path d="m295.57 154.82v17.634c0 1.737 4.0186 3.1461 8.9784 3.1461s8.981-1.4092 8.981-3.1461v-17.634" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <g transform="matrix(.26458 0 0 .26458 291.17 150.68)" clip-path="url(#clipEmfPath2-63)">
+   <text transform="translate(0 54.198)" fill="#000000" font-family="'Times New Roman'" font-size="14.688px" font-style="italic" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-style="italic" font-weight="400"><tspan dx="0" dy="0" font-size="14.688px">H</tspan><tspan dx="0" dy="-6.0753398" font-size="10.688px"/></tspan></text>
+  </g>
+  <path d="m304.54 151.63c-4.9598 0-8.9784 1.4091-8.9784 3.1461s4.0186 3.1461 8.9784 3.1461 8.981-1.4092 8.981-3.1461-4.0212-3.1461-8.981-3.1461z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m304.54 151.63c-4.9598 0-8.9784 1.4091-8.9784 3.1461s4.0186 3.1461 8.9784 3.1461 8.981-1.4092 8.981-3.1461-4.0212-3.1461-8.981-3.1461" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m304.66 154.82 8.6532 0.0159" fill="none" stroke="#000" stroke-linejoin="round" stroke-width=".26438px"/>
+  <g transform="matrix(.26458 0 0 .26458 291.17 150.68)" clip-path="url(#clipEmfPath3-6)">
+   <text transform="translate(59.315 13.749)" fill="#000000" font-family="'Times New Roman'" font-size="14.688px" font-style="italic" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-style="italic" font-weight="400"><tspan dx="0" dy="0" font-size="14.688px">r</tspan><tspan dx="0" dy="-6.0753398" font-size="10.688px"/></tspan></text>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="61.191mm" height="47.6mm" version="1.1" viewBox="0 0 61.19108 47.600457" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath1-07">
+   <path d="m0.15988 0.15988h266.68v221.59h-266.68z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-24">
+   <path d="m58.089 22.119h196.76v121.77h-196.76z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath5-57">
+   <path d="m-0.83891-0.83828h268.67v223.59h-268.67z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath6-52">
+   <path d="m61.086 168.85h187.77v37.93h-187.77z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath7-0">
+   <path d="m15.142 42.082h22.972v83.845h-22.972z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-706.87 -151.9)">
+  <text x="701.29401" y="150.19525" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <path transform="matrix(.26458 0 0 .26458 701.29 146.56)" d="m59.088 25.114h192.77v117.78h-192.77z" clip-path="url(#clipEmfPath1-07)" fill="none"/>
+  <path transform="matrix(.26458 0 0 .26458 701.29 146.56)" d="m59.088 25.114h192.77v117.78h-192.77v-117.78" clip-path="url(#clipEmfPath1-07)" fill="none" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99847px"/>
+  <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99847px">
+   <path transform="matrix(.26458 0 0 .26458 701.29 146.56)" d="m88.053 118.94h38.953v23.956h-38.953z" clip-path="url(#clipEmfPath4-24)" fill="#99f" fill-rule="evenodd"/>
+   <path transform="matrix(.26458 0 0 .26458 701.29 146.56)" d="m184.93 55.058h37.954v87.837h-37.954z" clip-path="url(#clipEmfPath4-24)" fill="#99f" fill-rule="evenodd"/>
+   <path transform="matrix(.26458 0 0 .26458 701.29 146.56)" d="m59.088 25.114v117.78m-2.9964 0h2.9964m-2.9964-28.946h2.9964m-2.9964-29.945h2.9964m-2.9964-28.946h2.9964m-2.9964-29.945h2.9964m0 117.78h192.77m-192.77 2.9945v-2.9945m96.882 2.9945v-2.9945m95.883 2.9945v-2.9945" clip-path="url(#clipEmfPath1-07)" fill="none"/>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 701.29 146.56)" clip-path="url(#clipEmfPath5-57)" fill="#000000" font-family="Arial" font-size="11px" font-weight="700" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(39.112 135.91)" y="9.9580078" style="line-height:125%" xml:space="preserve"><tspan x="0" y="9.9580078"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">40</tspan></tspan></text>
+   <text transform="translate(39.112 135.91)" y="-18.988434" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-18.988434"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">45</tspan></tspan></text>
+   <text transform="translate(39.112 135.91)" y="-48.933029" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-48.933029"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">50</tspan></tspan></text>
+   <text transform="translate(39.112 135.91)" y="-77.879471" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-77.879471"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">55</tspan></tspan></text>
+   <text transform="translate(39.112 135.91)" y="-107.82407" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-107.82407"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">60</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 701.29 146.56)" clip-path="url(#clipEmfPath5-57)" fill="#000000" font-family="Arial" font-size="11px" font-weight="700" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(85.057 151.88)" y="9.9580078" style="line-height:125%" xml:space="preserve"><tspan x="0" y="9.9580078"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">Support</tspan></tspan></text>
+   <text transform="translate(85.057 151.88)" x="97.880867" y="9.9580078" style="line-height:125%" xml:space="preserve"><tspan x="97.880867" y="9.9580078"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">Oppose</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 701.29 146.56)" clip-path="url(#clipEmfPath6-52)" fill="#000000" font-family="Arial" font-size="11px" font-weight="700" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(64.082 172.84)" y="9.9580078" style="line-height:125%" xml:space="preserve"><tspan x="0" y="9.9580078"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">Do you support or oppose same-</tspan></tspan></text>
+   <text transform="translate(64.082 172.84)" x="50.938" y="24.930305" style="line-height:125%" xml:space="preserve"><tspan x="50.938" y="24.930305"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">sex marriage?</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 701.29 146.56)" clip-path="url(#clipEmfPath7-0)">
+   <text transform="rotate(-90 71.035 51.898)" y="9.9580078" fill="#000000" font-family="Arial" font-size="11px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="9.9580078"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11px" font-weight="700">Frequency (%)</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

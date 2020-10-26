@@ -1,0 +1,8 @@
+<string>:0:0:ERROR:XSLT:ERR_OK: MBX:WARNING:    The @xml:id "project-1-flat-tax-modified-flat-tax-and-progressive-tax." is invalid.  Use only letters, numbers, hyphens and underscores.
+<string>:0:0:ERROR:XSLT:ERR_OK: MBX:WARNING:    The @xml:id "project-2-calculating-taxes." is invalid.  Use only letters, numbers, hyphens and underscores.
+<string>:0:0:ERROR:XSLT:ERR_OK: MBX:DEPRECATE: (2019-06-28) the "table" element needs a "title", not a "caption".  An existing "caption" will be used instead.  Both will display below the "tabular" (4 times)
+<string>:0:0:ERROR:XSLT:ERR_OK:              located within: "exercises" (xml:id), "Exercises" (title)
+<string>:0:0:ERROR:XSLT:ERR_OK:              located within: "project-1-flat-tax-modified-flat-tax-and-progressive-tax." (xml:id), "Project 1: Flat tax, Modified Flat Tax, and Progressive Tax." (title)
+<string>:0:0:ERROR:XSLT:ERR_OK:              located within: "project-1-flat-tax-modified-flat-tax-and-progressive-tax." (xml:id), "Project 1: Flat tax, Modified Flat Tax, and Progressive Tax." (title)
+<string>:0:0:ERROR:XSLT:ERR_OK:              located within: "project-1-flat-tax-modified-flat-tax-and-progressive-tax." (xml:id), "Project 1: Flat tax, Modified Flat Tax, and Progressive Tax." (title)
+<string>:0:0:ERROR:XSLT:ERR_OK: --------------

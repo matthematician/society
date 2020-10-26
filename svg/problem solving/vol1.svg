@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="28.323mm" height="31.094mm" version="1.1" viewBox="0 0 28.323089 31.094454" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath2-6">
+   <path d="m36.452 103.92h45.725v24.461h-45.725z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-0">
+   <path d="m98.005 81.378h22.223v24.461h-22.223z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4">
+   <path d="m0 57.076h45.885v24.301h-45.885z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-123.58 -97.73)">
+  <g fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="201.60533" y="173.24791" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+   <text x="240.44316" y="225.95308" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+   <text x="156.06284" y="131.59941" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  </g>
+  <path d="m127.87 105.25v18.597h17.309v-18.597z" fill="#fff" fill-rule="evenodd"/>
+  <g fill="none" stroke="#000" stroke-width=".26438px">
+   <path d="m127.87 105.25v18.597h17.309v-18.597z" stroke-linecap="round" stroke-miterlimit="8"/>
+   <g stroke-linejoin="round">
+    <path d="m127.87 105.25 6.4852-7.3842"/>
+    <path d="m145.18 105.25 6.4852-7.3842"/>
+    <path d="m145.32 123.84 6.4509-7.3868"/>
+    <path d="m134.35 97.862h17.415"/>
+    <path d="m151.77 97.862v18.594"/>
+   </g>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 123.58 97.632)" clip-path="url(#clipEmfPath2-6)">
+   <text transform="translate(36.452 117.67)" fill="#000000" font-family="'Times New Roman'" font-size="14.688px" font-style="italic" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-style="italic" font-weight="400"><tspan dx="0" dy="0" font-size="14.688px">W</tspan><tspan dx="0" dy="-6.0753398" font-size="10.688px"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 123.58 97.632)" clip-path="url(#clipEmfPath3-0)">
+   <text transform="translate(98.005 95.127)" fill="#000000" font-family="'Times New Roman'" font-size="14.688px" font-style="italic" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-style="italic" font-weight="400"><tspan dx="0" dy="0" font-size="14.688px">L</tspan><tspan dx="0" dy="-6.0753398" font-size="10.688px"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 123.58 97.632)" clip-path="url(#clipEmfPath4)">
+   <text transform="translate(0 70.986)" fill="#000000" font-family="'Times New Roman'" font-size="14.688px" font-style="italic" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-style="italic" font-weight="400"><tspan dx="0" dy="0" font-size="14.688px">H</tspan><tspan dx="0" dy="-6.0753398" font-size="10.688px"/></tspan></text>
+  </g>
+ </g>
+</svg>

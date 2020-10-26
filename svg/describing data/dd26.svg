@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="75.948mm" height="47.614mm" version="1.1" viewBox="0 0 75.948018 47.614416" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath1-79">
+   <path d="m0.15988 0.15988h322.79v221.75h-322.79z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath2-33">
+   <path d="m56.124 21.136h252.84v137.84h-252.84z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath5-439">
+   <path d="m56.124 23.134h254.84v131.85h-254.84z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath6-66">
+   <path d="m-0.83948-0.839h324.79v223.75h-324.79z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath7-30">
+   <path d="m122.08 182.95h120.92v23.973h-120.92z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath8-23">
+   <path d="m15.15 58.095h23.985v64.927h-23.985z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-919.24 -166.36)">
+  <text x="913.56958" y="164.60558" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <g fill="none">
+   <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m57.123 26.131h250.84v127.86h-250.84z" clip-path="url(#clipEmfPath1-79)"/>
+   <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m57.123 138h250.84m-250.84-15.982h250.84m-250.84-15.982h250.84m-250.84-15.982h250.84m-250.84-15.982h250.84m-250.84-15.982h250.84m-250.84-15.982h250.84m-250.84-15.982h250.84" clip-path="url(#clipEmfPath2-33)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".99936px"/>
+   <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m57.123 26.131h250.84v127.86h-250.84v-127.86" clip-path="url(#clipEmfPath1-79)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".99936px"/>
+  </g>
+  <g fill="#99f" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".99936px">
+   <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m72.114 90.058h19.987v63.928h-19.987z" clip-path="url(#clipEmfPath5-439)"/>
+   <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m122.08 26.131h19.987v127.86h-19.987z" clip-path="url(#clipEmfPath5-439)"/>
+   <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m172.05 58.095h20.987v95.892h-20.987z" clip-path="url(#clipEmfPath5-439)"/>
+   <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m272.98 138h19.987v15.982h-19.987z" clip-path="url(#clipEmfPath5-439)"/>
+  </g>
+  <path transform="matrix(.26458 0 0 .26458 913.57 160.97)" d="m57.123 26.131v127.86m-3.9974 0h3.9974m-3.9974-15.982h3.9974m-3.9974-15.982h3.9974m-3.9974-15.982h3.9974m-3.9974-15.982h3.9974m-3.9974-15.982h3.9974m-3.9974-15.982h3.9974m-3.9974-15.982h3.9974m-3.9974-15.982h3.9974m0 127.86h250.84m-250.84 3.9955v-3.9955m49.968 3.9955v-3.9955m49.968 3.9955v-3.9955m50.967 3.9955v-3.9955m49.968 3.9955v-3.9955m49.968 3.9955v-3.9955" clip-path="url(#clipEmfPath1-79)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".99936px"/>
+  <g transform="matrix(.26458 0 0 .26458 913.57 160.97)" clip-path="url(#clipEmfPath6-66)" fill="#000000" font-family="Arial" font-size="12px" font-weight="700" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(40.134 146)" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">0</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-5.1186929" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-5.1186929"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">1</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-21.100668" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-21.100668"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">2</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-37.082642" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-37.082642"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">3</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-53.064617" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-53.064617"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">4</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-69.046593" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-69.046593"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">5</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-85.028564" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-85.028564"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">6</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-101.01054" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-101.01054"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">7</tspan></tspan></text>
+   <text transform="translate(40.134 146)" y="-116.99252" style="line-height:125%" xml:space="preserve"><tspan x="0" y="-116.99252"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">8</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 913.57 160.97)" clip-path="url(#clipEmfPath6-66)" fill="#000000" font-family="Arial" font-size="12px" font-weight="700" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(79.109 164.97)" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">1</tspan></tspan></text>
+   <text transform="translate(79.109 164.97)" x="49.967861" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="49.967861" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">2</tspan></tspan></text>
+   <text transform="translate(79.109 164.97)" x="100.93508" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="100.93508" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">3</tspan></tspan></text>
+   <text transform="translate(79.109 164.97)" x="150.90294" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="150.90294" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">4</tspan></tspan></text>
+   <text transform="translate(79.109 164.97)" x="200.8708" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="200.8708" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">5</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 913.57 160.97)" clip-path="url(#clipEmfPath7-30)">
+   <text transform="translate(125.08 186.95)" y="10.863281" fill="#000000" font-family="Arial" font-size="12px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">Shipping time (days)</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 913.57 160.97)" clip-path="url(#clipEmfPath8-23)">
+   <text transform="rotate(-90 69.586 50.439)" y="10.863281" fill="#000000" font-family="Arial" font-size="12px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">Frequency</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

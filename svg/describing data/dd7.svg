@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="52.422mm" height="43.982mm" version="1.1" viewBox="0 0 52.422485 43.981801" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath>
+   <path d="m0.63951 0h298.18v200.63h-298.18z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath2-040">
+   <path d="m4.6286 3.9927h290.2v192.65h-290.2z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-57">
+   <path d="m89.396 3.9927h134.63v25.953h-134.63z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-440">
+   <path d="m217.05 51.905h57.841v43.92h-57.841z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath5-461">
+   <path d="m158.21 141.74h53.852v43.92h-53.852z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath6-57">
+   <path d="m68.453 67.876h46.871v43.92h-46.871z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-579.14 -129.46)">
+  <g>
+   <text x="559.94891" y="130.0643" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458"/></tspan></text>
+   <g fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99772px">
+    <path transform="matrix(.26458 0 0 .26458 559.95 126.43)" d="m166.68 90.335 21.873 44.295a49.387 49.387 0 0 0 -22.371 -93.702z" clip-path="url(#clipEmfPath2-040)" fill="#0f0"/>
+    <path transform="matrix(.26458 0 0 .26458 559.95 126.43)" d="m166.68 90.335-10.655 48.245a49.387 49.387 0 0 0 32.528 -3.9503z" clip-path="url(#clipEmfPath2-040)" fill="#f00"/>
+    <path transform="matrix(.26458 0 0 .26458 559.95 126.43)" d="m166.68 90.335-0.4986-49.407a49.387 49.387 0 0 0 -10.156 97.653z" clip-path="url(#clipEmfPath2-040)"/>
+   </g>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 564.77 126.65)" clip-path="url(#clipEmfPath3-57)">
+   <text transform="translate(92.388 8.9836)" y="12.617249" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="12.617249"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="700">Voter preferences</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 559.95 126.43)" clip-path="url(#clipEmfPath4-440)">
+   <text transform="translate(220.04 56.896)" x="25.567963" y="12.617249" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:128.91290188%" xml:space="preserve"><tspan x="25.567963" y="12.617249"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400">Douglas</tspan></tspan><tspan x="25.567963" y="30.584484"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400">43%</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 559.95 126.43)" clip-path="url(#clipEmfPath5-461)">
+   <text transform="translate(161.2 146.73)" x="23.628418" y="12.617249" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:128.91290188%" xml:space="preserve"><tspan x="23.628418" y="12.617249"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400">Reeves</tspan></tspan><tspan x="23.628418" y="30.584484"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400">11%</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 559.95 126.43)" clip-path="url(#clipEmfPath6-57)">
+   <text transform="translate(71.445 72.867)" x="20.528549" y="12.617249" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:128.91290188%" xml:space="preserve"><tspan x="20.528549" y="12.617249"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400">Ellison</tspan></tspan><tspan x="20.528549" y="30.584484"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="13.938px" font-weight="400">46%</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

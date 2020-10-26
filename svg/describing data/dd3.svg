@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="88.051mm" height="48.535mm" version="1.1" viewBox="0 0 88.050713 48.534768" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath1-930">
+   <path d="m0 0.15988h368.51v221.59h-368.51z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-44">
+   <path d="m62.917 23.117h293.61v131.75h-293.61z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-532.52 -106.08)">
+  <text x="526.8988" y="105.91569" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m63.915 26.111h289.62v127.76h-289.62z" clip-path="url(#clipEmfPath1-930)" fill="none"/>
+  <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m63.915 26.111h289.62v127.76h-289.62v-127.76" clip-path="url(#clipEmfPath1-930)" fill="none" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9984px"/>
+  <g fill="#99f" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9984px">
+   <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m77.897 33.098h18.975v120.77h-18.975z" clip-path="url(#clipEmfPath4-44)"/>
+   <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m125.83 59.05h19.974v94.822h-19.974z" clip-path="url(#clipEmfPath4-44)"/>
+   <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m174.77 63.042h18.975v90.83h-18.975z" clip-path="url(#clipEmfPath4-44)"/>
+   <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m222.71 70.029h18.975v83.843h-18.975z" clip-path="url(#clipEmfPath4-44)"/>
+   <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m270.64 95.98h19.974v57.892h-19.974z" clip-path="url(#clipEmfPath4-44)"/>
+   <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m319.58 99.973h18.975v53.899h-18.975z" clip-path="url(#clipEmfPath4-44)"/>
+  </g>
+  <path transform="matrix(.26458 0 0 .26458 526.9 102.28)" d="m63.915 26.111v127.76m-3.9947 0h3.9947m-3.9947-11.978h3.9947m-3.9947-10.979h3.9947m-3.9947-11.978h3.9947m-3.9947-11.978h3.9947m-3.9947-10.979h3.9947m-3.9947-11.978h3.9947m-3.9947-10.979h3.9947m-3.9947-11.978h3.9947m-3.9947-11.978h3.9947m-3.9947-10.979h3.9947m-3.9947-11.978h3.9947m0 127.76h289.62m-289.62 3.9925v-3.9925m47.937 3.9925v-3.9925m48.935 3.9925v-3.9925m47.937 3.9925v-3.9925m47.937 3.9925v-3.9925m48.935 3.9925v-3.9925m47.937 3.9925v-3.9925" clip-path="url(#clipEmfPath1-930)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9984px"/>
+  <g fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="548.03748" y="108.36343" style="line-height:125%" xml:space="preserve"><tspan x="548.03748" y="108.36343" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">52</tspan></tspan></text>
+   <text x="560.98492" y="115.22972" style="line-height:125%" xml:space="preserve"><tspan x="560.98492" y="115.22972" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">41</tspan></tspan></text>
+   <text x="573.66809" y="116.28608" style="line-height:125%" xml:space="preserve"><tspan x="573.66809" y="116.28608" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">39</tspan></tspan></text>
+   <text x="586.35132" y="118.1347" style="line-height:125%" xml:space="preserve"><tspan x="586.35132" y="118.1347" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">36</tspan></tspan></text>
+   <text x="599.29877" y="125.00101" style="line-height:125%" xml:space="preserve"><tspan x="599.29877" y="125.00101" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">25</tspan></tspan></text>
+   <text x="611.98199" y="126.05737" style="line-height:125%" xml:space="preserve"><tspan x="611.98199" y="126.05737" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">23</tspan></tspan></text>
+   <text x="539.31775" y="143.75131" style="line-height:125%" xml:space="preserve"><tspan x="539.31775" y="143.75131" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">0</tspan></tspan></text>
+   <text x="539.31775" y="140.58224" style="line-height:125%" xml:space="preserve"><tspan x="539.31775" y="140.58224" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">5</tspan></tspan></text>
+   <text x="537.46814" y="137.67728" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="137.67728" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">10</tspan></tspan></text>
+   <text x="537.46814" y="134.50821" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="134.50821" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">15</tspan></tspan></text>
+   <text x="537.46814" y="131.33914" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="131.33914" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">20</tspan></tspan></text>
+   <text x="537.46814" y="128.43417" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="128.43417" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">25</tspan></tspan></text>
+   <text x="537.46814" y="125.2651" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="125.2651" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">30</tspan></tspan></text>
+   <text x="537.46814" y="122.36012" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="122.36012" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">35</tspan></tspan></text>
+   <text x="537.46814" y="119.19106" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="119.19106" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">40</tspan></tspan></text>
+   <text x="537.46814" y="116.022" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="116.022" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">45</tspan></tspan></text>
+   <text x="537.46814" y="113.11702" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="113.11702" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">50</tspan></tspan></text>
+   <text x="537.46814" y="109.94795" style="line-height:125%" xml:space="preserve"><tspan x="537.46814" y="109.94795" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">55</tspan></tspan></text>
+   <text x="545.65936" y="148.769" style="line-height:125%" xml:space="preserve"><tspan x="545.65936" y="148.769" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">Green</tspan></tspan></text>
+   <text x="560.1922" y="148.769" style="line-height:125%" xml:space="preserve"><tspan x="560.1922" y="148.769" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">Red</tspan></tspan></text>
+   <text x="571.55426" y="148.769" style="line-height:125%" xml:space="preserve"><tspan x="571.55426" y="148.769" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">Black</tspan></tspan></text>
+   <text x="584.23749" y="148.769" style="line-height:125%" xml:space="preserve"><tspan x="584.23749" y="148.769" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">White</tspan></tspan></text>
+   <text x="598.24188" y="148.769" style="line-height:125%" xml:space="preserve"><tspan x="598.24188" y="148.769" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">Blue</tspan></tspan></text>
+   <text x="610.66083" y="148.769" style="line-height:125%" xml:space="preserve"><tspan x="610.66083" y="148.769" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">Grey</tspan></tspan></text>
+   <text x="550.15131" y="154.57895" style="line-height:125%" xml:space="preserve"><tspan x="550.15131" y="154.57895" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">Vehicle color involved in total-loss collision</tspan></tspan></text>
+   <text transform="rotate(-90)" x="-134.01076" y="534.79346" style="line-height:125%" xml:space="preserve"><tspan x="-134.01076" y="534.79346" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="3.175px" font-weight="700" stroke-width=".26458">Frequency</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

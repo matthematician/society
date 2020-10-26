@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="73.361mm" height="20.555mm" version="1.1" viewBox="0 0 73.3612 20.554965" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="clipEmfPath2-287">
+   <path d="m0 47.004h19.345v21.104h-19.345z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-89">
+   <path d="m94.328 40.289h19.185v21.104h-19.185z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-22">
+   <path d="m234.86 67.308h19.345v21.104h-19.345z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath5-88">
+   <path d="m15.988 62.992h19.345v21.104h-19.345z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath6-854">
+   <path d="m31.336 56.437h19.185v21.264h-19.185z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath7-549">
+   <path d="m118.31 64.91h19.185v21.104h-19.185z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath8-65">
+   <path d="m145.01 58.035h19.345v21.104h-19.345z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath9-00">
+   <path d="m203.52 34.693h19.345v21.104h-19.345z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath10-56">
+   <path d="m271.47 57.236h19.185v21.264h-19.185z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-943.47 -172.08)">
+  <text x="1092.5039" y="194.2359" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath2-287)">
+   <text transform="translate(0 62.032)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">1</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath3-89)">
+   <text transform="translate(94.328 55.318)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">2</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath4-22)">
+   <text transform="translate(234.86 82.337)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">3</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m948.1 181.84-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m946.76 183.17h4.0186l1.3404-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m950.77 183.17 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m948.1 181.84-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z"/>
+   <path d="m946.76 183.17h4.0186l1.3404-1.3378"/>
+   <path d="m950.77 183.17v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m974.25 181.52-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m972.91 182.86h4.0186l1.3378-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m976.93 182.86 1.3378-1.3378v4.0186l-1.3378 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m974.25 181.52-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z"/>
+   <path d="m972.91 182.86h4.0186l1.3378-1.3378"/>
+   <path d="m976.93 182.86v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m978.39 181.52-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m977.05 182.86h4.0186l1.3404-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m981.07 182.86 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m978.39 181.52-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z"/>
+   <path d="m977.05 182.86h4.0186l1.3404-1.3378"/>
+   <path d="m981.07 182.86v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m973.02 182.84-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m971.68 184.18h4.0186l1.3404-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m975.7 184.18 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m973.02 182.84-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z"/>
+   <path d="m971.68 184.18h4.0186l1.3404-1.3378"/>
+   <path d="m975.7 184.18v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m977.16 182.84-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m975.82 184.18h4.0186l1.3378-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m979.84 184.18 1.3378-1.3378v4.0186l-1.3378 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m977.16 182.84-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z"/>
+   <path d="m975.82 184.18h4.0186l1.3378-1.3378"/>
+   <path d="m979.84 184.18v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m974.25 177.38-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m972.91 178.72h4.0186l1.3378-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m976.93 178.72 1.3378-1.3404v4.0186l-1.3378 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m974.25 177.38-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z"/>
+   <path d="m972.91 178.72h4.0186l1.3378-1.3404"/>
+   <path d="m976.93 178.72v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m978.39 177.38-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m977.05 178.72h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m981.07 178.72 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m978.39 177.38-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m977.05 178.72h4.0186l1.3404-1.3404"/>
+   <path d="m981.07 178.72v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m973.02 178.7-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m971.68 180.04h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m975.7 180.04 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m973.02 178.7-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m971.68 180.04h4.0186l1.3404-1.3404"/>
+   <path d="m975.7 180.04v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m977.16 178.7-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m975.82 180.04h4.0186l1.3378-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m979.84 180.04 1.3378-1.3404v4.0186l-1.3378 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m977.16 178.7-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z"/>
+   <path d="m975.82 180.04h4.0186l1.3378-1.3404"/>
+   <path d="m979.84 180.04v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1004.4 180.5-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1003.1 181.84h4.0186l1.3378-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1007.1 181.84 1.3378-1.3404v4.0186l-1.3378 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1004.4 180.5-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z"/>
+   <path d="m1003.1 181.84h4.0186l1.3378-1.3404"/>
+   <path d="m1007.1 181.84v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1008.5 180.5-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1007.2 181.84h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1011.2 181.84 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1008.5 180.5-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1007.2 181.84h4.0186l1.3404-1.3404"/>
+   <path d="m1011.2 181.84v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1012.7 180.5-1.3405 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1011.3 181.84h4.0186l1.3404-1.3404h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1015.4 181.84 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1012.7 180.5-1.3405 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1011.3 181.84h4.0186l1.3404-1.3404"/>
+   <path d="m1015.4 181.84v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1003 181.91-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1001.6 183.25h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1005.7 183.25 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1003 181.91-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1001.6 183.25h4.0186l1.3404-1.3404"/>
+   <path d="m1005.7 183.25v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1007.1 181.91-1.3404 1.3404v4.0186h4.0185l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1005.8 183.25h4.0185l1.3404-1.3404h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1009.8 183.25 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1007.1 181.91-1.3404 1.3404v4.0186h4.0185l1.3404-1.3404v-4.0186z"/>
+   <path d="m1005.8 183.25h4.0185l1.3404-1.3404"/>
+   <path d="m1009.8 183.25v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1011.3 181.91-1.3378 1.3404v4.0186h4.0186l1.3377-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1009.9 183.25h4.0186l1.3377-1.3404h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1013.9 183.25 1.3377-1.3404v4.0186l-1.3377 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1011.3 181.91-1.3378 1.3404v4.0186h4.0186l1.3377-1.3404v-4.0186z"/>
+   <path d="m1009.9 183.25h4.0186l1.3377-1.3404"/>
+   <path d="m1013.9 183.25v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1001.6 183.32-1.3404 1.3378v4.0186h4.0185l1.3405-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1000.2 184.65h4.0185l1.3405-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1004.3 184.65 1.3405-1.3378v4.0186l-1.3405 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1001.6 183.32-1.3404 1.3378v4.0186h4.0185l1.3405-1.3378v-4.0186z"/>
+   <path d="m1000.2 184.65h4.0185l1.3405-1.3378"/>
+   <path d="m1004.3 184.65v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1005.7 183.32-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1004.4 184.65h4.0186l1.3378-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1008.4 184.65 1.3378-1.3378v4.0186l-1.3378 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1005.7 183.32-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z"/>
+   <path d="m1004.4 184.65h4.0186l1.3378-1.3378"/>
+   <path d="m1008.4 184.65v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1009.9 183.32-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1008.5 184.65h4.0186l1.3404-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1012.5 184.65 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1009.9 183.32-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z"/>
+   <path d="m1008.5 184.65h4.0186l1.3404-1.3378"/>
+   <path d="m1012.5 184.65v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1004.4 176.35-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1003.1 177.69h4.0186l1.3378-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1007.1 177.69 1.3378-1.3404v4.0186l-1.3378 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1004.4 176.35-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z"/>
+   <path d="m1003.1 177.69h4.0186l1.3378-1.3404"/>
+   <path d="m1007.1 177.69v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1008.5 176.35-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1007.2 177.69h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1011.2 177.69 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1008.5 176.35-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1007.2 177.69h4.0186l1.3404-1.3404"/>
+   <path d="m1011.2 177.69v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1012.7 176.35-1.3405 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1011.3 177.69h4.0186l1.3404-1.3404h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1015.4 177.69 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1012.7 176.35-1.3405 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1011.3 177.69h4.0186l1.3404-1.3404"/>
+   <path d="m1015.4 177.69v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1003 177.76-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1001.6 179.1h4.0186l1.3404-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1005.7 179.1 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1003 177.76-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z"/>
+   <path d="m1001.6 179.1h4.0186l1.3404-1.3378"/>
+   <path d="m1005.7 179.1v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1007.1 177.76-1.3404 1.3378v4.0186h4.0185l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1005.8 179.1h4.0185l1.3404-1.3378h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1009.8 179.1 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1007.1 177.76-1.3404 1.3378v4.0186h4.0185l1.3404-1.3378v-4.0186z"/>
+   <path d="m1005.8 179.1h4.0185l1.3404-1.3378"/>
+   <path d="m1009.8 179.1v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1011.3 177.76-1.3378 1.3378v4.0186h4.0186l1.3377-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1009.9 179.1h4.0186l1.3377-1.3378h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1013.9 179.1 1.3377-1.3378v4.0186l-1.3377 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1011.3 177.76-1.3378 1.3378v4.0186h4.0186l1.3377-1.3378v-4.0186z"/>
+   <path d="m1009.9 179.1h4.0186l1.3377-1.3378"/>
+   <path d="m1013.9 179.1v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1001.6 179.17-1.3404 1.3404v4.0186h4.0185l1.3405-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1000.2 180.51h4.0185l1.3405-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1004.3 180.51 1.3405-1.3404v4.0186l-1.3405 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1001.6 179.17-1.3404 1.3404v4.0186h4.0185l1.3405-1.3404v-4.0186z"/>
+   <path d="m1000.2 180.51h4.0185l1.3405-1.3404"/>
+   <path d="m1004.3 180.51v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1005.7 179.17-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1004.4 180.51h4.0186l1.3378-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1008.4 180.51 1.3378-1.3404v4.0186l-1.3378 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1005.7 179.17-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z"/>
+   <path d="m1004.4 180.51h4.0186l1.3378-1.3404"/>
+   <path d="m1008.4 180.51v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1009.9 179.17-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1008.5 180.51h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1012.5 180.51 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1009.9 179.17-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1008.5 180.51h4.0186l1.3404-1.3404"/>
+   <path d="m1012.5 180.51v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1004.4 172.21-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1003.1 173.55h4.0186l1.3378-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1007.1 173.55 1.3378-1.3378v4.0186l-1.3378 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1004.4 172.21-1.3378 1.3378v4.0186h4.0186l1.3378-1.3378v-4.0186z"/>
+   <path d="m1003.1 173.55h4.0186l1.3378-1.3378"/>
+   <path d="m1007.1 173.55v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1008.5 172.21-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1007.2 173.55h4.0186l1.3404-1.3378h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1011.2 173.55 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1008.5 172.21-1.3404 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z"/>
+   <path d="m1007.2 173.55h4.0186l1.3404-1.3378"/>
+   <path d="m1011.2 173.55v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1012.7 172.21-1.3405 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1011.3 173.55h4.0186l1.3404-1.3378h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1015.4 173.55 1.3404-1.3378v4.0186l-1.3404 1.3378z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1012.7 172.21-1.3405 1.3378v4.0186h4.0186l1.3404-1.3378v-4.0186z"/>
+   <path d="m1011.3 173.55h4.0186l1.3404-1.3378"/>
+   <path d="m1015.4 173.55v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1003 173.62-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1001.6 174.96h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1005.7 174.96 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1003 173.62-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1001.6 174.96h4.0186l1.3404-1.3404"/>
+   <path d="m1005.7 174.96v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1007.1 173.62-1.3404 1.3404v4.0186h4.0185l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1005.8 174.96h4.0185l1.3404-1.3404h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1009.8 174.96 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1007.1 173.62-1.3404 1.3404v4.0186h4.0185l1.3404-1.3404v-4.0186z"/>
+   <path d="m1005.8 174.96h4.0185l1.3404-1.3404"/>
+   <path d="m1009.8 174.96v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1011.3 173.62-1.3378 1.3404v4.0186h4.0186l1.3377-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1009.9 174.96h4.0186l1.3377-1.3404h-4.0185z" fill="#f5f5f5"/>
+   <path d="m1013.9 174.96 1.3377-1.3404v4.0186l-1.3377 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1011.3 173.62-1.3378 1.3404v4.0186h4.0186l1.3377-1.3404v-4.0186z"/>
+   <path d="m1009.9 174.96h4.0186l1.3377-1.3404"/>
+   <path d="m1013.9 174.96v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1001.6 175.03-1.3404 1.3404v4.0186h4.0185l1.3405-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1000.2 176.37h4.0185l1.3405-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1004.3 176.37 1.3405-1.3404v4.0186l-1.3405 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1001.6 175.03-1.3404 1.3404v4.0186h4.0185l1.3405-1.3404v-4.0186z"/>
+   <path d="m1000.2 176.37h4.0185l1.3405-1.3404"/>
+   <path d="m1004.3 176.37v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1005.7 175.03-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1004.4 176.37h4.0186l1.3378-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1008.4 176.37 1.3378-1.3404v4.0186l-1.3378 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1005.7 175.03-1.3378 1.3404v4.0186h4.0186l1.3378-1.3404v-4.0186z"/>
+   <path d="m1004.4 176.37h4.0186l1.3378-1.3404"/>
+   <path d="m1008.4 176.37v4.0186"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m1009.9 175.03-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z" fill="#f2f2f2"/>
+   <path d="m1008.5 176.37h4.0186l1.3404-1.3404h-4.0186z" fill="#f5f5f5"/>
+   <path d="m1012.5 176.37 1.3404-1.3404v4.0186l-1.3404 1.3404z" fill="#c3c3c3"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-miterlimit="8" stroke-width=".26438px">
+   <path d="m1009.9 175.03-1.3404 1.3404v4.0186h4.0186l1.3404-1.3404v-4.0186z"/>
+   <path d="m1008.5 176.37h4.0186l1.3404-1.3404"/>
+   <path d="m1012.5 176.37v4.0186"/>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath5-88)">
+   <text transform="translate(15.988 78.02)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">1</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath6-854)">
+   <text transform="translate(31.336 71.305)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">1</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath7-549)">
+   <text transform="translate(118.31 79.939)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">2</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath8-65)">
+   <text transform="translate(145.01 73.064)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">2</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath9-00)">
+   <text transform="translate(203.52 49.722)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">3</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 942.97 170.8)" clip-path="url(#clipEmfPath10-56)">
+   <text transform="translate(271.47 72.105)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">3</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+ </g>
+</svg>

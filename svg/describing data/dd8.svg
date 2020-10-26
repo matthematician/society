@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="57.778mm" height="46.337mm" version="1.1" viewBox="0 0 57.777969 46.337304" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath2-85">
+   <path d="m5.4058 5.3823h358.95v210.99h-358.95z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-65">
+   <path d="m75.682 37.676h21.623v65.664h-21.623z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-19">
+   <path d="m72.438 164.7h59.464v21.529h-59.464z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-627.45 -118.35)">
+  <text x="607.85272" y="175.39172" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m124.33 110.87 20.542-7.5352 142.71 45.211-19.461 11.841z" clip-path="url(#clipEmfPath2-85)" fill="#808080" fill-rule="evenodd"/>
+  <g fill="none">
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m124.33 110.87-3.2435-83.964 21.623-6.4587 2.1623 82.887z" clip-path="url(#clipEmfPath2-85)"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m144.88 103.34-2.1623-82.887 149.2 34.447-4.3247 93.652z" clip-path="url(#clipEmfPath2-85)"/>
+   <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0812px">
+    <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m287.59 148.55-19.461 11.841-143.79-49.517 20.542-7.5352z" clip-path="url(#clipEmfPath2-85)" stroke="#000"/>
+    <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m124.33 110.87-3.2435-83.964 21.623-6.4587 2.1623 82.887z" clip-path="url(#clipEmfPath2-85)" stroke="#808080"/>
+    <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m144.88 103.34-2.1623-82.887 149.2 34.447-4.3247 93.652z" clip-path="url(#clipEmfPath2-85)" stroke="#808080"/>
+    <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m124.33 110.87 143.79 49.517m-143.79-49.517v3.2294m21.623 4.3058v2.1529m21.623 5.3823v2.1529m23.786 5.3823v3.2294m23.786 5.3823v2.1529m25.948 6.4587v3.2294m27.029 6.4587v2.1529" clip-path="url(#clipEmfPath2-85)" stroke="#000"/>
+   </g>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 607.85 113.08)" clip-path="url(#clipEmfPath2-85)" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700" letter-spacing="0px" word-spacing="0px">
+   <text transform="rotate(-90 138.6 11.025)" y="10.750122" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.750122"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">Blue</tspan></tspan></text>
+   <text transform="rotate(-90 138.6 11.025)" x="-16.146837" y="32.373417" style="line-height:125%" xml:space="preserve"><tspan x="-16.146837" y="32.373417"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">Green</tspan></tspan></text>
+   <text transform="rotate(-90 138.6 11.025)" x="-11.841014" y="53.996716" style="line-height:125%" xml:space="preserve"><tspan x="-11.841014" y="53.996716"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">Red</tspan></tspan></text>
+   <text transform="rotate(-90 138.6 11.025)" x="-30.140762" y="77.782341" style="line-height:125%" xml:space="preserve"><tspan x="-30.140762" y="77.782341"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">White</tspan></tspan></text>
+   <text transform="rotate(-90 138.6 11.025)" x="-32.293674" y="103.73029" style="line-height:125%" xml:space="preserve"><tspan x="-32.293674" y="103.73029"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">Grey</tspan></tspan></text>
+   <text transform="rotate(-90 138.6 11.025)" x="-46.287601" y="129.67825" style="line-height:125%" xml:space="preserve"><tspan x="-46.287601" y="129.67825"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">Black</tspan></tspan></text>
+  </g>
+  <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m287.59 148.55-19.461 11.841v2.1529m19.461-13.994v3.2294" clip-path="url(#clipEmfPath2-85)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0812px"/>
+  <g fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0812px">
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m145.96 113.03-1.0812-34.447 7.5682-3.2294 1.0812 34.447z" clip-path="url(#clipEmfPath2-85)" fill="#4d4d80"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m137.31 110.87-1.0812-34.447 8.6493 2.1529 1.0812 34.447z" clip-path="url(#clipEmfPath2-85)" fill="#99f"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m144.88 78.581 7.5682-3.2294-8.6493-2.1529-7.5682 3.2294z" clip-path="url(#clipEmfPath2-85)" fill="#7373bf"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m167.58 120.56-2.1623-74.275 8.6493-3.2294 1.0812 74.275z" clip-path="url(#clipEmfPath2-85)" fill="#4d4d80"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m158.93 117.33-2.1623-74.275 8.6493 3.2294 2.1623 74.275z" clip-path="url(#clipEmfPath2-85)" fill="#99f"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m165.42 46.288 8.6493-3.2294-8.6493-2.1529-8.6493 2.1529z" clip-path="url(#clipEmfPath2-85)" fill="#7373bf"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m190.28 128.1v-59.205l7.5682-3.2294v59.205z" clip-path="url(#clipEmfPath2-85)" fill="#4d4d80"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m180.55 124.87v-59.205l9.7305 3.2294v59.205z" clip-path="url(#clipEmfPath2-85)" fill="#99f"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m190.28 68.893 7.5682-3.2294-9.7305-3.2294-7.5682 3.2294z" clip-path="url(#clipEmfPath2-85)" fill="#7373bf"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m214.07 136.71v-53.823l8.6493-3.2294-1.0812 52.746z" clip-path="url(#clipEmfPath2-85)" fill="#4d4d80"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m204.34 133.48v-53.823l9.7305 3.2294v53.823z" clip-path="url(#clipEmfPath2-85)" fill="#99f"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m214.07 82.887 8.6493-3.2294-9.7305-3.2294-8.6493 3.2294z" clip-path="url(#clipEmfPath2-85)" fill="#7373bf"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m238.94 145.32 1.0812-35.523 7.5682-3.2294v34.447z" clip-path="url(#clipEmfPath2-85)" fill="#4d4d80"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m229.21 141.02v-33.37l10.812 2.1529-1.0812 35.523z" clip-path="url(#clipEmfPath2-85)" fill="#99f"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m240.02 109.8 7.5682-3.2294-9.7305-3.2294-8.6493 4.3058z" clip-path="url(#clipEmfPath2-85)" fill="#7373bf"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m265.97 153.93 2.1623-61.358 7.5682-3.2294-2.1623 60.282z" clip-path="url(#clipEmfPath2-85)" fill="#4d4d80"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m255.15 149.63 2.1623-59.205 10.812 2.1529-2.1623 61.358z" clip-path="url(#clipEmfPath2-85)" fill="#99f"/>
+   <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m268.13 92.575 7.5682-3.2294-10.812-3.2294-7.5682 4.3058z" clip-path="url(#clipEmfPath2-85)" fill="#7373bf"/>
+  </g>
+  <path transform="matrix(.26458 0 0 .26458 607.85 113.08)" d="m124.33 110.87-3.2435-83.964m3.2435 83.964h-2.1623m2.1623-12.917h-3.2435m2.1623-13.994h-2.1623m2.1623-13.994h-3.2435m2.1623-13.994h-2.1623m2.1623-15.07h-3.2435m2.1623-13.994h-2.1623" clip-path="url(#clipEmfPath2-85)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0812px"/>
+  <g transform="matrix(.26458 0 0 .26458 607.85 113.08)" clip-path="url(#clipEmfPath2-85)" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(113.52 103.34)" y="10.750122" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.750122"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">0</tspan></tspan></text>
+   <text transform="translate(113.52 103.34)" x="-7.5681539" y="-2.1673479" style="line-height:125%" xml:space="preserve"><tspan x="-7.5681539" y="-2.1673479"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">10</tspan></tspan></text>
+   <text transform="translate(113.52 103.34)" x="-8.6493177" y="-16.161272" style="line-height:125%" xml:space="preserve"><tspan x="-8.6493177" y="-16.161272"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">20</tspan></tspan></text>
+   <text transform="translate(113.52 103.34)" x="-8.6493177" y="-30.155199" style="line-height:125%" xml:space="preserve"><tspan x="-8.6493177" y="-30.155199"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">30</tspan></tspan></text>
+   <text transform="translate(113.52 103.34)" x="-8.6493177" y="-44.149124" style="line-height:125%" xml:space="preserve"><tspan x="-8.6493177" y="-44.149124"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">40</tspan></tspan></text>
+   <text transform="translate(113.52 103.34)" x="-9.7304831" y="-59.219505" style="line-height:125%" xml:space="preserve"><tspan x="-9.7304831" y="-59.219505"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">50</tspan></tspan></text>
+   <text transform="translate(113.52 103.34)" x="-10.811648" y="-73.213432" style="line-height:125%" xml:space="preserve"><tspan x="-10.811648" y="-73.213432"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">60</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 607.85 113.08)" clip-path="url(#clipEmfPath3-65)">
+   <text transform="rotate(-90 90.056 11.131)" y="10.750122" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.750122"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">Frequency</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 611.07 114.18)" clip-path="url(#clipEmfPath4-19)">
+   <text transform="translate(73.519 167.93)" y="10.750122" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.750122"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="11.875px" font-weight="700">Car Color</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

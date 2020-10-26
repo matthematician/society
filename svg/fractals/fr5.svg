@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="101.42mm" height="21.356mm" version="1.1" viewBox="0 0 101.41638 21.356272" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="clipEmfPath2-968">
+   <path d="m7.6741 52.919h106.64v24.781h-106.64z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-355">
+   <path d="m138.61 44.606h106.48v40.929h-106.48z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-95">
+   <path d="m268.91 52.76h106.64v24.781h-106.64z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-815.56 -149.59)">
+  <text x="954.62903" y="175.06696" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:5.29166639px" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458" style="line-height:5.29166639px"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458" style="line-height:5.29166639px"/></tspan></text>
+  <g transform="matrix(.26458 0 0 .26458 815.33 149.39)" clip-path="url(#clipEmfPath2-968)" style="">
+   <text transform="translate(40.769 67.948)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">Step 2</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 815.33 149.39)" clip-path="url(#clipEmfPath3-355)" style="">
+   <text transform="translate(153.16 59.155)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:117.90955067%" xml:space="preserve"><tspan x="0" y="0"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400">Scaled copy </tspan></tspan><tspan x="0" y="18.865528" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">of </tspan><tspan dx="0" dy="0">generator</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 815.33 149.39)" clip-path="url(#clipEmfPath4-95)" style="">
+   <text transform="translate(302.01 67.788)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">Step 3</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g fill="none" stroke="#000" stroke-linejoin="round" stroke-width=".26438px">
+   <path d="m815.56 159.97h3.7648l1.7423-3.4713 1.9088 3.4713h3.7066"/>
+   <path d="m837.18 159.83h3.7621l1.7423-3.4898 1.9088 3.4898h3.7066"/>
+   <path d="m826.62 159.96 1.663-3.3682-2.3556-3.1065 3.971-0.16127 1.6392-3.318"/>
+   <path d="m831.71 149.96 1.8163 3.2889 3.897-0.16392-2.1336 3.355 1.7898 3.2413"/>
+   <path d="m884.46 159.6h1.2664l0.58428-1.1818 0.64245 1.1818h1.2452"/>
+   <path d="m888.23 159.55 0.58957-1.1183-0.75613-1.0602 1.3272-0.0238 0.58163-1.1025"/>
+   <path d="m889.99 156.23 0.58428 1.121 1.3193-0.0291-0.75084 1.1157 0.57635 1.1051"/>
+   <path d="m891.78 159.6h1.2637l0.58692-1.1818 0.63981 1.1818h1.2452"/>
+   <path d="m895.56 159.57 0.56049-1.1316-0.79315-1.0522 1.3431-0.0476 0.5552-1.1157"/>
+   <path d="m897.2 156.14-0.73498-1.0258-1.3008 0.21151 0.58163-1.2109-0.7244-1.0099"/>
+   <path d="m895 153.09 1.2637-0.0264 0.56048-1.1738 0.66624 1.1527 1.2426-0.0264"/>
+   <path d="m898.81 152.99 0.56577-1.1316-0.79314-1.0522 1.343-0.0423 0.5552-1.1157"/>
+   <path d="m900.52 149.65 0.60808 1.1051 1.3166-0.0582-0.71912 1.1316 0.60279 1.0892"/>
+   <path d="m902.42 152.94 1.2637-0.0264 0.56048-1.1897 0.66624 1.1686 1.2479-0.0264"/>
+   <path d="m906.18 152.88-0.69797 1.0522 0.65038 1.1316-1.3272-0.10576-0.68739 1.0364"/>
+   <path d="m904.08 156.07 0.61336 1.1104 1.3166-0.0634-0.72441 1.1368 0.60279 1.0892"/>
+   <path d="m905.93 159.39h1.269l0.58163-1.1844 0.64509 1.1844h1.2426"/>
+   <path d="m909.7 159.34 0.59221-1.1157-0.75613-1.0628 1.3272-0.0212 0.57635-1.1051"/>
+   <path d="m911.46 156.02 0.58693 1.121 1.3166-0.0317-0.75084 1.1157 0.57635 1.1051"/>
+   <path d="m913.25 159.39h1.2637l0.58693-1.1844 0.6398 1.1844h1.2426"/>
+   <path d="m864.26 159.87h1.3483l0.62394-1.2505 0.68474 1.2505h1.3272"/>
+  </g>
+ </g>
+</svg>

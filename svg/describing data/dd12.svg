@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="46.748mm" height="41.396mm" version="1.1" viewBox="0 0 46.74827 41.39589" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath2-12">
+   <path d="m3.9958 4.1546h273.71v157.79h-273.71z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-8">
+   <path d="m142.85 0.15988h49.947v38.948h-49.947z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-244">
+   <path d="m163.83 91.039h47.949v43.942h-47.949z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath5-2">
+   <path d="m37.96 124h41.956v41.944h-41.956z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath6-49">
+   <path d="m28.969 0.15988h53.943v43.942h-53.943z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-728.25 -171.85)">
+  <text x="719.92914" y="174.60139" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <g fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99881px">
+   <path transform="matrix(.26458 0 0 .26458 719.84 170.96)" d="m114.88 84.048 47.046-22.016a51.938 51.938 0 0 0 -47.046 -29.915z" clip-path="url(#clipEmfPath2-12)" fill="#99f"/>
+   <path transform="matrix(.26458 0 0 .26458 719.84 170.96)" d="m114.88 84.048 16.124 49.366a51.938 51.938 0 0 0 30.922 -71.381z" clip-path="url(#clipEmfPath2-12)" fill="#936"/>
+   <path transform="matrix(.26458 0 0 .26458 719.84 170.96)" d="m114.88 84.048-50.777-10.949a51.938 51.938 0 0 0 66.901 60.315z" clip-path="url(#clipEmfPath2-12)" fill="#ffc"/>
+   <path transform="matrix(.26458 0 0 .26458 719.84 170.96)" d="m114.88 84.048v-51.931a51.938 51.938 0 0 0 -50.777 40.982z" clip-path="url(#clipEmfPath2-12)" fill="#cff"/>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 719.84 170.96)" clip-path="url(#clipEmfPath3-8)" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(145.85 .15988)" y="12.475586" style="line-height:125%" xml:space="preserve"><tspan x="0" y="12.475586"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">McKee, </tspan></tspan></text>
+   <text transform="translate(145.85 .15988)" x="8.9904852" y="30.451654" style="line-height:125%" xml:space="preserve"><tspan x="8.9904852" y="30.451654"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">35%</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 719.84 170.96)" clip-path="url(#clipEmfPath4-244)" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(166.82 96.032)" y="12.475586" style="line-height:125%" xml:space="preserve"><tspan x="0" y="12.475586"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">Brown, </tspan></tspan></text>
+   <text transform="translate(166.82 96.032)" x="7.9915428" y="30.451654" style="line-height:125%" xml:space="preserve"><tspan x="7.9915428" y="30.451654"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">52%</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 719.84 170.96)" clip-path="url(#clipEmfPath5-2)" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(40.957 128.99)" y="12.475586" style="line-height:125%" xml:space="preserve"><tspan x="0" y="12.475586"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">Jones, </tspan></tspan></text>
+   <text transform="translate(40.957 128.99)" x="4.9947138" y="30.451654" style="line-height:125%" xml:space="preserve"><tspan x="4.9947138" y="30.451654"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">64%</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 719.84 170.96)" clip-path="url(#clipEmfPath6-49)" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(31.966 5.1532)" y="12.475586" style="line-height:125%" xml:space="preserve"><tspan x="0" y="12.475586"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">Nguyen, </tspan></tspan></text>
+   <text transform="translate(31.966 5.1532)" x="10.988371" y="30.451654" style="line-height:125%" xml:space="preserve"><tspan x="10.988371" y="30.451654"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="14px" font-weight="400">42%</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

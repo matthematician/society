@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-10-26T19:02:24-04:00    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MIS Problem Solving</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href="" target="_blank"><img src="images/cover2.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="math-in-society.html"><span class="title">Math In Society</span></a></h1>
+<p class="byline">David Lippman</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch_problemsolving.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_problemsolving.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="extension-taxes.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch_problemsolving.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_problemsolving.html" title="Up">Up</a><a class="next-button button toolbar-item" href="extension-taxes.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul><li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li></ul>
+</li>
+<li class="link part"><a href="pt_prob.html" data-scroll="pt_prob"><span class="codenumber">I</span> <span class="title"></span></a></li>
+<li class="link">
+<a href="ch_problemsolving.html" data-scroll="ch_problemsolving"><span class="codenumber">1</span> <span class="title">Problem Solving</span></a><ul>
+<li><a href="problem-solving.html" data-scroll="problem-solving" class="active">Problem Solving</a></li>
+<li><a href="extension-taxes.html" data-scroll="extension-taxes">Extension: Taxes</a></li>
+</ul>
+</li>
+<li class="link part"><a href="pt_civics.html" data-scroll="pt_civics"><span class="codenumber">II</span> <span class="title">Civic Mathematics</span></a></li>
+<li class="link"><a href="ch_votingtheory.html" data-scroll="ch_votingtheory"><span class="codenumber">2</span> <span class="title">Voting Theory</span></a></li>
+<li class="link"><a href="ch_weightedvoting.html" data-scroll="ch_weightedvoting"><span class="codenumber">3</span> <span class="title">Weighted Voting</span></a></li>
+<li class="link"><a href="ch_apportionment.html" data-scroll="ch_apportionment"><span class="codenumber">4</span> <span class="title">Apportionment</span></a></li>
+<li class="link"><a href="ch_fairdivision.html" data-scroll="ch_fairdivision"><span class="codenumber">5</span> <span class="title">Fair Division</span></a></li>
+<li class="link part"><a href="pt_finite.html" data-scroll="pt_finite"><span class="codenumber">III</span> <span class="title">Finite Mathematics</span></a></li>
+<li class="link"><a href="ch_graphtheory.html" data-scroll="ch_graphtheory"><span class="codenumber">6</span> <span class="title">Graph Theory</span></a></li>
+<li class="link"><a href="ch_scheduling.html" data-scroll="ch_scheduling"><span class="codenumber">7</span> <span class="title">Scheduling</span></a></li>
+<li class="link"><a href="ch_growthmodels.html" data-scroll="ch_growthmodels"><span class="codenumber">8</span> <span class="title">Growth Models</span></a></li>
+<li class="link"><a href="ch_finance.html" data-scroll="ch_finance"><span class="codenumber">9</span> <span class="title">Finance</span></a></li>
+<li class="link part"><a href="pt_data.html" data-scroll="pt_data"><span class="codenumber">IV</span> <span class="title">Data Literacy</span></a></li>
+<li class="link"><a href="ch_statistics.html" data-scroll="ch_statistics"><span class="codenumber">10</span> <span class="title">Statistics</span></a></li>
+<li class="link"><a href="ch_describingdata.html" data-scroll="ch_describingdata"><span class="codenumber">11</span> <span class="title">Describing Data</span></a></li>
+<li class="link"><a href="ch_probability.html" data-scroll="ch_probability"><span class="codenumber">12</span> <span class="title">Probability</span></a></li>
+<li class="link part"><a href="pt_topics.html" data-scroll="pt_topics"><span class="codenumber">V</span> <span class="title">Topics in Math</span></a></li>
+<li class="link"><a href="ch_sets.html" data-scroll="ch_sets"><span class="codenumber">13</span> <span class="title">Sets</span></a></li>
+<li class="link"><a href="ch_historical.html" data-scroll="ch_historical"><span class="codenumber">14</span> <span class="title">Historical Counting Systems</span></a></li>
+<li class="link"><a href="ch_fractals.html" data-scroll="ch_fractals"><span class="codenumber">15</span> <span class="title">Fractals</span></a></li>
+<li class="link"><a href="ch_cryptography.html" data-scroll="ch_cryptography"><span class="codenumber">16</span> <span class="title">Cryptography</span></a></li>
+<li class="link"><a href="ch_logic.html" data-scroll="ch_logic"><span class="codenumber">17</span> <span class="title">Logic</span></a></li>
+<li class="link backmatter"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Back Matter</span></a></li>
+<li class="link"><a href="appendix-solutions.html" data-scroll="appendix-solutions"><span class="codenumber">A</span> <span class="title">Solutions to Selected Exercises</span></a></li>
+<li class="link"><a href="appendix-gfdl.html" data-scroll="appendix-gfdl"><span class="codenumber">B</span> <span class="title">GNU Free Documentation License</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="problem-solving"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.1</span> <span class="title">Problem Solving</span>
+</h2>
+<p id="p-7">In previous math courses, you’ve no doubt run into the infamous “word problems.” Unfortunately, these problems rarely resemble the type of problems we actually encounter in everyday life. In math books, you usually are told exactly which formula or procedure to use, and are given exactly the information you need to answer the question. In real life, problem solving requires identifying an appropriate formula or procedure, and determining what information you will need (and won’t need) to answer the question.</p>
+<p id="p-8">In this chapter, we will review several basic but powerful algebraic ideas: percents, rates, and proportions. We will then focus on the problem solving process, and explore how to use these ideas to solve problems where we don’t have perfect information.</p>
+<section class="subsection" id="percents"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.1</span> <span class="title">Percents</span>
+</h3>
+<p id="p-9">In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered "90% of the coalition casualties" in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-1" id="fn-1"><sup> 1 </sup></a>. Who is correct? How can we make sense of these numbers?</p>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-1"><div class="fn"><p id="p-10"><a class="external" href="http://www.factcheck.org/cheney_edwards_mangle_facts.html" target="_blank">http://www.factcheck.org/cheney_edwards_mangle_facts.html</a></p></div></div>
+<p id="p-11"><dfn class="terminology">Percent</dfn> literally means “per 100,” or “parts per hundred.” When we write 40%, this is equivalent to the fraction or the decimal 0.40. Notice that 80 out of 200 and 10 out of 25 are also 40%, since .</p>
+<p id="p-12">Example 1</p>
+<p id="p-13">243 people out of 400 state that they like dogs. What percent is this?</p>
+<p id="p-14">. This is 60.75%.</p>
+<p id="p-15">Notice that the percent can be found from the equivalent decimal by moving the decimal point two places to the right.</p>
+<p id="p-16">Example 2</p>
+<p id="p-17">Write each as a percent: a) b) 0.02 c) 2.35</p>
+<p id="p-18">a) = 25% b) 0.02 = 2% c) 2.35 = 235%</p>
+<p id="p-19">Percents</p>
+<p id="p-20">If we have a <em class="emphasis">part</em> that is some <em class="emphasis">percent</em> of a <em class="emphasis">whole</em>, then</p>
+<p id="p-21">, or equivalently,</p>
+<p id="p-22">To do the calculations, we write the percent as a decimal.</p>
+<p id="p-23">Example 3</p>
+<p id="p-24">The sales tax in a town is 9.4%. How much tax will you pay on a $140 purchase?</p>
+<p id="p-25">Here, $140 is the whole, and we want to find 9.4% <em class="emphasis">of</em> $140. We start by writing the percent as a decimal by moving the decimal point two places to the left (which is equivalent to dividing by 100). We can then compute:</p>
+<p id="p-26">in tax.</p>
+<p id="p-27">Example 4</p>
+<p id="p-28">In the news, you hear “tuition is expected to increase by 7% next year.” If tuition this year was $1200 per quarter, what will it be next year?</p>
+<p id="p-29">The tuition next year will be the current tuition plus an additional 7%, so it will be 107% of this year’s tuition:</p>
+<p id="p-30">$1200(1.07) = $1284.</p>
+<p id="p-31">Alternatively, we could have first calculated 7% of $1200: $1200(0.07) = $84.</p>
+<p id="p-32">Notice this is <em class="emphasis">not</em> the expected tuition for next year (we could only wish). Instead, this is the expected <em class="emphasis">increase</em>, so to calculate the expected tuition, we’ll need to add this change to the previous year’s tuition:</p>
+<p id="p-33">$1200 + $84 = $1284.</p>
+<p id="p-34">Try it Now 1</p>
+<p id="p-35">A TV originally priced at $799 is on sale for 30% off. There is then a 9.2% sales tax. Find the price after including the discount and sales tax.</p>
+<p id="p-36">Example 5</p>
+<p id="p-37">The value of a car dropped from $7400 to $6800 over the last year. What percent decrease is this?</p>
+<p id="p-38">To compute the percent change, we first need to find the dollar value change: $6800-$7400 = -$600. Often we will take the absolute value of this amount, which is called the <dfn class="terminology">absolute change</dfn>: .</p>
+<p id="p-39">Since we are computing the decrease relative to the starting value, we compute this percent out of $7400:</p>
+<p id="p-40">decrease. This is called a <dfn class="terminology">relative change</dfn>.</p>
+<p id="p-41">Absolute and Relative Change</p>
+<p id="p-42">Given two quantities,</p>
+<p id="p-43">Absolute change =</p>
+<p id="p-44">Relative change:</p>
+<p id="p-45">Absolute change has the same units as the original quantity.</p>
+<p id="p-46">Relative change gives a percent change.</p>
+<p id="p-47">The starting quantity is called the <dfn class="terminology">base</dfn> of the percent change.</p>
+<p id="p-48">The base of a percent is very important. For example, while Nixon was president, it was argued that marijuana was a “gateway” drug, claiming that 80% of marijuana smokers went on to use harder drugs like cocaine. The problem is, this isn’t true. The true claim is that 80% of harder drug users first smoked marijuana. The difference is one of base: 80% of marijuana smokers using hard drugs, vs. 80% of hard drug users having smoked marijuana. These numbers are not equivalent. As it turns out, only one in 2,400 marijuana users actually go on to use harder drugs<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-2" id="fn-2"><sup> 2 </sup></a>.</p>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn"><p id="p-49"><a class="external" href="http://tvtropes.org/pmwiki/pmwiki.php/Main/LiesDamnedLiesAndStatistics" target="_blank">http://tvtropes.org/pmwiki/pmwiki.php/Main/LiesDamnedLiesAndStatistics</a></p></div></div>
+<p id="p-50">Example 6</p>
+<p id="p-51">There are about 75 QFC supermarkets in the U.S. Albertsons has about 215 stores. Compare the size of the two companies.</p>
+<p id="p-52">When we make comparisons, we must ask first whether an absolute or relative comparison. The absolute difference is 215 – 75 = 140. From this, we could say “Albertsons has 140 more stores than QFC.” However, if you wrote this in an article or paper, that number does not mean much. The relative difference may be more meaningful. There are two different relative changes we could calculate, depending on which store we use as the base:</p>
+<p id="p-53">Using QFC as the base, .</p>
+<p id="p-54">This tells us Albertsons is 186.7% larger than QFC.</p>
+<p id="p-55">Using Albertsons as the base, .</p>
+<p id="p-56">This tells us QFC is 65.1% smaller than Albertsons.</p>
+<p id="p-57">Notice both of these are showing percent <em class="emphasis">differences</em>. We could also calculate the size of Albertsons relative to QFC: , which tells us Albertsons is 2.867 times the size of QFC. Likewise, we could calculate the size of QFC relative to Albertsons: , which tells us that QFC is 34.9% of the size of Albertsons.</p>
+<p id="p-58">Example 7</p>
+<p id="p-59">Suppose a stock drops in value by 60% one week, then increases in value the next week by 75%. Is the value higher or lower than where it started?</p>
+<p id="p-60">To answer this question, suppose the value started at $100. After one week, the value dropped by 60%:</p>
+<p id="p-61">$100 - $100(0.60) = $100 - $60 = $40.</p>
+<p id="p-62">In the next week, notice that base of the percent has changed to the new value, $40. Computing the 75% increase:</p>
+<p id="p-63">$40 + $40(0.75) = $40 + $30 = $70.</p>
+<p id="p-64">In the end, the stock is still $30 lower, or 30% lower, valued than it started.</p>
+<p id="p-65">Try it Now 2</p>
+<p id="p-66">The U.S. federal debt at the end of 2001 was $5.77 trillion, and grew to $6.20 trillion by the end of 2002. At the end of 2005 it was $7.91 trillion, and grew to $8.45 trillion by the end of 2006<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-3" id="fn-3"><sup> 3 </sup></a>. Calculate the absolute and relative increase for 2001-2002 and 2005-2006. Which year saw a larger increase in federal debt?</p>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-3"><div class="fn"><p id="p-67">http://www.whitehouse.gov/sites/default/files/omb/budget/fy2013/assets/hist07z1.xls</p></div></div>
+<p id="p-68">Example 8</p>
+<p id="p-69">A Seattle Times article on high school graduation rates reported “The number of schools graduating 60 percent or fewer students in four years – sometimes referred to as “dropout factories” – decreased by 17 during that time period. The number of kids attending schools with such low graduation rates was cut in half.”</p>
+<p id="p-70">a) Is the “decrease by 17” number a useful comparison?</p>
+<p id="p-71">b) Considering the last sentence, can we conclude that the number of “dropout factories” was originally 34?</p>
+<p id="p-72">a) This number is hard to evaluate, since we have no basis for judging whether this is a larger or small change. If the number of “dropout factories” dropped from 20 to 3, that’d be a very significant change, but if the number dropped from 217 to 200, that’d be less of an improvement.</p>
+<p id="p-73">b) The last sentence provides relative change which helps put the first sentence in perspective. We can estimate that the number of “dropout factories” was probably previously around 34. However, it’s possible that students simply moved schools rather than the school improving, so that estimate might not be fully accurate.</p>
+<p id="p-74">Example 9</p>
+<p id="p-75">In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered "90% of the coalition casualties" in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties. Who is correct?</p>
+<p id="p-76">Without more information, it is hard for us to judge who is correct, but we can easily conclude that these two percents are talking about different things, so one does not necessarily contradict the other. Edward’s claim was a percent with coalition forces as the base of the percent, while Cheney’s claim was a percent with both coalition and Iraqi security forces as the base of the percent. It turns out both statistics are in fact fairly accurate.</p>
+<p id="p-77">Try it Now 3</p>
+<p id="p-78">In the 2012 presidential elections, one candidate argued that “the president’s plan will cut $716 billion from Medicare, leading to fewer services for seniors,” while the other candidate rebuts that “our plan does not cut current spending and actually expands benefits for seniors, while implementing cost saving measures.” Are these claims in conflict, in agreement, or not comparable because they’re talking about different things?</p>
+<p id="p-79">We’ll wrap up our review of percents with a couple cautions. First, when talking about a change of quantities that are already measured in percents, we have to be careful in how we describe the change.</p>
+<p id="p-80">Example 10</p>
+<p id="p-81">A politician’s support increases from 40% of voters to 50% of voters. Describe the change.</p>
+<p id="p-82">We could describe this using an absolute change: . Notice that since the original quantities were percents, this change also has the units of percent. In this case, it is best to describe this as an increase of 10 <dfn class="terminology">percentage points</dfn>.</p>
+<p id="p-83">In contrast, we could compute the percent change: increase. This is the relative change, and we’d say the politician’s support has increased by 25%.</p>
+<p id="p-84">Lastly, a caution against averaging percents.</p>
+<p id="p-85">Example 11</p>
+<p id="p-86">A basketball player scores on 40% of 2-point field goal attempts, and on 30% of 3-point of field goal attempts. Find the player’s overall field goal percentage.</p>
+<p id="p-87">It is very tempting to average these values, and claim the overall average is 35%, but this is likely not correct, since most players make many more 2-point attempts than 3-point attempts. We don’t actually have enough information to answer the question. Suppose the player attempted 200 2-point field goals and 100 3-point field goals. Then they made 200(0.40) = 80 2-point shots and 100(0.30) = 30 3-point shots. Overall, they made 110 shots out of 300, for a = 36.7% overall field goal percentage.</p></section><section class="subsection" id="proportions-and-rates"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.2</span> <span class="title">Proportions and Rates</span>
+</h3>
+<p id="p-88">If you wanted to power the city of Seattle using wind power, how many windmills would you need to install? Questions like these can be answered using rates and proportions.</p>
+<p id="p-89">Rates</p>
+<p id="p-90">A rate is the ratio (fraction) of two quantities.</p>
+<p id="p-91">A <dfn class="terminology">unit rate</dfn> is a rate with a denominator of one.</p>
+<p id="p-92">Example 12</p>
+<p id="p-93">Your car can drive 300 miles on a tank of 15 gallons. Express this as a rate.</p>
+<p id="p-94">Expressed as a rate, . We can divide to find a unit rate: , which we could also write as , or just 20 miles per gallon.</p>
+<p id="p-95">Proportion Equation</p>
+<p id="p-96">A proportion equation is an equation showing the equivalence of two rates or ratios.</p>
+<p id="p-97">Example 13</p>
+<p id="p-98">Solve the proportion for the unknown value <em class="emphasis">x</em>.</p>
+<p id="p-99">This proportion is asking us to find a fraction with denominator 6 that is equivalent to the fraction . We can solve this by multiplying both sides of the equation by 6, giving</p>
+<p id="p-100">.</p>
+<p id="p-101">Example 14</p>
+<p id="p-102">A map scale indicates that ½ inch on the map corresponds with 3 real miles. How many miles apart are two cities that are inches apart on the map?</p>
+<p id="p-103">We can set up a proportion by setting equal two rates, and introducing a variable, <em class="emphasis">x</em>, to represent the unknown quantity – the mile distance between the cities.</p>
+<p id="p-104">Multiply both sides by <em class="emphasis">x</em></p>
+<p id="p-105">and rewriting the mixed number</p>
+<p id="p-106">Multiply both sides by 3</p>
+<p id="p-107">Multiply both sides by 2 (or divide by ½)</p>
+<p id="p-108">miles</p>
+<p id="p-109">Many proportion problems can also be solved using <dfn class="terminology">dimensional analysis</dfn>, the process of multiplying a quantity by rates to change the units.</p>
+<p id="p-110">Example 15</p>
+<p id="p-111">Your car can drive 300 miles on a tank of 15 gallons. How far can it drive on 40 gallons?</p>
+<p id="p-112">We could certainly answer this question using a proportion: .</p>
+<p id="p-113">However, we earlier found that 300 miles on 15 gallons gives a rate of 20 miles per gallon. If we multiply the given 40 gallon quantity by this rate, the <em class="emphasis">gallons</em> unit “cancels” and we’re left with a number of miles:</p>
+<p id="p-114">Notice if instead we were asked “how many gallons are needed to drive 50 miles?” we could answer this question by inverting the 20 mile per gallon rate so that the <em class="emphasis">miles</em> unit cancels and we’re left with gallons:</p>
+<p id="p-115">Dimensional analysis can also be used to do unit conversions. Here are some unit conversions for reference.</p>
+<p id="p-116">Unit Conversions</p>
+<p id="p-117"><dfn class="terminology">Length</dfn></p>
+<p id="p-118">1 foot (ft) = 12 inches (in) 1 yard (yd) = 3 feet (ft)</p>
+<p id="p-119">1 mile = 5,280 feet</p>
+<p id="p-120">1000 millimeters (mm) = 1 meter (m) 100 centimeters (cm) = 1 meter</p>
+<p id="p-121">1000 meters (m) = 1 kilometer (km) 2.54 centimeters (cm) = 1 inch</p>
+<p id="p-122"><dfn class="terminology">Weight and Mass</dfn></p>
+<p id="p-123">1 pound (lb) = 16 ounces (oz) 1 ton = 2000 pounds</p>
+<p id="p-124">1000 milligrams (mg) = 1 gram (g) 1000 grams = 1kilogram (kg)</p>
+<p id="p-125">1 kilogram = 2.2 pounds (on earth)</p>
+<p id="p-126"><dfn class="terminology">Capacity</dfn></p>
+<p id="p-127">1 cup = 8 fluid ounces (fl oz)* 1 pint = 2 cups</p>
+<p id="p-128">1 quart = 2 pints = 4 cups 1 gallon = 4 quarts = 16 cups</p>
+<p id="p-129">1000 milliliters (ml) = 1 liter (L)</p>
+<p id="p-130">*Fluid ounces are a capacity measurement for liquids. 1 fluid ounce ≈ 1 ounce (weight) for water only.</p>
+<p id="p-131">Example 16</p>
+<p id="p-132">A bicycle is traveling at 15 miles per hour. How many feet will it cover in 20 seconds?</p>
+<p id="p-133">To answer this question, we need to convert 20 seconds into feet. If we know the speed of the bicycle in feet per second, this question would be simpler. Since we don’t, we will need to do additional unit conversions. We will need to know that 5280 ft = 1 mile. We might start by converting the 20 seconds into hours:</p>
+<p id="p-134">Now we can multiply by the 15 miles/hr</p>
+<p id="p-135">Now we can convert to feet</p>
+<p id="p-136">We could have also done this entire calculation in one long set of products:</p>
+<p id="p-137">Try it Now 4</p>
+<p id="p-138">A 1000 foot spool of bare 12-gauge copper wire weighs 19.8 pounds. How much will 18 inches of the wire weigh, in ounces?</p>
+<p id="p-139">Notice that with the miles per gallon example, if we double the miles driven, we double the gas used. Likewise, with the map distance example, if the map distance doubles, the real-life distance doubles. This is a key feature of proportional relationships, and one we must confirm before assuming two things are related proportionally.</p>
+<p id="p-140">Example 17</p>
+<p id="p-141">Suppose you’re tiling the floor of a 10 ft by 10 ft room, and find that 100 tiles will be needed. How many tiles will be needed to tile the floor of a 20 ft by 20 ft room?</p>
+<p id="p-142">In this case, while the width the room has doubled, the area has quadrupled. Since the number of tiles needed corresponds with the area of the floor, not the width, 400 tiles will be needed. We could find this using a proportion based on the areas of the rooms:</p>
+<p id="p-143">Other quantities just don’t scale proportionally at all.</p>
+<p id="p-144">Example 18</p>
+<p id="p-145">Suppose a small company spends $1000 on an advertising campaign, and gains 100 new customers from it. How many new customers should they expect if they spend $10,000?</p>
+<p id="p-146">While it is tempting to say that they will gain 1000 new customers, it is likely that additional advertising will be less effective than the initial advertising. For example, if the company is a hot tub store, there are likely only a fixed number of people interested in buying a hot tub, so there might not even be 1000 people in the town who would be potential customers.</p>
+<p id="p-147">Sometimes when working with rates, proportions, and percents, the process can be made more challenging by the magnitude of the numbers involved. Sometimes, large numbers are just difficult to comprehend.</p>
+<p id="p-148">Example 19</p>
+<p id="p-149">Compare the 2010 U.S. military budget of $683.7 billion to other quantities.</p>
+<p id="p-150">Here we have a very large number, about $683,700,000,000 written out. Of course, imagining a billion dollars is very difficult, so it can help to compare it to other quantities.</p>
+<p id="p-151">If that amount of money was used to pay the salaries of the 1.4 million Walmart employees in the U.S., each would earn over $488,000.</p>
+<p id="p-152">There are about 300 million people in the U.S. The military budget is about $2,200 per person.</p>
+<p id="p-153">If you were to put $683.7 billion in $100 bills, and count out 1 per second, it would take 216 years to finish counting it.</p>
+<p id="p-154">Example 20</p>
+<p id="p-155">Compare the electricity consumption per capita in China to the rate in Japan.</p>
+<p id="p-156">To address this question, we will first need data. From the CIA<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-4" id="fn-4"><sup> 4 </sup></a> website we can find the electricity consumption in 2011 for China was 4,693,000,000,000 KWH (kilowatt-hours), or 4.693 trillion KWH, while the consumption for Japan was 859,700,000,000, or 859.7 billion KWH. To find the rate per capita (per person), we will also need the population of the two countries. From the World Bank<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-5" id="fn-5"><sup> 5 </sup></a>, we can find the population of China is 1,344,130,000, or 1.344 billion, and the population of Japan is 127,817,277, or 127.8 million.</p>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-4"><div class="fn"><p id="p-157">https://www.cia.gov/library/publications/the-world-factbook/rankorder/2042rank.html</p></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-5"><div class="fn"><p id="p-158">http://data.worldbank.org/indicator/SP.POP.TOTL</p></div></div>
+<p id="p-159">Computing the consumption per capita for each country:</p>
+<p id="p-160">China: ≈ 3491.5 KWH per person</p>
+<p id="p-161">Japan: ≈ 6726 KWH per person</p>
+<p id="p-162">While China uses more than 5 times the electricity of Japan overall, because the population of Japan is so much smaller, it turns out Japan uses almost twice the electricity per person compared to China.</p></section><section class="subsection" id="geometry"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.3</span> <span class="title">Geometry</span>
+</h3>
+<p id="p-163">Geometric shapes, as well as area and volumes, can often be important in problem solving.</p>
+<p id="p-164">Example 21</p>
+<p id="p-165">You are curious how tall a tree is, but don’t have any way to climb it. Describe a method for determining the height.</p>
+<p id="p-166">There are several approaches we could take. We’ll use one based on triangles, which requires that it’s a sunny day. Suppose the tree is casting a shadow, say 15 ft long. I can then have a friend help me measure my own shadow. Suppose I am 6 ft tall, and cast a 1.5 ft shadow. Since the triangle formed by the tree and its shadow has the same angles as the triangle formed by me and my shadow, these triangles are called <dfn class="terminology">similar triangles</dfn> and their sides will scale proportionally. In other words, the ratio of height to width will be the same in both triangles. Using this, we can find the height of the tree, which we’ll denote by <em class="emphasis">h</em>:</p>
+<p id="p-167">Multiplying both sides by 15, we get <em class="emphasis">h</em> = 60. The tree is about 60 ft tall.</p>
+<p id="p-168">It may be helpful to recall some formulas for areas and volumes of a few basic shapes.</p>
+<p id="p-169">Areas</p>
+<p id="p-170"><dfn class="terminology">Rectangle</dfn> <dfn class="terminology">Circle</dfn>, radius <em class="emphasis">r</em></p>
+<p id="p-171">Area: Area: π<em class="emphasis">r</em>2</p>
+<p id="p-172">Perimeter: 2<em class="emphasis">L</em> + 2<em class="emphasis">W</em> Circumference = 2π<em class="emphasis">r</em></p>
+<p id="p-173">Volumes</p>
+<p id="p-174"><dfn class="terminology">Rectangular Box</dfn> <dfn class="terminology">Cylinder</dfn></p>
+<p id="p-175">Volume: <em class="emphasis">L·W·H</em> Volume: π<em class="emphasis">r</em>2<em class="emphasis">H</em></p>
+<p id="p-176">Example 22</p>
+<p id="p-177">If a 12 inch diameter pizza requires 10 ounces of dough, how much dough is needed for a 16 inch pizza?</p>
+<p id="p-178">To answer this question, we need to consider how the weight of the dough will scale. The weight will be based on the volume of the dough. However, since both pizzas will be about the same thickness, the weight will scale with the area of the top of the pizza. We can find the area of each pizza using the formula for area of a circle, :</p>
+<p id="p-179">A 12” pizza has radius 6 inches, so the area will be = about 113 square inches.</p>
+<p id="p-180">A 16” pizza has radius 8 inches, so the area will be = about 201 square inches.</p>
+<p id="p-181">Notice that if both pizzas were 1 inch thick, the volumes would be 113 in3 and 201 in3 respectively, which are at the same ratio as the areas. As mentioned earlier, since the thickness is the same for both pizzas, we can safely ignore it.</p>
+<p id="p-182">We can now set up a proportion to find the weight of the dough for a 16” pizza:</p>
+<p id="p-183">Multiply both sides by 201</p>
+<p id="p-184">= about 17.8 ounces of dough for a 16” pizza.</p>
+<p id="p-185">It is interesting to note that while the diameter is = 1.33 times larger, the dough required, which scales with area, is 1.332 = 1.78 times larger.</p>
+<p id="p-186">Example 23</p>
+<p id="p-187"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="media/image51.png" style="width: 100%; height: auto;" alt=""></div>A company makes regular and jumbo marshmallows. The regular marshmallow has 25 calories. How many calories will the jumbo marshmallow have?</p>
+<p id="p-188">We would expect the calories to scale with volume. Since the marshmallows have cylindrical shapes, we can use that formula to find the volume. From the grid in the image, we can estimate the radius and height of each marshmallow.</p>
+<p id="p-189">The regular marshmallow appears to have a diameter of about 3.5 units, giving a radius of 1.75 units, and a height of about 3.5 units. The volume is about .</p>
+<p id="p-190">The jumbo marshmallow appears to have a diameter of about 5.5 units, giving a radius of 2.75 units, and a height of about 5 units. The volume is about .</p>
+<p id="p-191">We could now set up a proportion, or use rates. The regular marshmallow has 25 calories for 33.7 cubic units of volume. The jumbo marshmallow will have:</p>
+<p id="p-192">88.1 calories</p>
+<p id="p-193">It is interesting to note that while the diameter and height are about 1.5 times larger for the jumbo marshmallow, the volume and calories are about 1.53 = 3.375 times larger.</p>
+<p id="p-194">Try it Now 5</p>
+<p id="p-195">A website says that you’ll need 48 fifty-pound bags of sand to fill a sandbox that measure 8ft by 8ft by 1ft. How many bags would you need for a sandbox 6ft by 4ft by 1ft?</p></section><section class="subsection" id="problem-solving-and-estimating"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.4</span> <span class="title">Problem Solving and Estimating</span>
+</h3>
+<p id="p-196">Finally, we will bring together the mathematical tools we’ve reviewed, and use them to approach more complex problems. In many problems, it is tempting to take the given information, plug it into whatever formulas you have handy, and hope that the result is what you were supposed to find. Chances are, this approach has served you well in other math classes.</p>
+<p id="p-197">This approach does not work well with real life problems. Instead, problem solving is best approached by first starting at the end: identifying exactly what you are looking for. From there, you then work backwards, asking “what information and procedures will I need to find this?” Very few interesting questions can be answered in one mathematical step; often times you will need to chain together a solution pathway, a series of steps that will allow you to answer the question.</p>
+<p id="p-198">Problem Solving Process</p>
+<ol id="p-199" class="decimal">
+<li id="li-2"><p id="p-200">Identify the question you’re trying to answer.</p></li>
+<li id="li-3"><p id="p-201">Work backwards, identifying the information you will need and the relationships you will use to answer that question.</p></li>
+<li id="li-4"><p id="p-202">Continue working backwards, creating a solution pathway.</p></li>
+<li id="li-5"><p id="p-203">If you are missing necessary information, look it up or estimate it. If you have unnecessary information, ignore it.</p></li>
+<li id="li-6"><p id="p-204">Solve the problem, following your solution pathway.</p></li>
+</ol>
+<p id="p-205">In most problems we work, we will be approximating a solution, because we will not have perfect information. We will begin with a few examples where we will be able to approximate the solution using basic knowledge from our lives.</p>
+<p id="p-206">Example 24</p>
+<p id="p-207">How many times does your heart beat in a year?</p>
+<p id="p-208">This question is asking for the rate of heart beats per year. Since a year is a long time to measure heart beats for, if we knew the rate of heart beats per minute, we could scale that quantity up to a year. So the information we need to answer this question is heart beats per minute. This is something you can easily measure by counting your pulse while watching a clock for a minute.</p>
+<p id="p-209">Suppose you count 80 beats in a minute. To convert this beats per year:</p>
+<p id="p-210">42,048,000 beats per year</p>
+<p id="p-211">Example 25</p>
+<p id="p-212">How thick is a single sheet of paper? How much does it weigh?</p>
+<p id="p-213">While you might have a sheet of paper handy, trying to measure it would be tricky. Instead we might imagine a stack of paper, and then scale the thickness and weight to a single sheet. If you’ve ever bought paper for a printer or copier, you probably bought a ream, which contains 500 sheets. We could estimate that a ream of paper is about 2 inches thick and weighs about 5 pounds. Scaling these down,</p>
+<p id="p-214">= 0.004 inches per sheet</p>
+<p id="p-215">= 0.01 pounds per sheet, or 0.16 ounces per sheet.</p>
+<p id="p-216">Example 26</p>
+<p id="p-217">A recipe for zucchini muffins states that it yields 12 muffins, with 250 calories per muffin. You instead decide to make mini-muffins, and the recipe yields 20 muffins. If you eat 4, how many calories will you consume?</p>
+<p id="p-218">There are several possible solution pathways to answer this question. We will explore one.</p>
+<p id="p-219">To answer the question of how many calories 4 mini-muffins will contain, we would want to know the number of calories in each mini-muffin. To find the calories in each mini-muffin, we could first find the total calories for the entire recipe, then divide it by the number of mini-muffins produced. To find the total calories for the recipe, we could multiply the calories per standard muffin by the number per muffin. Notice that this produces a multi-step solution pathway. It is often easier to solve a problem in small steps, rather than trying to find a way to jump directly from the given information to the solution.</p>
+<p id="p-220">We can now execute our plan:</p>
+<p id="p-221">= 3000 calories for the whole recipe</p>
+<p id="p-222">gives 150 calories per mini-muffin</p>
+<p id="p-223">totals 600 calories consumed.</p>
+<p id="p-224">Example 27</p>
+<p id="p-225">You need to replace the boards on your deck. About how much will the materials cost?</p>
+<p id="p-226">There are two approaches we could take to this problem: 1) estimate the number of boards we will need and find the cost per board, or 2) estimate the area of the deck and find the approximate cost per square foot for deck boards. We will take the latter approach.</p>
+<p id="p-227">For this solution pathway, we will be able to answer the question if we know the cost per square foot for decking boards and the square footage of the deck. To find the cost per square foot for decking boards, we could compute the area of a single board, and divide it into the cost for that board. We can compute the square footage of the deck using geometric formulas. So first we need information: the dimensions of the deck, and the cost and dimensions of a single deck board.</p>
+<p id="p-228">Suppose that measuring the deck, it is rectangular, measuring 16 ft by 24 ft, for a total area of 384 ft2.</p>
+<p id="p-229">From a visit to the local home store, you find that an 8 foot by 4 inch cedar deck board costs about $7.50. The area of this board, doing the necessary conversion from inches to feet, is:</p>
+<p id="p-230">= 2.667 ft2. The cost per square foot is then</p>
+<p id="p-231">= $2.8125 per ft2.</p>
+<p id="p-232">This will allow us to estimate the material cost for the whole 384 ft2 deck</p>
+<p id="p-233">= $1080 total cost.</p>
+<p id="p-234">Of course, this cost estimate assumes that there is no waste, which is rarely the case. It is common to add at least 10% to the cost estimate to account for waste.</p>
+<p id="p-235">Example 28</p>
+<p id="p-236">Is it worth buying a Hyundai Sonata hybrid instead the regular Hyundai Sonata?</p>
+<p id="p-237">To make this decision, we must first decide what our basis for comparison will be. For the purposes of this example, we’ll focus on fuel and purchase costs, but environmental impacts and maintenance costs are other factors a buyer might consider.</p>
+<p id="p-238">It might be interesting to compare the cost of gas to run both cars for a year. To determine this, we will need to know the miles per gallon both cars get, as well as the number of miles we expect to drive in a year. From that information, we can find the number of gallons required from a year. Using the price of gas per gallon, we can find the running cost.</p>
+<p id="p-239">From Hyundai’s website, the 2013 Sonata will get 24 miles per gallon (mpg) in the city, and 35 mpg on the highway. The hybrid will get 35 mpg in the city, and 40 mpg on the highway.</p>
+<p id="p-240">An average driver drives about 12,000 miles a year. Suppose that you expect to drive about 75% of that in the city, so 9,000 city miles a year, and 3,000 highway miles a year.</p>
+<p id="p-241">We can then find the number of gallons each car would require for the year.</p>
+<p id="p-242">Sonata:</p>
+<p id="p-243">= 460.7 gallons</p>
+<p id="p-244">Hybrid:</p>
+<p id="p-245">= 332.1 gallons</p>
+<p id="p-246">If gas in your area averages about $3.50 per gallon, we can use that to find the running cost:</p>
+<p id="p-247">Sonata: = $1612.45</p>
+<p id="p-248">Hybrid: = $1162.35</p>
+<p id="p-249">The hybrid will save $450.10 a year. The gas costs for the hybrid are about  = 0.279 = 27.9% lower than the costs for the standard Sonata.</p>
+<p id="p-250">While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since “is it worth it” implies there is some tradeoff for the gas savings. Indeed, the hybrid Sonata costs about $25,850, compared to the base model for the regular Sonata, at $20,895.</p>
+<p id="p-251">To better answer the “is it worth it” question, we might explore how long it will take the gas savings to make up for the additional initial cost. The hybrid costs $4965 more. With gas savings of $451.10 a year, it will take about 11 years for the gas savings to make up for the higher initial costs.</p>
+<p id="p-252">We can conclude that if you expect to own the car 11 years, the hybrid is indeed worth it. If you plan to own the car for less than 11 years, it may still be worth it, since the resale value of the hybrid may be higher, or for other non-monetary reasons. This is a case where math can help guide your decision, but it can’t make it for you.</p>
+<p id="p-253">Try it Now 6</p>
+<p id="p-254">If traveling from Seattle, WA to Spokane WA for a three-day conference, does it make more sense to drive or fly?</p>
+<p id="p-255">Try it Now Answers</p>
+<p id="p-256">1. The sale price is $799(0.70) = $559.30. After tax, the price is $559.30(1.092) = $610.76</p>
+<p id="p-257">2. 2001-2002: Absolute change: $0.43 trillion. Relative change: 7.45%</p>
+<p id="p-258">2005-2006: Absolute change: $0.54 trillion. Relative change: 6.83%</p>
+<p id="p-259">2005-2006 saw a larger absolute increase, but a smaller relative increase.</p>
+<p id="p-260">3. Without more information, it is hard to judge these arguments. This is compounded by the complexity of Medicare. As it turns out, the $716 billion is not a cut in current spending, but a cut in future increases in spending, largely reducing future growth in health care payments. In this case, at least the numerical claims in both statements could be considered at least partially true. Here is one source of more information if you’re interested: <a class="external" href="http://factcheck.org/2012/08/a-campaign-full-of-mediscare/" target="_blank">http://factcheck.org/2012/08/a-campaign-full-of-mediscare/</a></p>
+<p id="p-261">4. ≈ 0.475 ounces</p>
+<p id="p-262">Try it Now Answers Continued</p>
+<p id="p-263">5. The original sandbox has volume 64 ft3. The smaller sandbox has volume 24ft3.</p>
+<p id="p-264">results in <em class="emphasis">x</em> = 18 bags.</p>
+<p id="p-265">6. There is not enough information provided to answer the question, so we will have to make some assumptions, and look up some values.</p>
+<p id="p-266">Assumptions:</p>
+<p id="p-267">a) We own a car. Suppose it gets 24 miles to the gallon. We will only consider gas cost.</p>
+<p id="p-268">b) We will not need to rent a car in Spokane, but will need to get a taxi from the airport to the conference hotel downtown and back.</p>
+<p id="p-269">c) We can get someone to drop us off at the airport, so we don’t need to consider airport parking.</p>
+<p id="p-270">d) We will not consider whether we will lose money by having to take time off work to drive.</p>
+<p id="p-271">Values looked up (your values may be different)</p>
+<p id="p-272">a) Flight cost: $184</p>
+<p id="p-273">b) Taxi cost: $25 each way (estimate, according to hotel website)</p>
+<p id="p-274">c) Driving distance: 280 miles each way</p>
+<p id="p-275">d) Gas cost: $3.79 a gallon</p>
+<p id="p-276">Cost for flying: $184 flight cost + $50 in taxi fares = $234.</p>
+<p id="p-277">Cost for driving: 560 miles round trip will require 23.3 gallons of gas, costing $88.31.</p>
+<p id="p-278">Based on these assumptions, driving is cheaper. However, our assumption that we only include gas cost may not be a good one. Tax law allows you deduct $0.55 (in 2012) for each mile driven, a value that accounts for gas as well as a portion of the car cost, insurance, maintenance, etc. Based on this number, the cost of driving would be $319.</p></section><section class="subsection" id="exercises"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.5</span> <span class="title">Exercises</span>
+</h3>
+<ol id="p-279" class="decimal">
+<li id="li-7"><blockquote class="blockquote" id="blockquote-1"><p id="p-280">Out of 230 racers who started the marathon, 212 completed the race, 14 gave up, and 4 were disqualified. What percentage did not complete the marathon?</p></blockquote></li>
+<li id="li-8"><blockquote class="blockquote" id="blockquote-2"><p id="p-281">Patrick left an $8 tip on a $50 restaurant bill. What percent tip is that?</p></blockquote></li>
+<li id="li-9"><blockquote class="blockquote" id="blockquote-3"><p id="p-282">Ireland has a 23% VAT (value-added tax, similar to a sales tax). How much will the VAT be on a purchase of a €250 item?</p></blockquote></li>
+<li id="li-10"><blockquote class="blockquote" id="blockquote-4"><p id="p-283">Employees in 2012 paid 4.2% of their gross wages towards social security (FICA tax), while employers paid another 6.2%. How much will someone earning $45,000 a year pay towards social security out of their gross wages?</p></blockquote></li>
+<li id="li-11"><blockquote class="blockquote" id="blockquote-5"><p id="p-284">A project on Kickstarter.com was aiming to raise $15,000 for a precision coffee press. They ended up with 714 supporters, raising 557% of their goal. How much did they raise?</p></blockquote></li>
+<li id="li-12"><blockquote class="blockquote" id="blockquote-6"><p id="p-285">Another project on Kickstarter for an iPad stylus raised 1,253% of their goal, raising a total of $313,490 from 7,511 supporters. What was their original goal?</p></blockquote></li>
+<li id="li-13"><blockquote class="blockquote" id="blockquote-7"><p id="p-286">The population of a town increased from 3,250 in 2008 to 4,300 in 2010. Find the absolute and relative (percent) increase.</p></blockquote></li>
+<li id="li-14"><blockquote class="blockquote" id="blockquote-8"><p id="p-287">The number of CDs sold in 2010 was 114 million, down from 147 million the previous year<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-6" id="fn-6"><sup> 6 </sup></a>. Find the absolute and relative (percent) decrease.</p></blockquote></li>
+<li id="li-15">
+<blockquote class="blockquote" id="blockquote-9"><p id="p-289">A company wants to decrease their energy use by 15%.</p></blockquote>
+<ol id="p-290" class="lower-alpha">
+<li id="li-16"><p id="p-291">If their electric bill is currently $2,200 a month, what will their bill be if they’re successful?</p></li>
+<li id="li-17"><p id="p-292">If their next bill is $1,700 a month, were they successful? Why or why not?</p></li>
+</ol>
+</li>
+<li id="li-18">
+<blockquote class="blockquote" id="blockquote-10"><p id="p-293">A store is hoping an advertising campaign will increase their number of customers by 30%. They currently have about 80 customers a day.</p></blockquote>
+<ol id="p-294" class="lower-alpha">
+<li id="li-19"><p id="p-295">How many customers will they have if their campaign is successful?</p></li>
+<li id="li-20"><p id="p-296">If they increase to 120 customers a day, were they successful? Why or why not?</p></li>
+</ol>
+</li>
+<li id="li-21"><blockquote class="blockquote" id="blockquote-11"><p id="p-297">An article reports “attendance dropped 6% this year, to 300.” What was the attendance before the drop?</p></blockquote></li>
+<li id="li-22"><blockquote class="blockquote" id="blockquote-12"><p id="p-298">An article reports “sales have grown by 30% this year, to $200 million.” What were sales before the growth?</p></blockquote></li>
+<li id="li-23">
+<blockquote class="blockquote" id="blockquote-13"><p id="p-299">The Walden University had 47,456 students in 2010, while Kaplan University had 77,966 students. Complete the following statements:</p></blockquote>
+<ol id="p-300" class="lower-alpha">
+<li id="li-24"><blockquote class="blockquote" id="blockquote-14"><p id="p-301">Kaplan’s enrollment was ___% larger than Walden’s.</p></blockquote></li>
+<li id="li-25"><blockquote class="blockquote" id="blockquote-15"><p id="p-302">Walden’s enrollment was ___% smaller than Kaplan’s.</p></blockquote></li>
+<li id="li-26"><blockquote class="blockquote" id="blockquote-16"><p id="p-303">Walden’s enrollment was ___% of Kaplan’s.</p></blockquote></li>
+</ol>
+</li>
+<li id="li-27">
+<blockquote class="blockquote" id="blockquote-17"><p id="p-304">In the 2012 Olympics, Usain Bolt ran the 100m dash in 9.63 seconds. Jim Hines won the 1968 Olympic gold with a time of 9.95 seconds.</p></blockquote>
+<ol id="p-305" class="lower-alpha">
+<li id="li-28"><blockquote class="blockquote" id="blockquote-18"><p id="p-306">Bolt’s time was ___% faster than Hines’.</p></blockquote></li>
+<li id="li-29"><blockquote class="blockquote" id="blockquote-19"><p id="p-307">Hine’ time was ___% slower than Bolt’s.</p></blockquote></li>
+<li id="li-30"><blockquote class="blockquote" id="blockquote-20"><p id="p-308">Hine’ time was ___% of Bolt’s.</p></blockquote></li>
+</ol>
+</li>
+<li id="li-31"><blockquote class="blockquote" id="blockquote-21"><p id="p-309">A store has clearance items that have been marked down by 60%. They are having a sale, advertising an additional 30% off clearance items. What percent of the original price do you end up paying?</p></blockquote></li>
+<li id="li-32"><blockquote class="blockquote" id="blockquote-22"><p id="p-310">Which is better: having a stock that goes up 30% on Monday than drops 30% on Tuesday, or a stock that drops 30% on Monday and goes up 30% on Tuesday? In each case, what is the net percent gain or loss?</p></blockquote></li>
+<li id="li-33">
+<blockquote class="blockquote" id="blockquote-23"><p id="p-311">Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?</p></blockquote>
+<ol id="p-312" class="lower-alpha">
+<li id="li-34"><blockquote class="blockquote" id="blockquote-24"><p id="p-313">“16.3% of Americans are without health insurance”<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-7" id="fn-7"><sup> 7 </sup></a></p></blockquote></li>
+<li id="li-35"><blockquote class="blockquote" id="blockquote-25"><p id="p-315">“only 55.9% of adults receive employer provided health insurance”<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-8" id="fn-8"><sup> 8 </sup></a></p></blockquote></li>
+</ol>
+</li>
+<li id="li-36">
+<blockquote class="blockquote" id="blockquote-26"><p id="p-317">Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?</p></blockquote>
+<ol id="p-318" class="lower-alpha">
+<li id="li-37"><blockquote class="blockquote" id="blockquote-27"><p id="p-319">“We mark up the wholesale price by 33% to come up with the retail price”</p></blockquote></li>
+<li id="li-38"><blockquote class="blockquote" id="blockquote-28"><p id="p-320">“The store has a 25% profit margin”</p></blockquote></li>
+</ol>
+</li>
+<li id="li-39">
+<blockquote class="blockquote" id="blockquote-29"><p id="p-321">Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?</p></blockquote>
+<ol id="p-322" class="lower-alpha">
+<li id="li-40"><blockquote class="blockquote" id="blockquote-30"><p id="p-323">“Every year since 1950, the number of American children gunned down has doubled.”</p></blockquote></li>
+<li id="li-41"><blockquote class="blockquote" id="blockquote-31"><p id="p-324">“The number of child gunshot deaths has doubled from 1950 to 1994.”</p></blockquote></li>
+</ol>
+</li>
+<li id="li-42">
+<blockquote class="blockquote" id="blockquote-32"><p id="p-325">Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-9" id="fn-9"><sup> 9 </sup></a></p></blockquote>
+<ol id="p-327" class="lower-alpha">
+<li id="li-43"><blockquote class="blockquote" id="blockquote-33"><p id="p-328">“75 percent of the federal health care law’s taxes would be paid by those earning less than $120,000 a year”</p></blockquote></li>
+<li id="li-44"><blockquote class="blockquote" id="blockquote-34"><p id="p-329">“76 percent of those who would pay the penalty [health care law’s taxes] for not having insurance in 2016 would earn under $120,000”</p></blockquote></li>
+</ol>
+</li>
+<li id="li-45">
+<blockquote class="blockquote" id="blockquote-35"><p id="p-330">Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?</p></blockquote>
+<ol id="p-331" class="lower-alpha">
+<li id="li-46"><blockquote class="blockquote" id="blockquote-36"><p id="p-332">“The school levy is only a 0.1% increase of the property tax rate.”</p></blockquote></li>
+<li id="li-47"><blockquote class="blockquote" id="blockquote-37"><p id="p-333">“This new levy is a 12% tax hike, raising our total rate to $9.33 per $1000 of value.”</p></blockquote></li>
+</ol>
+</li>
+<li id="li-48"><blockquote class="blockquote" id="blockquote-38"><p id="p-334">Are the values compared in this statement comparable or not comparable? “Guns have murdered more Americans here at home in recent years than have died on the battlefields of Iraq and Afghanistan. In support of the two wars, more than 6,500 American soldiers have lost their lives. During the same period, however, guns have been used to murder about 100,000 people on American soil”<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-10" id="fn-10"><sup> 10 </sup></a></p></blockquote></li>
+<li id="li-49"><blockquote class="blockquote" id="blockquote-39"><p id="p-336">A high school currently has a 30% dropout rate. They’ve been tasked to decrease that rate by 20%. Find the equivalent percentage point drop.</p></blockquote></li>
+<li id="li-50"><blockquote class="blockquote" id="blockquote-40"><p id="p-337">A politician’s support grew from 42% by 3 percentage points to 45%. What percent (relative) change is this?</p></blockquote></li>
+<li id="li-51"><blockquote class="blockquote" id="blockquote-41"><p id="p-338">Marcy has a 70% average in her class going into the final exam. She says "I need to get a 100% on this final so I can raise my score to 85%." Is she correct?</p></blockquote></li>
+<li id="li-52"><blockquote class="blockquote" id="blockquote-42"><p id="p-339">Suppose you have one quart of water/juice mix that is 50% juice, and you add 2 quarts of juice. What percent juice is the final mix?</p></blockquote></li>
+<li id="li-53"><blockquote class="blockquote" id="blockquote-43"><p id="p-340">Find a unit rate: You bought 10 pounds of potatoes for $4.</p></blockquote></li>
+<li id="li-54"><blockquote class="blockquote" id="blockquote-44"><p id="p-341">Find a unit rate: Joel ran 1500 meters in 4 minutes, 45 seconds.</p></blockquote></li>
+<li id="li-55"><blockquote class="blockquote" id="blockquote-45"><p id="p-342">Solve: .</p></blockquote></li>
+<li id="li-56"><blockquote class="blockquote" id="blockquote-46"><p id="p-343">Solve: .</p></blockquote></li>
+<li id="li-57"><blockquote class="blockquote" id="blockquote-47"><p id="p-344">A crepe recipe calls for 2 eggs, 1 cup of flour, and 1 cup of milk. How much flour would you need if you use 5 eggs?</p></blockquote></li>
+<li id="li-58"><blockquote class="blockquote" id="blockquote-48"><p id="p-345">An 8ft length of 4 inch wide crown molding costs $14. How much will it cost to buy 40ft of crown molding?</p></blockquote></li>
+<li id="li-59"><blockquote class="blockquote" id="blockquote-49"><p id="p-346">Four 3-megawatt wind turbines can supply enough electricity to power 3000 homes. How many turbines would be required to power 55,000 homes?</p></blockquote></li>
+<li id="li-60"><blockquote class="blockquote" id="blockquote-50"><p id="p-347">A highway had a landslide, where 3,000 cubic yards of material fell on the road, requiring 200 dump truck loads to clear. On another highway, a slide left 40,000 cubic yards on the road. How many dump truck loads would be needed to clear this slide?</p></blockquote></li>
+<li id="li-61"><blockquote class="blockquote" id="blockquote-51"><p id="p-348">Convert 8 feet to inches.</p></blockquote></li>
+<li id="li-62"><blockquote class="blockquote" id="blockquote-52"><p id="p-349">Convert 6 kilograms to grams.</p></blockquote></li>
+<li id="li-63"><blockquote class="blockquote" id="blockquote-53"><p id="p-350">A wire costs $2 per meter. How much will 3 kilometers of wire cost?</p></blockquote></li>
+<li id="li-64"><blockquote class="blockquote" id="blockquote-54"><p id="p-351">Sugar contains 15 calories per teaspoon. How many calories are in 1 cup of sugar?</p></blockquote></li>
+<li id="li-65"><blockquote class="blockquote" id="blockquote-55"><p id="p-352">A car is driving at 100 kilometers per hour. How far does it travel in 2 seconds?</p></blockquote></li>
+<li id="li-66"><blockquote class="blockquote" id="blockquote-56"><p id="p-353">A chain weighs 10 pounds per foot. How many ounces will 4 inches weigh?</p></blockquote></li>
+<li id="li-67"><blockquote class="blockquote" id="blockquote-57"><p id="p-354">The table below gives data on three movies. Gross earnings is the amount of money the movie brings in. Compare the net earnings (money made after expenses) for the three movies.<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-11" id="fn-11"><sup> 11 </sup></a></p></blockquote></li>
+</ol>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-6"><div class="fn"><p id="p-288">http://www.cnn.com/2010/SHOWBIZ/Music/07/19/cd.digital.sales/index.html</p></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-7"><div class="fn"><p id="p-314">http://www.cnn.com/2012/06/27/politics/btn-health-care/index.html</p></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-8"><div class="fn"><p id="p-316">http://www.politico.com/news/stories/0712/78134.html</p></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-9"><div class="fn"><p id="p-326">http://factcheck.org/2012/07/twisting-health-care-taxes/</p></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-10"><div class="fn"><p id="p-335">http://www.northjersey.com/news/opinions/lautenberg_073112.html?c=y&amp;page=2</p></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-11"><div class="fn"><p id="p-355">http://www.the-numbers.com/movies/records/budgets.php</p></div></div>
+<figure class="table table-like" id="table-1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.1<span class="period">.</span></span><span class="space"> </span></figcaption><table>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Movie</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Release Date</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Budget</dfn></td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell"><dfn class="terminology">Gross earnings</dfn></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Saw</td>
+<td class="l m b0 r0 l0 t0 lines">10/29/2004</td>
+<td class="l m b0 r0 l0 t0 lines">$1,200,000</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">$103,096,345</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Titanic</td>
+<td class="l m b0 r0 l0 t0 lines">12/19/1997</td>
+<td class="l m b0 r0 l0 t0 lines">$200,000,000</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">$1,842,879,955</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Jurassic Park</td>
+<td class="l m b0 r0 l0 t0 lines">6/11/1993</td>
+<td class="l m b0 r0 l0 t0 lines">$63,000,000</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">$923,863,984</td>
+</tr>
+</table></figure><ol id="p-356" class="decimal">
+<li id="li-68"><blockquote class="blockquote" id="blockquote-58"><p id="p-357">For the movies in the previous problem, which provided the best return on investment?</p></blockquote></li>
+<li id="li-69"><blockquote class="blockquote" id="blockquote-59"><p id="p-358">The population of the U.S. is about 309,975,000, covering a land area of 3,717,000 square miles. The population of India is about 1,184,639,000, covering a land area of 1,269,000 square miles. Compare the population densities of the two countries.</p></blockquote></li>
+<li id="li-70"><blockquote class="blockquote" id="blockquote-60"><p id="p-359">The GDP (Gross Domestic Product) of China was $5,739 billion in 2010, and the GDP of Sweden was $435 billion. The population of China is about 1,347 million, while the population of Sweden is about 9.5 million. Compare the GDP per capita of the two countries.</p></blockquote></li>
+<li id="li-71"><blockquote class="blockquote" id="blockquote-61"><p id="p-360">In June 2012, Twitter was reporting 400 million tweets per day. Each tweet can consist of up to 140 characters (letter, numbers, etc.). Create a comparison to help understand the amount of tweets in a year by imagining each character was a drop of water and comparing to filling something up.</p></blockquote></li>
+<li id="li-72"><blockquote class="blockquote" id="blockquote-62"><p id="p-361">The photo sharing site Flickr had 2.7 billion photos in June 2012. Create a comparison to understand this number by assuming each picture is about 2 megabytes in size, and comparing to the data stored on other media like DVDs, iPods, or flash drives.</p></blockquote></li>
+<li id="li-73">
+<blockquote class="blockquote" id="blockquote-63"><p id="p-362">Your chocolate milk mix says to use 4 scoops of mix for 2 cups of milk. After pouring in the milk, you start adding the mix, but get distracted and accidentally put in 5 scoops of mix. How can you adjust the mix if:</p></blockquote>
+<ol id="p-363" class="lower-alpha">
+<li id="li-74"><blockquote class="blockquote" id="blockquote-64"><p id="p-364">There is still room in the cup?</p></blockquote></li>
+<li id="li-75"><blockquote class="blockquote" id="blockquote-65"><p id="p-365">The cup is already full?</p></blockquote></li>
+</ol>
+</li>
+<li id="li-76"><blockquote class="blockquote" id="blockquote-66"><p id="p-366">A recipe for sabayon calls for 2 egg yolks, 3 tablespoons of sugar, and ¼ cup of white wine. After cracking the eggs, you start measuring the sugar, but accidentally put in 4 tablespoons of sugar. How can you compensate?</p></blockquote></li>
+<li id="li-77"><blockquote class="blockquote" id="blockquote-67"><p id="p-367">The Deepwater Horizon oil spill resulted in 4.9 million barrels of oil spilling into the Gulf of Mexico. Each barrel of oil can be processed into about 19 gallons of gasoline. How many cars could this have fueled for a year? Assume an average car gets 20 miles to the gallon, and drives about 12,000 miles in a year.</p></blockquote></li>
+<li id="li-78"><blockquote class="blockquote" id="blockquote-68"><p id="p-368">The store is selling lemons at 2 for $1. Each yields about 2 tablespoons of juice. How much will it cost to buy enough lemons to make a 9-inch lemon pie requiring ½ cup of lemon juice?</p></blockquote></li>
+<li id="li-79"><blockquote class="blockquote" id="blockquote-69"><p id="p-369"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="media/image73.png" style="width: 100%; height: auto;" alt=""></div>A piece of paper can be made into a cylinder in two ways: by joining the short sides together, or by joining the long sides together<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-12" id="fn-12"><sup> 12 </sup></a>. Which cylinder would hold more? How much more?</p></blockquote></li>
+<li id="li-80"><blockquote class="blockquote" id="blockquote-70"><p id="p-371">Which of these glasses contains more liquid? How much more?</p></blockquote></li>
+</ol>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-12"><div class="fn"><p id="p-370">http://vimeo.com/42501010</p></div></div>
+<p id="p-372">In the next 4 questions, estimate the values by making reasonable approximations for unknown values, or by doing some research to find reasonable values.</p>
+<ol id="p-373" class="decimal">
+<li id="li-81"><blockquote class="blockquote" id="blockquote-71"><p id="p-374">Estimate how many gallons of water you drink in a year.</p></blockquote></li>
+<li id="li-82"><blockquote class="blockquote" id="blockquote-72"><p id="p-375">Estimate how many times you blink in a day.</p></blockquote></li>
+<li id="li-83"><blockquote class="blockquote" id="blockquote-73"><p id="p-376">How much does the water in a 6-person hot tub weigh?</p></blockquote></li>
+<li id="li-84"><blockquote class="blockquote" id="blockquote-74"><p id="p-377">How many gallons of paint would be needed to paint a two-story house 40 ft long and 30 ft wide?</p></blockquote></li>
+<li id="li-85"><blockquote class="blockquote" id="blockquote-75"><p id="p-378">During the landing of the Mars Science Laboratory <em class="emphasis">Curiosity</em>, it was reported that the signal from the rover would take 14 minutes to reach earth. Radio signals travel at the speed of light, about 186,000 miles per second. How far was Mars from Earth when <em class="emphasis">Curiosity</em> landed?</p></blockquote></li>
+<li id="li-86"><blockquote class="blockquote" id="blockquote-76"><p id="p-379">It is estimated that a driver takes, on average, 1.5 seconds from seeing an obstacle to reacting by applying the brake or swerving. How far will a car traveling at 60 miles per hour travel (in feet) before the driver reacts to an obstacle?</p></blockquote></li>
+<li id="li-87">
+<blockquote class="blockquote" id="blockquote-77"><p id="p-380">The flash of lightning travels at the speed of light, which is about 186,000 miles per second. The sound of lightning (thunder) travels at the speed of sound, which is about 750 miles per hour.</p></blockquote>
+<ol id="p-381" class="lower-alpha">
+<li id="li-88"><blockquote class="blockquote" id="blockquote-78"><p id="p-382">If you see a flash of lightning, then hear the thunder 4 seconds later, how far away is the lightning?</p></blockquote></li>
+<li id="li-89"><blockquote class="blockquote" id="blockquote-79"><p id="p-383">Now let’s generalize that result. Suppose it takes <em class="emphasis">n</em> seconds to hear the thunder after a flash of lightning. How far away is the lightning, in terms of <em class="emphasis">n</em>?</p></blockquote></li>
+</ol>
+</li>
+<li id="li-90">
+<blockquote class="blockquote" id="blockquote-80"><p id="p-384">Sound travels about 750 miles per hour. If you stand in a parking lot near a building and sound a horn, you will hear an echo.</p></blockquote>
+<ol id="p-385" class="lower-alpha">
+<li id="li-91"><blockquote class="blockquote" id="blockquote-81"><p id="p-386">Suppose it takes about ½ a second to hear the echo. How far away is the building<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-13" id="fn-13"><sup> 13 </sup></a>?</p></blockquote></li>
+<li id="li-92"><blockquote class="blockquote" id="blockquote-82"><p id="p-388">Now let’s generalize that result. Suppose it takes <em class="emphasis">n</em> seconds to hear the echo. How far away is the building, in terms of <em class="emphasis">n</em>?</p></blockquote></li>
+</ol>
+</li>
+<li id="li-93"><blockquote class="blockquote" id="blockquote-83"><p id="p-389">It takes an air pump 5 minutes to fill a twin sized air mattress (39 by 8.75 by 75 inches). How long will it take to fill a queen sized mattress (60 by 8.75 by 80 inches)?</p></blockquote></li>
+<li id="li-94"><blockquote class="blockquote" id="blockquote-84"><p id="p-390">It takes your garden hose 20 seconds to fill your 2-gallon watering can. How long will it take to fill</p></blockquote></li>
+</ol>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-13"><div class="fn"><p id="p-387">http://vimeo.com/40377128</p></div></div>
+<ol id="p-391" class="decimal">
+<li id="li-95"><blockquote class="blockquote" id="blockquote-85"><p id="p-392">An inflatable pool measuring 3 feet wide, 8 feet long, and 1 foot deep.<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-14" id="fn-14"><sup> 14 </sup></a></p></blockquote></li>
+<li id="li-96"><blockquote class="blockquote" id="blockquote-86"><p id="p-394">A circular inflatable pool 13 feet in diameter and 3 feet deep.<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-15" id="fn-15"><sup> 15 </sup></a></p></blockquote></li>
+</ol>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-14"><div class="fn"><p id="p-393">http://www.youtube.com/watch?v=DIkwefReHZc</p></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-15"><div class="fn"><p id="p-395">http://www.youtube.com/watch?v=p9SABH7Yg9M</p></div></div>
+<ol id="p-396" class="decimal">
+<li id="li-97"><blockquote class="blockquote" id="blockquote-87"><p id="p-397">You want to put a 2" thick layer of topsoil for a new 20'x30' garden.  The dirt store sells by the cubic yards. How many cubic yards will you need to order?</p></blockquote></li>
+<li id="li-98"><blockquote class="blockquote" id="blockquote-88"><p id="p-398">A box of Jell-O costs $0.50, and makes 2 cups. How much would it cost to fill a swimming pool 4 feet deep, 8 feet wide, and 12 feet long with Jell-O? (1 cubic foot is about 7.5 gallons)</p></blockquote></li>
+<li id="li-99"><blockquote class="blockquote" id="blockquote-89"><p id="p-399">You read online that a 15 ft by 20 ft brick patio would cost about $2,275 to have professionally installed. Estimate the cost of having a 18 by 22 ft brick patio installed.</p></blockquote></li>
+</ol>
+<blockquote class="blockquote" id="blockquote-90"><figure class="figure figure-like" id="figure-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="media/image74.jpeg" style="width: 100%; height: auto;" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure></blockquote>
+<ol id="p-400" class="decimal">
+<li id="li-100"><blockquote class="blockquote" id="blockquote-91"><p id="p-401">I was at the store, and saw two sizes of avocados being sold. The regular size sold for $0.88 each, while the jumbo ones sold for $1.68 each. Which is the better deal?</p></blockquote></li>
+<li id="li-101"><blockquote class="blockquote" id="blockquote-92"><p id="p-402">The grocery store has bulk pecans on sale, which is great since you’re planning on making 10 pecan pies for a wedding. Your recipe calls for 1¾ cups pecans per pie. However, in the bulk section there’s only a scale available, not a measuring cup. You run over to the baking aisle and find a bag of pecans, and look at the nutrition label to gather some info. How many pounds of pecans should you buy?</p></blockquote></li>
+<li id="li-102"><blockquote class="blockquote" id="blockquote-93"><p id="p-403">Soda is often sold in 20 ounce bottles. The nutrition label for one of these bottles is shown to the right. A packet of sugar (the kind they have at restaurants for your coffee or tea) typically contain 4 grams of sugar in the U.S. Drinking a 20 oz soda is equivalent to eating how many packets of sugar?<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-16" id="fn-16"><sup> 16 </sup></a></p></blockquote></li>
+</ol>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-16"><div class="fn"><p id="p-404">http://www.youtube.com/watch?v=62JMfv0tf3Q</p></div></div>
+<p id="p-405">For the next set of questions, <em class="emphasis">first</em> identify the information you need to answer the question, and <em class="emphasis">then</em> turn to the end of the section to find that information. The details may be imprecise; answer the question the best you can with the provided information. Be sure to justify your decision.</p>
+<ol id="p-406" class="decimal">
+<li id="li-103"><blockquote class="blockquote" id="blockquote-94"><p id="p-407"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="media/image75.jpeg" style="width: 100%; height: auto;" alt=""></div>You’re planning on making 6 meatloafs for a party. You go to the store to buy breadcrumbs, and see they are sold by the canister. How many canisters do you need to buy?</p></blockquote></li>
+<li id="li-104"><blockquote class="blockquote" id="blockquote-95"><p id="p-408">Your friend wants to cover their car in bottle caps, like in this picture.<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-17" id="fn-17"><sup> 17 </sup></a> How many bottle caps are you going to need?</p></blockquote></li>
+<li id="li-105"><blockquote class="blockquote" id="blockquote-96"><p id="p-410">You need to buy some chicken for dinner tonight. You found an ad showing that the store across town has it on sale for $2.99 a pound, which is cheaper than your usual neighborhood store, which sells it for $3.79 a pound. Is it worth the extra drive?</p></blockquote></li>
+<li id="li-106"><blockquote class="blockquote" id="blockquote-97"><p id="p-411">I have an old gas furnace, and am considering replacing it with a new, high efficiency model. Is upgrading worth it?</p></blockquote></li>
+<li id="li-107"><blockquote class="blockquote" id="blockquote-98"><p id="p-412">Janine is considering buying a water filter and a reusable water bottle rather than buying bottled water. Will doing so save her money?</p></blockquote></li>
+<li id="li-108"><blockquote class="blockquote" id="blockquote-99"><p id="p-413">Marcus is considering going car-free to save money and be more environmentally friendly. Is this financially a good decision?</p></blockquote></li>
+</ol>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-17"><div class="fn"><p id="p-409">Photo credit: <a class="external" href="http://www.flickr.com/photos/swayze/" target="_blank">http://www.flickr.com/photos/swayze/</a>, CC-BY</p></div></div>
+<p id="p-414">For the next set of problems, research or make educated estimates for any unknown quantities needed to answer the question.</p>
+<ol id="p-415" class="decimal">
+<li id="li-109"><blockquote class="blockquote" id="blockquote-100"><p id="p-416">You want to travel from Tacoma, WA to Chico, CA for a wedding. Compare the costs and time involved with driving, flying, and taking a train. Assume that if you fly or take the train you’ll need to rent a car while you’re there. Which option is best?</p></blockquote></li>
+<li id="li-110"><blockquote class="blockquote" id="blockquote-101"><p id="p-417">You want to paint the walls of a 6ft by 9ft storage room that has one door and one window. You want to put on two coats of paint. How many gallons and/or quarts of paint should you buy to paint the room as cheaply as possible?</p></blockquote></li>
+<li id="li-111"><blockquote class="blockquote" id="blockquote-102"><p id="p-418">A restaurant in New York tiled their floor with pennies<a data-knowl="" class="id-ref fn-knowl" data-refid="hk-fn-18" id="fn-18"><sup> 18 </sup></a>. Just for the materials, is this more expensive than using a more traditional material like ceramic tiles? If each penny has to be laid by hand, estimate how long it would take to lay the pennies for a 12ft by 10ft room. Considering material and labor costs, are pennies a cost-effective replacement for ceramic tiles?</p></blockquote></li>
+<li id="li-112"><blockquote class="blockquote" id="blockquote-103"><p id="p-420">You are considering taking up part of your back yard and turning it into a vegetable garden, to grow broccoli, tomatoes, and zucchini. Will doing so save you money, or cost you more than buying vegetables from the store?</p></blockquote></li>
+<li id="li-113"><blockquote class="blockquote" id="blockquote-104"><p id="p-421">Barry is trying to decide whether to keep his 1993 Honda Civic with 140,000 miles, or trade it in for a used 2008 Honda Civic. Consider gas, maintenance, and insurance costs in helping him make a decision.</p></blockquote></li>
+<li id="li-114"><blockquote class="blockquote" id="blockquote-105"><p id="p-422">Some people claim it costs more to eat vegetarian, while some claim it costs less. Examine your own grocery habits, and compare your current costs to the costs of switching your diet (from omnivore to vegetarian or vice versa as appropriate). Which diet is more cost effective based on your eating habits?</p></blockquote></li>
+</ol>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-18"><div class="fn"><p id="p-419">http://www.notcot.com/archives/2009/06/floor-of-pennie.php</p></div></div>
+<p id="p-423"><dfn class="terminology">Info for the breadcrumbs question</dfn></p>
+<p id="p-424">How much breadcrumbs does the recipe call for?</p>
+<p id="p-425">It calls for 1½ cups of breadcrumbs.</p>
+<p id="p-426">How many meatloafs does the recipe make?</p>
+<p id="p-427">It makes 1 meatloaf.</p>
+<p id="p-428">How many servings does that recipe make?</p>
+<p id="p-429">It says it serves 8.</p>
+<p id="p-430">How big is the canister?</p>
+<p id="p-431">It is cylindrical, 3.5 inches across and</p>
+<p id="p-432">7 inches tall.</p>
+<p id="p-433">What is the net weight of the contents of 1 canister?</p>
+<p id="p-434">15 ounces.</p>
+<p id="p-435">How much does a cup of breadcrumbs weigh?</p>
+<blockquote class="blockquote" id="blockquote-106"><p id="p-436">I’m not sure, but maybe something from the nutritional label will help.</p></blockquote>
+<p id="p-437">How much does a canister cost? $2.39</p>
+<p id="p-438"><dfn class="terminology">Info for bottle cap car</dfn></p>
+<p id="p-439">What kind of car is that?</p>
+<p id="p-440">A 1993 Honda Accord.</p>
+<p id="p-441">How big is that car / what are the dimensions? Here is some details from MSN autos:</p>
+<p id="p-442">Weight: 2800lb Length: 185.2 in Width: 67.1 in Height: 55.2 in</p>
+<p id="p-443">How much of the car was covered with caps?</p>
+<p id="p-444">Everything but the windows and the underside.</p>
+<p id="p-445">How big is a bottle cap?</p>
+<p id="p-446">Caps are 1 inch in diameter.</p>
+<p id="p-447"><dfn class="terminology">Info for chicken problem</dfn></p>
+<p id="p-448">How much chicken will you be buying?</p>
+<p id="p-449">Four pounds</p>
+<p id="p-450">How far are the two stores?</p>
+<blockquote class="blockquote" id="blockquote-107"><p id="p-451">My neighborhood store is 2.2 miles away, and takes about 7 minutes. The store across town is 8.9 miles away, and takes about 25 minutes.</p></blockquote>
+<p id="p-452">What kind of mileage does your car get?</p>
+<p id="p-453">It averages about 24 miles per gallon in the city.</p>
+<p id="p-454">How many gallons does your car hold?</p>
+<p id="p-455">About 14 gallons</p>
+<p id="p-456">How much is gas?</p>
+<p id="p-457">About $3.69/gallon right now.</p>
+<p id="p-458"><dfn class="terminology">Info for furnace problem</dfn></p>
+<p id="p-459">How efficient is the current furnace?</p>
+<p id="p-460">It is a 60% efficient furnace.</p>
+<p id="p-461">How efficient is the new furnace?</p>
+<p id="p-462">It is 94% efficient.</p>
+<p id="p-463">What is your gas bill?</p>
+<p id="p-464">Here is the history for 2 years:</p>
+<figure class="figure figure-like" id="figure-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="media/image76.png" style="width: 100%; height: auto;" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure><p id="p-465">How much do you pay for gas?</p>
+<blockquote class="blockquote" id="blockquote-108"><p id="p-466">There is $10.34 base charge, plus $0.39097 per Therm for a delivery charge, and $0.65195 per Therm for cost of gas.</p></blockquote>
+<p id="p-467">How much gas do you use?</p>
+<p id="p-468">Here is the history for 2 years:</p>
+<figure class="figure figure-like" id="figure-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="media/image77.png" style="width: 100%; height: auto;" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.4<span class="period">.</span></span><span class="space"> </span></figcaption></figure><p id="p-469">How much does the new furnace cost?</p>
+<p id="p-470">It will cost $7,450.</p>
+<p id="p-471">How long do you plan to live in the house?</p>
+<p id="p-472">Probably at least 15 years.</p>
+<p id="p-473"><dfn class="terminology">Info for water filter problem</dfn></p>
+<p id="p-474">How much water does Janine drink in a day?</p>
+<p id="p-475">She normally drinks 3 bottles a day, each 16.9 ounces.</p>
+<p id="p-476">How much does a bottle of water cost?</p>
+<p id="p-477">She buys 24-packs of 16.9 ounce bottles for $3.99.</p>
+<p id="p-478">How much does a reusable water bottle cost?</p>
+<p id="p-479">About $10.</p>
+<p id="p-480">How long does a reusable water bottle last?</p>
+<p id="p-481">Basically forever (or until you lose it).</p>
+<p id="p-482">How much does a water filter cost? How much water will they filter?</p>
+<ul id="p-483" class="disc">
+<li id="li-115"><p id="p-484">A faucet-mounted filter costs about $28. Refill filters cost about $33 for a 3-pack. The box says each filter will filter up to 100 gallons (378 liters)</p></li>
+<li id="li-116"><p id="p-485">A water filter pitcher costs about $22. Refill filters cost about $20 for a 4-pack. The box says each filter lasts for 40 gallons or 2 months</p></li>
+<li id="li-117"><p id="p-486">An under-sink filter costs $130. Refill filters cost about $60 each. The filter lasts for 500 gallons.</p></li>
+</ul>
+<p id="p-487"><dfn class="terminology">Info for car-free problem</dfn></p>
+<p id="p-488">Where does Marcus currently drive? He:</p>
+<ul id="p-489" class="disc">
+<li id="li-118"><p id="p-490">Drives to work 5 days a week, located 4 miles from his house.</p></li>
+<li id="li-119"><p id="p-491">Drives to the store twice a week, located 7 miles from his house.</p></li>
+<li id="li-120"><p id="p-492">Drives to other locations on average 5 days a week, with locations ranging from 1 mile to 20 miles.</p></li>
+<li id="li-121"><p id="p-493">Drives to his parent’s house 80 miles away once a month.</p></li>
+</ul>
+<p id="p-494">How will he get to these locations without a car?</p>
+<ul id="p-495" class="disc">
+<li id="li-122"><p id="p-496">For work, he can walk when it’s sunny and he gets up early enough. Otherwise he can take a bus, which takes about 20 minutes</p></li>
+<li id="li-123"><p id="p-497">For the store, he can take a bus, which takes about 35 minutes.</p></li>
+<li id="li-124"><p id="p-498">Some of the other locations he can bus to. Sometimes he’ll be able to get a friend to pick him up. A few locations he is able to walk to. A couple locations are hard to get to by bus, but there is a ZipCar (short term car rental) location within a few blocks.</p></li>
+<li id="li-125"><p id="p-499">He’ll need to get a ZipCar to visit his parents.</p></li>
+</ul>
+<p id="p-500">How much does gas cost?</p>
+<p id="p-501">About $3.69/gallon.</p>
+<p id="p-502">How much does he pay for insurance and maintenance?</p>
+<ul id="p-503" class="disc">
+<li id="li-126"><p id="p-504">He pays $95/month for insurance.</p></li>
+<li id="li-127"><p id="p-505">He pays $30 every 3 months for an oil change, and has averaged about $300/year for other maintenance costs.</p></li>
+</ul>
+<p id="p-506">How much is he paying for the car?</p>
+<ul id="p-507" class="disc">
+<li id="li-128"><p id="p-508">He’s paying $220/month on his car loan right now, and has 3 years left on the loan.</p></li>
+<li id="li-129"><p id="p-509">If he sold the car, he’d be able to make enough to pay off the loan.</p></li>
+<li id="li-130"><p id="p-510">If he keeps the car, he’s planning on trading the car in for a newer model in a couple years.</p></li>
+</ul>
+<p id="p-511">What mileage does his car get?</p>
+<p id="p-512">About 26 miles per gallon on average.</p>
+<p id="p-513">How much does a bus ride cost?</p>
+<p id="p-514">$2.50 per trip, or $90 for an unlimited monthly pass.</p>
+<p id="p-515">How much does a ZipCar rental cost?</p>
+<ul id="p-516" class="disc">
+<li id="li-131"><p id="p-517">The “occasional driving plan”: $25 application fee and $60 annual fee, with no monthly commitment. Monday-Thursday the cost is $8/hour, or $72 per day. Friday-Sunday the cost is $8/hour or $78/day. Gas, insurance, and 180 miles are included in the cost. Additional miles are $0.45/mile.</p></li>
+<li id="li-132"><p id="p-518">The “extra value plan”: Same as above, but with a $50 monthly commitment, getting you a 10% discount on the usage costs.</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

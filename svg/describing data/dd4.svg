@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="138.46mm" height="53.294mm" version="1.1" viewBox="0 0 138.45587 53.293977" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath1-00">
+   <path d="m0 0h559.41v244.78h-559.41z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-674">
+   <path d="m71.924 22.979h475.5v152.86h-475.5z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath5-704">
+   <path d="m225.76 203.81h166.82v25.976h-166.82z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath6-035">
+   <path d="m14.984 59.945h25.972v80.926h-25.972z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-542.1 -104.23)">
+  <text x="536.3811" y="102.51815" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:4.85758453px" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458" style="line-height:4.85758453px"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458" style="line-height:4.85758453px"/></tspan></text>
+  <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m72.923 25.976h471.5v148.86h-471.5z" clip-path="url(#clipEmfPath1-00)" fill="none"/>
+  <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m72.923 25.976h471.5v148.86h-471.5v-148.86" clip-path="url(#clipEmfPath1-00)" fill="none" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99902px"/>
+  <g fill="#99f" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99902px">
+   <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m107.89 26.975h46.95v147.87h-46.95z" clip-path="url(#clipEmfPath4-674)"/>
+   <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m225.76 43.96h46.95v130.88h-46.95z" clip-path="url(#clipEmfPath4-674)"/>
+   <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m343.64 61.944h46.95v112.9h-46.95z" clip-path="url(#clipEmfPath4-674)"/>
+   <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m461.51 86.921h46.95v87.92h-46.95z" clip-path="url(#clipEmfPath4-674)"/>
+  </g>
+  <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m72.923 25.976v148.86" clip-path="url(#clipEmfPath1-00)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99902px"/>
+  <path transform="matrix(.26458 0 0 .26458 536.38 98.88)" d="m68.927 174.84h3.9958m-3.9958-24.977h3.9958m-3.9958-24.977h3.9958m-3.9958-23.978h3.9958m-3.9958-24.977h3.9958m-3.9958-24.977h3.9958m-3.9958-24.977h3.9958m0 148.86h471.5m-471.5 3.9964v-3.9964m117.88 3.9964v-3.9964m117.88 3.9964v-3.9964m117.88 3.9964v-3.9964m117.88 3.9964v-3.9964" clip-path="url(#clipEmfPath1-00)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99902px"/>
+  <g transform="matrix(.26458 0 0 .26458 536.38 98.88)" clip-path="url(#clipEmfPath1-00)" fill="#000000" font-family="Arial" font-size="12px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="">
+   <text transform="translate(55.941 166.85)" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">0</tspan></tspan></text>
+   <text transform="translate(55.941 166.85)" x="-13.985189" y="-14.114002" style="line-height:125%" xml:space="preserve"><tspan x="-13.985189" y="-14.114002"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">100</tspan></tspan></text>
+   <text transform="translate(55.941 166.85)" x="-13.985189" y="-39.091286" style="line-height:125%" xml:space="preserve"><tspan x="-13.985189" y="-39.091286"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">200</tspan></tspan></text>
+   <text transform="translate(55.941 166.85)" x="-13.985189" y="-63.069477" style="line-height:125%" xml:space="preserve"><tspan x="-13.985189" y="-63.069477"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">300</tspan></tspan></text>
+   <text transform="translate(55.941 166.85)" x="-13.985189" y="-88.046761" style="line-height:125%" xml:space="preserve"><tspan x="-13.985189" y="-88.046761"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">400</tspan></tspan></text>
+   <text transform="translate(55.941 166.85)" x="-13.985189" y="-113.02404" style="line-height:125%" xml:space="preserve"><tspan x="-13.985189" y="-113.02404"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">500</tspan></tspan></text>
+   <text transform="translate(55.941 166.85)" x="-13.985189" y="-138.00133" style="line-height:125%" xml:space="preserve"><tspan x="-13.985189" y="-138.00133"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">600</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 536.38 98.88)" clip-path="url(#clipEmfPath1-00)" fill="#000000" font-family="Arial" font-size="12px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="">
+   <text transform="translate(88.906 185.83)" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="0" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">Water Pollution</tspan></tspan></text>
+   <text transform="translate(88.906 185.83)" x="125.8667" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="125.8667" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">Toxic Waste</tspan></tspan></text>
+   <text transform="translate(88.906 185.83)" x="244.7408" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="244.7408" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">Air Pollution</tspan></tspan></text>
+   <text transform="translate(88.906 185.83)" x="351.62759" y="10.863281" style="line-height:125%" xml:space="preserve"><tspan x="351.62759" y="10.863281"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="12px" font-weight="700">Global Warming</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 536.38 98.88)" clip-path="url(#clipEmfPath5-704)" style="">
+   <text transform="translate(228.76 208.81)" y="12.673828" fill="#000000" font-family="Arial" font-size="14px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="12.673828"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="14px" font-weight="700">Environmental Worries</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 536.38 98.88)" clip-path="url(#clipEmfPath6-035)" style="">
+   <text transform="rotate(-90 78.427 59.447)" y="12.673828" fill="#000000" font-family="Arial" font-size="14px" font-weight="700" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="12.673828"><tspan dx="0" dy="0" fill="#000000" font-family="Arial" font-size="14px" font-weight="700">Frequency</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

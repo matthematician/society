@@ -9,7 +9,9 @@
 
         <xi:include href="./frontmatter.xml" />
 
-        <xi:include href="./ch-problemsolving.xml" /> <!-- Problem Solving -->
+        <part xml:id="pt_prob">
+                <xi:include href="./ch-problemsolving.xml" /> <!-- Problem Solving -->
+        </part>
 
         <part xml:id="pt_civics">
             <title>Civic Mathematics</title>

@@ -16,3 +16,7 @@ TODO:
 [X] Set up GitHub Pages for web prototyping
 
   [ ] .gitignore this when we're done and hosted
+
+WORKING:
+
+[ ] Problem Solving: conversion from DOC is good so far BUT much sectioning work needed.

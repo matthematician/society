@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="145.89mm" height="32.003mm" version="1.1" viewBox="0 0 145.88522 32.002973" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="clipEmfPath2-70">
+   <path d="m29.737 83.776h106.64v35.173h-106.64z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-34">
+   <path d="m225.27 91.45h106.48v24.781h-106.48z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-903">
+   <path d="m414.88 88.092h106.64v36.932h-106.64z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-859.18 -144.27)">
+  <text x="1011.7401" y="178.49649" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <path d="m960.09 163.12 1.2373-7.4767 3.437-4.5103 6.3769-3.1197 2.6438-3.5797 6.2235 3.437 5.1448 5.6049 9.6605 2.9452 10.115 6.858z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m960.09 163.12 1.2373-7.4767 3.437-4.5103 6.3769-3.1197 2.6438-3.5797 6.2235 3.437 5.1448 5.6049 9.6605 2.9452 10.115 6.858z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <g transform="matrix(.26458 0 0 .26458 859.08 144.15)" clip-path="url(#clipEmfPath2-70)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px">
+   <text transform="translate(46.524 98.325)" x="38.47266" text-align="center" text-anchor="middle" style="line-height:114.91185427%" xml:space="preserve"><tspan x="40.47266" y="0"><tspan dx="0" dy="0">S</tspan><tspan dx="0" dy="0">tep 1 with </tspan></tspan><tspan x="38.47266" y="18.385897"><tspan dx="0" dy="0">randomness</tspan><tspan dx="0" dy="0"/></tspan></text>
+   <text transform="translate(46.524 98.325)" x="-7.1944809" y="36.771793" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 859.08 144.15)" clip-path="url(#clipEmfPath3-34)">
+   <text transform="translate(258.2 106.48)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">Step 2</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 859.08 144.15)" clip-path="url(#clipEmfPath4-903)">
+   <text transform="translate(431.67 102.64)" x="38.47266" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:115.91109037%" xml:space="preserve"><tspan x="40.47266" y="0"><tspan dx="0" dy="0">S</tspan><tspan dx="0" dy="0">tep 2 with </tspan></tspan><tspan x="38.47266" y="18.545774"><tspan dx="0" dy="0">randomnes</tspan><tspan dx="0" dy="0">s</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <path d="m863.89 151.03 20.339 2.0622-7.474 9.8164z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m863.89 151.03 20.339 2.0622-7.474 9.8164z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m859.31 163.14 4.7959-12.109 8.9176-6.628 11.897 9.1476 18.983 9.5891-25.611-0.23001z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m914.62 151.38 20.341 2.0622-7.474 9.8164z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m914.62 151.38 20.341 2.0622-7.474 9.8164z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m909.83 163.35 4.7906-12.109 8.9202-6.6254 11.897 9.1476 18.983 9.5864-25.608-0.22736z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m919.75 147.55 4.8302 4.8302 3.8943-4.053z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m919.75 147.55 4.8302 4.8302 3.8943-4.053z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m912.13 157.51 8.4073-0.45738-2.501 6.0622z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m912.13 157.51 8.4073-0.45738-2.501 6.0622z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m931.27 158.45 12.463-0.45474-4.0556 5.2876z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m931.27 158.45 12.463-0.45474-4.0556 5.2876z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m961.33 155.64 8.1059 2.0304-2.501 5.4462z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m961.33 155.64 8.1059 2.0304-2.501 5.4462z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m971.14 148.05 8.7246-0.17978-4.9862 5.4462z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m971.14 148.05 8.7246-0.17978-4.9862 5.4462z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m994.81 156.42-11.067 1.8665 8.1588 4.8329z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m994.81 156.42-11.067 1.8665 8.1588 4.8329z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m964.76 151.13 4.669 6.5408 8.4073 5.4462 6.0649-4.8329 1.2479-4.8117-10.274 0.14276z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m964.76 151.13 4.669 6.5408 8.4073 5.4462 6.0649-4.8329 1.2479-4.8117-10.274 0.14276z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+ </g>
+</svg>

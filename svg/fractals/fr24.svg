@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="52.583mm" height="17.519mm" version="1.1" viewBox="0 0 52.583103 17.519408" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="clipEmfPath2-99">
+   <path d="m-27.499 50.201h106.48v24.781h-106.48z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-06">
+   <path d="m115.11 48.443h106.64v24.781h-106.64z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-987.46 -178.76)">
+  <text x="1046.3483" y="199.7209" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:5.29166639px" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458" style="line-height:5.29166639px"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458" style="line-height:5.29166639px"/></tspan></text>
+  <path d="m987.52 188.49 19.088-8.8832" fill="none" stroke="#000" stroke-linejoin="round" stroke-width=".26438px"/>
+  <g transform="matrix(.26458 0 0 .26458 987.25 178.57)" clip-path="url(#clipEmfPath2-99)" style="">
+   <text transform="translate(.31976 65.23)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">initiator</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 987.25 178.57)" clip-path="url(#clipEmfPath3-06)" style="">
+   <text transform="translate(138.13 63.471)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">generator</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g fill="none" stroke="#000" stroke-linejoin="round" stroke-width=".26438px">
+   <path d="m1020.9 189.76 19.088-8.8832"/>
+   <path d="m1025.8 187.7 1.8851-8.899"/>
+   <path d="m1029.3 185.81 7.2969 1.6048"/>
+   <path d="m1034.7 183.12 1.3589-4.3173"/>
+  </g>
+ </g>
+</svg>

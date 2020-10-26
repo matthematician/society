@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="190.8" height="81.248" version="1.1" viewBox="0 0 190.80245 81.247927" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <clipPath id="clipEmfPath1-53">
+   <path d="m0.15988 0h14.069v19.985h-14.069z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath2-19">
+   <path d="m57.076 0h14.069v19.985h-14.069z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-156">
+   <path d="m116.07 0.95926h14.069v19.985h-14.069z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath4-67">
+   <path d="m174.11 0.95926h13.909v19.985h-13.909z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath5-38">
+   <path d="m0.15988 31.336h14.069v19.985h-14.069z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath6-9">
+   <path d="m56.117 30.377h14.069v19.985h-14.069z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath7-44">
+   <path d="m107.12 30.696h13.909v19.985h-13.909z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath8-20">
+   <path d="m168.99 32.775h14.069v19.985h-14.069z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath9-23">
+   <path d="m2.2383 63.152h13.909v19.985h-13.909z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath10-6">
+   <path d="m56.117 59.315h14.069v19.985h-14.069z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath11-84">
+   <path d="m115.11 60.274h13.909v19.985h-13.909z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath12-74">
+   <path d="m168.03 61.393h14.069v19.985h-14.069z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(3.7795 0 0 3.7795 1473.8 -1226.5)">
+  <text x="-390.06201" y="327.07513" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458"><tspan dx="0" dy="0" fill="#000000" font-family="Calibri" font-size="3.8861px" font-weight="400" stroke-width=".26458"/></tspan></text>
+  <g fill="none" stroke-linejoin="round">
+   <path d="m-386.33 329.15h15.07" stroke="#f00" stroke-width=".79314px"/>
+   <path d="m-370.99 329.15h15.07" stroke="#000" stroke-width=".26438px"/>
+   <path d="m-386.33 329.15v7.9314" stroke="#f00" stroke-width=".79314px"/>
+   <path d="m-371.26 329.15v7.9314" stroke="#f00" stroke-width=".79314px"/>
+  </g>
+  <path d="m-386.07 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-386.07 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-371.27 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <g fill="none" stroke-linejoin="round">
+   <path d="m-371.27 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611" stroke="#000" stroke-linecap="round" stroke-width=".26438px"/>
+   <g>
+    <path d="m-386.33 336.81h15.07" stroke="#000" stroke-width=".26438px"/>
+    <path d="m-370.99 336.81h15.07" stroke="#f00" stroke-width=".79314px"/>
+    <path d="m-386.33 336.81v7.9314" stroke="#f00" stroke-width=".79314px"/>
+    <path d="m-371.26 336.81v7.9314" stroke="#000" stroke-width=".26438px"/>
+   </g>
+  </g>
+  <path d="m-386.07 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-386.07 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-371.27 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <g fill="none" stroke-linejoin="round">
+   <path d="m-371.27 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611" stroke="#000" stroke-linecap="round" stroke-width=".26438px"/>
+   <path d="m-386.33 344.48h15.07" stroke="#f00" stroke-width=".79314px"/>
+   <path d="m-370.99 344.48h15.07" stroke="#f00" stroke-width=".79314px"/>
+  </g>
+  <path d="m-386.07 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-386.07 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-371.27 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <g fill="none" stroke-linejoin="round">
+   <path d="m-371.27 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56577-1.2611-1.2611-1.2611" stroke="#000" stroke-linecap="round" stroke-width=".26438px"/>
+   <path d="m-355.93 329.15h15.07" stroke="#f00" stroke-width=".79314px"/>
+   <path d="m-341.12 329.15v7.9314" stroke="#f00" stroke-width=".79314px"/>
+  </g>
+  <path d="m-340.86 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <g fill="none" stroke-linejoin="round">
+   <path d="m-340.86 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611" stroke="#000" stroke-linecap="round" stroke-width=".26438px"/>
+   <path d="m-355.93 336.81h15.07" stroke="#000" stroke-width=".26438px"/>
+   <path d="m-341.12 336.81v7.9314" stroke="#f00" stroke-width=".79314px"/>
+  </g>
+  <path d="m-340.86 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-340.86 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-355.93 344.48h15.07" fill="none" stroke="#f00" stroke-linejoin="round" stroke-width=".79314px"/>
+  <path d="m-340.86 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-340.86 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-356.19 329.15v7.9314" fill="none" stroke="#f00" stroke-linejoin="round" stroke-width=".79314px"/>
+  <path d="m-355.93 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-355.93 328.03c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-356.19 336.81v7.9314" fill="none" stroke="#000" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-355.93 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-355.93 335.7c-0.69532 0-1.2611 0.56578-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <path d="m-355.93 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m-355.93 343.37c-0.69532 0-1.2611 0.56577-1.2611 1.2611s0.56578 1.2584 1.2611 1.2584 1.2611-0.56313 1.2611-1.2584-0.56578-1.2611-1.2611-1.2611" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26438px"/>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath1-53)">
+   <text transform="translate(.15988 13.749)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">A</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath2-19)">
+   <text transform="translate(57.076 13.749)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">B</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath3-156)">
+   <text transform="translate(116.07 14.709)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">C</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath4-67)">
+   <text transform="translate(174.11 14.709)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">D</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath5-38)">
+   <text transform="translate(.15988 45.085)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">E</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath6-9)">
+   <text transform="translate(56.117 44.126)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">F</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath7-44)">
+   <text transform="translate(107.12 44.446)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">G</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath8-20)">
+   <text transform="translate(168.99 46.524)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">H</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath9-23)">
+   <text transform="translate(2.2383 76.901)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">J</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath10-6)">
+   <text transform="translate(56.117 73.064)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">K</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath11-84)">
+   <text transform="translate(115.11 74.023)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">L</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 -390.06 323.35)" clip-path="url(#clipEmfPath12-74)">
+   <text transform="translate(168.03 75.142)" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="Calibri" font-size="14.688px" font-weight="400"><tspan dx="0" dy="0">M</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+ </g>
+</svg>

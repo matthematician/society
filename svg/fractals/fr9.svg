@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="54.553mm" height="33.689mm" version="1.1" viewBox="0 0 54.553355 33.688645" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="clipEmfPath2-057">
+   <path d="m-29.737 109.84h106.64v24.781h-106.64z"/>
+  </clipPath>
+  <clipPath id="clipEmfPath3-60">
+   <path d="m113.03 108.08h106.48v24.781h-106.48z"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-839 -143.42)">
+  <text x="912.06677" y="180.05699" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:5.29166639px" xml:space="preserve"><tspan x="0" y="0" stroke-width=".26458" style="line-height:5.29166639px"><tspan dx="0" dy="0" fill="#000000" font-family="'Times New Roman'" font-size="4.2333px" font-weight="400" stroke-width=".26458" style="line-height:5.29166639px"/></tspan></text>
+  <g transform="matrix(.26458 0 0 .26458 838.84 143.17)" clip-path="url(#clipEmfPath2-057)" style="">
+   <text transform="translate(3.3574 124.86)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">Step 1</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g transform="matrix(.26458 0 0 .26458 838.84 143.17)" clip-path="url(#clipEmfPath3-60)" style="">
+   <text transform="translate(146.13 123.11)" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="0" y="0" fill="#000000" font-family="'Times New Roman'" font-size="16px" font-weight="400"><tspan dx="0" dy="0">Step 2</tspan><tspan dx="0" dy="0"/></tspan></text>
+  </g>
+  <g fill="none" stroke="#000" stroke-linejoin="round" stroke-width=".26438px">
+   <path d="m844.87 157.73 0.0185 13.446"/>
+   <path d="m844.97 157.83 5.129-8.3386"/>
+   <path d="m844.78 157.83-5.6762-8.3386"/>
+   <path d="m882.23 158.36 0.0185 13.446"/>
+   <path d="m876.6 150.36 5.3484 7.9367"/>
+   <path d="m876.69 150.38-0.28289-6.9506"/>
+   <path d="m876.58 150.45-6.6571-2.657"/>
+   <path d="m887.22 150.6-5.0946 8.1006"/>
+   <path d="m887.25 150.69 6.2421-3.0695"/>
+   <path d="m887.13 150.63-0.2617-7.1621"/>
+  </g>
+ </g>
+</svg>
