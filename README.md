@@ -12,4 +12,5 @@ TODO:
 [X] Download copies of DOC files to this repo
 
 [X] Set up GitHub Pages for web prototyping
+
   [ ] .gitignore this when we're done and hosted
