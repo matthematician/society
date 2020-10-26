@@ -12,6 +12,13 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Merge the gh-pages branch to update prototype site.",
+            "type": "shell",
+            "command": "git subtree push --prefix output/html origin gh-pages",
+            "problemMatcher": [],
+            "group": "build"
         }
     ]
 }
