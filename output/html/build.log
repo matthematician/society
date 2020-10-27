@@ -1,0 +1,9 @@
+Messages from application of C:\Users\msalo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pretext\static\xsl\pretext-html.xsl:
+MBX:WARNING:    The @xml:id "project-1-flat-tax-modified-flat-tax-and-progressive-tax." is invalid.  Use only letters, numbers, hyphens and underscores.
+MBX:WARNING:    The @xml:id "project-2-calculating-taxes." is invalid.  Use only letters, numbers, hyphens and underscores.
+MBX:DEPRECATE: (2019-06-28) the "table" element needs a "title", not a "caption".  An existing "caption" will be used instead.  Both will display below the "tabular" (4 times)
+             located within: "exercises" (xml:id), "Exercises" (title)
+             located within: "project-1-flat-tax-modified-flat-tax-and-progressive-tax." (xml:id), "Project 1: Flat tax, Modified Flat Tax, and Progressive Tax." (title)
+             located within: "project-1-flat-tax-modified-flat-tax-and-progressive-tax." (xml:id), "Project 1: Flat tax, Modified Flat Tax, and Progressive Tax." (title)
+             located within: "project-1-flat-tax-modified-flat-tax-and-progressive-tax." (xml:id), "Project 1: Flat tax, Modified Flat Tax, and Progressive Tax." (title)
+--------------

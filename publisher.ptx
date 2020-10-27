@@ -4,6 +4,9 @@
     <!-- HTML-Specific Options -->
     <html>
         <css style="default" colors="blue_red"/>
+        <style type="text/css">
+            .pretext-content article.example-like { bg-color: #ffe; }
+        </style>
     </html>
 
 </publication>

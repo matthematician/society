@@ -6,7 +6,7 @@
         {
             "label": "CLI process the main.ptx file.",
             "type": "shell",
-            "command": "pretext build",
+            "command": "pretext build html",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
@@ -14,9 +14,9 @@
             }
         },
         {
-            "label": "Merge the gh-pages branch to update prototype site.",
+            "label": "XSLT process with stringparams",
             "type": "shell",
-            "command": "git push -f origin gh-pages:gh-pages",
+            "command": "xsltproc -stringparam html.knowl.example no --xinclude -o output/html/ ../mathbook/xsl/mathbook-html.xsl source/main.ptx",
             "problemMatcher": [],
             "group": "build"
         }
