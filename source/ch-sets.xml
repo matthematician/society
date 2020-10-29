@@ -1,3 +1,583 @@
-<chapter xml:id="ch_sets">
-    <title>Sets</title>
+<chapter xml:id="sets">
+		<title>Sets</title>
+
+        <introduction>
+		    <p>
+			It is natural for us to classify items into groups, or sets, and consider how those sets overlap with each other. We can use these sets understand relationships between groups, and to analyze survey data.
+		    </p>
+        </introduction>
+
+        <section xml:id="sec_setbasics">
+			<title>Basics</title>
+
+            <p>
+                <video youtube="5xthPHH4i_A"/>
+            </p>
+
+			<p>
+				An art collector might own a collection of paintings, while a music lover might keep a collection of CDs. Any collection of items can form a <term>set</term>.
+			</p>
+
+			<definition xml:id="def_set">
+                <title>Set</title>
+			    <p>
+				    A <term>set</term> is a collection of distinct objects, called <term>elements</term> of the set.
+			    </p>
+            </definition>
+
+			<p>
+				A set can be defined by describing the contents, or by listing the elements of the set, enclosed in curly brackets.
+			</p>
+
+			<remark xml:id="ex_sets1">
+			<p>
+				Some examples of sets defined by describing the contents:
+			</p>
+
+			<p>
+				a) The set of all even numbers
+			</p>
+
+			<p>
+				b) The set of all books written about travel to Chile
+			</p>
+
+			<p>
+				Some examples of sets defined by listing the elements of the set:
+			</p>
+
+			<p>
+				a) {1, 3, 9, 12}
+			</p>
+
+			<p>
+				b) {red, orange, yellow, green, blue, indigo, purple}
+			</p>
+            </remark>
+
+			<p>
+				A set simply specifies the contents; order is not important. The set represented by {1, 2, 3} is equivalent to the set {3, 1, 2}.
+			</p>
+
+            <definition xml:id="def_setnotation"><title>Notation for Sets</title>
+                <p>
+                    Commonly, we will use a variable to represent a set, to make it easier to refer to that set later.
+                </p>
+
+                <p>
+                    The symbol <m>\in</m> means <q>is an element of</q>.
+                </p>
+
+                <p>
+                    A set that contains no elements, <m>\{\; \}</m>, is called the <term>empty set</term> and is notated <m>\emptyset</m>.
+                </p>
+            </definition>
+
+            <remark xml:id="ex_setnotation">
+                <p>
+                    Let <m>A = \{1, 2, 3, 4\}.</m>
+                </p>
+
+                <p>
+                    To notate that 2 is element of the set, we’d write <m>2\in A</m>.
+                </p>
+            </remark>
+
+			<p>
+				Sometimes a collection might not contain all the elements of a set. For example, Chris owns three Madonna albums. While Chris’s collection is a set, we can also say it is a <q>subset</q> of the larger set of all Madonna albums.
+			</p>
+
+			
+            <definition xml:id="def_subset"><title>Subset</title>
+                <p>
+                    A <term>subset</term> of a set <m>A</m> is another set that contains only elements from the set <m>A</m>, but may not contain all the elements of <m>A</m>.
+                </p>
+
+                <p>
+                    If <m>B</m> is a subset of <m>A</m>, we write <m>B\subseteq  A</m>.
+                </p>
+            </definition>
+
+            <definition xml:id="def_propersubset"><title>Proper Subset</title>
+                <p>
+                    A <term>proper subset</term> is a subset that is not identical to the original set – it contains fewer elements.
+                </p>
+
+                <p>
+                    If <m>B</m> is a proper subset of <m>A</m>, we write <m>B\subset A</m>.
+                </p>
+            </definition>
+
+            <remark xml:id="ex_subsets">
+                <p>
+                    Consider these three sets:
+                </p>
+
+                <p>
+                    <md><mrow> A &amp;= \text{the set of all even numbers}</mrow><mrow>B &amp;= 
+                    \{2, 4, 6\}</mrow><mrow>C &amp;= \{2, 3, 4, 6\}</mrow></md>
+                </p>
+
+                <p>
+                    Here <m>B\subset A</m> since every element of <m>B</m> is also an even number, so is an element of <m>A</m>.
+                </p>
+
+                <p>
+                    More formally, we could say <m>B\subset A</m> since if <m>x\in B</m>, then <m>x\in A</m>.
+                </p>
+
+                <p>
+                    It is also true that <m>B\subset C</m>.
+                </p>
+
+                <p>
+                    <m>C</m> is not a subset of <m>A</m>, since <m>C</m> contains an element, <m>3</m>, that is not contained in <m>A</m>.
+                </p>
+            </remark>
+
+			<remark xml:id="ex_universalset">
+                <p>
+                    Suppose a set contains the plays <q>Much Ado About Nothing</q>, <q>MacBeth</q>, and <q>A Midsummer Night's Dream</q>. What is a larger set this might be a subset of?
+                </p>
+
+                <p>
+                    There are many possible answers here. One would be the set of plays by Shakespeare. This is also a subset of the set of all plays ever written. It is also a subset of all British literature.
+                </p>
+            </remark>
+
+		
+            <problem xml:id="tin_setbasics_1">
+			    <statement>
+                    <p>
+				        The set <m>A = \{1, 3, 5\}</m>. What is a larger set this might be a subset of?
+			        </p>
+                </statement>
+                <answer>
+                    <p>There are several answers: The set of all odd numbers less than <m>10</m>. The set of all odd numbers. The set of all integers. The set of all real numbers. </p>
+                </answer>
+            </problem>
+
+            <!-- Exercises -->
+
+            <exercises xml:id="exercises_setbasics">
+
+                <exercise>
+                    <statement>
+                        <p>
+                            List out the elements of the set <q>The letters of the word Mississipi</q>.
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            List out the elements of the set <q>Months of the year</q>.
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            Write a verbal description of the set <m>\{3, 6, 9\}</m>.
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            Write a verbal description of the set <m>\{a, i, e, o, u\}</m>.
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            Is <m>\{1, 3, 5\}</m> a subset of the set of odd integers?
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            Is <m>\{A, B, C\}</m> a subset of the set of letters of the alphabet?
+                        </p>
+                    </statement>
+                </exercise>
+
+                        <p>
+                            For problems 7-12, consider the sets below, and indicate if each statement is true or false.
+                        </p>                    
+
+                        <p>
+                            <md><mrow>A&amp; = \{1, 2, 3, 4, 5\} </mrow><mrow>B &amp;= \{1, 3, 5\}</mrow><mrow>C &amp;= \{4, 6\}</mrow><mrow> U &amp;= \{\text{numbers from 0 to 10}\}</mrow></md>
+                        </p>
+
+                <exercise>
+                    <statement>   
+                        <p>
+                            <m>3\in B</m>.
+                        </p>
+                    </statement>
+                </exercise>
+                
+                <exercise>
+                    <statement>   
+                        <p>
+                            <m>5\in C</m>.
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>   
+                        <p>
+                            <m>B\subset A</m>.
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>   
+                        <p>
+                            <m>C\subset A</m>.
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>   
+                        <p>
+                            <m>C\subset B</m>.
+                        </p>
+                    </statement>
+                </exercise>		
+
+                <exercise>
+                    <statement>   
+                        <p>
+                            <m>C\subset U</m>.
+                        </p>
+                    </statement>
+                </exercise>	                
+                
+            </exercises>
+        </section>
+
+        <!-- Section Two -->
+
+        <section xml:id="sec_setoperations">
+			<title>Union, Intersection, and Complement</title>
+
+            <p>
+                <video youtube="qTUWzBvI9bk"/>
+            </p>
+
+			<p>
+				Commonly sets interact. For example, you and a new roommate decide to have a house party, and you both invite your circle of friends. At this party, two sets are being combined, though it might turn out that there are some friends that were in both sets.
+			</p>
+
+            <definition xml:id="def_union"><title>Union</title>
+                <p>
+                    The <term>union</term> of two sets contains all the elements contained in either set (or both sets).
+                </p>
+
+                <p>
+                    The union is notated <m>A\cup B</m>.
+                </p>
+            
+			    <p>
+				    More formally, <m>x\in A\cup B</m> if <m>x\in A</m> or <m>x \in B</m> (or both).
+			    </p>
+            </definition>
+
+            <definition xml:id="def_intersection"><title>Intersection</title>
+                <p>
+                    The <term>intersection</term> of two sets contains only the elements that are in both sets.
+                </p>
+
+                <p>
+                    The intersection is notated <m>A\cap B</m>.
+                </p>
+
+                <p>
+                    More formally, <m>x\in A\cap B</m> if <m>x\in A</m> and <m>x\in B</m>.
+                </p>
+            </definition>
+
+            <definition xml:id="def_complement"><title>Complement</title>
+
+                <p>
+                    The <term>complement</term> of a set <m>A</m> contains everything that is <em>not</em> in the set <m>A</m>.
+                </p>
+
+                <p>
+                    The complement is notated <m>A^\prime</m> or <m>A^c</m>, or sometimes <m>\sim A</m>.
+                </p>
+            </definition>
+
+            <remark xml:id="ex_setoperations">
+                <p>
+                    Consider the sets: 
+                    <md><mrow>
+                        A &amp;= \{\text{red, green, blue}\}
+                        </mrow>
+                        <mrow>
+                        B &amp;= \{\text{red, yellow, orange}\}
+                        </mrow>
+                        <mrow>
+                        C&amp;= \{\text{red, orange, yellow, green, blue, purple}\}
+                        </mrow>
+                    </md>
+                </p>
+
+                <p>
+                    a) Find <m>A\cup B</m>.
+                </p>
+
+                <p>
+                    The union contains all the elements in either set: <me>A\cup B = \{\text{red, green, blue, yellow, orange}\}.</me>
+                </p>
+
+                <p>
+                    Notice we only list red once.
+                </p>
+
+                <p>
+                    b) Find <m>A\cap B</m>.
+                </p>
+
+                <p>
+                    The intersection contains all the elements in both sets: <me>A\cap B = \{\text{red}\}.</me>
+                </p>
+
+                <p>
+                    c) Find <m>A^c \cap C</m>.
+                </p>
+
+                <p>
+                    Here we’re looking for all the elements that are <em>not</em> in set <m>A</m> and are also in <m>C</m>.
+                    <me>A^c \cap C = \{\text{orange, yellow, purple}\}.</me>
+                </p>
+            </remark>
+
+	
+            <problem xml:id="tin_setoperations1">
+                <statement>
+                    <p>
+                        Using the sets from <xref ref="ex_setoperations"/>, find <m>A\cup C</m> and <m>B^c \cap A</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <md>
+                            <mrow>A\cup C &amp;= \{\text{red, orange, yellow, green, blue, purple}\}.</mrow>
+                            <mrow>B^c \cap A &amp;= \{\text{green, blue}\}.</mrow>
+                        </md>
+                    </p>
+                </answer>
+            </problem>
+
+			<p>
+				Notice that in the example above, it would be hard to just ask for <m>A^c</m>, since everything from the color fuchsia to puppies and peanut butter are included in the complement of the set. For this reason, complements are usually only used with intersections, or when we have a universal set in place.
+			</p>
+
+			
+            <definition xml:id="def_universalset"><title>Universal Set</title>
+                <p>
+                    A <term>universal set</term> is a set that contains all the elements we are interested in. This would have to be defined by the context.
+                </p>
+
+                <p>
+                    A complement is relative to the universal set, so <m>A^c</m> contains all the elements in the universal set that are not in <m>A</m>.
+                </p>
+            </definition>
+
+			
+            <remark xml:id="ex_universalset_1">
+                <p><ol>
+                    <li>
+                                <p>
+                    If we were discussing searching for books, the universal set might be all the books in the library.
+                </p>
+                    </li>
+
+                    <li>
+                                <p>
+                    If we were grouping your Facebook friends, the universal set would be all your Facebook friends.
+                </p>
+                    </li>
+
+                    <li>
+                                <p>
+                    If you were working with sets of numbers, the universal set might be all whole numbers, all integers, or all real numbers
+                </p>
+                    </li>
+
+                </ol></p>
+            </remark>  
+
+			<remark xml:id="ex_universalset_2">
+                <p>
+                    Suppose the universal set is <me> U = \text{all whole numbers from 1 to 9}.</me> If <m>A=\{1, 2, 4\}</m>, then <me> A^c = \{3, 5, 6, 7, 8, 9\}. </me>
+                </p>
+            </remark>
+
+			<p>
+				As we saw earlier with the expression <m>A^c\cap C</m>, set operations can be grouped together. Grouping symbols can be used like they are with arithmetic – to force an order of operations.
+			</p>
+
+			<remark xml:id="ex_setalgebra">
+                <p>
+                    Suppose 
+                        <md>
+                            <mrow>H&amp;=\{\text{cat, dog, rabbit, mouse}\}</mrow>
+                            <mrow> F&amp;= \{\text{dog, cow, duck, pig, rabbit}\}</mrow>
+                            <mrow>W &amp;= \{\text{duck, rabbit, deer, frog, mouse}\}.</mrow>
+                        </md>
+                </p>
+
+                <p>
+                    a) Find <m>(H\cap F) \cup W</m>.
+                </p>
+
+                <p>
+                    We start with the intersection: <m>H\cap F = \{\text{dog, rabbit}\}.</m>
+                </p>
+
+                <p>
+                    Now we union that result with <m>W</m>: <me>(H\cap F)\cup W = \{\text{dog, duck, rabbit, deer, frog, mouse}\}.</me>
+                </p>
+
+                <p>
+                    b) Find <m>H\cap (F\cup W)</m>.
+                </p>
+
+                <p>
+                    We start with the union: <m>F\cup W = \{\text{dog, cow, rabbit, duck, pig, deer, frog, mouse}\}</m>.
+                </p>
+
+                <p>
+                    Now we intersect that result with <m>H</m>: <me>H\cap (F\cup W) = \{\text{dog, rabbit, mouse}\}.</me>
+                </p>
+
+                <p>
+                    c) Find <m>(H\cap F)^c \cap W</m>.
+                </p>
+
+                <p>
+                    We start with the intersection: <m>H\cap F= \{\text{dog, rabbit}\}</m>.
+                </p>
+
+                <p>
+                    Now we want to find the elements of <m>W</m> that are <em>not</em> in <m>H\cap F</m>. <me>(H\cap F)^c \cap W = \{\text{duck, deer, frog, mouse}\}.</me>
+                </p>
+            </remark>
+
+            <exercises xml:id="exercises_setoperations">
+                <p>
+                    Using the sets <md><mrow>A&amp; = \{1, 2, 3, 4, 5\} </mrow><mrow>B &amp;= \{1, 3, 5\}</mrow><mrow>C &amp;= \{4, 6\}</mrow><mrow> U &amp;= \{\text{numbers from 0 to 10}\}</mrow></md>       
+                    and treating <m>U</m> as the universal set, find each of the following.
+                </p>
+
+                <exercise>
+                    <statement>
+                        <p><m>A\cup B</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p><m>A\cup C</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+                            <exercise>
+                    <statement>
+                        <p><m>A\cap C</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+                            <exercise>
+                    <statement>
+                        <p><m>B\cap C</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p><m>A^c</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise>
+                    <statement>
+                        <p><m>B^c</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+                <p>
+                    Let 
+                    <md>
+                        <mrow>D&amp;= \{ b, a, c, k\}</mrow>
+                        <mrow>E&amp;= \{t,a,s,k\}</mrow>
+                        <mrow>F&amp;= \{b,a,t,h\}.</mrow>
+                    </md>
+                    Using these sets, find the following:
+                </p>
+                <exercise>
+                    <statement>
+                        <p><m>D^c\cap E</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p><m>F^c\cap D</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p><m>(D\cap E)\cup F</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p><m>D\cap (E\cup F)</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p><m>(F\cap E)^c\cap D</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p><m>(D\cup E)^c \cap F</m>
+                        </p>
+                    </statement>
+                </exercise>
+            </exercises>
+		</section>
+
+
+
+
+
+
+
 </chapter>
