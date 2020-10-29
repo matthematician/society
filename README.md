@@ -19,4 +19,5 @@ TODO:
 
 WORKING:
 
-[ ] Problem Solving: conversion from DOC is good so far BUT much sectioning work needed.
+[ ] Problem Solving chapter in PTX, cleanup in progress
+[ ] Sets chapter in PTX. Sections done: 1. 2.
