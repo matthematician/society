@@ -22,3 +22,11 @@ WORKING:
 [ ] Problem Solving chapter in PTX, cleanup in progress
 
 [ ] Sets chapter in PTX. Sections done: 1. 2.
+
+FUTURE:
+
+[ ] Integrate Lippman's Objectives from his MyOpenMath course
+
+[ ] Integrate the "Solutions to Selected Exercises" inline with the exercises
+
+[ ] Check to see if these exist as WeBWoRK as well (possible integration)
