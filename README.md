@@ -19,9 +19,9 @@ TODO:
 
 WORKING:
 
-[ ] Problem Solving chapter in PTX, cleanup in progress
+[ ] Problem Solving chapter in PTX.
 
-[ ] Sets chapter in PTX. Sections done: 1. 2.
+[ ] Sets chapter in PTX. Sections done: 1. 2. 3.
 
 FUTURE:
 

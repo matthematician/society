@@ -10,6 +10,7 @@
         <xi:include href="./frontmatter.xml" />
 
         <part xml:id="pt_prob">
+                <title>Problem Solving</title>
                 <xi:include href="./ch-problemsolving.xml" /> <!-- Problem Solving -->
         </part>
 

@@ -579,6 +579,168 @@
 		</section>
 
 
+        <section xml:id="sec_venndiagrams">
+			<title>Venn Diagrams</title>
+
+            <p><video youtube="CPeeOUldZ6M"/></p>
+
+			<p>
+				To visualize the interaction of sets, John Venn in 1880 thought to use overlapping circles, building on a similar idea used by Leonhard Euler in the 18<sup>th</sup> century. These illustrations are now called Venn diagrams.
+			</p>
+
+			<definition xml:id="def_venn">
+                <p>
+                    A Venn diagram represents each set by a circle, usually drawn inside of a containing box representing the universal set. Overlapping areas indicate elements common to both sets.
+                </p>
+            </definition>
+
+			<p>
+				Basic Venn diagrams can illustrate the interaction of two or three sets.
+			</p>
+
+            <remark xml:id="ex_venn1">
+                <p>
+                    Create Venn diagrams to illustrate <m>A\cup B</m>, <m>A\cap B</m>, and <m>A^c \cap B</m>.
+                </p>
+
+                <figure xml:id="ex_venn1_1">
+                    <image source="images/sets/ex_venn1_1.png" width="50%"/>
+                    <caption><m>A\cup B</m> contains all elements in <em>either</em> set.</caption>
+                </figure>
+
+                <figure xml:id="ex_venn1_2">
+                    <image source="images/sets/ex_venn1_2.png" width="50%"/>
+                    <caption><m>A\cap B</m> contains only those elements in both sets – in the overlap of the circles.</caption>
+                </figure>
+
+                <figure xml:id="ex_venn1_3">
+                    <image source="images/sets/ex_venn1_3.png" width="50%"/>
+                    <caption><m>A^c</m> will contain all elements <em>not</em> in the set <m>A</m>. <m>A^c\cap B</m> will contain the elements in set <m>B</m> that are not in set <m>A</m>.</caption>
+                </figure>
+            </remark>
+
+			
+            <remark xml:id="ex_venn2">
+                <p>
+                    Use a Venn diagram to illustrate <m>(H\cap F)^c \cap W</m>.
+                </p>
+
+                <sidebyside>
+                    <p>
+                        We’ll start by identifying everything in the set <m>H\cap F</m>.
+                    </p>
+
+                    <image source="images/sets/ex_venn2_1.png" width="50%"/>
+                </sidebyside>
+
+                <sidebyside>
+                    <p>
+                        Now, <m>(H\cap F)^c \cap W</m> will contain everything <em>not</em> in the set identified above that is also in set <m>W</m>.
+                    </p>
+
+                    <image source="images/sets/ex_venn2_2.png" width="50%"/>
+                </sidebyside>
+            </remark>
+
+            <p><video youtube="VfC8rhLdYYg"/></p>
+
+			<remark xml:id="ex_venn3">
+                <sidebyside>
+                    <p>
+                        Create an expression to represent the outlined part of the Venn diagram shown.
+                    </p>
+                    <image source="images/sets/ex_venn3.png" width="50%"/>
+                </sidebyside>
+
+                <p>
+                    The elements in the outlined set <em>are</em> in sets <m>H</m> and <m>F</m>, but are not in set <m>W</m>. So we could represent this set as <me>H\cap F \cap W^c .</me>
+                </p>
+            </remark>
+
+			<problem xml:id="tin_venn1">
+                <statement>
+                <sidebyside>
+                    <p>
+                        Create an expression to represent the outlined portion of the Venn diagram shown.
+                    </p>
+                    <image source="images/sets/tin_venn1.png" width="50%"/>
+                </sidebyside>
+                </statement>
+                <answer>
+                    <p><m>A\cup B \cap C^c</m></p>
+                </answer>
+            </problem>
+
+            <exercises xml:id="exercises_venndiagrams">
+
+                <p>Create a Venn diagram to illustrate each of the following.</p>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>(F\cap E)\cup D</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>(D\cup E)^c\cap F</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>(F^c\cap E^c)\cap D</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>(D\cup E)\cup F</m>
+                        </p>
+                    </statement>
+                </exercise>     
+
+                <p>Write an expression for the shaded region.</p>
+
+                <exercise>
+                    <statement>
+                        <sidebyside width="50%">
+                            <image source="images/sets/ex_venn29.png"/>
+                        </sidebyside>
+                    </statement>
+                </exercise> 
+                            <exercise>
+                    <statement>
+                        <sidebyside width="50%">
+                            <image source="images/sets/ex_venn30.png"/>
+                        </sidebyside>
+                    </statement>
+                </exercise> 
+                            <exercise>
+                    <statement>
+                        <sidebyside width="50%">
+                            <image source="images/sets/ex_venn31.png"/>
+                        </sidebyside>
+                    </statement>
+                </exercise> 
+                            <exercise>
+                    <statement>
+                        <sidebyside width="50%">
+                            <image source="images/sets/ex_venn32.png"/>
+                        </sidebyside>
+                    </statement>
+                </exercise>
+
+            </exercises>
+
+    
+
+		</section>
+
 
 
 
