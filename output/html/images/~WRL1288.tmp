@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Matthew Salomone</o:Author>
   <o:LastAuthor>Matthew Salomone</o:LastAuthor>
-  <o:Revision>4</o:Revision>
-  <o:TotalTime>94</o:TotalTime>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>45</o:TotalTime>
   <o:Created>2020-10-30T15:40:00Z</o:Created>
-  <o:LastSaved>2020-10-30T17:14:00Z</o:LastSaved>
+  <o:LastSaved>2020-10-30T16:25:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>552</o:Words>
-  <o:Characters>3148</o:Characters>
-  <o:Lines>26</o:Lines>
-  <o:Paragraphs>7</o:Paragraphs>
-  <o:CharactersWithSpaces>3693</o:CharactersWithSpaces>
+  <o:Words>261</o:Words>
+  <o:Characters>1493</o:Characters>
+  <o:Lines>12</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>1751</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -34,8 +34,6 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=colorSchemeMapping href="amcoa2020_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -785,12 +783,6 @@ p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxS
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -817,9 +809,9 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:772825407;
+	{mso-list-id:1196187715;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-212168942 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+	mso-list-template-ids:-1484065030 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
 @list l0:level1
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -858,144 +850,6 @@ div.WordSection1
 	mso-level-number-position:left;
 	text-indent:-.25in;}
 @list l0:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l1
-	{mso-list-id:946080806;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1286786476 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l1:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l1:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l1:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l1:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l2
-	{mso-list-id:1196187715;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1484065030 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l2:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l2:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l2:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l2:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l3
-	{mso-list-id:1738743462;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1039489078 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l3:level1
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l3:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l3:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l3:level4
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l3:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l3:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:right;
-	text-indent:-9.0pt;}
-@list l3:level7
-	{mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l3:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;}
-@list l3:level9
 	{mso-level-number-format:roman-lower;
 	mso-level-tab-stop:none;
 	mso-level-number-position:right;
@@ -1053,29 +907,26 @@ Regression and Modeling<o:p></o:p></span></p>
 font-family:"Times New Roman",serif'>Professor:</span></b><span
 style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
 Frank Capra, <a href="mailto:f.capra@yahoo.com">f.capra@yahoo.com</a><br>
-<b>Office Hours:</b> Monday, 9:00-10:00am, at <i>Royal Bean Café</i> in town
-center<br style='mso-special-character:line-break'>
+<b>Office Hours:</b> <br style='mso-special-character:line-break'>
 <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
 <![endif]><b><o:p></o:p></b></span></p>
 
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
 font-family:"Times New Roman",serif'>Course Description:</span></b><span
 style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'> Theory
-and application of <span class=SpellE>uni</span>- and multi-variate regression.
-Uses of technology for regression analysis. Applications of algebraic and
-statistical models to practical situations. Goodness of fit. Parametric sensitivity
-analysis. <i>Prerequisite: MATHEMATICS 203 Calculus III, or SAT-Mathematics
-minimum score 650</i><o:p></o:p></span></p>
+and application of uni- and multi-variate regression. Uses of technology for
+regression analysis. Applications of algebraic and statistical models to
+practical situations. Goodness of fit. Parametric sensitivity analysis. <i>Prerequisite:
+MATHEMATICS 203 Calculus III, or SAT-Mathematics minimum score 650</i><o:p></o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
 font-family:"Times New Roman",serif'>Course Policies:</span></b><span
 style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'> A
 graphing calculator is required for this course. No other technology may be
 used during exams. All online exams must be taken at their scheduled time, with
-<b>webcams and microphones on</b> so that <span class=SpellE><i>MyProctor</i>'s</span>
-automated integrity monitor can function. All writing assignments must be
-submitted via <span class=SpellE><i>TurnItIn</i></span> to ensure against
-plagiarism.<o:p></o:p></span></p>
+<b>webcams and microphones on</b> so that <i>MyProctor</i>'s automated integrity
+monitor can function. All writing assignments must be submitted via <i>TurnItIn</i>
+to ensure against plagiarism.<o:p></o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
 font-family:"Times New Roman",serif'>Grades:</span></b><span style='font-size:
@@ -1088,35 +939,14 @@ a B.)<o:p></o:p></span></p>
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
 font-family:"Times New Roman",serif'>Prerequisite Waivers:</span></b><span
 style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'> Students
-are expected to have completed <span class=GramE>Calculus III, or</span> meet a
-minimum SAT score to enroll in this course. No waivers to this policy will be
-given. But don't <span class=GramE>worry:</span> I will not require you to use
-calculus on your exams. The prerequisites simply ensure that you have the
-mathematical maturity necessary to be a successful student in my course.<o:p></o:p></span></p>
-
-<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
-
-<p class=MsoNormal style='border:none;mso-border-bottom-alt:solid windowtext .5pt;
-padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><span style='font-size:12.0pt;
-line-height:107%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
-
-</div>
+are expected to have completed Calculus III, or meet a minimum SAT score to
+enroll in this course. No waivers to this policy will be given. But don’t
+worry: I will not require you to use calculus on your exams. The prerequisites
+simply ensure that you have the mathematical maturity necessary to be a
+successful student in my course.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
 "Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
-
-<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
-
-<p class=MsoNormal style='border:none;mso-border-bottom-alt:solid windowtext .5pt;
-padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><span style='font-size:12.0pt;
-line-height:107%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
-
-</div>
-
-<p class=MsoNormal align=center style='text-align:center'><b><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>Writing
@@ -1125,7 +955,7 @@ line-height:107%;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><u><span
 style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>Due
-to <span class=SpellE><i>TurnItIn</i></span> by 11:59p.m. on Sunday, November 8<sup>th</sup></span></u></b><span
+to <i>TurnItIn</i> by 11:59p.m. on Sunday, November 8<sup>th</sup></span></u></b><span
 style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
@@ -1139,82 +969,7 @@ neighborhoods?<o:p></o:p></i></span></p>
 from our course website.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>Group your data file's variables by the following
-categories.<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l3 level1 lfo3'><![if !supportLists]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>EDUCATION:
-Number of years of secondary school completed; PSAT scores; SAT scores; High
-school graduate (yes/no); GED recipient (yes/no); High school GPA; Years participated
-in academic enrichment programs; Number of out-of-school suspensions; Number of
-days absent<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo3'><![if !supportLists]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>INCOME:
-Household gross income; Number of jobs worked; Unpaid tax liabilities / court
-judgments; Number of wage earners in the home; Number of dependents; Length of
-unemployment; Income from non-work sources; Income from investments and gifts;
-Income from inheritances<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l3 level1 lfo3'><![if !supportLists]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>3.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>CRIME
-STATISTICS: Neighborhood rate of violent crime; Neighborhood population
-density; Neighborhood number of law-enforcement officials per capita; Number of
-times arrested; Number of convictions for violent offenses; Number of times
-incarcerated<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>Use a multivariate regression to determine the <i>two
-most highly correlated</i> independent variables in this data set for the
-dependent variable &quot;Neighborhood rate of violent crime.&quot;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>Include charts and summary statistics for all
-analyses. <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>Then, write a 2-page paper recommending to the mayor's
-office a specific policy course of action to reduce violent crime in his city,
-using the specific models resulting from your analyses. Include a quantitative
-prediction, e.g., &quot;If your policy can increase high school graduate rate
-by 5 percent, we will reduce violent crime by 10 percent.&quot;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>Your paper will receive a zero unless <span
-class=GramE>all of</span> the following conditions are met:<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l0 level1 lfo4'><![if !supportLists]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>You
-must always <i>stick to the facts</i> and avoid statements of personal or political
-opinion. Your statistical analysis must speak for itself.<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l0 level1 lfo4'><![if !supportLists]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>Your
-uploaded file must receive a <span class=SpellE>TurnItIn</span> originality
-score of <i>at least 90 percent</i> or I will consider it to be plagiarized.<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo4'><![if !supportLists]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>3.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>Your
-file must be in Microsoft Word format, with 12-point Times New Roman, single-spaced,
-with margins of exactly 1 inch.<o:p></o:p></span></p>
+"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
