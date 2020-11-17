@@ -741,6 +741,472 @@
 
 		</section>
 
+        <section xml:id="cardinality">
+			<title>Cardinality</title>
+
+			<p>
+				Often times we are interested in the number of items in a set or subset. This is called the cardinality of the set.
+			</p>
+
+			<definition xml:id="def_cardinality">
+                <statement>
+			        <p>
+				        The number of elements in a set is the <term>cardinality</term> of that set.
+			        </p>
+
+			        <p>
+				        The cardinality of the set <em>A</em> is often notated as <m>|A|</m> or <m>n(A)</m>.
+			        </p>
+            </statement>
+            </definition>
+
+			<remark xml:id="ex_card1">
+			    <p>
+				    Let <m>A= \{1, 2, 3, 4, 5, 6\}</m> and <m>B = \{2, 4, 6, 8\}</m>.
+			    </p>
+
+			    <p>
+				    What is the cardinality of <m>B</m>? Of <m>A\cup B</m>? Of <m>A\cap B</m>?
+			    </p>
+
+                <p>
+                    The cardinality of <m>B</m> is 4, since there are 4 elements in the set.
+                </p>
+
+                <p>
+                    The cardinality of <m>A\cup B</m> is 7, since <m>A\cup B= \{1, 2, 3, 4, 5, 6, 8\}</m>, which contains 7 elements.
+                </p>
+
+                <p>
+                    The cardinality of <m>A\cap B</m> is 3, since <m>A\cap B = \{2, 4, 6\}</m>, which contains 3 elements.
+                </p>
+            </remark>
+
+		
+            <remark xml:id="ex_card2">
+                <p>
+                    What is the cardinality of <m>P</m> = the set of English names for the months of the year?
+                </p>
+
+                <p>
+                    The cardinality of this set is 12, since there are 12 months in the year.
+                </p>
+            </remark>
+
+                <p>
+                    Sometimes we may be interested in the cardinality of the union or intersection of sets, but not know the actual elements of each set. This is common in surveying.
+                </p>
+
+            <remark xml:id="ex_surv1">
+
+                <p>
+                    A survey asks 200 people “What beverage do you drink in the morning”, and offers choices:
+                </p>
+
+                <p><ul>
+                    <li>
+                                <p>
+                    Tea only
+                </p>
+                    </li>
+
+                    <li>
+                                <p>
+                    Coffee only
+                </p>
+                    </li>
+
+                    <li>
+                                <p>
+                    Both coffee and tea
+                </p>
+                    </li>
+
+                </ul></p>
+
+                <p>
+                    Suppose 20 report tea only, 80 report coffee only, 40 report both. How many people drink tea in the morning? How many people drink neither tea or coffee?
+                </p>
+
+                <sidebyside>
+                <p>
+                    This question can most easily be answered by creating a Venn diagram. We can see that we can find the people who drink tea by adding those who drink only tea to those who drink both: 60 people.<line/>
+                
+                    We can also see that those who drink neither are those not contained in the any of the three other groupings, so we can count those by subtracting from the cardinality of the universal set, 200.<line/>
+                
+                    <m>200 – 20 – 80 – 40 = 60</m> people who drink neither.
+                </p>
+                <image source="images/sets/ex_surv1.png" width="40%"/>
+                </sidebyside>
+            </remark>
+
+			
+            <remark xml:id="ex_surv2">
+                <p>
+                    A survey asks: Which online services have you used in the last month?
+                </p>
+
+                <p><ul>
+                    <li>
+                                <p>
+                    Twitter
+                </p>
+                    </li>
+
+                    <li>
+                                <p>
+                    Facebook
+                </p>
+                    </li>
+
+                    <li>
+                                <p>
+                    Have used both
+                </p>
+                    </li>
+
+                </ul></p>
+
+                <p>
+                    The results show 40% of those surveyed have used Twitter, 70% have used Facebook, and 20% have used both. How many people have used neither Twitter or Facebook?
+                </p>
+
+                <p>
+                    Let <m>T</m> be the set of all people who have used Twitter, and <m>F</m> be the set of all people who have used Facebook. Notice that while the cardinality of <m>F</m> is 70% and the cardinality of <m>T</m> is 40%, the cardinality of <m>F\cup T</m> is not simply <m>70\% + 40\%</m>, since that would count those who use both services twice. 
+                </p>
+                    
+                <p>
+                    To find the cardinality of <m>F\cup T</m>, we can add the cardinality of <m>F</m> and the cardinality of <m>T</m>, then subtract those in intersection that we’ve counted twice. In symbols,
+                    <md><mrow>n(F\cup T) &amp;= n(F) + n(T) - n(F\cap T)</mrow><mrow>n(F\cup T) &amp;= 70\% + 40\% - 20\% = 90\%.</mrow></md>
+                </p>
+
+            
+                <p>
+                    Now, to find how many people have not used either service, we’re looking for the cardinality of <m>(F\cup T)^c</m> . Since the universal set contains 100% of people and the cardinality of <m>F\cup T</m> is 90%, the cardinality of <m>(F\cup T)^c</m> must be the other 10%.
+                </p>
+            </remark>
+
+			<p>
+				The previous example illustrated two important properties.
+			</p>
+
+			<theorem xml:id="thm_cardinality">
+                <title>Cardinality Properties</title>
+			<statement><p>
+            <mdn><mrow xml:id="eq_inclusion1">n(A\cup B) &amp;= n(A) + n(B) - n(A\cap B).</mrow><mrow xml:id="eq_complement">n(A^c) &amp;= n(U) - n(A).</mrow></mdn>
+            </p></statement>
+            </theorem>
+
+			<p>
+				Notice that the first property <xref ref="eq_inclusion1"/> can also be written in an equivalent form by solving for the cardinality of the intersection:
+			</p>
+
+            <p>
+    			<mdn><mrow xml:id="eq_inclusion2">n(A\cap B) &amp;= n(A) + n(B) - n(A\cup B).</mrow></mdn>
+            </p>
+
+			
+            
+            <remark xml:id="ex_surv3">
+                <p>
+                    Fifty students were surveyed, and asked if they were taking a social science (SS), humanities (HM) or a natural science (NS) course the next quarter.
+                </p>
+
+                <sidebyside>
+                <p>
+                    <ul>
+                    <li><p>21 were taking a SS course</p></li>
+                    <li><p>19 were taking a NS course</p></li>
+                    <li><p>7 were taking SS and NS</p></li>
+                    <li><p>3 were taking all three</p></li>
+                    </ul>
+                </p>
+
+                <p>
+                    <ul>
+                    <li><p>26 were taking a HM course</p></li>
+                    <li><p>9 were taking SS and HM</p></li>
+                    <li><p>10 were taking HM and NS</p></li>
+                    <li><p>7 were taking none</p></li>
+                    </ul>
+                </p>
+                </sidebyside>
+
+                <p>
+                    How many students are only taking a SS course?
+                </p>
+
+                <sidebyside>
+                <p>
+                    It might help to look at a Venn diagram.
+                
+                    From the given data, we know that there are
+                
+                    3 students in region <m>e</m> and
+                
+                    7 students in region <m>h</m>.
+                </p>
+                <image source="images/sets/ex_surv3.png" width="40%"/>
+                </sidebyside>
+
+                <p>
+                    Since 7 students were taking a SS and NS course, we know that <m>n(d)+n(e) = 7</m>. Since we know there are 3 students in region 3, there must be <me>7 – 3 = 4 \text{ students in region }d.</me>
+                </p>
+
+                <p>
+                    Similarly, since there are 10 students taking HM and NS, which includes regions <em>e</em> and <em>f</em>, there must be <me>10 – 3 = 7 \text{ students in region }f.</me>
+                </p>
+
+                <p>
+                    Since 9 students were taking SS and HM, there must be <m>9 – 3 = 6 </m>students in region <em>b</em>.
+                </p>
+
+                <p>
+                    Now, we know that 21 students were taking a SS course. This includes students from regions <em>a, b, d,</em> and <em>e</em>. Since we know the number of students in all but region <em>a</em>, we can determine that <me>21 – 6 – 4 – 3 = 8 \text{ students are in region }a.</me>
+                </p>
+
+                <p>
+                    8 students are taking only a SS course.
+                </p>
+            </remark>
+
+            <problem xml:id="tin_surv1">
+                <statement>
+                    <p>
+                        One hundred fifty people were surveyed and asked if they believed in UFOs, ghosts, and Bigfoot.
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li><p>43 believed in UFOs 44 believed in ghosts</p></li>
+                            <li><p>25 believed in Bigfoot 10 believed in UFOs and ghosts</p></li>
+                            <li><p>8 believed in ghosts and Bigfoot 5 believed in UFOs and Bigfoot</p></li>
+                            <li><p>2 believed in all three</p></li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        How many people surveyed believed in at least one of these things?
+                    </p>
+                </statement>
+                <answer>
+                    <sidebyside>
+                        <p>
+                            Starting with the intersection of all three circles, we work our way out. Since 10 people believe in UFOs and Ghosts, and 2 believe in all three, that leaves 8 that believe in only UFOs and Ghosts. We work our way out, filling in all the regions. Once we have, we can add up all those regions, getting 91 people in the union of all three sets. This leaves <m>150 – 91 = 59</m> who believe in none.
+                        </p>
+                        <image source="images/sets/tin_surv1.png" width="40%"/>
+                    </sidebyside>
+                </answer>
+            </problem>
+
+            <exercises xml:id="exercises_cardinality">
+                <p>Let <m>A=\{1,2,3,4,5\}</m>, <m>B=\{1,3,5\}</m>, and <m>C=\{4,6\}</m>. Find the cardinality of the given set:</p>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(A)</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(B)</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(A\cup C)</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(A\cap C)</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+                <sidebyside>
+                    <p>The Venn diagram here shows the cardinality of each set. Use this in #5-8 to find the cardinality of the given set.</p>
+                    <image source="images/sets/ex_card5.png" width="40%"/>
+                </sidebyside>
+
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(A\cap C)</m>
+                        </p>
+                    </statement>
+                </exercise>  
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(B\cup C)</m>
+                        </p>
+                    </statement>
+                </exercise>                    
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(A\cap B\cap C^c)</m>
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            <m>n(A\cap B^c\cap C)</m>
+                        </p>
+                    </statement>
+                </exercise>
+
+
+                <exercise>
+                    <statement>
+                        <p>
+                            If <m>n(G)=20</m>, <m>n(H)=30</m>, and <m>n(G\cap H)=5</m>, find <m>n(G\cup H)</m>.
+
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            If <m>n(G)=5</m>, <m>n(H)=8</m>, and <m>n(G\cap H)=4</m>, find <m>n(G\cup H)</m>.
+
+                        </p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            A survey was given asking whether they watch movies at home from Netflix, Redbox, or a video store. Use the results to determine how many people use Redbox.
+                        </p>
+
+                        <sidebyside>
+                            <p>
+                                <ul>
+                                    <li><p>52 only use Netflix</p></li>
+                                    <li><p>24 only use a video store</p></li>
+                                    <li><p>48 only use Netflix and Redbox</p></li>
+                                    <li><p>10 use all three</p></li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <li><p>62 only use Redbox</p></li>
+                                    <li><p>16 only use a video store and Redbox</p></li>
+                                    <li><p>30 only use a video store and Netflix</p></li>
+                                    <li><p>25 use none of these</p></li>
+                                </ul>
+                            </p>
+                        </sidebyside>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                             A survey asked buyers whether color, size, or brand influenced their choice of cell phone. The results are below. How many people were influenced by brand?
+                        </p>
+                        <sidebyside>
+                            <p>
+                                <ul>
+                                    <li><p>5 said only color</p></li>
+                                    <li><p>16 said only brand</p></li>
+                                    <li><p>42 said color and brand</p></li>
+                                    <li><p>102 said all three</p></li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <li><p>8 said only size</p></li>
+                                    <li><p>20 said only color and size</p></li>
+                                    <li><p>53 said only size and brand</p></li>
+                                    <li><p>20 said none of these</p></li>
+                                </ul>
+                            </p>
+                        </sidebyside>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            Use the given information to complete a Venn diagram, then determine: 
+                            <ol>
+                            <li><p>How many students have seen exactly one of these movies? and</p></li>
+                            <li><p>How many had seen only <em>Star Wars</em>?</p>
+                            </li></ol>
+                        </p>
+                        <sidebyside>
+                            <p>
+                                <ul>
+                                    <li><p>18 had seen <em>The Matrix</em> (<q><em>M</em></q>)</p></li>
+                                    <li><p>20 had seen <em>Lord of the Rings</em> (<q><em>LotR</em></q>)</p></li>
+                                    <li><p>14 had seen <em>LotR</em> and <em>SW</em></p></li>
+                                    <li><p>6 had seen all three</p></li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <li><p>24 had seen <em>Star Wars</em> (<q><em>SW</em></q>)</p></li>
+                                    <li><p>10 had seen <em>M</em> and <em>SW</em></p></li>
+                                    <li><p>12 had seen <em>M</em> and <em>LotR</em></p></li>
+                                </ul>
+                            </p>
+                        </sidebyside>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <statement>
+                        <p>
+                            A survey asked people what alternative transportation modes they use. Using the data to complete a Venn diagram, then determine: 
+                            <ol><li><p>What percent of people only ride the bus? and</p></li>
+                            <li><p>How many people don’t use any alternate transportation?</p></li></ol>
+			            </p>
+                        <sidebyside>
+                            <p>
+                                <ul>
+                                    <li><p>30% use the bus</p></li>
+                                    <li><p>25% walk</p></li>
+                                    <li><p>10% ride a bicycle and walk</p></li>
+                                    <li><p>2% use all three</p></li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <li><p>20% ride a bicycle</p></li>
+                                    <li><p>5% use the bus and ride a bicycle</p></li>
+                                    <li><p>12% use the bus and walk</p></li>
+                                </ul>
+                            </p>
+                        </sidebyside>
+                    </statement>
+                </exercise>                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                          </exercises>
+
+
+		</section>
+
+
+
 
 
 

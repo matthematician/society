@@ -1,9 +1,5 @@
 Messages from application of C:\Users\msalo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pretext\static\xsl\pretext-html.xsl:
-MBX:ERROR:   left margin of a <sidebyside> ("-25%") is outside the interval [0%, 100%], (this may be computed, check consistency of "@margins" and "@widths")
-             located within: "frontmatter" (xml:id)
-MBX:ERROR:   right margin of a <sidebyside> ("-25%") is outside the interval [0%, 100%], (this may be computed, check consistency of "@margins" and "@widths")
-             located within: "frontmatter" (xml:id)
-MBX:WARNING: a <sidebyside> or <sbsgroup> has extra "@widths" (did you confuse singular and plural attribute names?)
-             located within: "frontmatter" (xml:id)
-MBX:ERROR:   computed space between panels of a <sidebyside> ("-50%") is negative (this value is computed, check consistency of "@margins" and "@widths")
-             located within: "frontmatter" (xml:id)
+MBX:DEPRECATE: (2016-05-23) <br> can no longer be used to create multiline output; you may use <line> elements in select situations (2 times)
+             located within: "ex_surv1" (xml:id)
+             located within: "ex_surv1" (xml:id)
+--------------
