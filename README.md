@@ -21,7 +21,7 @@ WORKING:
 
 [ ] Problem Solving chapter in PTX.
 
-[ ] Sets chapter in PTX. Sections done: 1. 2. 3.
+[ ] Sets chapter in PTX. All sections done: 1. 2. 3. 4. Awaiting integrations below.
 
 FUTURE:
 
