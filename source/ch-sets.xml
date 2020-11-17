@@ -760,6 +760,8 @@
             </statement>
             </definition>
 
+            <video youtube="wErcETeKvrU"/>
+
 			<remark xml:id="ex_card1">
 			    <p>
 				    Let <m>A= \{1, 2, 3, 4, 5, 6\}</m> and <m>B = \{2, 4, 6, 8\}</m>.
@@ -793,9 +795,13 @@
                 </p>
             </remark>
 
+            <video youtube="SKc-gIfPv9o"/>
+
                 <p>
                     Sometimes we may be interested in the cardinality of the union or intersection of sets, but not know the actual elements of each set. This is common in surveying.
                 </p>
+
+                
 
             <remark xml:id="ex_surv1">
 
@@ -905,7 +911,7 @@
     			<mdn><mrow xml:id="eq_inclusion2">n(A\cap B) &amp;= n(A) + n(B) - n(A\cup B).</mrow></mdn>
             </p>
 
-			
+			<video youtube="iCDJsOXoySY"/>
             
             <remark xml:id="ex_surv3">
                 <p>
