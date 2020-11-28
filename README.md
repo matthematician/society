@@ -3,7 +3,7 @@ PreTeXt conversion of Lippman's Math In Society
 
 Prototype URL: https://matthematician.github.io/society
 
-TODO:
+DONE:
 
 [X] Share repo with Chase
 
@@ -17,11 +17,13 @@ TODO:
 
   [ ] .gitignore this when we're done and hosted
 
+COMPLETED CHAPTERS:
+
+[X] Sets
+
 WORKING:
 
 [ ] Problem Solving chapter in PTX.
-
-[ ] Sets chapter in PTX. All sections done: 1. 2. 3. 4. Awaiting integrations below.
 
 FUTURE:
 
