@@ -10,6 +10,17 @@
         <section xml:id="sec_setbasics">
 			<title>Basics</title>
 
+            <!-- Added - MS -->
+            <objectives>
+                <ol>
+                    <li>
+                        <p>
+                            Use sets and set notation to describe collections of elements.
+                        </p>
+                    </li>
+                </ol>
+            </objectives>
+
             <p>
                 <video youtube="5xthPHH4i_A"/>
             </p>
@@ -167,6 +178,11 @@
                             List out the elements of the set <q>The letters of the word Mississipi</q>.
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            <m>\{m,i,s,p\}.</m>
+                        </p>
+                    </answer>
                 </exercise>
 
                 <exercise>
@@ -183,6 +199,9 @@
                             Write a verbal description of the set <m>\{3, 6, 9\}</m>.
                         </p>
                     </statement>
+                    <answer>
+                        <p>One possibility is: Multiples of 3 between 1 and 10.</p>
+                    </answer>
                 </exercise>
 
                 <exercise>
@@ -199,6 +218,9 @@
                             Is <m>\{1, 3, 5\}</m> a subset of the set of odd integers?
                         </p>
                     </statement>
+                    <answer>
+                        <p>Yes.</p>
+                    </answer>
                 </exercise>
 
                 <exercise>
@@ -223,6 +245,9 @@
                             <m>3\in B</m>.
                         </p>
                     </statement>
+                    <answer>
+                        <p>True.</p>
+                    </answer>
                 </exercise>
                 
                 <exercise>
@@ -239,6 +264,7 @@
                             <m>B\subset A</m>.
                         </p>
                     </statement>
+                    <answer><p>True.</p></answer>
                 </exercise>
 
                 <exercise>
@@ -255,6 +281,9 @@
                             <m>C\subset B</m>.
                         </p>
                     </statement>
+                    <answer>
+                        <p>False.</p>
+                    </answer>
                 </exercise>		
 
                 <exercise>
@@ -268,10 +297,19 @@
             </exercises>
         </section>
 
-        <!-- Section Two -->
-
         <section xml:id="sec_setoperations">
 			<title>Union, Intersection, and Complement</title>
+
+            <objectives>
+                <ol>
+                    <li>
+                        <p>
+                            Find the union, intersection, and/or complement of two or more sets.
+                        </p>
+                    </li>
+                </ol>
+            </objectives>
+            
 
             <p>
                 <video youtube="qTUWzBvI9bk"/>
@@ -493,6 +531,9 @@
                         <p><m>A\cup B</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p><m>A\cup B = \{1, 2, 3, 4, 5\}.</m></p>
+                    </answer>
                 </exercise>
 
                 <exercise>
@@ -507,6 +548,11 @@
                         <p><m>A\cap C</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            <m>A\cap C=\{4\}.</m>
+                        </p>
+                    </answer>
                 </exercise>
 
                             <exercise>
@@ -521,6 +567,11 @@
                         <p><m>A^c</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            <m>A^c = \{6, 7, 8, 9, 10\}.</m>
+                        </p>
+                    </answer>
                 </exercise>
 
                 <exercise>
@@ -544,6 +595,11 @@
                         <p><m>D^c\cap E</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            <m>D^c\cap E = \{t,s\}.</m>
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -556,6 +612,11 @@
                         <p><m>(D\cap E)\cup F</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            <m>(D\cap E) \cup F = \{k, b, a, t, h\}.</m>
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -568,6 +629,11 @@
                         <p><m>(F\cap E)^c\cap D</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            <m>(F\cap E)^c\cap D = \{b, c, k\}.</m>
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -578,9 +644,18 @@
             </exercises>
 		</section>
 
-
         <section xml:id="sec_venndiagrams">
 			<title>Venn Diagrams</title>
+
+            <objectives>
+                <ol>
+                    <li>
+                        <p>
+                            Use Venn diagrams to solve problems involving 3 sets.
+                        </p>
+                    </li>
+                </ol>
+            </objectives>
 
             <p><video youtube="CPeeOUldZ6M"/></p>
 
@@ -681,6 +756,9 @@
                             <m>(F\cap E)\cup D</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p><image source="images/sets/sol_sets25.png" width="40%"/></p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -695,6 +773,9 @@
                             <m>(F^c\cap E^c)\cap D</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p><image source="images/sets/sol_sets27.png" width="40%"/></p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -712,6 +793,9 @@
                             <image source="images/sets/ex_venn29.png"/>
                         </sidebyside>
                     </statement>
+                    <answer>
+                        <p>One possible answer: <m>(A\cap B)\cup(B\cap C).</m></p>
+                    </answer>
                 </exercise> 
                             <exercise>
                     <statement>
@@ -726,6 +810,11 @@
                             <image source="images/sets/ex_venn31.png"/>
                         </sidebyside>
                     </statement>
+                    <answer>
+                        <p>
+                            <m>(A\cap B^c)\cup C</m>.
+                        </p>
+                    </answer>
                 </exercise> 
                             <exercise>
                     <statement>
@@ -743,6 +832,16 @@
 
         <section xml:id="cardinality">
 			<title>Cardinality</title>
+
+            <objectives>
+                <ol>
+                    <li>
+                        <p>
+                            Analyze survey problems.
+                        </p>
+                    </li>
+                </ol>
+            </objectives>
 
 			<p>
 				Often times we are interested in the number of items in a set or subset. This is called the cardinality of the set.
@@ -1014,6 +1113,7 @@
                             <m>n(A)</m>
                         </p>
                     </statement>
+                    <answer><p>5.</p></answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -1028,6 +1128,11 @@
                             <m>n(A\cup C)</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            6.
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -1048,6 +1153,7 @@
                             <m>n(A\cap C)</m>
                         </p>
                     </statement>
+                    <answer><p>5.</p></answer>
                 </exercise>  
                 <exercise>
                     <statement>
@@ -1062,6 +1168,11 @@
                             <m>n(A\cap B\cap C^c)</m>
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            3.
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -1079,6 +1190,11 @@
 
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            45.
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -1113,6 +1229,11 @@
                             </p>
                         </sidebyside>
                     </statement>
+                    <answer>
+                        <p>
+                            136 use Redbox.
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
@@ -1166,6 +1287,14 @@
                             </p>
                         </sidebyside>
                     </statement>
+                    <answer>
+                        <p>
+                            <ol>
+                            <li><p>8 had seen exactly one.</p></li>
+                            <li><p>6 had only seen <em>SW</em>.</p></li>
+                            </ol>
+                        </p>
+                    </answer>
                 </exercise>
                 <exercise>
                     <statement>
