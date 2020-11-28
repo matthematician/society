@@ -21,9 +21,11 @@ COMPLETED CHAPTERS:
 
 [X] Sets
 
-WORKING:
+WORKING CHAPTERS:
 
-[ ] Problem Solving chapter in PTX.
+[ ] Problem Solving 
+
+[_] Logic (Completed sections: 1. )
 
 FUTURE:
 
