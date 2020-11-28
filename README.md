@@ -25,7 +25,7 @@ WORKING CHAPTERS:
 
 [ ] Problem Solving 
 
-[_] Logic (Completed sections: 1. )
+[_] Logic (Completed sections: 1. 2. )
 
 FUTURE:
 
