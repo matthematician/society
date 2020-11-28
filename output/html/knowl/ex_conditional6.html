@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-11-28T18:30:29-05:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<article class="remark remark-like"><h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">17.2.7</span><span class="period">.</span>
+</h6>
+<p xmlns:svg="http://www.w3.org/2000/svg">In a spreadsheet, cell A1 contains annual income, and A2 contains number of dependents.</p>
+<p xmlns:svg="http://www.w3.org/2000/svg">A certain tax credit applies if someone with no dependents earns less than $10,000, or if someone with dependents earns less than $20,000. Write a rule that describes this.</p>
+<p xmlns:svg="http://www.w3.org/2000/svg">There are two ways the rule is met:</p>
+<p xmlns:svg="http://www.w3.org/2000/svg">income is less than 10,000 <em class="emphasis">and</em> dependents is 0, <em class="emphasis">or</em></p>
+<p xmlns:svg="http://www.w3.org/2000/svg">income is less than 20,000 <em class="emphasis">and</em> dependents is not 0.</p>
+<p xmlns:svg="http://www.w3.org/2000/svg">Informally, we could write these as</p>
+<p xmlns:svg="http://www.w3.org/2000/svg">(A1 &lt; 10000 <em class="emphasis">and</em> A2 = 0) <em class="emphasis">or</em> (A1 &lt; 20000 <em class="emphasis">and</em> A2 &gt; 0)</p>
+<p xmlns:svg="http://www.w3.org/2000/svg">In Excel’s format, we’d write</p>
+<p xmlns:svg="http://www.w3.org/2000/svg"><code class="code-inline tex2jax_ignore">IF(OR(AND(A1&lt;10000, A2=0), AND(A1&lt;20000, A2&gt;0)), "you qualify", "you don’t qualify")
+			</code>.</p></article><span class="incontext"><a href="sec_conditional.html#ex_conditional6">in-context</a></span>
+</body>
+</html>

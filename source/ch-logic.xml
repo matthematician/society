@@ -7,7 +7,7 @@
         </p>
     </introduction>
 
-    <section xml:id="sec_boolean">
+    <section xml:id="sec_boolean">  <!-- COMPLETE 11/28/2020 -->
         <title>Boolean Logic</title>
 
         <objectives>
@@ -178,7 +178,185 @@
 
     <section xml:id="sec_conditional">
         <title>Conditional Statements</title>
+
+        <objectives> <!-- Added MS -->
+            <ol>
+                <li>
+                    <p>
+                        Identify, and write spreadsheet formulas that implement, conditional statements.
+                    </p>
+                </li>
+            </ol>
+        </objectives>
         
+
+        <p>
+				Beyond searching, Boolean logic is commonly used in spreadsheet applications like <em>Excel</em> to do conditional calculations. A <term>statement</term> is something that is either true or false. A statement like <m>3 \lt 5</m> is true; a statement like <q>a rat is a fish</q> is false. A statement like <q><m>x \lt 5</m></q> is true for some values of <em>x</em> and false for others. When an action is taken or not depending on the value of a statement, it forms a <term>conditional</term>.
+        </p>
+
+        <definition xml:id="def_conditional">
+            <title>Statements and Conditionals</title>
+            <statement>
+            <p>
+				A <term>statement</term> is either true or false.
+			</p>
+
+			<p>
+				A <term>conditional</term> is a compound statement of the form
+			</p>
+
+			<p>
+				<q>if <em>p</em> then <em>q</em></q> or <q>if <em>p</em> then <em>q</em>, else <em>s</em></q>.
+			</p>
+            </statement>
+        </definition>
+
+        <video youtube="oEr27P1bX9o"/>
+
+        <remark xml:id="ex_conditional1">
+            <statement>
+                <p>
+                    In common language, an example of a conditional statement would be <q>If it is raining, then we’ll go to the mall. Otherwise we’ll go for a hike.</q>
+			    </p>
+
+			    <p>
+                    The statement <q>If it is raining</q> is the condition – this may be true or false for any given day. If the condition is true, then we will follow the first course of action, and go to the mall. If the condition is false, then we will use the alternative, and go for a hike.
+			    </p>
+            </statement>
+        </remark>   
+
+        <video youtube="iKN-QpBLkyM"/>
+
+        <remark xml:id="ex_conditional2">
+            <p>
+				As mentioned earlier, conditional statements are commonly used in spreadsheet applications like Excel or Google Sheets. In Excel, you can enter an expression like
+			</p>
+
+			<c>
+				=IF(A1&lt;2000, A1+1, A1*2)
+			</c>.
+
+			<p>
+				Notice that after the IF, there are three parts. The first part is the condition, and the second two are calculations. Excel will look at the value in cell A1 and compare it to 2000. If that condition is true, then the first calculation is used, and 1 is added to the value of A1 and the result is stored. If the condition is false, then the second calculation is used, and A1 is multiplied by 2 and the result is stored.
+			</p>
+
+			<p>
+				In other words, this statement is equivalent to saying <q>If the value of A1 is less than 2000, then add 1 to the value in A1. Otherwise, multiply A1 by 2</q>.
+			</p>
+        </remark>
+
+        <remark xml:id="ex_conditional3">
+            <p>
+				The expression <c>=IF(A1&gt;5, 2*A1, 3*A1)</c> is used. Find the result if A1 is 3, and the result if A1 is 8.
+			</p>
+
+			<p>
+				This is equivalent to saying
+			</p>
+
+			<p>
+				If A1 &gt; 5, then calculate 2*A1. Otherwise, calculate 3*A1.
+			</p>
+
+			<p>
+				If A1 is 3, then the condition is false, since 3 &gt; 5 is not true, so we do the alternate action, and multiply by 3, giving 3*3 = 9.
+			</p>
+
+			<p>
+				If A1 is 8, then the condition is true, since 8 &gt; 5, so we multiply the value by 2, giving 2*8=16.
+			</p>
+        </remark>
+
+        <remark xml:id="ex_conditional4">
+            <p>
+				An accountant needs to withhold 15% of income for taxes if the income is below $30,000, and 20% of income if the income is $30,000 or more. Write an expression that would calculate the amount to withhold.
+			</p>
+
+			<p>
+				Our conditional needs to compare the value to 30,000. If the income is less than 30,000, we need to calculate 15% of the income: 0.15*income. If the income is more than 30,000, we need to calculate 20% of the income: 0.20*income.
+			</p>
+
+			<p>
+				In words we could write <q>If income &lt; 30,000, then multiply by 0.15, otherwise multiply by 0.20</q>. In Excel, we would write:
+			</p>
+
+			<p>
+				<c>=IF(A1&lt;30000, 0.15*A1, 0.20*A1)</c>
+			</p>
+        </remark>
+
+        <p>
+            As we did earlier, we can create more complex conditions by using the operators <em>and</em>, <em>or</em>, and <em>not</em> to join simpler conditions together.
+        </p>
+
+        <remark xml:id="ex_conditional5">
+            <p>
+				A parent might say to their child <q>if you clean your room and take out the garbage, then you can have ice cream.</q>
+			</p>
+
+			<p>
+				Here, there are two simpler conditions:
+			</p>
+
+			<p>
+				1) The child cleaning her room
+			</p>
+
+			<p>
+				2) The child taking out the garbage
+			</p>
+
+			<p>
+				Since these conditions were joined with <em>and</em>, the combined conditional will be true only if both simpler conditions are true; if either chore is not completed, then the parent’s condition is not met.
+			</p>
+
+			<p>
+				Notice that if the parent had said <q>if you clean your room <em>or</em> take out the garbage, then you can have ice cream</q>, then the child would need to complete only one chore to meet the condition.
+			</p>
+        </remark>
+
+        <p>
+            Suppose you wanted to have something happen when a certain value is between 100 and 300. To create the condition <q>A1 &lt; 300 and A1 &gt; 100</q> in Excel, you would need to enter <c>AND(A1&lt;300, A1&gt;100)</c>. Likewise, for the condition <q>A1=4 or A1=6</q> you would enter <c>OR(A1=4, A1=6)</c>.
+        </p>
+
+        <remark xml:id="ex_conditional6">
+            <p>
+				In a spreadsheet, cell A1 contains annual income, and A2 contains number of dependents.
+			</p>
+
+			<p>
+				A certain tax credit applies if someone with no dependents earns less than $10,000, or if someone with dependents earns less than $20,000. Write a rule that describes this.
+			</p>
+
+			<p>
+				There are two ways the rule is met:
+			</p>
+
+			<p>
+				income is less than 10,000 <em>and</em> dependents is 0, <em>or</em>
+			</p>
+
+			<p>
+				income is less than 20,000 <em>and</em> dependents is not 0.
+			</p>
+
+			<p>
+				Informally, we could write these as
+			</p>
+
+			<p>
+				(A1 &lt; 10000 <em>and</em> A2 = 0) <em>or</em> (A1 &lt; 20000 <em>and</em> A2 &gt; 0)
+			</p>
+
+			<p>
+				In Excel’s format, we’d write
+			</p>
+
+			<p>
+				<c>IF(OR(AND(A1&lt;10000, A2=0), AND(A1&lt;20000, A2&gt;0)), "you qualify", "you don’t qualify")
+			</c>.</p>
+        </remark>
+
     </section>
 
     <section xml:id="sec_quantified">

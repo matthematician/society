@@ -1,5 +1,6 @@
 Messages from application of C:\Users\msalo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pretext\static\xsl\pretext-html.xsl:
-PTX:WARNING:    An <xref> requests a 'title' as its text but also provides alternate content.  The construction is deprecated as of 2020-02-18.  Instead, specify that xref/@text should be 'custom', either globally or on a per-xref basis.
-             located within: "sec_boolean" (xml:id), "Boolean Logic" (title)
-PTX:WARNING:    An <xref> requests a 'title' as its text but also provides alternate content.  The construction is deprecated as of 2020-02-18.  Instead, specify that xref/@text should be 'custom', either globally or on a per-xref basis.
-             located within: "sec_boolean" (xml:id), "Boolean Logic" (title)
+MBX:WARNING: There are apparent XML elements in locations that should be text only (2 times).
+MBX:WARNING: There is an apparent XML element (<q>) inside an <c> element, which should only contain text.  Using an escaped "less than" ('&lt;') might be the solution, or using a CDATA section.
+             located within: "ex_conditional6" (xml:id)
+MBX:WARNING: There is an apparent XML element (<q>) inside an <c> element, which should only contain text.  Using an escaped "less than" ('&lt;') might be the solution, or using a CDATA section.
+             located within: "ex_conditional6" (xml:id)
