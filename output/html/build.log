@@ -1,5 +1,5 @@
 Messages from application of C:\Users\msalo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pretext\static\xsl\pretext-html.xsl:
-MBX:DEPRECATE: (2016-05-23) <br> can no longer be used to create multiline output; you may use <line> elements in select situations (2 times)
-             located within: "ex_surv1" (xml:id)
-             located within: "ex_surv1" (xml:id)
---------------
+PTX:WARNING:    An <xref> requests a 'title' as its text but also provides alternate content.  The construction is deprecated as of 2020-02-18.  Instead, specify that xref/@text should be 'custom', either globally or on a per-xref basis.
+             located within: "sec_boolean" (xml:id), "Boolean Logic" (title)
+PTX:WARNING:    An <xref> requests a 'title' as its text but also provides alternate content.  The construction is deprecated as of 2020-02-18.  Instead, specify that xref/@text should be 'custom', either globally or on a per-xref basis.
+             located within: "sec_boolean" (xml:id), "Boolean Logic" (title)

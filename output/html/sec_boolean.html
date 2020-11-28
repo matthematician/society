@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2020-11-28T17:56:23-05:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MIS Boolean Logic</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href="" target="_blank"><img src="images/cover2.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="math-in-society.html"><span class="title">Math In Society</span></a></h1>
+<p class="byline">David Lippman</p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch_logic.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_logic.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec_conditional.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch_logic.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_logic.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec_conditional.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul><li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li></ul>
+</li>
+<li class="link part"><a href="pt_prob.html" data-scroll="pt_prob"><span class="codenumber">I</span> <span class="title">Problem Solving</span></a></li>
+<li class="link">
+<a href="ch_problemsolving.html" data-scroll="ch_problemsolving"><span class="codenumber">1</span> <span class="title">Problem Solving</span></a><ul><li><a href="percents.html" data-scroll="percents">Percents</a></li></ul>
+</li>
+<li class="link part"><a href="pt_civics.html" data-scroll="pt_civics"><span class="codenumber">II</span> <span class="title">Civic Mathematics</span></a></li>
+<li class="link"><a href="ch_votingtheory.html" data-scroll="ch_votingtheory"><span class="codenumber">2</span> <span class="title">Voting Theory</span></a></li>
+<li class="link"><a href="ch_weightedvoting.html" data-scroll="ch_weightedvoting"><span class="codenumber">3</span> <span class="title">Weighted Voting</span></a></li>
+<li class="link"><a href="ch_apportionment.html" data-scroll="ch_apportionment"><span class="codenumber">4</span> <span class="title">Apportionment</span></a></li>
+<li class="link"><a href="ch_fairdivision.html" data-scroll="ch_fairdivision"><span class="codenumber">5</span> <span class="title">Fair Division</span></a></li>
+<li class="link part"><a href="pt_finite.html" data-scroll="pt_finite"><span class="codenumber">III</span> <span class="title">Finite Mathematics</span></a></li>
+<li class="link"><a href="ch_graphtheory.html" data-scroll="ch_graphtheory"><span class="codenumber">6</span> <span class="title">Graph Theory</span></a></li>
+<li class="link"><a href="ch_scheduling.html" data-scroll="ch_scheduling"><span class="codenumber">7</span> <span class="title">Scheduling</span></a></li>
+<li class="link"><a href="ch_growthmodels.html" data-scroll="ch_growthmodels"><span class="codenumber">8</span> <span class="title">Growth Models</span></a></li>
+<li class="link"><a href="ch_finance.html" data-scroll="ch_finance"><span class="codenumber">9</span> <span class="title">Finance</span></a></li>
+<li class="link part"><a href="pt_data.html" data-scroll="pt_data"><span class="codenumber">IV</span> <span class="title">Data Literacy</span></a></li>
+<li class="link"><a href="ch_statistics.html" data-scroll="ch_statistics"><span class="codenumber">10</span> <span class="title">Statistics</span></a></li>
+<li class="link"><a href="ch_describingdata.html" data-scroll="ch_describingdata"><span class="codenumber">11</span> <span class="title">Describing Data</span></a></li>
+<li class="link"><a href="ch_probability.html" data-scroll="ch_probability"><span class="codenumber">12</span> <span class="title">Probability</span></a></li>
+<li class="link part"><a href="pt_topics.html" data-scroll="pt_topics"><span class="codenumber">V</span> <span class="title">Topics in Math</span></a></li>
+<li class="link">
+<a href="sets.html" data-scroll="sets"><span class="codenumber">13</span> <span class="title">Sets</span></a><ul>
+<li><a href="sec_setbasics.html" data-scroll="sec_setbasics">Basics</a></li>
+<li><a href="sec_setoperations.html" data-scroll="sec_setoperations">Union, Intersection, and Complement</a></li>
+<li><a href="sec_venndiagrams.html" data-scroll="sec_venndiagrams">Venn Diagrams</a></li>
+<li><a href="cardinality.html" data-scroll="cardinality">Cardinality</a></li>
+</ul>
+</li>
+<li class="link"><a href="ch_historical.html" data-scroll="ch_historical"><span class="codenumber">14</span> <span class="title">Historical Counting Systems</span></a></li>
+<li class="link"><a href="ch_fractals.html" data-scroll="ch_fractals"><span class="codenumber">15</span> <span class="title">Fractals</span></a></li>
+<li class="link"><a href="ch_cryptography.html" data-scroll="ch_cryptography"><span class="codenumber">16</span> <span class="title">Cryptography</span></a></li>
+<li class="link">
+<a href="ch_logic.html" data-scroll="ch_logic"><span class="codenumber">17</span> <span class="title">Logic</span></a><ul>
+<li><a href="sec_boolean.html" data-scroll="sec_boolean" class="active">Boolean Logic</a></li>
+<li><a href="sec_conditional.html" data-scroll="sec_conditional">Conditional Statements</a></li>
+<li><a href="sec_quantified.html" data-scroll="sec_quantified">Quantified Statements</a></li>
+<li><a href="sec_truthtables1.html" data-scroll="sec_truthtables1">Truth Tables I</a></li>
+<li><a href="sec_truthtables2.html" data-scroll="sec_truthtables2">Truth Tables II</a></li>
+<li><a href="sec_demorgan.html" data-scroll="sec_demorgan">De Morgan's Laws</a></li>
+<li><a href="sec_arguments.html" data-scroll="sec_arguments">Arguments and Fallacies</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Back Matter</span></a></li>
+<li class="link"><a href="appendix-solutions.html" data-scroll="appendix-solutions"><span class="codenumber">A</span> <span class="title">Solutions to Selected Exercises</span></a></li>
+<li class="link"><a href="appendix-gfdl.html" data-scroll="appendix-gfdl"><span class="codenumber">B</span> <span class="title">GNU Free Documentation License</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="sec_boolean"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">17.1</span> <span class="title">Boolean Logic</span>
+</h2>
+<article class="objectives goal-like" id="objectives-5"><h6 class="heading"><span class="type">Objectives</span></h6>
+<ol class="decimal"><li id="li-62"><p id="p-346">Use and interpret Boolean logic expressions.</p></li></ol></article><p id="p-347">We can often classify items as belonging to sets. If you went the library to search for a book and they asked you to express your search using unions, intersections, and complements of sets, that would feel a little strange. Instead, we typically using words like “and”, “or”, and “not” to connect our keywords together to form a search. These words, which form the basis of <dfn class="terminology">Boolean logic</dfn>, are directly related to our <a href="sec_setoperations.html" class="internal" title="Section 13.2: Union, Intersection, and Complement">set operations</a>. (Boolean logic was developed by the 19th-century English mathematician George Boole.)</p>
+<article class="definition definition-like" id="def_boolean"><h6 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">17.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Boolean Logic.</span>
+</h6>
+<p id="p-348">Boolean logic combines multiple statements that are either true or false into an expression that is either true or false.</p>
+<p id="p-349">In connection to sets, a search is true if the element is part of the set.</p></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-9" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/ZOLinnoXEAw?&amp;modestbranding=1&amp;rel=0"></iframe></div>
+<p id="p-350">Suppose <em class="emphasis">M</em> is the set of all mystery books, and <em class="emphasis">C</em> is the set of all comedy books. If we search for “mystery”, we are looking for all the books that are an element of the set <em class="emphasis">M</em>; the search is true for books that are in the set.</p>
+<p id="p-351">When we search for “mystery <em class="emphasis">and</em> comedy”, we are looking for a book that is an element of both sets, in the intersection. If we were to search for “mystery <em class="emphasis">or</em> comedy”, we are looking for a book that is a mystery, a comedy, or both, which is the union of the sets. If we searched for “<em class="emphasis">not</em> comedy”, we are looking for any book in the library that is not a comedy, the complement of the set <em class="emphasis">C</em>.</p>
+<article class="definition definition-like" id="def_connectives"><h6 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">17.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Connection to Set Operations.</span>
+</h6>
+<div class="displaymath" id="p-352">
+\begin{align*}
+A\text{ and }B &amp;&amp; \text{elements in the intersection } A\cap B\\
+A\text{ or }B &amp;&amp; \text{elements in the union } A\cup B\\
+\text{not }A &amp;&amp; \text{elements in the complement } A^c
+\end{align*}
+</div></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-10" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/7tm-sDKCnO4?&amp;modestbranding=1&amp;rel=0"></iframe></div>
+<p id="p-353">Notice here that <em class="emphasis">or</em> is not exclusive. This is a difference between the Boolean logic use of the word and common everyday use. When your significant other asks “do you want to go to the park or the movies?” they usually are proposing an exclusive choice – one option or the other, but not both. In Boolean logic, the <em class="emphasis">or</em> is not exclusive – more like being asked at a restaurant “would you like fries or a drink with that?” Answering “both, please” is an acceptable answer.</p>
+<article class="remark remark-like" id="ex_boolean1"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.3</span><span class="period">.</span>
+</h6>
+<p id="p-354">Suppose we are searching a library database for Mexican universities. Express a reasonable search using Boolean logic.</p>
+<p id="p-355">We could start with the search “Mexico <em class="emphasis">and</em> university”, but would be likely to find results for the U.S. state New Mexico. To account for this, we could revise our search to read:</p>
+<p id="p-356">Mexico <em class="emphasis">and</em> university <em class="emphasis">not</em> “New Mexico”</p></article><article class="remark remark-like" id="ex_boolean2"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.4</span><span class="period">.</span>
+</h6>
+<p id="p-357">Describe the numbers that meet the condition:</p>
+<p id="p-358">even <em class="emphasis">and</em> less than 10 <em class="emphasis">and</em> greater than 0.</p>
+<p id="p-359">The numbers that satisfy all three requirements are \(\{2, 4, 6, 8\}\text{.}\)</p></article><p id="p-360">Sometimes statements made in English can be ambiguous. For this reason, Boolean logic uses parentheses to show precedence, just like in algebraic order of operations.</p>
+<article class="remark remark-like" id="ex_boolean3"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.5</span><span class="period">.</span>
+</h6>
+<p id="p-361">Describe the numbers that meet the condition:</p>
+<p id="p-362">odd number <em class="emphasis">and</em> less than 20 <em class="emphasis">and</em> greater than 0 <em class="emphasis">and</em> (multiple of 3 <em class="emphasis">or</em> multiple of 5).</p>
+<p id="p-363">The first three conditions limit us to the set \(\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\}\text{.}\)</p>
+<p id="p-364">The last grouped conditions tell us to find elements of this set that are also either a multiple of 3 or a multiple of 5. This leaves us with the set \(\{3, 5, 9, 15\}\text{.}\)</p>
+<p id="p-365">Notice that we would have gotten a very different result if we had written</p>
+<p id="p-366">(odd number <em class="emphasis">and</em> less than 20 <em class="emphasis">and</em> greater than 0 <em class="emphasis">and</em> multiple of 3) <em class="emphasis">or</em> multiple of 5.</p>
+<p id="p-367">The first grouped set of conditions would give \(\{3, 9, 15\}\text{.}\) When combined with the last condition, though, this set expands without limits:</p>
+<div class="displaymath">
+\begin{equation*}
+\{3, 5, 9, 15, 20, 25, 30, 35, 40, 45, \ldots\}.
+\end{equation*}
+</div></article><article class="remark remark-like" id="ex_boolean4"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.6</span><span class="period">.</span>
+</h6>
+<p id="p-368">The English phrase “Go to the store and buy me eggs and bagels or cereal” is ambiguous; it is not clear whether the requestors is asking for eggs always along with either bagels or cereal, or whether they’re asking for either the combination of eggs and bagels, or just cereal.</p>
+<p id="p-369">For this reason, using parentheses clarifies the intent:</p>
+<div class="displaymath">
+\begin{align*}
+\text{Eggs and (bagels or cereal) } &amp;\text{means}&amp; \text{Option 1: Eggs and bagels, Option 2: Eggs and cereal}\\
+\text{(Eggs and bagels) or cereal } &amp;\text{means}&amp; \text{Option 1: Eggs and bagels, Option 2: Cereal}
+\end{align*}
+</div></article><p id="p-370">Be aware that when a string of conditions is written without grouping symbols, it is often interpreted from the left to right, resulting in the latter interpretation.</p>
+<section class="exercises" id="exercises_boolean"><h3 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">17.1.1</span> <span class="title">Exercises</span>
+</h3>
+<p id="p-371">For questions 1-2, list the set of integers that satisfy the given conditions.</p>
+<article class="exercise exercise-like" id="exercise-47"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
+<p id="p-372">A positive multiple of 5 and not a multiple of 2.</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-29" id="answer-29"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-29"><div class="answer solution-like"><p id="p-373">\(\{5, 15, 25, \ldots \}\text{.}\)</p></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-48"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<p id="p-374">Greater than 12 and less than or equal to 18.</p></article></section></section></div></main>
+</div>
+</body>
+</html>

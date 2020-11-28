@@ -1,3 +1,209 @@
 <chapter xml:id="ch_logic">
     <title>Logic</title>
+
+    <introduction>
+        <p>
+            Logic is, basically, the study of valid reasoning. When searching the internet, we use Boolean logic – terms like <q>and</q> and <q>or</q> – to help us find specific web pages that fit in the sets we are interested in. After exploring this form of logic, we will look at logical arguments and how we can determine the validity of a claim.
+        </p>
+    </introduction>
+
+    <section xml:id="sec_boolean">
+        <title>Boolean Logic</title>
+
+        <objectives>
+            <ol>
+                <li><p>Use and interpret Boolean logic expressions.</p></li>
+            </ol>
+        </objectives>
+
+        <p>
+            We can often classify items as belonging to sets. If you went the library to search for a book and they asked you to express your search using unions, intersections, and complements of sets, that would feel a little strange. Instead, we typically using words like <q>and</q>, <q>or</q>, and <q>not</q> to connect our keywords together to form a search. These words, which form the basis of <term>Boolean logic</term>, are directly related to our <xref ref="sec_setoperations" text="custom">set operations</xref>. (Boolean logic was developed by the 19<sup>th</sup>-century English mathematician George Boole.)
+        </p>
+
+        <definition xml:id="def_boolean">
+            <title>Boolean Logic</title>
+            <statement>
+                <p>
+                    Boolean logic combines multiple statements that are either true or false into an expression that is either true or false.
+                </p>
+                <p>
+				    In connection to sets, a search is true if the element is part of the set.
+		    	</p>    
+            </statement>
+        </definition>
+
+        <video youtube="ZOLinnoXEAw"/>
+
+        <p>
+            Suppose <em>M</em> is the set of all mystery books, and <em>C</em> is the set of all comedy books. If we search for <q>mystery</q>, we are looking for all the books that are an element of the set <em>M</em>; the search is true for books that are in the set.
+        </p>
+
+        <p>
+            When we search for <q>mystery <em>and</em> comedy</q>, we are looking for a book that is an element of both sets, in the intersection. If we were to search for <q>mystery <em>or</em> comedy</q>, we are looking for a book that is a mystery, a comedy, or both, which is the union of the sets. If we searched for <q><em>not</em> comedy</q>, we are looking for any book in the library that is not a comedy, the complement of the set <em>C</em>.
+        </p>
+
+        <definition xml:id="def_connectives">
+            <title>Connection to Set Operations</title>
+            <statement>
+                <p>
+                    <md>
+                        <mrow>A\text{ and }B &amp;&amp; \text{elements in the intersection } A\cap B</mrow>
+                        <mrow>A\text{ or }B &amp;&amp; \text{elements in the union } A\cup B</mrow>
+                        <mrow>\text{not }A &amp;&amp; \text{elements in the complement } A^c</mrow>
+                   </md>
+                </p>
+            </statement>
+        </definition>
+
+        <video youtube="7tm-sDKCnO4"/>
+
+        <p>
+            Notice here that <em>or</em> is not exclusive. This is a difference between the Boolean logic use of the word and common everyday use. When your significant other asks <q>do you want to go to the park or the movies?</q> they usually are proposing an exclusive choice – one option or the other, but not both. In Boolean logic, the <em>or</em> is not exclusive – more like being asked at a restaurant <q>would you like fries or a drink with that?</q> Answering <q>both, please</q> is an acceptable answer.
+        </p>
+
+        <remark xml:id="ex_boolean1">
+            <p>
+				Suppose we are searching a library database for Mexican universities. Express a reasonable search using Boolean logic.
+			</p>
+
+			<p>
+				We could start with the search <q>Mexico <em>and</em> university</q>, but would be likely to find results for the U.S. state New Mexico. To account for this, we could revise our search to read:
+			</p>
+
+			<p>
+				Mexico <em>and</em> university <em>not</em> <q>New Mexico</q>
+			</p>
+        </remark>
+
+        <remark xml:id="ex_boolean2">
+            <p>
+				Describe the numbers that meet the condition:
+			</p>
+
+			<p>
+				even <em>and</em> less than 10 <em>and</em> greater than 0.
+			</p>
+
+            <p>
+				The numbers that satisfy all three requirements are <m>\{2, 4, 6, 8\}</m>.
+			</p>
+        </remark>
+
+        <p>
+				Sometimes statements made in English can be ambiguous. For this reason, Boolean logic uses parentheses to show precedence, just like in algebraic order of operations.
+        </p>
+
+        <remark xml:id="ex_boolean3">
+            <p>
+				Describe the numbers that meet the condition:
+			</p>
+
+			<p>
+				odd number <em>and</em> less than 20 <em>and</em> greater than 0 <em>and</em> (multiple of 3 <em>or</em> multiple of 5).
+			</p>
+
+            <p>
+				The first three conditions limit us to the set <m>\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\}</m>.
+			</p>
+
+			<p>
+				The last grouped conditions tell us to find elements of this set that are also either a multiple of 3 or a multiple of 5. This leaves us with the set <m>\{3, 5, 9, 15\}</m>.
+			</p>
+
+            <p>
+				Notice that we would have gotten a very different result if we had written
+			</p>
+
+			<p>
+				(odd number <em>and</em> less than 20 <em>and</em> greater than 0 <em>and</em> multiple of 3) <em>or</em> multiple of 5.
+			</p>
+
+			<p>
+				The first grouped set of conditions would give <m>\{3, 9, 15\}</m>. When combined with the last condition, though, this set expands without limits:
+			    <me>
+				\{3, 5, 9, 15, 20, 25, 30, 35, 40, 45, \ldots\}.
+                </me>
+			</p>
+        </remark>
+
+        <remark xml:id="ex_boolean4">
+            <p>
+				The English phrase <q>Go to the store and buy me eggs and bagels or cereal</q> is ambiguous; it is not clear whether the requestors is asking for eggs always along with either bagels or cereal, or whether they’re asking for either the combination of eggs and bagels, or just cereal.
+			</p>
+
+			<p>
+				For this reason, using parentheses clarifies the intent:
+			
+
+			<md>
+                <mrow>
+				    \text{Eggs and (bagels or cereal) } &amp;\text{means}&amp; \text{Option 1: Eggs and bagels, Option 2: Eggs and cereal}</mrow>
+                <mrow>
+				    \text{(Eggs and bagels) or cereal } &amp;\text{means}&amp; \text{Option 1: Eggs and bagels, Option 2: Cereal}</mrow>
+            </md>
+			</p>
+        </remark>
+
+        <p>
+            Be aware that when a string of conditions is written without grouping symbols, it is often interpreted from the left to right, resulting in the latter interpretation.
+        </p>
+
+        <exercises xml:id="exercises_boolean">
+            <p>For questions 1-2, list the set of integers that satisfy the given conditions.</p>
+
+            <exercise>
+                <statement>
+                    <p>
+                         A positive multiple of 5 and not a multiple of 2.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                       <m>\{5, 15, 25, \ldots \}</m>.
+                    </p>
+                </answer>
+            </exercise>
+
+            <exercise>
+                <statement>
+                    <p>
+                         Greater than 12 and less than or equal to 18.
+                    </p>
+                </statement>
+            </exercise>
+
+        </exercises>
+
+    </section>
+
+    <section xml:id="sec_conditional">
+        <title>Conditional Statements</title>
+        
+    </section>
+
+    <section xml:id="sec_quantified">
+        <title>Quantified Statements</title>
+        
+    </section>
+
+    <section xml:id="sec_truthtables1">
+        <title>Truth Tables I</title>
+        
+    </section>    
+
+    <section xml:id="sec_truthtables2">
+        <title>Truth Tables II</title>
+        
+    </section>
+
+    <section xml:id="sec_demorgan">
+        <title>De Morgan's Laws</title>
+        
+    </section>  
+
+     <section xml:id="sec_arguments">
+        <title>Arguments and Fallacies</title>
+        
+    </section>   
+
 </chapter>

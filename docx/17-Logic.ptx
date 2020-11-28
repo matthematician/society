@@ -9,7 +9,7 @@
 		<title>Logic</title>
 
 		<p>
-			Logic is, basically, the study of valid reasoning. When searching the internet, we use Boolean logic – terms like “and” and “or” – to help us find specific web pages that fit in the sets we are interested in. After exploring this form of logic, we will look at logical arguments and how we can determine the validity of a claim.
+			Logic is, basically, the study of valid reasoning. When searching the internet, we use Boolean logic – terms like <q>and</q> and <q>or</q> – to help us find specific web pages that fit in the sets we are interested in. After exploring this form of logic, we will look at logical arguments and how we can determine the validity of a claim.
 		</p>
 
 
@@ -17,7 +17,7 @@
 			<title>Boolean Logic</title>
 
 			<p>
-				We can often classify items as belonging to sets. If you went the library to search for a book and they asked you to express your search using unions, intersections, and complements of sets, that would feel a little strange. Instead, we typically using words like “and”, “or”, and “not” to connect our keywords together to form a search. These words, which form the basis of <term>Boolean logic</term>, are directly related to our set operations. (Boolean logic was developed by the 19<sup>th</sup>-century English mathematician George Boole.)
+				We can often classify items as belonging to sets. If you went the library to search for a book and they asked you to express your search using unions, intersections, and complements of sets, that would feel a little strange. Instead, we typically using words like <q>and</q>, <q>or</q>, and <q>not</q> to connect our keywords together to form a search. These words, which form the basis of <term>Boolean logic</term>, are directly related to our set operations. (Boolean logic was developed by the 19<sup>th</sup>-century English mathematician George Boole.)
 			</p>
 
 			<p>
@@ -33,11 +33,11 @@
 			</p>
 
 			<p>
-				Suppose <em>M</em> is the set of all mystery books, and <em>C</em> is the set of all comedy books. If we search for “mystery”, we are looking for all the books that are an element of the set <em>M</em>; the search is true for books that are in the set.
+				Suppose <em>M</em> is the set of all mystery books, and <em>C</em> is the set of all comedy books. If we search for <q>mystery</q>, we are looking for all the books that are an element of the set <em>M</em>; the search is true for books that are in the set.
 			</p>
 
 			<p>
-				When we search for “mystery <em>and</em> comedy”, we are looking for a book that is an element of both sets, in the intersection. If we were to search for “mystery <em>or</em> comedy”, we are looking for a book that is a mystery, a comedy, or both, which is the union of the sets. If we searched for “<em>not</em> comedy”, we are looking for any book in the library that is not a comedy, the complement of the set <em>C</em>.
+				When we search for <q>mystery <em>and</em> comedy</q>, we are looking for a book that is an element of both sets, in the intersection. If we were to search for <q>mystery <em>or</em> comedy</q>, we are looking for a book that is a mystery, a comedy, or both, which is the union of the sets. If we searched for <q><em>not</em> comedy</q>, we are looking for any book in the library that is not a comedy, the complement of the set <em>C</em>.
 			</p>
 
 			<p>
@@ -57,7 +57,7 @@
 			</p>
 
 			<p>
-				Notice here that <em>or</em> is not exclusive. This is a difference between the Boolean logic use of the word and common everyday use. When your significant other asks “do you want to go to the park or the movies?” they usually are proposing an exclusive choice – one option or the other, but not both. In Boolean logic, the <em>or</em> is not exclusive – more like being asked at a restaurant “would you like fries or a drink with that?” Answering “both, please” is an acceptable answer.
+				Notice here that <em>or</em> is not exclusive. This is a difference between the Boolean logic use of the word and common everyday use. When your significant other asks <q>do you want to go to the park or the movies?</q> they usually are proposing an exclusive choice – one option or the other, but not both. In Boolean logic, the <em>or</em> is not exclusive – more like being asked at a restaurant <q>would you like fries or a drink with that?</q> Answering <q>both, please</q> is an acceptable answer.
 			</p>
 
 			<p>
@@ -69,11 +69,11 @@
 			</p>
 
 			<p>
-				We could start with the search “Mexico <em>and</em> university”, but would be likely to find results for the U.S. state New Mexico. To account for this, we could revise our search to read:
+				We could start with the search <q>Mexico <em>and</em> university</q>, but would be likely to find results for the U.S. state New Mexico. To account for this, we could revise our search to read:
 			</p>
 
 			<p>
-				Mexico <em>and</em> university <em>not</em> “New Mexico”
+				Mexico <em>and</em> university <em>not</em> <q>New Mexico</q>
 			</p>
 
 			<p>
@@ -81,7 +81,7 @@
 			</p>
 
 			<p>
-				Mexico university -“New Mexico”
+				Mexico university -<q>New Mexico</q>
 			</p>
 
 			<p>
@@ -145,7 +145,7 @@
 			</p>
 
 			<p>
-				The English phrase “Go to the store and buy me eggs and bagels or cereal” is ambiguous; it is not clear whether the requestors is asking for eggs always along with either bagels or cereal, or whether they’re asking for either the combination of eggs and bagels, or just cereal.
+				The English phrase <q>Go to the store and buy me eggs and bagels or cereal</q> is ambiguous; it is not clear whether the requestors is asking for eggs always along with either bagels or cereal, or whether they’re asking for either the combination of eggs and bagels, or just cereal.
 			</p>
 
 			<p>
@@ -170,7 +170,7 @@
 			<title>Conditional Statements</title>
 
 			<p>
-				Beyond searching, Boolean logic is commonly used in spreadsheet applications like Excel to do conditional calculations. A <term>statement</term> is something that is either true or false. A statement like 3 &lt; 5 is true; a statement like “a rat is a fish” is false. A statement like “<em>x</em> &lt; 5” is true for some values of <em>x</em> and false for others. When an action is taken or not depending on the value of a statement, it forms a <term>conditional</term>.
+				Beyond searching, Boolean logic is commonly used in spreadsheet applications like Excel to do conditional calculations. A <term>statement</term> is something that is either true or false. A statement like 3 &lt; 5 is true; a statement like <q>a rat is a fish</q> is false. A statement like <q><em>x</em> &lt; 5</q> is true for some values of <em>x</em> and false for others. When an action is taken or not depending on the value of a statement, it forms a <term>conditional</term>.
 			</p>
 
 			<p>
@@ -186,7 +186,7 @@
 			</p>
 
 			<p>
-				“if <em>p</em> then <em>q”</em> or “if <em>p</em> then <em>q</em>, else <em>s</em>”.
+				<q>if <em>p</em> then <em>q</q></em> or <q>if <em>p</em> then <em>q</em>, else <em>s</em></q>.
 			</p>
 
 			<p>
@@ -194,11 +194,11 @@
 			</p>
 
 			<p>
-				In common language, an example of a conditional statement would be “If it is raining, then we’ll go to the mall. Otherwise we’ll go for a hike.”
+				In common language, an example of a conditional statement would be <q>If it is raining, then we’ll go to the mall. Otherwise we’ll go for a hike.</q>
 			</p>
 
 			<p>
-				The statement “If it is raining” is the condition – this may be true or false for any given day. If the condition is true, then we will follow the first course of action, and go to the mall. If the condition is false, then we will use the alternative, and go for a hike.
+				The statement <q>If it is raining</q> is the condition – this may be true or false for any given day. If the condition is true, then we will follow the first course of action, and go to the mall. If the condition is false, then we will use the alternative, and go for a hike.
 			</p>
 
 			<p>
@@ -218,7 +218,7 @@
 			</p>
 
 			<p>
-				In other words, this statement is equivalent to saying “If the value of A1 is less than 2000, then add 1 to the value in A1. Otherwise, multiply A1 by 2”.
+				In other words, this statement is equivalent to saying <q>If the value of A1 is less than 2000, then add 1 to the value in A1. Otherwise, multiply A1 by 2</q>.
 			</p>
 
 			<p>
@@ -258,7 +258,7 @@
 			</p>
 
 			<p>
-				In words we could write “If income &lt; 30,000, then multiply by 0.15, otherwise multiply by 0.20”. In Excel, we would write:
+				In words we could write <q>If income &lt; 30,000, then multiply by 0.15, otherwise multiply by 0.20</q>. In Excel, we would write:
 			</p>
 
 			<p>
@@ -274,7 +274,7 @@
 			</p>
 
 			<p>
-				A parent might say to their child “if you clean your room and take out the garbage, then you can have ice cream.”
+				A parent might say to their child <q>if you clean your room and take out the garbage, then you can have ice cream.</q>
 			</p>
 
 			<p>
@@ -294,11 +294,11 @@
 			</p>
 
 			<p>
-				Notice that if the parent had said “if you clean your room <em>or</em> take out the garbage, then you can have ice cream”, then the child would need to complete only one chore to meet the condition.
+				Notice that if the parent had said <q>if you clean your room <em>or</em> take out the garbage, then you can have ice cream</q>, then the child would need to complete only one chore to meet the condition.
 			</p>
 
 			<p>
-				Suppose you wanted to have something happen when a certain value is between 100 and 300. To create the condition “A1 &lt; 300 and A1 &gt; 100” in Excel, you would need to enter “AND(A1&lt;300, A1&gt;100)”. Likewise, for the condition “A1=4 or A1=6” you would enter “OR(A1=4, A1=6)”
+				Suppose you wanted to have something happen when a certain value is between 100 and 300. To create the condition <q>A1 &lt; 300 and A1 &gt; 100</q> in Excel, you would need to enter <q>AND(A1&lt;300, A1&gt;100)</q>. Likewise, for the condition <q>A1=4 or A1=6</q> you would enter <q>OR(A1=4, A1=6)</q>
 			</p>
 
 			<p>
@@ -338,7 +338,7 @@
 			</p>
 
 			<p>
-				IF(OR(AND(A1&lt;10000, A2=0), AND(A1&lt;20000, A2&gt;0)), “you qualify”, “you don’t qualify”)
+				IF(OR(AND(A1&lt;10000, A2=0), AND(A1&lt;20000, A2&gt;0)), <q>you qualify</q>, <q>you don’t qualify</q>)
 			</p>
 
 		</subsection>
@@ -347,7 +347,7 @@
 			<title>Quantified Statements</title>
 
 			<p>
-				Words that describe an entire set, such as “all”, “every”, or “none”, are called <term>universal quantifiers</term> because that set could be considered a universal set. In contrast, words or phrases such as “some”, “one”, or “at least one” are called <term>existential quantifiers</term> because they describe the existence of at least one element in a set.
+				Words that describe an entire set, such as <q>all</q>, <q>every</q>, or <q>none</q>, are called <term>universal quantifiers</term> because that set could be considered a universal set. In contrast, words or phrases such as <q>some</q>, <q>one</q>, or <q>at least one</q> are called <term>existential quantifiers</term> because they describe the existence of at least one element in a set.
 			</p>
 
 			<p>
@@ -371,7 +371,7 @@
 			</p>
 
 			<p>
-				Suppose your friend says “Everybody cheats on their taxes.” What is the minimum amount of evidence you would need to prove your friend wrong?
+				Suppose your friend says <q>Everybody cheats on their taxes.</q> What is the minimum amount of evidence you would need to prove your friend wrong?
 			</p>
 
 			<p>
@@ -387,7 +387,7 @@
 			</p>
 
 			<p>
-				Suppose your friend says “One of these six cartons of milk is leaking.” What is the minimum amount of evidence you would need to prove your friend wrong?
+				Suppose your friend says <q>One of these six cartons of milk is leaking.</q> What is the minimum amount of evidence you would need to prove your friend wrong?
 			</p>
 
 			<p>
@@ -403,19 +403,19 @@
 			</p>
 
 			<p>
-				The negation of “all A are B” is “at least one A is not B”.
+				The negation of <q>all A are B</q> is <q>at least one A is not B</q>.
 			</p>
 
 			<p>
-				The negation of “no A are B” is “at least one A is B”.
+				The negation of <q>no A are B</q> is <q>at least one A is B</q>.
 			</p>
 
 			<p>
-				The negation of “at least one A is B” is “no A are B”.
+				The negation of <q>at least one A is B</q> is <q>no A are B</q>.
 			</p>
 
 			<p>
-				The negation of “at least one A is not B” is “all A are B”.
+				The negation of <q>at least one A is not B</q> is <q>all A are B</q>.
 			</p>
 
 			<p>
@@ -423,11 +423,11 @@
 			</p>
 
 			<p>
-				“Somebody brought a flashlight.” Write the negation of this statement.
+				<q>Somebody brought a flashlight.</q> Write the negation of this statement.
 			</p>
 
 			<p>
-				The negation is “Nobody brought a flashlight.”
+				The negation is <q>Nobody brought a flashlight.</q>
 			</p>
 
 			<p>
@@ -435,11 +435,11 @@
 			</p>
 
 			<p>
-				“There are no prime numbers that are even.” Write the negation of this statement.
+				<q>There are no prime numbers that are even.</q> Write the negation of this statement.
 			</p>
 
 			<p>
-				The negation is “At least one prime number is even.”
+				The negation is <q>At least one prime number is even.</q>
 			</p>
 
 			<p>
@@ -447,7 +447,7 @@
 			</p>
 
 			<p>
-				Write the negation of “All Icelandic children learn English in school.”
+				Write the negation of <q>All Icelandic children learn English in school.</q>
 			</p>
 
 		</subsection>
@@ -484,7 +484,7 @@
 			</p>
 
 			<p>
-				Translate each statement into symbolic notation. Let <em>P</em> represent “I like Pepsi” and let <em>C</em> represent “I like Coke”.
+				Translate each statement into symbolic notation. Let <em>P</em> represent <q>I like Pepsi</q> and let <em>C</em> represent <q>I like Coke</q>.
 			</p>
 
 			<p>
@@ -536,7 +536,7 @@
 			</p>
 
 			<p>
-				Translate “We have carrots or we will not make soup” into symbols. Let <em>C</em> represent “we have carrots” and let <em>S</em> represent “we will make soup”.
+				Translate <q>We have carrots or we will not make soup</q> into symbols. Let <em>C</em> represent <q>we have carrots</q> and let <em>S</em> represent <q>we will make soup</q>.
 			</p>
 
 			<p>
@@ -556,11 +556,11 @@
 			</p>
 
 			<p>
-				Suppose you’re picking out a new couch, and your significant other says “get a sectional <em>or</em> something with a chaise”.
+				Suppose you’re picking out a new couch, and your significant other says <q>get a sectional <em>or</em> something with a chaise</q>.
 			</p>
 
 			<p>
-				This is a complex statement made of two simpler conditions: “is a sectional”, and “has a chaise”. For simplicity, let’s use <em>S</em> to designate “is a sectional”, and <em>C</em> to designate “has a chaise”.
+				This is a complex statement made of two simpler conditions: <q>is a sectional</q>, and <q>has a chaise</q>. For simplicity, let’s use <em>S</em> to designate <q>is a sectional</q>, and <em>C</em> to designate <q>has a chaise</q>.
 			</p>
 
 			<p>
@@ -568,7 +568,7 @@
 			</p>
 
 			<p>
-				In the table, T is used for true, and F for false. In the first row, if <em>S</em> is true and <em>C</em> is also true, then the complex statement “<em>S</em> or <em>C</em>” is true. This would be a sectional that also has a chaise, which meets our desire. (Remember that <em>or</em> in logic is not exclusive; if the couch has both features, it meets the condition.)
+				In the table, T is used for true, and F for false. In the first row, if <em>S</em> is true and <em>C</em> is also true, then the complex statement <q><em>S</em> or <em>C</em></q> is true. This would be a sectional that also has a chaise, which meets our desire. (Remember that <em>or</em> in logic is not exclusive; if the couch has both features, it meets the condition.)
 			</p>
 
 			<p>
@@ -608,7 +608,7 @@
 			</p>
 
 			<p>
-				The truth table shows that <em>A</em> ⋁ ~<em>B</em> is true in three cases and false in one case. If you’re wondering what the point of this is, suppose it is the last day of the baseball season and two teams, who are not playing each other, are competing for the final playoff spot. Anaheim will make the playoffs if it wins its game  if Boston does not win its game. (Anaheim owns the tie-breaker; if both teams win, or if both teams lose, then Anaheim gets the playoff spot.) If <em>A</em> = Anaheim wins its game and <em>B</em> = Boston wins its game, then <em>A</em> ⋁ ~<em>B</em> represents the situation “Anaheim wins its game or Boston does not win its game”. The truth table shows us the different scenarios related to Anaheim making the playoffs. In the first row, Anaheim wins its game and Boston wins its game, so it is true that Anaheim makes the playoffs. In the second row, Anaheim wins and Boston does not win, so it is true that Anaheim makes the playoffs. In the third row, Anaheim does not win its game and Boston wins its game, so it is  that Anaheim makes the playoffs. In the fourth row, Anaheim does not win and Boston does not win, so it is true that Anaheim makes the playoffs.
+				The truth table shows that <em>A</em> ⋁ ~<em>B</em> is true in three cases and false in one case. If you’re wondering what the point of this is, suppose it is the last day of the baseball season and two teams, who are not playing each other, are competing for the final playoff spot. Anaheim will make the playoffs if it wins its game  if Boston does not win its game. (Anaheim owns the tie-breaker; if both teams win, or if both teams lose, then Anaheim gets the playoff spot.) If <em>A</em> = Anaheim wins its game and <em>B</em> = Boston wins its game, then <em>A</em> ⋁ ~<em>B</em> represents the situation <q>Anaheim wins its game or Boston does not win its game</q>. The truth table shows us the different scenarios related to Anaheim making the playoffs. In the first row, Anaheim wins its game and Boston wins its game, so it is true that Anaheim makes the playoffs. In the second row, Anaheim wins and Boston does not win, so it is true that Anaheim makes the playoffs. In the third row, Anaheim does not win its game and Boston wins its game, so it is  that Anaheim makes the playoffs. In the fourth row, Anaheim does not win and Boston does not win, so it is true that Anaheim makes the playoffs.
 			</p>
 
 			<p>
@@ -729,7 +729,7 @@
 			</p>
 
 			<p>
-				A conditional is written as <em>p</em> → <em>q</em> and is translated as “if <em>p</em>, then <em>q</em>”.
+				A conditional is written as <em>p</em> → <em>q</em> and is translated as <q>if <em>p</em>, then <em>q</em></q>.
 			</p>
 
 			<p>
@@ -737,7 +737,7 @@
 			</p>
 
 			<p>
-				The English statement “If it is raining, then there are clouds is the sky” is a conditional statement. It makes sense because if the antecedent “it is raining” is true, then the consequent “there are clouds in the sky” must also be true.
+				The English statement <q>If it is raining, then there are clouds is the sky</q> is a conditional statement. It makes sense because if the antecedent <q>it is raining</q> is true, then the consequent <q>there are clouds in the sky</q> must also be true.
 			</p>
 
 			<p>
@@ -785,7 +785,7 @@
 			</p>
 
 			<p>
-				A friend tells you “If you upload that picture to Facebook, you’ll lose your job.” Under what conditions can you say that your friend was wrong?
+				A friend tells you <q>If you upload that picture to Facebook, you’ll lose your job.</q> Under what conditions can you say that your friend was wrong?
 			</p>
 
 			<p>
@@ -974,7 +974,7 @@
 			</p>
 
 			<p>
-				If you want a real-life situation that could be modeled by (<em>m</em> ⋀ ~<em>p</em>) → <em>r</em>, consider this: let <em>m</em> = we order meatballs, <em>p</em> = we order pasta, and <em>r</em> = Rob is happy. The statement (<em>m</em> ⋀ ~<em>p</em>) → <em>r</em> is “if we order meatballs and don’t order pasta, then Rob is happy”. If <em>m</em> is true (we order meatballs), <em>p</em> is false (we don’t order pasta), and <em>r</em> is false (Rob is not happy), then the statement is false, because we satisfied the antecedent but Rob did not satisfy the consequent.
+				If you want a real-life situation that could be modeled by (<em>m</em> ⋀ ~<em>p</em>) → <em>r</em>, consider this: let <em>m</em> = we order meatballs, <em>p</em> = we order pasta, and <em>r</em> = Rob is happy. The statement (<em>m</em> ⋀ ~<em>p</em>) → <em>r</em> is <q>if we order meatballs and don’t order pasta, then Rob is happy</q>. If <em>m</em> is true (we order meatballs), <em>p</em> is false (we don’t order pasta), and <em>r</em> is false (Rob is not happy), then the statement is false, because we satisfied the antecedent but Rob did not satisfy the consequent.
 			</p>
 
 			<p>
@@ -986,19 +986,19 @@
 			</p>
 
 			<p>
-				The original conditional is “if <em>p</em>, then <em>q</em>” <em>p</em> → <em>q</em>
+				The original conditional is <q>if <em>p</em>, then <em>q</em></q> <em>p</em> → <em>q</em>
 			</p>
 
 			<p>
-				The converse is “if <em>q</em>, then <em>p</em>” <em>q</em> → <em>p</em>
+				The converse is <q>if <em>q</em>, then <em>p</em></q> <em>q</em> → <em>p</em>
 			</p>
 
 			<p>
-				The inverse is “if not <em>p</em>, then not <em>q</em>” ~<em>p</em> → ~<em>q</em>
+				The inverse is <q>if not <em>p</em>, then not <em>q</em></q> ~<em>p</em> → ~<em>q</em>
 			</p>
 
 			<p>
-				The contrapositive is “if not <em>q</em>, then not <em>p</em>” ~<em>q</em> → ~<em>p</em>
+				The contrapositive is <q>if not <em>q</em>, then not <em>p</em></q> ~<em>q</em> → ~<em>p</em>
 			</p>
 
 			<p>
@@ -1006,19 +1006,19 @@
 			</p>
 
 			<p>
-				Consider again the conditional “If it is raining, then there are clouds in the sky.” It seems reasonable to assume that this is true.
+				Consider again the conditional <q>If it is raining, then there are clouds in the sky.</q> It seems reasonable to assume that this is true.
 			</p>
 
 			<p>
-				The converse would be “If there are clouds in the sky, then it is raining.” This is not always true.
+				The converse would be <q>If there are clouds in the sky, then it is raining.</q> This is not always true.
 			</p>
 
 			<p>
-				The inverse would be “If it is not raining, then there are not clouds in the sky.” Likewise, this is not always true.
+				The inverse would be <q>If it is not raining, then there are not clouds in the sky.</q> Likewise, this is not always true.
 			</p>
 
 			<p>
-				The contrapositive would be “If there are not clouds in the sky, then it is not raining.” This statement is true, and is equivalent to the original conditional.
+				The contrapositive would be <q>If there are not clouds in the sky, then it is not raining.</q> This statement is true, and is equivalent to the original conditional.
 			</p>
 
 			<p>
@@ -1050,7 +1050,7 @@
 			</p>
 
 			<p>
-				Suppose this statement is true: “If I eat this giant cookie, then I will feel sick.” Which of the following statements must also be true?
+				Suppose this statement is true: <q>If I eat this giant cookie, then I will feel sick.</q> Which of the following statements must also be true?
 			</p>
 
 			<p>
@@ -1086,7 +1086,7 @@
 			</p>
 
 			<p>
-				“If you microwave salmon in the staff kitchen, then I will be mad at you.” If this statement is true, which of the following statements must also be true?
+				<q>If you microwave salmon in the staff kitchen, then I will be mad at you.</q> If this statement is true, which of the following statements must also be true?
 			</p>
 
 			<p>
@@ -1102,7 +1102,7 @@
 			</p>
 
 			<p>
-				Consider the statement “If you park here, then you will get a ticket.” What set of conditions would prove this statement false?
+				Consider the statement <q>If you park here, then you will get a ticket.</q> What set of conditions would prove this statement false?
 			</p>
 
 			<p>
@@ -1118,7 +1118,7 @@
 			</p>
 
 			<p>
-				The first two statements are irrelevant because we don’t know what will happen if you park somewhere else. The third statement, however contradicts the conditional statement “If you park here, then you will get a ticket” because you parked here but didn’t get a ticket. This example demonstrates a general rule; the negation of a conditional can be written as a conjunction: “It is not the case that if you park here, then you will get a ticket” is equivalent to “You park here <em>and</em> you do not get a ticket.”
+				The first two statements are irrelevant because we don’t know what will happen if you park somewhere else. The third statement, however contradicts the conditional statement <q>If you park here, then you will get a ticket</q> because you parked here but didn’t get a ticket. This example demonstrates a general rule; the negation of a conditional can be written as a conjunction: <q>It is not the case that if you park here, then you will get a ticket</q> is equivalent to <q>You park here <em>and</em> you do not get a ticket.</q>
 			</p>
 
 			<p>
@@ -1138,7 +1138,7 @@
 			</p>
 
 			<p>
-				Which of the following statements is equivalent to the negation of “If you don’t grease the pan, then the food will stick to it” ?
+				Which of the following statements is equivalent to the negation of <q>If you don’t grease the pan, then the food will stick to it</q> ?
 			</p>
 
 			<p>
@@ -1158,7 +1158,7 @@
 			</p>
 
 			<p>
-				b. This is essentially the original statement with no negation; the “if…then” has been replaced by “and”.
+				b. This is essentially the original statement with no negation; the <q>if…then</q> has been replaced by <q>and</q>.
 			</p>
 
 			<p>
@@ -1170,7 +1170,7 @@
 			</p>
 
 			<p>
-				“If you go swimming less than an hour after eating lunch, then you will get cramps.” Which of the following statements is equivalent to the negation of this statement?
+				<q>If you go swimming less than an hour after eating lunch, then you will get cramps.</q> Which of the following statements is equivalent to the negation of this statement?
 			</p>
 
 			<p>
@@ -1186,7 +1186,7 @@
 			</p>
 
 			<p>
-				In everyday life, we often have a stronger meaning in mind when we use a conditional statement. Consider “If you submit your hours today, then you will be paid next Friday.” What the payroll rep really means is “If you submit your hours today, then you will be paid next Friday, and if you don’t submit your hours today, then you won’t be paid next Friday.” The conditional statement if <em>t</em>, then <em>p</em> also includes the inverse of the statement: if not <em>t</em>, then not <em>p</em>. A more compact way to express this statement is “You will be paid next Friday <em>if and only if</em> you submit your timesheet today.” A statement of this form is called a <term>biconditional</term>.
+				In everyday life, we often have a stronger meaning in mind when we use a conditional statement. Consider <q>If you submit your hours today, then you will be paid next Friday.</q> What the payroll rep really means is <q>If you submit your hours today, then you will be paid next Friday, and if you don’t submit your hours today, then you won’t be paid next Friday.</q> The conditional statement if <em>t</em>, then <em>p</em> also includes the inverse of the statement: if not <em>t</em>, then not <em>p</em>. A more compact way to express this statement is <q>You will be paid next Friday <em>if and only if</em> you submit your timesheet today.</q> A statement of this form is called a <term>biconditional</term>.
 			</p>
 
 			<p>
@@ -1198,7 +1198,7 @@
 			</p>
 
 			<p>
-				A biconditional is written as <em>p</em> ↔ <em>q</em> and is translated as “<em>p</em> if and only if <em>q</em>”.
+				A biconditional is written as <em>p</em> ↔ <em>q</em> and is translated as <q><em>p</em> if and only if <em>q</em></q>.
 			</p>
 
 			<p>
@@ -1218,7 +1218,7 @@
 			</p>
 
 			<p>
-				Suppose this statement is true: “The garbage truck comes down my street if and only if it is Thursday morning.” Which of the following statements could be true?
+				Suppose this statement is true: <q>The garbage truck comes down my street if and only if it is Thursday morning.</q> Which of the following statements could be true?
 			</p>
 
 			<p>
@@ -1250,7 +1250,7 @@
 			</p>
 
 			<p>
-				Suppose this statement is true: “I wear my running shoes if and only if I am exercising.” Determine whether each of the following statements must be true or false.
+				Suppose this statement is true: <q>I wear my running shoes if and only if I am exercising.</q> Determine whether each of the following statements must be true or false.
 			</p>
 
 			<p>
@@ -1346,7 +1346,7 @@
 			</p>
 
 			<p>
-				To illustrate this situation, suppose your boss needs you to do either project <em>A</em> or project <em>B</em> (or both, if you have the time). If you do one of the projects, you will not get a crummy review (<em>C</em> is for crummy). So (<em>A</em> ⋁ <em>B</em>) ↔ ~<em>C</em> means “You will not get a crummy review if and only if you do project <em>A</em> or project <em>B</em>.” Looking at a few of the rows of the truth table, we can see how this works out. In the first row, <em>A</em>, <em>B</em>, and <em>C</em> are all true: you did both projects and got a crummy review, which is not what your boss told you would happen! That is why the final result of the first row is false. In the fourth row, <em>A</em> is true, <em>B</em> is false, and <em>C</em> is false: you did project <em>A</em> and did not get a crummy review. This is what your boss said would happen, so the final result of this row is true. And in the eighth row, <em>A</em>, <em>B</em>, and <em>C</em> are all false: you didn’t do either project and did not get a crummy review. This is  what your boss said would happen, so the final result of this row is false. (Even though you may be happy that your boss didn’t follow through on the threat, the truth table shows that your boss lied about what would happen.)
+				To illustrate this situation, suppose your boss needs you to do either project <em>A</em> or project <em>B</em> (or both, if you have the time). If you do one of the projects, you will not get a crummy review (<em>C</em> is for crummy). So (<em>A</em> ⋁ <em>B</em>) ↔ ~<em>C</em> means <q>You will not get a crummy review if and only if you do project <em>A</em> or project <em>B</em>.</q> Looking at a few of the rows of the truth table, we can see how this works out. In the first row, <em>A</em>, <em>B</em>, and <em>C</em> are all true: you did both projects and got a crummy review, which is not what your boss told you would happen! That is why the final result of the first row is false. In the fourth row, <em>A</em> is true, <em>B</em> is false, and <em>C</em> is false: you did project <em>A</em> and did not get a crummy review. This is what your boss said would happen, so the final result of this row is true. And in the eighth row, <em>A</em>, <em>B</em>, and <em>C</em> are all false: you didn’t do either project and did not get a crummy review. This is  what your boss said would happen, so the final result of this row is false. (Even though you may be happy that your boss didn’t follow through on the threat, the truth table shows that your boss lied about what would happen.)
 			</p>
 
 		</subsection>
@@ -1367,7 +1367,7 @@
 			</p>
 
 			<p>
-				The negation of a conjunction is equivalent to the disjunction of the negation of the statements making up the conjunction. To negate an “and” statement, negate each part and change the “and” to “or”.
+				The negation of a conjunction is equivalent to the disjunction of the negation of the statements making up the conjunction. To negate an <q>and</q> statement, negate each part and change the <q>and</q> to <q>or</q>.
 			</p>
 
 			<p>
@@ -1375,7 +1375,7 @@
 			</p>
 
 			<p>
-				The negation of a disjunction is equivalent to the conjunction of the negation of the statements making up the disjunction. To negate an “or” statement, negate each part and change the “or” to “and”.
+				The negation of a disjunction is equivalent to the conjunction of the negation of the statements making up the disjunction. To negate an <q>or</q> statement, negate each part and change the <q>or</q> to <q>and</q>.
 			</p>
 
 			<p>
@@ -1448,7 +1448,7 @@
 			</p>
 
 			<p>
-				The argument “when I went to the store last week I forgot my purse, and when I went today I forgot my purse. I always forget my purse when I go the store” is an inductive argument.
+				The argument <q>when I went to the store last week I forgot my purse, and when I went today I forgot my purse. I always forget my purse when I go the store</q> is an inductive argument.
 			</p>
 
 			<p>
@@ -1480,7 +1480,7 @@
 			</p>
 
 			<p>
-				The argument “every day for the past year, a plane flies over my house at 2:00 P.M. A plane will fly over my house every day at 2:00 P.M.” is a stronger inductive argument, since it is based on a larger set of evidence. While it is not necessarily true—the airline may have cancelled its afternoon flight—it is probably a safe bet.
+				The argument <q>every day for the past year, a plane flies over my house at 2:00 P.M. A plane will fly over my house every day at 2:00 P.M.</q> is a stronger inductive argument, since it is based on a larger set of evidence. While it is not necessarily true—the airline may have cancelled its afternoon flight—it is probably a safe bet.
 			</p>
 
 			<p>
@@ -1520,7 +1520,7 @@
 				</p>
 
 				<p>
-					Consider the deductive argument “All cats are mammals and a tiger is a cat, so a tiger is a mammal.” Is this argument valid?
+					Consider the deductive argument <q>All cats are mammals and a tiger is a cat, so a tiger is a mammal.</q> Is this argument valid?
 				</p>
 
 				<p>
@@ -1662,7 +1662,7 @@
 				</p>
 
 				<p>
-					In addition to these categorical style premises of the form “all ___”, “some ____”, and “no ____”, it is also common to see premises that are conditionals.
+					In addition to these categorical style premises of the form <q>all ___</q>, <q>some ____</q>, and <q>no ____</q>, it is also common to see premises that are conditionals.
 				</p>
 
 				<p>
@@ -1772,7 +1772,7 @@
 				</p>
 
 				<p>
-					We’ll let <em>b</em> represent “you bought bread” and <em>s</em> represent “you went to the store”. Then the argument becomes:
+					We’ll let <em>b</em> represent <q>you bought bread</q> and <em>s</em> represent <q>you went to the store</q>. Then the argument becomes:
 				</p>
 
 				<p>
@@ -1889,7 +1889,7 @@
 				</p>
 
 				<p>
-					The Latin name, <em>modus ponens</em>, translates to “mode that affirms”.
+					The Latin name, <em>modus ponens</em>, translates to <q>mode that affirms</q>.
 				</p>
 
 				<p>
@@ -1953,7 +1953,7 @@
 				</p>
 
 				<p>
-					The Latin name, <em>modus tollens</em>, translates to “mode that denies”.
+					The Latin name, <em>modus tollens</em>, translates to <q>mode that denies</q>.
 				</p>
 
 				<p>
@@ -2417,7 +2417,7 @@
 				</p>
 
 				<p>
-					Writing the second premise correctly can be a challenge; it can be rephrased as “If you can manage a crocodile, then you are not despised.”
+					Writing the second premise correctly can be a challenge; it can be rephrased as <q>If you can manage a crocodile, then you are not despised.</q>
 				</p>
 
 				<p>
@@ -2502,7 +2502,7 @@
 				</p>
 
 				<p>
-					“Jane says that whales aren’t fish, but she’s only in the second grade, so she can’t be right.”
+					<q>Jane says that whales aren’t fish, but she’s only in the second grade, so she can’t be right.</q>
 				</p>
 
 				<p>
@@ -2514,7 +2514,7 @@
 				</p>
 
 				<p>
-					“Jane says that whales aren’t fish, but everyone knows that they’re really mammals. She’s so stupid.”
+					<q>Jane says that whales aren’t fish, but everyone knows that they’re really mammals. She’s so stupid.</q>
 				</p>
 
 				<p>
@@ -2534,7 +2534,7 @@
 				</p>
 
 				<p>
-					“Nobody has proven that photo isn’t of Bigfoot, so it must be Bigfoot.”
+					<q>Nobody has proven that photo isn’t of Bigfoot, so it must be Bigfoot.</q>
 				</p>
 
 				<p>
@@ -2550,7 +2550,7 @@
 				</p>
 
 				<p>
-					“A diet high in bacon can be healthy; Doctor Atkins said so.”
+					<q>A diet high in bacon can be healthy; Doctor Atkins said so.</q>
 				</p>
 
 				<p>
@@ -2562,7 +2562,7 @@
 				</p>
 
 				<p>
-					“Jennifer Hudson lost weight with Weight Watchers, so their program must work.”
+					<q>Jennifer Hudson lost weight with Weight Watchers, so their program must work.</q>
 				</p>
 
 				<p>
@@ -2582,7 +2582,7 @@
 				</p>
 
 				<p>
-					“Humans will travel faster than light: faster-than-light travel would be beneficial for space travel.”
+					<q>Humans will travel faster than light: faster-than-light travel would be beneficial for space travel.</q>
 				</p>
 
 				<p>
@@ -2590,7 +2590,7 @@
 				</p>
 
 				<p>
-					A false dilemma argument falsely frames an argument as an “either or” choice, without allowing for additional options.
+					A false dilemma argument falsely frames an argument as an <q>either or</q> choice, without allowing for additional options.
 				</p>
 
 				<p>
@@ -2598,7 +2598,7 @@
 				</p>
 
 				<p>
-					“Either those lights in the sky were an airplane or aliens. There are no airplanes scheduled for tonight, so it must be aliens.”
+					<q>Either those lights in the sky were an airplane or aliens. There are no airplanes scheduled for tonight, so it must be aliens.</q>
 				</p>
 
 				<p>
@@ -2618,7 +2618,7 @@
 				</p>
 
 				<p>
-					“I shouldn’t have gotten a C in that class; I’m an A student!”
+					<q>I shouldn’t have gotten a C in that class; I’m an A student!</q>
 				</p>
 
 				<p>
@@ -2638,7 +2638,7 @@
 				</p>
 
 				<p>
-					“Today I wore a red shirt, and my football team won! I need to wear a red shirt every time they play to make sure they keep winning.”
+					<q>Today I wore a red shirt, and my football team won! I need to wear a red shirt every time they play to make sure they keep winning.</q>
 				</p>
 
 				<p>
@@ -2654,7 +2654,7 @@
 				</p>
 
 				<p>
-					“Senator Jones has proposed reducing military funding by 10%. Apparently he wants to leave us defenseless against attacks by terrorists”
+					<q>Senator Jones has proposed reducing military funding by 10%. Apparently he wants to leave us defenseless against attacks by terrorists</q>
 				</p>
 
 				<p>
@@ -2674,7 +2674,7 @@
 				</p>
 
 				<p>
-					“Months with high ice cream sales also have a high rate of deaths by drowning. Therefore, ice cream must be causing people to drown.”
+					<q>Months with high ice cream sales also have a high rate of deaths by drowning. Therefore, ice cream must be causing people to drown.</q>
 				</p>
 
 				<p>
@@ -2723,7 +2723,7 @@
 				</ol></p>
 
 				<p>
-					It may be difficult to identify one particular fallacy for an argument. Consider this argument: “Emma Watson says she’s a feminist, but she posed for these racy pictures. I’m a feminist, and no self-respecting feminist would do that.” Could this be ad hominem, saying that Emma Watson has no self-respect? Could it be appealing to authority because the person making the argument claims to be a feminist? Could it be a false dilemma because the argument assumes that a woman is either a feminist or not, with no gray area in between?
+					It may be difficult to identify one particular fallacy for an argument. Consider this argument: <q>Emma Watson says she’s a feminist, but she posed for these racy pictures. I’m a feminist, and no self-respecting feminist would do that.</q> Could this be ad hominem, saying that Emma Watson has no self-respect? Could it be appealing to authority because the person making the argument claims to be a feminist? Could it be a false dilemma because the argument assumes that a woman is either a feminist or not, with no gray area in between?
 				</p>
 
 				<p>
@@ -2759,7 +2759,7 @@
 				</p>
 
 				<p>
-					8. Failing to meet just one of the three conditions is all it takes to be disqualified. A person is disqualified if they were not born in the US, or are not at least 35 years old, or have not lived in the US for at least 14 years. The key word here is “or” instead of “and”.
+					8. Failing to meet just one of the three conditions is all it takes to be disqualified. A person is disqualified if they were not born in the US, or are not at least 35 years old, or have not lived in the US for at least 14 years. The key word here is <q>or</q> instead of <q>and</q>.
 				</p>
 
 				<p>
@@ -2811,7 +2811,7 @@
 				</p>
 
 				<p>
-					A Venn diagram can help, if we set it up correctly. The “party” circle must be completely contained within the intersection of the other circles. We know that I am somewhere outside the “friends” circle, but we cannot determine whether I am in the “tired” circle. All we really know for sure is that I didn’t go to the party.
+					A Venn diagram can help, if we set it up correctly. The <q>party</q> circle must be completely contained within the intersection of the other circles. We know that I am somewhere outside the <q>friends</q> circle, but we cannot determine whether I am in the <q>tired</q> circle. All we really know for sure is that I didn’t go to the party.
 				</p>
 
 				<p>
@@ -2861,7 +2861,7 @@
 			</p>
 
 			<p>
-				5. Translate each statement from symbolic notation into English sentences. Let <em>A</em> represent “Elvis is alive” and let <em>G</em> represent “Elvis gained weight”.<!-- linebreak -->a. <em>A</em> ⋁ <em>G<!-- linebreak --></em>b. ~(<em>A</em> ⋀ <em>G</em>)<em><!-- linebreak --></em>c. <em>G</em> → ~<em>A<!-- linebreak --></em>d. <em>A</em> ↔ ~<em>G</em>
+				5. Translate each statement from symbolic notation into English sentences. Let <em>A</em> represent <q>Elvis is alive</q> and let <em>G</em> represent <q>Elvis gained weight</q>.<!-- linebreak -->a. <em>A</em> ⋁ <em>G<!-- linebreak --></em>b. ~(<em>A</em> ⋀ <em>G</em>)<em><!-- linebreak --></em>c. <em>G</em> → ~<em>A<!-- linebreak --></em>d. <em>A</em> ↔ ~<em>G</em>
 			</p>
 
 			<p>
@@ -2885,11 +2885,11 @@
 			</p>
 
 			<p>
-				Questions 10-13: In this lesson, we have been studying the <em>inclusive</em> or, which allows both <em>A</em> and <em>B</em> to be true. The <em>exclusive</em> or does not allow both to be true; it translates to “either <em>A</em> or <em>B</em>, but not both.”
+				Questions 10-13: In this lesson, we have been studying the <em>inclusive</em> or, which allows both <em>A</em> and <em>B</em> to be true. The <em>exclusive</em> or does not allow both to be true; it translates to <q>either <em>A</em> or <em>B</em>, but not both.</q>
 			</p>
 
 			<p>
-				10. For each situation, decide whether the “or” is most likely exclusive or inclusive.
+				10. For each situation, decide whether the <q>or</q> is most likely exclusive or inclusive.
 			</p>
 
 			<blockquote>
@@ -2927,11 +2927,11 @@
 			</p>
 
 			<p>
-				14. Consider the statement “If you are under age 17, then you cannot attend this movie.”<!-- linebreak -->a. Write the converse.<em><!-- linebreak --></em>b. Write the inverse.<em><!-- linebreak --></em>c. Write the contrapositive.
+				14. Consider the statement <q>If you are under age 17, then you cannot attend this movie.</q><!-- linebreak -->a. Write the converse.<em><!-- linebreak --></em>b. Write the inverse.<em><!-- linebreak --></em>c. Write the contrapositive.
 			</p>
 
 			<p>
-				15. Assume that the statement “If you swear, then you will get your mouth washed out with soap” is true. Which of the following statements must also be true?<!-- linebreak -->a. If you don’t swear, then you won’t get your mouth washed out with soap.<em><!-- linebreak --></em>b. If you don’t get your mouth washed out with soap, then you didn’t swear.<em><!-- linebreak --></em>c. If you get your mouth washed out with soap, then you swore.
+				15. Assume that the statement <q>If you swear, then you will get your mouth washed out with soap</q> is true. Which of the following statements must also be true?<!-- linebreak -->a. If you don’t swear, then you won’t get your mouth washed out with soap.<em><!-- linebreak --></em>b. If you don’t get your mouth washed out with soap, then you didn’t swear.<em><!-- linebreak --></em>c. If you get your mouth washed out with soap, then you swore.
 			</p>
 
 			<p>
@@ -2951,7 +2951,7 @@
 			</p>
 
 			<p>
-				19. Assume that the biconditional statement “You will play in the game if and only if you attend all practices this week” is true. Which of the following situations could happen?<!-- linebreak -->a. You attended all practices this week and didn’t play in the game.<em><!-- linebreak --></em>b. You didn’t attend all practices this week and played in the game.<em><!-- linebreak --></em>c. You didn’t attend all practices this week and didn’t play in the game.
+				19. Assume that the biconditional statement <q>You will play in the game if and only if you attend all practices this week</q> is true. Which of the following situations could happen?<!-- linebreak -->a. You attended all practices this week and didn’t play in the game.<em><!-- linebreak --></em>b. You didn’t attend all practices this week and played in the game.<em><!-- linebreak --></em>c. You didn’t attend all practices this week and didn’t play in the game.
 			</p>
 
 			<p>
@@ -3019,17 +3019,13 @@
 			</p>
 
 			<p>
-				30. New England Patriots quarterback Tom Brady likes his footballs slightly underinflated. The “Cheatriots” have a history of bending or breaking the rules, so Brady must have told the equipment manager to make sure that the footballs were underinflated.
+				30. New England Patriots quarterback Tom Brady likes his footballs slightly underinflated. The <q>Cheatriots</q> have a history of bending or breaking the rules, so Brady must have told the equipment manager to make sure that the footballs were underinflated.
 			</p>
 
 			<p>
 				31. Whenever our smoke detector beeps, my kids eat cereal for dinner. The loud beeping sound must make them want to eat cereal for some reason.
 			</p>
 
-		</subsection>
-
-		<subsection xml:id="section">
-			<title></title>
 		</subsection>
 
 	</section>
