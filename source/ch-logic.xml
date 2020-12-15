@@ -176,7 +176,7 @@
 
     </section>
 
-    <section xml:id="sec_conditional">
+    <section xml:id="sec_conditional"> <!-- COMPLETE 11/30/2020, NO EXERCISES -->
         <title>Conditional Statements</title>
 
         <objectives> <!-- Added MS -->
@@ -359,9 +359,123 @@
 
     </section>
 
-    <section xml:id="sec_quantified">
+    <section xml:id="sec_quantified">  <!-- COMPLETE 12/14/2020, NO EXERCISES -->
         <title>Quantified Statements</title>
+
+        <objectives> <!-- ADDED MS -->
+            <ol>
+                <li>
+                    <p>
+                        Identify and evaluate logical statements involving universal and existential quantifiers.
+                    </p>
+                </li>
+            </ol>
+        </objectives>
         
+        
+        <p>
+				Words that describe an entire set, such as <q>all</q>, <q>every</q>, or <q>none</q>, are called <term>universal quantifiers</term> because that set could be considered a universal set. In contrast, words or phrases such as <q>some</q>, <q>one</q>, or <q>at least one</q> are called <term>existential quantifiers</term> because they describe the existence of at least one element in a set.
+		</p>
+
+        <definition xml:id="def_quantifiers">
+            <title>Quantifiers</title>
+            <statement>
+                <p>
+				    A <term>universal quantifier</term> states that an entire set of things share a characteristic.
+			    </p>
+
+			    <p>
+				    An <term>existential quantifier</term> states that a set contains at least one element.
+			    </p>
+            </statement>
+        </definition>
+
+        <p>
+            Something interesting happens when we <term>negate</term> – or state the opposite of – a quantified statement.
+        </p>
+
+        <remark xml:id="ex_quantified1">
+            <p>
+				Suppose your friend says <q>Everybody cheats on their taxes.</q> What is the minimum amount of evidence you would need to prove your friend wrong?
+			</p>
+
+			<p>
+				To show that it is not true that everybody cheats on their taxes, all you need is <em>one</em> person who does not cheat on their taxes. It would be perfectly fine to produce more people who do not cheat, but one counterexample is all you need.
+			</p>
+
+			<p>
+				It is important to note that you do <em>not</em> need to show that absolutely nobody cheats on their taxes.
+			</p>
+        </remark>
+
+        <remark xml:id="ex_quantified2">
+            <p>
+				Suppose your friend says <q>One of these six cartons of milk is leaking.</q> What is the minimum amount of evidence you would need to prove your friend wrong?
+			</p>
+
+			<p>
+				In this case, you would need to check <em>all</em> six cartons and show that none of them is leaking. You cannot disprove your friend’s statement by checking only one of the cartons.
+			</p>
+        </remark>
+
+        <p>
+			When we negate a statement with a universal quantifier, we get a statement with an existential quantifier, and vice-versa.
+        </p>
+
+        <theorem xml:id="thm_negations">
+            <title>Negating a quantified statement</title>
+            <statement>
+                <p>
+				    The negation of <q>all A are B</q> is <q>at least one A is not B</q>.
+                </p>
+
+                <p>
+                    The negation of <q>no A are B</q> is <q>at least one A is B</q>.
+                </p>
+
+                <p>
+                    The negation of <q>at least one A is B</q> is <q>no A are B</q>.
+                </p>
+
+                <p>
+                    The negation of <q>at least one A is not B</q> is <q>all A are B</q>.
+                </p>
+            </statement>
+        </theorem>
+
+        <remark xml:id="ex_quantified3">
+            <p>
+				<q>Somebody brought a flashlight.</q> Write the negation of this statement.
+			</p>
+
+			<p>
+				The negation is <q>Nobody brought a flashlight.</q>
+			</p>
+        </remark>
+
+        <remark xml:id="ex_quantified4">
+            <p>
+				<q>There are no prime numbers that are even.</q> Write the negation of this statement.
+			</p>
+
+			<p>
+				The negation is <q>At least one prime number is even.</q>
+			</p>
+        </remark>
+
+        <problem xml:id="tin_quantified1">
+            <statement>
+                <p>
+				    Write the negation of <q>All Icelandic children learn English in school.</q>
+			    </p>    
+            </statement>
+            <answer>
+                <p>
+                    The negation is <q>At least one Icelandic child does not learn English in school.</q>
+                </p>
+            </answer>
+        </problem>
+
     </section>
 
     <section xml:id="sec_truthtables1">
