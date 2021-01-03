@@ -12,317 +12,816 @@
 	</introduction>
 
 
-		<section xml:id="percents">
+		<section xml:id="sec_percents"> <!-- COMPLETE MS 1/2/2021-->
 			<title>Percents</title>
 
+			<objectives>
+				<ol>
+					<li>
+						<p>
+							Identify needed information and/or eliminate extraneous information towards solving contextual problems
+						</p>
+					</li>
+					<li>
+						<p>
+							Solve problems involving percents
+						</p>
+					</li>
+				</ol>
+			</objectives>
+			
+
 			<p>
-				In the 2004 vice-presidential debates, John Edwards claimed that US forces have suffered <q>90% of the coalition casualties</q> in Iraq. Dick Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties<fn><p>
-				<url href="http://www.factcheck.org/cheney_edwards_mangle_facts.html">http://www.factcheck.org/cheney_edwards_mangle_facts.html</url>
-			</p></fn>. Who is correct? How can we make sense of these numbers?
+				In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered "90% of the coalition casualties" in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties (<url href="http://www.factcheck.org/cheney_edwards_mangle_facts.html">Source</url>). Who is correct? How can we make sense of these numbers?
 			</p>
 
 			<p>
-				<term>Percent</term> literally means <q>per 100,</q> or <q>parts per hundred.</q> When we write 40%, this is equivalent to the fraction or the decimal 0.40. Notice that 80 out of 200 and 10 out of 25 are also 40%, since <me>\frac{80}{200} = \frac{10}{25} = \frac{40}{100}.</me>
+				<term>Percent</term> literally means <q>per 100,</q> or <q>parts per hundred.</q> When we write 40%, this is equivalent to the fraction <m>\frac{40}{100}</m> or the decimal 0.40. Notice that 80 out of 200 and 10 out of 25 are also 40%, since <m>\frac{80}{200} = \frac{10}{25} = \frac{40}{100}</m>.
 			</p>
 
 			<remark xml:id="ex_percent1">
-				<p>
-					243 people out of 400 state that they like dogs. What percent is this?
-				</p>
-				<p>
-					<m> \dfrac{243}{400} = 0.6075 = \dfrac{60.75}{100}.</m> This is 60.75%.
-				</p>
+				<statement>
+					<p>
+						243 people out of 400 state that they like dogs. What percent is this?
+					</p>
+					<p>
+						<m>\frac{243}{400}= 0.6075 = \frac{60.75}{100}</m>. This is 60.75%.
+					</p>
+				</statement>
 			</remark>
 
 			<p>
 				Notice that the percent can be found from the equivalent decimal by moving the decimal point two places to the right.
 			</p>
 
+			<video youtube="Z229RysttR8"/>  <!-- Review of basic percents -->
+
+
 			<remark xml:id="ex_percent2">
-
-			<p>
-				Write each as a percent: a) <m>\frac14</m> b) 0.02 c) 2.35
-			</p>
-
-			<p>
-				a) <m>\frac14=0.25</m> = 25% b) 0.02 = 2% c) 2.35 = 235%
-			</p>
+				<statement>
+					<p>
+						Write each as a percent: a) <m>\frac14</m> b) 0.02 c) 2.35
+					</p>
+					<p>
+						a) = 25% b) 0.02 = 2% c) 2.35 = 235%
+					</p>					
+				</statement>
 			</remark>
 
-			<p>
-				Percents
-			</p>
+			<definition xml:id="def_percent">
+				<title>Percent</title>
+				<statement>
+					<p>If we have a <em>part</em> that is some <em>percent</em> of a <em>whole</em>, then <me>\text{percent} = \frac{\text{part}}{\text{whole}}</me> or, equivalently, <me>\text{part} = \text{percent}\cdot\text{whole}.</me>
+					To do the calculations, we write the percent as a decimal.						
+					</p>
+				</statement>
+			</definition>
+			
+			<remark xml:id="ex_percent3">
+				<statement>
+					<p>
+						The sales tax in a town is 9.4%. How much tax will you pay on a $140 purchase?
+					</p>
+					<p>
+						Here, $140 is the whole, and we want to find 9.4% <em>of</em> $140. We start by writing the percent as a decimal by moving the decimal point two places to the left (which is equivalent to dividing by 100). We can then compute: <me>\text{tax} = 0.094(\$140) = \$13.16 \quad \text{in tax.}</me>
+					</p>
+				</statement>
+			</remark>
 
-			<p>
-				If we have a <em>part</em> that is some <em>percent</em> of a <em>whole</em>, then
-			</p>
+			<video youtube="QjVeurkg8CQ"/> <!-- Absolute and Relative Differences -->
 
-			<p>
-				, or equivalently,
-			</p>
+			<remark xml:id="ex_percent4">
+				<statement>
+					<p>
+						In the news, you hear <q>tuition is expected to increase by 7% next year.</q> If tuition this year was $1200 per quarter, what will it be next year?
+					</p>
+					<p>
+						The tuition next year will be the current tuition plus an additional 7%, so it will be 107% of this year’s tuition: <me> \$1200 \bigl(1.07\bigr) = \$1284.</me>
+					</p>
+					<p>
+						Alternatively, we could have first calculated 7% of $1200: <m>\$1200(0.07) = \$84</m>.
+					</p>
+					<p>
+						Notice this is <em>not</em> the expected tuition for next year (we could only wish). Instead, this is the expected <em>increase</em>, so to calculate the expected tuition, we’ll need to add this change to the previous year’s tuition: <me>\$1200 + \$84 = \$1284.</me>
+					</p>
+				</statement>
+			</remark>
 
-			<p>
-				To do the calculations, we write the percent as a decimal.
-			</p>
-
-			<p>
-				Example 3
-			</p>
-
-			<p>
-				The sales tax in a town is 9.4%. How much tax will you pay on a $140 purchase?
-			</p>
-
-			<p>
-				Here, $140 is the whole, and we want to find 9.4% <em>of</em> $140. We start by writing the percent as a decimal by moving the decimal point two places to the left (which is equivalent to dividing by 100). We can then compute:
-			</p>
-
-			<p>
-				in tax.
-			</p>
-
-			<p>
-				Example 4
-			</p>
-
-			<p>
-				In the news, you hear <q>tuition is expected to increase by 7% next year.</q> If tuition this year was $1200 per quarter, what will it be next year?
-			</p>
-
-			<p>
-				The tuition next year will be the current tuition plus an additional 7%, so it will be 107% of this year’s tuition:
-			</p>
-
-			<p>
-				$1200(1.07) = $1284.
-			</p>
-
-			<p>
-				Alternatively, we could have first calculated 7% of $1200: $1200(0.07) = $84.
-			</p>
-
-			<p>
-				Notice this is <em>not</em> the expected tuition for next year (we could only wish). Instead, this is the expected <em>increase</em>, so to calculate the expected tuition, we’ll need to add this change to the previous year’s tuition:
-			</p>
-
-			<p>
-				$1200 + $84 = $1284.
-			</p>
-
-			<problem xml:id="tin_1">
-			<statement>
-			<p>
-				A TV originally priced at $799 is on sale for 30% off. There is then a 9.2% sales tax. Find the price after including the discount and sales tax.
-			</p>
-			</statement>
-			<answer>This.
-			</answer>
+			<problem xml:id="tin_percent1">
+				<statement>
+					<p>
+						A TV originally priced at $799 is on sale for 30% off. There is then a 9.2% sales tax. Find the price after including the discount and sales tax.
+					</p>
+				</statement>
+				<answer>
+					<p>The sale price is <m>\$799(0.70) = \$559.30</m>. After tax, the price is<m>\$559.30(1.092) = \$610.76</m>.						
+					</p>
+				</answer>
 			</problem>
 
-			<p>
-				Example 5
-			</p>
+			<remark xml:id="ex_percent5">
+				<statement>
+					<p>
+						The value of a car dropped from $7400 to $6800 over the last year. What percent decrease is this?
+					</p>
+
+					<p>
+						To compute the percent change, we first need to find the dollar value change: <me>\$6800-\$7400 = -\$600.</me> Often we will take the absolute value of this amount, which is called the <term>absolute change</term>: <me>\bigl| -600\bigr| = 600.</me>
+					</p>
+					<p>
+						Since we are computing the decrease relative to the starting value, we compute this percent out of $7400: <me>\frac{600}{7400}=0.081=8.1% \quad \text{decrease}.</me>
+						This is called a <term>relative change</term>.
+					</p>
+				</statement>
+			</remark>
+
+			<definition xml:id="def_absolute">
+				<title>Absolute and Relative Change</title>
+				<statement>
+					<p>Given two quantities,
+						<md><mrow>\text{Absolute change} &amp;= \bigl| \text{ending quantity} - \text{starting quantity}\bigr|</mrow>
+						<mrow>\text{Relative change} &amp;= \frac{\text{absolute change}}{\text{starting quantity}}</mrow></md>
+					</p>
+					<p>
+						Absolute change has the same units as the original quantity.
+					</p>
+
+					<p>
+						Relative change gives a percent change.
+					</p>
+
+					<p>
+						The starting quantity is called the <term>base</term> of the percent change.
+					</p>
+				</statement>
+			</definition>
+
+			<video youtube="nygw69JqwoQ"/> <!-- Importance of Base in Percents -->
 
 			<p>
-				The value of a car dropped from $7400 to $6800 over the last year. What percent decrease is this?
+				The base of a percent is very important. For example, while Nixon was president, it was argued that marijuana was a <q>gateway</q> drug, claiming that 80% of marijuana smokers went on to use harder drugs like cocaine. The problem is, this isn’t true. The true claim is that 80% of harder drug users first smoked marijuana. The difference is one of base: 80% of marijuana smokers using hard drugs, vs. 80% of hard drug users having smoked marijuana. These numbers are not equivalent. As it turns out, only one in 2,400 marijuana users actually go on to use harder drugs. (<url href="http://tvtropes.org/pmwiki/pmwiki.php/Main/LiesDamnedLiesAndStatistics">Source</url>)
 			</p>
 
-			<p>
-				To compute the percent change, we first need to find the dollar value change: $6800-$7400 = -$600. Often we will take the absolute value of this amount, which is called the <term>absolute change</term>: .
-			</p>
+			<remark xml:id="ex_percent6">
+				<statement>
+					<p>
+						There are about 75 QFC supermarkets in the U.S. Albertsons has about 215 stores. Compare the size of the two companies.
+					</p>
+					<p>
+						When we make comparisons, we must ask first whether an absolute or relative comparison. The absolute difference is <me>215 – 75 = 140.</me> From this, we could say <q>Albertsons has 140 more stores than QFC.</q> However, if you wrote this in an article or paper, that number does not mean much. The relative difference may be more meaningful. There are two different relative changes we could calculate, depending on which store we use as the base:
+					</p>
+					<p>
+						Using QFC as the base, <m> \frac{140}{75}=1.867.</m>
+					</p>
+					<p>
+						This tells us Albertsons is 186.7% larger than QFC.
+					</p>
+					<p>
+						Using Albertsons as the base, <m>\frac{140}{215}=0.651.</m>
+					</p>
+					<p>
+						This tells us QFC is 65.1% smaller than Albertsons.
+					</p>
+					<p>
+						Notice both of these are showing percent <em>differences</em>. We could also calculate the size of Albertsons relative to QFC: <m>\frac{215}{75}=2.867</m>, which tells us Albertsons is 2.867 times the size of QFC. Likewise, we could calculate the size of QFC relative to Albertsons: <m>\frac{75}{215}=0.349</m>, which tells us that QFC is 34.9% of the size of Albertsons.
+					</p>
+				</statement>
+			</remark>
 
-			<p>
-				Since we are computing the decrease relative to the starting value, we compute this percent out of $7400:
-			</p>
+			<video youtube="4HNxwYMTNl8"/> <!-- Combining Percents -->
 
-			<p>
-				decrease. This is called a <term>relative change</term>.
-			</p>
+			<remark xml:id="ex_percent7">
+				<statement>
+					<p>
+						Suppose a stock drops in value by 60% one week, then increases in value the next week by 75%. Is the value higher or lower than where it started?
+					</p>
+					<p>
+						To answer this question, suppose the value started at $100. After one week, the value dropped by 60%: <me>	\$100 - \$100(0.60) = \$100 - \$60 = \$40.</me>
+					</p>
+					<p>
+						In the next week, notice that base of the percent has changed to the new value, $40. Computing the 75% increase: <me>\$40 + \$40(0.75) = \$40 + \$30 = \$70.</me>
+					</p>
+					<p>
+						In the end, the stock is still $30 lower, or 30% lower, valued than it started.
+					</p>
+				</statement>
+			</remark>
 
-			<p>
-				Absolute and Relative Change
-			</p>
-
-			<p>
-				Given two quantities,
-			</p>
-
-			<p>
-				Absolute change =
-			</p>
-
-			<p>
-				Relative change:
-			</p>
-
-			<p>
-				Absolute change has the same units as the original quantity.
-			</p>
-
-			<p>
-				Relative change gives a percent change.
-			</p>
-
-			<p>
-				The starting quantity is called the <term>base</term> of the percent change.
-			</p>
-
-			<p>
-				The base of a percent is very important. For example, while Nixon was president, it was argued that marijuana was a <q>gateway</q> drug, claiming that 80% of marijuana smokers went on to use harder drugs like cocaine. The problem is, this isn’t true. The true claim is that 80% of harder drug users first smoked marijuana. The difference is one of base: 80% of marijuana smokers using hard drugs, vs. 80% of hard drug users having smoked marijuana. These numbers are not equivalent. As it turns out, only one in 2,400 marijuana users actually go on to use harder drugs<fn>			<p>
-				<url href="http://tvtropes.org/pmwiki/pmwiki.php/Main/LiesDamnedLiesAndStatistics">http://tvtropes.org/pmwiki/pmwiki.php/Main/LiesDamnedLiesAndStatistics</url>
-			</p></fn>.
-			</p>
-
-			<p>
-				Example 6
-			</p>
-
-			<p>
-				There are about 75 QFC supermarkets in the U.S. Albertsons has about 215 stores. Compare the size of the two companies.
-			</p>
-
-			<p>
-				When we make comparisons, we must ask first whether an absolute or relative comparison. The absolute difference is 215 – 75 = 140. From this, we could say <q>Albertsons has 140 more stores than QFC.</q> However, if you wrote this in an article or paper, that number does not mean much. The relative difference may be more meaningful. There are two different relative changes we could calculate, depending on which store we use as the base:
-			</p>
-
-			<p>
-				Using QFC as the base, .
-			</p>
-
-			<p>
-				This tells us Albertsons is 186.7% larger than QFC.
-			</p>
-
-			<p>
-				Using Albertsons as the base, .
-			</p>
-
-			<p>
-				This tells us QFC is 65.1% smaller than Albertsons.
-			</p>
-
-			<p>
-				Notice both of these are showing percent <em>differences</em>. We could also calculate the size of Albertsons relative to QFC: , which tells us Albertsons is 2.867 times the size of QFC. Likewise, we could calculate the size of QFC relative to Albertsons: , which tells us that QFC is 34.9% of the size of Albertsons.
-			</p>
-
-			<p>
-				Example 7
-			</p>
-
-			<p>
-				Suppose a stock drops in value by 60% one week, then increases in value the next week by 75%. Is the value higher or lower than where it started?
-			</p>
-
-			<p>
-				To answer this question, suppose the value started at $100. After one week, the value dropped by 60%:
-			</p>
-
-			<p>
-				$100 - $100(0.60) = $100 - $60 = $40.
-			</p>
-
-			<p>
-				In the next week, notice that base of the percent has changed to the new value, $40. Computing the 75% increase:
-			</p>
-
-			<p>
-				$40 + $40(0.75) = $40 + $30 = $70.
-			</p>
-
-			<p>
-				In the end, the stock is still $30 lower, or 30% lower, valued than it started.
-			</p>
-
-			<problem xml:id="tin_2">
-			<p>
-				The U.S. federal debt at the end of 2001 was $5.77 trillion, and grew to $6.20 trillion by the end of 2002. At the end of 2005 it was $7.91 trillion, and grew to $8.45 trillion by the end of 2006<fn>			<p>
-				http://www.whitehouse.gov/sites/default/files/omb/budget/fy2013/assets/hist07z1.xls
-			</p></fn>. Calculate the absolute and relative increase for 2001-2002 and 2005-2006. Which year saw a larger increase in federal debt?
-			</p>
+			<problem xml:id="tin_percent2">
+				<statement>
+					<p>
+						The U.S. federal debt at the end of 2001 was $5.77 trillion, and grew to $6.20 trillion by the end of 2002. At the end of 2005 it was $7.91 trillion, and grew to $8.45 trillion by the end of 2006. (<url href="http://www.whitehouse.gov/sites/default/files/omb/budget/fy2013/assets/hist07z1.xls">Source</url>)
+					</p>
+					
+					<p>Calculate the absolute and relative increase for 2001-2002 and 2005-2006. Which year saw a larger increase in federal debt?
+					</p>
+				</statement>
+				<answer>
+					<p>2001-2002: Absolute change: $0.43 trillion. Relative change: 7.45%</p>
+					<p>2005-2006: Absolute change: $0.54 trillion. Relative change: 6.83%</p>
+					<p>2005-2006 saw a larger absolute increase, but a smaller relative increase.</p>					
+				</answer>
 			</problem>
 
-			<p>
-				Example 8
-			</p>
+			<video youtube="Svlu2Lurmsc"/> <!-- Evaluating claims involving percents -->
 
-			<p>
-				A Seattle Times article on high school graduation rates reported <q>The number of schools graduating 60 percent or fewer students in four years – sometimes referred to as <q>dropout factories</q> – decreased by 17 during that time period. The number of kids attending schools with such low graduation rates was cut in half.</q>
-			</p>
+			<remark xml:id="ex_percent8">
+				<statement>
+					<p>
+						A Seattle Times article on high school graduation rates reported <q>The number of schools graduating 60 percent or fewer students in four years – sometimes referred to as <q>dropout factories</q> – decreased by 17 during that time period. The number of kids attending schools with such low graduation rates was cut in half.</q>
+					</p>
+					<p>
+						a) Is the <q>decrease by 17</q> number a useful comparison?
+					</p>
 
-			<p>
-				a) Is the <q>decrease by 17</q> number a useful comparison?
-			</p>
+					<p>
+						b) Considering the last sentence, can we conclude that the number of <q>dropout factories</q> was originally 34?
+					</p>
+					<p>
+						a) This number is hard to evaluate, since we have no basis for judging whether this is a larger or small change. If the number of <q>dropout factories</q> dropped from 20 to 3, that’d be a very significant change, but if the number dropped from 217 to 200, that’d be less of an improvement.
+					</p>
 
-			<p>
-				b) Considering the last sentence, can we conclude that the number of <q>dropout factories</q> was originally 34?
-			</p>
+					<p>
+						b) The last sentence provides relative change which helps put the first sentence in perspective. We can estimate that the number of <q>dropout factories</q> was probably previously around 34. However, it’s possible that students simply moved schools rather than the school improving, so that estimate might not be fully accurate.
+					</p>
+				</statement>
+			</remark>
 
-			<p>
-				a) This number is hard to evaluate, since we have no basis for judging whether this is a larger or small change. If the number of <q>dropout factories</q> dropped from 20 to 3, that’d be a very significant change, but if the number dropped from 217 to 200, that’d be less of an improvement.
-			</p>
+			<remark xml:id="ex_percent9">
+				<statement>
+					<p>
+						In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered "90% of the coalition casualties" in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties. Who is correct?
+					</p>
 
-			<p>
-				b) The last sentence provides relative change which helps put the first sentence in perspective. We can estimate that the number of <q>dropout factories</q> was probably previously around 34. However, it’s possible that students simply moved schools rather than the school improving, so that estimate might not be fully accurate.
-			</p>
+					<p>
+						Without more information, it is hard for us to judge who is correct, but we can easily conclude that these two percents are talking about different things, so one does not necessarily contradict the other. Edward’s claim was a percent with coalition forces as the base of the percent, while Cheney’s claim was a percent with both coalition and Iraqi security forces as the base of the percent. It turns out both statistics are in fact fairly accurate.
+					</p>
+				</statement>
+			</remark>
 
-			<p>
-				Example 9
-			</p>
-
-			<p>
-				In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered "90% of the coalition casualties" in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties. Who is correct?
-			</p>
-
-			<p>
-				Without more information, it is hard for us to judge who is correct, but we can easily conclude that these two percents are talking about different things, so one does not necessarily contradict the other. Edward’s claim was a percent with coalition forces as the base of the percent, while Cheney’s claim was a percent with both coalition and Iraqi security forces as the base of the percent. It turns out both statistics are in fact fairly accurate.
-			</p>
-
-			<p>
-				Try it Now 3
-			</p>
-
-			<p>
-				In the 2012 presidential elections, one candidate argued that <q>the president’s plan will cut $716 billion from Medicare, leading to fewer services for seniors,</q> while the other candidate rebuts that <q>our plan does not cut current spending and actually expands benefits for seniors, while implementing cost saving measures.</q> Are these claims in conflict, in agreement, or not comparable because they’re talking about different things?
-			</p>
+			<problem xml:id="tin_percent3">
+				<statement>
+					<p>
+						In the 2012 presidential elections, one candidate argued that <q>the president’s plan will cut $716 billion from Medicare, leading to fewer services for seniors,</q> while the other candidate rebuts that <q>our plan does not cut current spending and actually expands benefits for seniors, while implementing cost saving measures.</q> Are these claims in conflict, in agreement, or not comparable because they’re talking about different things?
+					</p>
+				</statement>
+				<answer>
+					<p>Without more information, it is hard to judge these arguments. This is compounded by the complexity of Medicare. As it turns out, the $716 billion is not a cut in current spending, but a cut in future increases in spending, largely reducing future growth in health care payments. In this case, at least the numerical claims in both statements could be considered at least partially true. Here is one source of more information if you’re interested: <url href="http://factcheck.org/2012/08/a-campaign-full-of-mediscare/"/>						
+					</p>
+				</answer>
+			</problem>
 
 			<p>
 				We’ll wrap up our review of percents with a couple cautions. First, when talking about a change of quantities that are already measured in percents, we have to be careful in how we describe the change.
 			</p>
 
-			<p>
-				Example 10
-			</p>
+			<video youtube="vtgEkQUB5F8"/> <!-- Percentage points and averaging percents -->
 
-			<p>
-				A politician’s support increases from 40% of voters to 50% of voters. Describe the change.
-			</p>
-
-			<p>
-				We could describe this using an absolute change: . Notice that since the original quantities were percents, this change also has the units of percent. In this case, it is best to describe this as an increase of 10 <term>percentage points</term>.
-			</p>
-
-			<p>
-				In contrast, we could compute the percent change: increase. This is the relative change, and we’d say the politician’s support has increased by 25%.
-			</p>
+			<remark xml:id="ex_percent10">
+				<statement>
+				<p>
+					A politician’s support increases from 40% of voters to 50% of voters. Describe the change.
+				</p>		
+				<p>
+						We could describe this using an absolute change: <me>\bigl| 50\% - 40\% \bigr| = 10\%.</me> Notice that since the original quantities were percents, this change also has the units of percent. In this case, it is best to describe this as an increase of 10 <term>percentage points</term>.
+					</p>
+					<p>
+						In contrast, we could compute the percent change: <me> \frac{10\%}{40\%} = 0.25 = 25\% \text{ increase.}</me> This is the relative change, and we’d say the politician’s support has increased by 25%.
+					</p>
+				</statement>
+			</remark>
 
 			<p>
 				Lastly, a caution against averaging percents.
 			</p>
 
-			<p>
-				Example 11
-			</p>
+			<remark xml:id="ex_percent11">
+				<statement>
+					<p>
+						A basketball player scores on 40% of 2-point field goal attempts, and on 30% of 3-point of field goal attempts. Find the player’s overall field goal percentage.
+					</p>
+
+					<p>
+						It is very tempting to average these values, and claim the overall average is 35%, but this is likely not correct, since most players make many more 2-point attempts than 3-point attempts.</p>
+						
+					<p>
+						 We don’t actually have enough information to answer the question. Suppose the player attempted 200 2-point field goals and 100 3-point field goals. Then they made <m>200(0.40) = 80</m> 2-point shots and <m>100(0.30) = 30</m> 3-point shots. Overall, they made 110 shots out of 300, for a <me>\frac{110}{300}=0.367= 36.7\% \text{ overall field goal percentage.}</me>
+					</p>
+				</statement>
+			</remark>
+
+			<exercises xml:id="exercises_percents"> <!-- Numbers 1 Through 20-->
+				<exercise>
+					<statement>
+						<p>
+						Out of 230 racers who started the marathon, 212 completed the race, 14 gave up, and 4 were disqualified. What percentage did not complete the marathon?
+					</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Patrick left an $8 tip on a $50 restaurant bill. What percent tip is that?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Ireland has a 23% VAT (value-added tax, similar to a sales tax). How much will the VAT be on a purchase of a €250 item?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Employees in 2012 paid 4.2% of their gross wages towards social security (FICA tax), while employers paid another 6.2%. How much will someone earning $45,000 a year pay towards social security out of their gross wages?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							A project on Kickstarter.com was aiming to raise $15,000 for a precision coffee press. They ended up with 714 supporters, raising 557% of their goal. How much did they raise?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Another project on Kickstarter for an iPad stylus raised 1,253% of their goal, raising a total of $313,490 from 7,511 supporters. What was their original goal?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							The population of a town increased from 3,250 in 2008 to 4,300 in 2010. Find the absolute and relative (percent) increase.
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							<url href="http://www.cnn.com/2010/SHOWBIZ/Music/07/19/cd.digital.sales/index.html">The number of CDs sold in 2010</url> was 114 million, down from 147 million the previous year. Find the absolute and relative (percent) decrease.
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							A company wants to decrease their energy use by 15%.
+							<ol>
+								<li>
+									<p>
+										If their electric bill is currently $2,200 a month, what will their bill be if they’re successful?
+
+									</p>
+								</li>
+								<li>
+									<p>
+										If their next bill is $1,700 a month, were they successful? Why or why not?
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							A store is hoping an advertising campaign will increase their number of customers by 30%. They currently have about 80 customers a day.
+							<ol>
+								<li>
+									<p>
+										How many customers will they have if their campaign is successful?
+									</p>
+								</li>
+								<li>
+									<p>
+										If they increase to 120 customers a day, were they successful? Why or why not?
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							An article reports <q>attendance dropped 6% this year, to 300.</q> What was the attendance before the drop?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							An article reports <q>sales have grown by 30% this year, to $200 million.</q> What were sales before the growth?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							The Walden University had 47,456 students in 2010, while Kaplan University had 77,966 students. Complete the following statements:
+							<ol>
+								<li>
+									<p>
+										Kaplan’s enrollment was ___% larger than Walden’s.
+									</p>
+								</li>
+								<li>
+									<p>
+										Walden’s enrollment was ___% smaller than Kaplan’s.
+									</p>
+								</li>
+								<li>
+									<p>
+										Walden’s enrollment was ___% of Kaplan’s.
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							In the 2012 Olympics, Usain Bolt ran the 100m dash in 9.63 seconds. Jim Hines won the 1968 Olympic gold with a time of 9.95 seconds.
+							<ol>
+								<li>
+									<p>
+										Bolt’s time was ___% faster than Hines’.
+									</p>
+								</li>
+								<li>
+									<p>
+										Hines’ time was ___% slower than Bolt’s.
+									</p>
+								</li>
+							 	<li>
+									<p>
+										Hines’ time was ___% of Bolt’s.
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							A store has clearance items that have been marked down by 60%. They are having a sale, advertising an additional 30% off clearance items. What percent of the original price do you end up paying?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Which is better: having a stock that goes up 30% on Monday than drops 30% on Tuesday, or a stock that drops 30% on Monday and goes up 30% on Tuesday? In each case, what is the net percent gain or loss?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?
+							<ol>
+								<li>
+									<p>
+										<q>16.3% of Americans are without health insurance</q> (<url href="http://www.cnn.com/2012/06/27/politics/btn-health-care/index.html">Source</url>)
+									</p>
+								</li>
+								<li>
+									<p>
+										<q>only 55.9% of adults receive employer provided health insurance</q> (<url href="http://www.politico.com/news/stories/0712/78134.html">Source</url>)
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?
+							<ol>
+								<li>
+									<p>
+										<q>We mark up the wholesale price by 33% to come up with the retail price</q>
+									</p>
+								</li>
+								<li>
+									<p>
+										<q>The store has a 25% profit margin</q>
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?
+							<ol>
+								<li>
+									<p>
+										<q>Every year since 1950, the number of American children gunned down has doubled.</q>
+									</p>
+								</li>
+								<li>
+									<p>
+										<q>The number of child gunshot deaths has doubled from 1950 to 1994.</q>
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things? (<url href="http://factcheck.org/2012/07/twisting-health-care-taxes/">Source</url>)
+							<ol>
+								<li>
+									<p>
+										<q>75 percent of the federal health care law’s taxes would be paid by those earning less than $120,000 a year</q>
+									</p>
+								</li>
+								<li>
+									<p>
+										<q>76 percent of those who would pay the penalty [health care law’s taxes] for not having insurance in 2016 would earn under $120,000</q>
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+
+			</exercises>
+
+		</section> <!-- Percent -->
+
+		<section xml:id="sec_proportions">
+			<title>Proportions and Rates</title>
 
 			<p>
-				A basketball player scores on 40% of 2-point field goal attempts, and on 30% of 3-point of field goal attempts. Find the player’s overall field goal percentage.
+				If you wanted to power the city of Seattle using wind power, how many windmills would you need to install? Questions like these can be answered using rates and proportions.
 			</p>
+
+			<definition xml:id="def_rates">
+				<title>Rates</title>
+				<statement>
+					<p>
+						A rate is the ratio (fraction) of two quantities.
+					</p>
+
+					<p>
+						A <term>unit rate</term> is a rate with a denominator of one.
+					</p>
+				</statement>
+			</definition>
+
+			<remark xml:id="ex_rates12">
+				<statement>
+					<p>
+						Your car can drive 300 miles on a tank of 15 gallons. Express this as a rate.
+					</p>
+
+					<p>
+						Expressed as a rate, <m>\frac{\text{300 miles}}{\text{15 gallons}}</m>. We can divide to find a unit rate: <m>\frac{\text{20 miles}}{\text{1 gallon}}</m>, which we could also write as <m>20\, \frac{\text{miles}}{\text{gallon}}</m>, or just 20 miles per gallon.
+					</p>	
+				</statement>
+			</remark>
+
+			<definition xml:id="def_proportion">
+				<title>Proportion Equation</title>
+				<statement>
+					<p>
+						A proportion equation is an equation showing the equivalence of two rates or ratios.
+					</p>
+				</statement>
+			</definition>
+
+			<remark xml:id="ex_rates13">
+				<statement>
+					<p>
+						Solve the proportion <m>\displaystyle\frac{5}{3} = \displaystyle\frac{x}{6}</m> for the unknown value <em>x</em>.
+					</p>
+					<p>
+						This proportion is asking us to find a fraction with denominator 6 that is equivalent to the fraction <m>\frac53</m>. We can solve this by multiplying both sides of the equation by 6, giving <me>x = \frac53 \cdot 6 = 10.</me>
+					</p>
+				</statement>
+			</remark>
+
+			<remark xml:id="ex_rates14">
+				<statement>
+					<p>
+						A map scale indicates that <m>\frac12</m> inch on the map corresponds with 3 real miles. How many miles apart are two cities that are <m>2\frac14</m>inches apart on the map?
+					</p>
+					<p>
+						We can set up a proportion by setting equal two rates, and introducing a variable, <em>x</em>, to represent the unknown quantity – the mile distance between the cities.
+					</p>
+					<md>
+						<mrow> \frac{ \frac12 \text{ map inch}}{ 3 \text{ miles}} &amp;= \frac{ 2\frac14 \text{ map inch}}{ x \text{ miles}} &amp; \text{Multiply both sides by }x </mrow>
+						<mrow> &amp;&amp; \text{and rewrite the mixed number}</mrow>
+						<mrow> \frac{ 1/2 }{3} \cdot x &amp;= \frac94 &amp; \text{Multiply both sides by 3}</mrow>
+						<mrow>\frac12 x &amp;= \frac{27}{4} &amp; \text{Multiply both sides by 2 (or divide by }\frac12 \text{)}</mrow>
+						<mrow>x &amp;= \frac{27}{2} = 13\frac12 \text{ miles}.</mrow>
+					</md>
+				</statement>
+			</remark>
 
 			<p>
-				It is very tempting to average these values, and claim the overall average is 35%, but this is likely not correct, since most players make many more 2-point attempts than 3-point attempts. We don’t actually have enough information to answer the question. Suppose the player attempted 200 2-point field goals and 100 3-point field goals. Then they made 200(0.40) = 80 2-point shots and 100(0.30) = 30 3-point shots. Overall, they made 110 shots out of 300, for a = 36.7% overall field goal percentage.
+				Many proportion problems can also be solved using <term>dimensional analysis</term>, the process of multiplying a quantity by rates to change the units.
 			</p>
 
+			<remark xml:id="ex_rates15">
+				<statement>
+					<p>
+						Your car can drive 300 miles on a tank of 15 gallons. How far can it drive on 40 gallons?
+					</p>
+					<p>
+						We could certainly answer this question using a proportion: <me> \frac{300 \text{ miles}}{15 \text{ gallons}} = \frac{x \text{ miles}}{40 \text{ gallons}}.</me>
+					</p>
+					<p>
+						However, we earlier found that 300 miles on 15 gallons gives a rate of 20 miles per gallon. If we multiply the given 40 gallon quantity by this rate, the <em>gallons</em> unit <q>cancels</q> and we’re left with a number of miles: <me>40\text{ gallons} \cdot \frac{20 \text{ miles}}{\text{gallon}} = \frac{40 \text{ gallons}}{1} \cdot \frac{20 \text{ miles}}{\text{gallon}} = 800 \text{ miles}.</me>
+					</p>
+					<p>
+						Notice if instead we were asked <q>how many gallons are needed to drive 50 miles?</q> we could answer this question by inverting the 20 mile per gallon rate so that the <em>miles</em> unit cancels and we’re left with gallons: <me>50\text{ miles} \cdot \frac{1\text{ gallon}}{20\text{ miles}} = \frac{50\text{ miles}}{1} \cdot \frac{1\text{ gallon}}{20\text{ miles}} = \frac{50\text{ gallons}}{20} = 2.5\text{ gallons}.</me>
+					</p>
+				</statement>
+			</remark>
+
+			<p>
+				Dimensional analysis can also be used to do unit conversions. Here are some unit conversions for reference.
+			</p>
+			
+			<table xml:id="table_unitconversions">
+				<title>Unit Conversions</title>
+				<tabular>
+					<row>
+					<cell>
+						<term>Length</term>
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1 foot (ft) = 12 inches (in)
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+						1 yard (yd) = 3 feet (ft)
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1 mile = 5,280 feet
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1000 millimeters (mm) = 1 meter (m)
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+						100 centimeters (cm) = 1 meter
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1000 meters (m) = 1 kilometer (km)
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+						2.54 centimeters (cm) = 1 inch
+					</cell>
+					</row>
+					<row>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						<term>Weight and Mass</term>
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1 pound (lb) = 16 ounces (oz)
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+						1 ton = 2000 pounds
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1000 milligrams (mg) = 1 gram (g)
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+						1000 grams = 1 kilogram (kg)
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1 kilogram = 2.2 pounds (on Earth)
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						<term>Capacity</term>
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1 cup = 8 fluid ounces (fl oz)*
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+						1 pint = 2 cups
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1 quart = 2 pints = 4 cups
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+						1 gallon = 4 quarts = 16 cups
+					</cell>
+					</row>
+					<row>
+					<cell>
+						1000 milliliters (ml) = 1 liter (L)
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+				</tabular>
+			</table>
+
+			<p>
+				*Fluid ounces are a capacity measurement for liquids. 1 fluid ounce <m>\approx</m> 1 ounce (weight) for water only.
+			</p>
+
+			<!-- RESUME WITH EXAMPLE 16 -->
+
+
+			<exercises xml:id="exercises_proportions">
+
+			</exercises>
 		</section>
-
-
 
 </chapter>

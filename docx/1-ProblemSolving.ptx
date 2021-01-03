@@ -9,7 +9,7 @@
 		<title>Problem Solving</title>
 
 		<p>
-			In previous math courses, you’ve no doubt run into the infamous “word problems.” Unfortunately, these problems rarely resemble the type of problems we actually encounter in everyday life. In math books, you usually are told exactly which formula or procedure to use, and are given exactly the information you need to answer the question. In real life, problem solving requires identifying an appropriate formula or procedure, and determining what information you will need (and won’t need) to answer the question.
+			In previous math courses, you’ve no doubt run into the infamous <q>word problems.</q> Unfortunately, these problems rarely resemble the type of problems we actually encounter in everyday life. In math books, you usually are told exactly which formula or procedure to use, and are given exactly the information you need to answer the question. In real life, problem solving requires identifying an appropriate formula or procedure, and determining what information you will need (and won’t need) to answer the question.
 		</p>
 
 		<p>
@@ -21,13 +21,12 @@
 			<title>Percents</title>
 
 			<p>
-				In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered "90% of the coalition casualties" in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties<fn>			<p>
-				<url href="http://www.factcheck.org/cheney_edwards_mangle_facts.html">http://www.factcheck.org/cheney_edwards_mangle_facts.html</url>
-			</p></fn>. Who is correct? How can we make sense of these numbers?
+				In the 2004 vice-presidential debates, Edwards's claimed that US forces have suffered "90% of the coalition casualties" in Iraq. Cheney disputed this, saying that in fact Iraqi security forces and coalition allies "have taken almost 50 percent" of the casualties
+				<url href="http://www.factcheck.org/cheney_edwards_mangle_facts.html" />. Who is correct? How can we make sense of these numbers?
 			</p>
 
 			<p>
-				<term>Percent</term> literally means “per 100,” or “parts per hundred.” When we write 40%, this is equivalent to the fraction or the decimal 0.40. Notice that 80 out of 200 and 10 out of 25 are also 40%, since .
+				<term>Percent</term> literally means <q>per 100,</q> or <q>parts per hundred.</q> When we write 40%, this is equivalent to the fraction <m>\frac{40}{100}</m> or the decimal 0.40. Notice that 80 out of 200 and 10 out of 25 are also 40%, since <m>\frac{80}{200} = \frac{10}{25} = \frac{40}{100}</m>.
 			</p>
 
 			<p>
@@ -95,7 +94,7 @@
 			</p>
 
 			<p>
-				In the news, you hear “tuition is expected to increase by 7% next year.” If tuition this year was $1200 per quarter, what will it be next year?
+				In the news, you hear <q>tuition is expected to increase by 7% next year.</q> If tuition this year was $1200 per quarter, what will it be next year?
 			</p>
 
 			<p>
@@ -175,7 +174,7 @@
 			</p>
 
 			<p>
-				The base of a percent is very important. For example, while Nixon was president, it was argued that marijuana was a “gateway” drug, claiming that 80% of marijuana smokers went on to use harder drugs like cocaine. The problem is, this isn’t true. The true claim is that 80% of harder drug users first smoked marijuana. The difference is one of base: 80% of marijuana smokers using hard drugs, vs. 80% of hard drug users having smoked marijuana. These numbers are not equivalent. As it turns out, only one in 2,400 marijuana users actually go on to use harder drugs<fn>			<p>
+				The base of a percent is very important. For example, while Nixon was president, it was argued that marijuana was a <q>gateway</q> drug, claiming that 80% of marijuana smokers went on to use harder drugs like cocaine. The problem is, this isn’t true. The true claim is that 80% of harder drug users first smoked marijuana. The difference is one of base: 80% of marijuana smokers using hard drugs, vs. 80% of hard drug users having smoked marijuana. These numbers are not equivalent. As it turns out, only one in 2,400 marijuana users actually go on to use harder drugs<fn>			<p>
 				<url href="http://tvtropes.org/pmwiki/pmwiki.php/Main/LiesDamnedLiesAndStatistics">http://tvtropes.org/pmwiki/pmwiki.php/Main/LiesDamnedLiesAndStatistics</url>
 			</p></fn>.
 			</p>
@@ -189,7 +188,7 @@
 			</p>
 
 			<p>
-				When we make comparisons, we must ask first whether an absolute or relative comparison. The absolute difference is 215 – 75 = 140. From this, we could say “Albertsons has 140 more stores than QFC.” However, if you wrote this in an article or paper, that number does not mean much. The relative difference may be more meaningful. There are two different relative changes we could calculate, depending on which store we use as the base:
+				When we make comparisons, we must ask first whether an absolute or relative comparison. The absolute difference is 215 – 75 = 140. From this, we could say <q>Albertsons has 140 more stores than QFC.</q> However, if you wrote this in an article or paper, that number does not mean much. The relative difference may be more meaningful. There are two different relative changes we could calculate, depending on which store we use as the base:
 			</p>
 
 			<p>
@@ -255,23 +254,23 @@
 			</p>
 
 			<p>
-				A Seattle Times article on high school graduation rates reported “The number of schools graduating 60 percent or fewer students in four years – sometimes referred to as “dropout factories” – decreased by 17 during that time period. The number of kids attending schools with such low graduation rates was cut in half.”
+				A Seattle Times article on high school graduation rates reported <q>The number of schools graduating 60 percent or fewer students in four years – sometimes referred to as <q>dropout factories</q> – decreased by 17 during that time period. The number of kids attending schools with such low graduation rates was cut in half.</q>
 			</p>
 
 			<p>
-				a) Is the “decrease by 17” number a useful comparison?
+				a) Is the <q>decrease by 17</q> number a useful comparison?
 			</p>
 
 			<p>
-				b) Considering the last sentence, can we conclude that the number of “dropout factories” was originally 34?
+				b) Considering the last sentence, can we conclude that the number of <q>dropout factories</q> was originally 34?
 			</p>
 
 			<p>
-				a) This number is hard to evaluate, since we have no basis for judging whether this is a larger or small change. If the number of “dropout factories” dropped from 20 to 3, that’d be a very significant change, but if the number dropped from 217 to 200, that’d be less of an improvement.
+				a) This number is hard to evaluate, since we have no basis for judging whether this is a larger or small change. If the number of <q>dropout factories</q> dropped from 20 to 3, that’d be a very significant change, but if the number dropped from 217 to 200, that’d be less of an improvement.
 			</p>
 
 			<p>
-				b) The last sentence provides relative change which helps put the first sentence in perspective. We can estimate that the number of “dropout factories” was probably previously around 34. However, it’s possible that students simply moved schools rather than the school improving, so that estimate might not be fully accurate.
+				b) The last sentence provides relative change which helps put the first sentence in perspective. We can estimate that the number of <q>dropout factories</q> was probably previously around 34. However, it’s possible that students simply moved schools rather than the school improving, so that estimate might not be fully accurate.
 			</p>
 
 			<p>
@@ -291,7 +290,7 @@
 			</p>
 
 			<p>
-				In the 2012 presidential elections, one candidate argued that “the president’s plan will cut $716 billion from Medicare, leading to fewer services for seniors,” while the other candidate rebuts that “our plan does not cut current spending and actually expands benefits for seniors, while implementing cost saving measures.” Are these claims in conflict, in agreement, or not comparable because they’re talking about different things?
+				In the 2012 presidential elections, one candidate argued that <q>the president’s plan will cut $716 billion from Medicare, leading to fewer services for seniors,</q> while the other candidate rebuts that <q>our plan does not cut current spending and actually expands benefits for seniors, while implementing cost saving measures.</q> Are these claims in conflict, in agreement, or not comparable because they’re talking about different things?
 			</p>
 
 			<p>
@@ -436,11 +435,11 @@
 			</p>
 
 			<p>
-				However, we earlier found that 300 miles on 15 gallons gives a rate of 20 miles per gallon. If we multiply the given 40 gallon quantity by this rate, the <em>gallons</em> unit “cancels” and we’re left with a number of miles:
+				However, we earlier found that 300 miles on 15 gallons gives a rate of 20 miles per gallon. If we multiply the given 40 gallon quantity by this rate, the <em>gallons</em> unit <q>cancels</q> and we’re left with a number of miles:
 			</p>
 
 			<p>
-				Notice if instead we were asked “how many gallons are needed to drive 50 miles?” we could answer this question by inverting the 20 mile per gallon rate so that the <em>miles</em> unit cancels and we’re left with gallons:
+				Notice if instead we were asked <q>how many gallons are needed to drive 50 miles?</q> we could answer this question by inverting the 20 mile per gallon rate so that the <em>miles</em> unit cancels and we’re left with gallons:
 			</p>
 
 			<p>
@@ -701,11 +700,11 @@
 			</p>
 
 			<p>
-				A 12” pizza has radius 6 inches, so the area will be = about 113 square inches.
+				A 12</q> pizza has radius 6 inches, so the area will be = about 113 square inches.
 			</p>
 
 			<p>
-				A 16” pizza has radius 8 inches, so the area will be = about 201 square inches.
+				A 16</q> pizza has radius 8 inches, so the area will be = about 201 square inches.
 			</p>
 
 			<p>
@@ -713,7 +712,7 @@
 			</p>
 
 			<p>
-				We can now set up a proportion to find the weight of the dough for a 16” pizza:
+				We can now set up a proportion to find the weight of the dough for a 16</q> pizza:
 			</p>
 
 			<p>
@@ -721,7 +720,7 @@
 			</p>
 
 			<p>
-				= about 17.8 ounces of dough for a 16” pizza.
+				= about 17.8 ounces of dough for a 16</q> pizza.
 			</p>
 
 			<p>
@@ -778,7 +777,7 @@
 			</p>
 
 			<p>
-				This approach does not work well with real life problems. Instead, problem solving is best approached by first starting at the end: identifying exactly what you are looking for. From there, you then work backwards, asking “what information and procedures will I need to find this?” Very few interesting questions can be answered in one mathematical step; often times you will need to chain together a solution pathway, a series of steps that will allow you to answer the question.
+				This approach does not work well with real life problems. Instead, problem solving is best approached by first starting at the end: identifying exactly what you are looking for. From there, you then work backwards, asking <q>what information and procedures will I need to find this?</q> Very few interesting questions can be answered in one mathematical step; often times you will need to chain together a solution pathway, a series of steps that will allow you to answer the question.
 			</p>
 
 			<p>
@@ -999,11 +998,11 @@
 			</p>
 
 			<p>
-				While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since “is it worth it” implies there is some tradeoff for the gas savings. Indeed, the hybrid Sonata costs about $25,850, compared to the base model for the regular Sonata, at $20,895.
+				While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since <q>is it worth it</q> implies there is some tradeoff for the gas savings. Indeed, the hybrid Sonata costs about $25,850, compared to the base model for the regular Sonata, at $20,895.
 			</p>
 
 			<p>
-				To better answer the “is it worth it” question, we might explore how long it will take the gas savings to make up for the additional initial cost. The hybrid costs $4965 more. With gas savings of $451.10 a year, it will take about 11 years for the gas savings to make up for the higher initial costs.
+				To better answer the <q>is it worth it</q> question, we might explore how long it will take the gas savings to make up for the additional initial cost. The hybrid costs $4965 more. With gas savings of $451.10 a year, it will take about 11 years for the gas savings to make up for the higher initial costs.
 			</p>
 
 			<p>
@@ -1235,7 +1234,7 @@
 				<li>
 							<blockquote>
 							<p>
-				An article reports “attendance dropped 6% this year, to 300.” What was the attendance before the drop?
+				An article reports <q>attendance dropped 6% this year, to 300.</q> What was the attendance before the drop?
 			</p>
 			</blockquote>
 				</li>
@@ -1243,7 +1242,7 @@
 				<li>
 							<blockquote>
 							<p>
-				An article reports “sales have grown by 30% this year, to $200 million.” What were sales before the growth?
+				An article reports <q>sales have grown by 30% this year, to $200 million.</q> What were sales before the growth?
 			</p>
 			</blockquote>
 				</li>
@@ -1345,7 +1344,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“16.3% of Americans are without health insurance”<fn>			<p>
+				<q>16.3% of Americans are without health insurance</q><fn>			<p>
 				http://www.cnn.com/2012/06/27/politics/btn-health-care/index.html
 			</p></fn>
 			</p>
@@ -1355,7 +1354,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“only 55.9% of adults receive employer provided health insurance”<fn>			<p>
+				<q>only 55.9% of adults receive employer provided health insurance</q><fn>			<p>
 				http://www.politico.com/news/stories/0712/78134.html
 			</p></fn>
 			</p>
@@ -1376,7 +1375,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“We mark up the wholesale price by 33% to come up with the retail price”
+				<q>We mark up the wholesale price by 33% to come up with the retail price</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1384,7 +1383,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“The store has a 25% profit margin”
+				<q>The store has a 25% profit margin</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1403,7 +1402,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“Every year since 1950, the number of American children gunned down has doubled.”
+				<q>Every year since 1950, the number of American children gunned down has doubled.</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1411,7 +1410,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“The number of child gunshot deaths has doubled from 1950 to 1994.”
+				<q>The number of child gunshot deaths has doubled from 1950 to 1994.</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1432,7 +1431,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“75 percent of the federal health care law’s taxes would be paid by those earning less than $120,000 a year”
+				<q>75 percent of the federal health care law’s taxes would be paid by those earning less than $120,000 a year</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1440,7 +1439,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“76 percent of those who would pay the penalty [health care law’s taxes] for not having insurance in 2016 would earn under $120,000”
+				<q>76 percent of those who would pay the penalty [health care law’s taxes] for not having insurance in 2016 would earn under $120,000</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1459,7 +1458,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“The school levy is only a 0.1% increase of the property tax rate.”
+				<q>The school levy is only a 0.1% increase of the property tax rate.</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1467,7 +1466,7 @@
 				<li>
 							<blockquote>
 							<p>
-				“This new levy is a 12% tax hike, raising our total rate to $9.33 per $1000 of value.”
+				<q>This new levy is a 12% tax hike, raising our total rate to $9.33 per $1000 of value.</q>
 			</p>
 			</blockquote>
 				</li>
@@ -1478,7 +1477,7 @@
 				<li>
 							<blockquote>
 							<p>
-				Are the values compared in this statement comparable or not comparable? “Guns have murdered more Americans here at home in recent years than have died on the battlefields of Iraq and Afghanistan. In support of the two wars, more than 6,500 American soldiers have lost their lives. During the same period, however, guns have been used to murder about 100,000 people on American soil”<fn>			<p>
+				Are the values compared in this statement comparable or not comparable? <q>Guns have murdered more Americans here at home in recent years than have died on the battlefields of Iraq and Afghanistan. In support of the two wars, more than 6,500 American soldiers have lost their lives. During the same period, however, guns have been used to murder about 100,000 people on American soil</q><fn>			<p>
 				http://www.northjersey.com/news/opinions/lautenberg_073112.html?c=y&amp;page=2
 			</p></fn>
 			</p>
@@ -2528,13 +2527,13 @@
 			<p><ul>
 				<li>
 							<p>
-				The “occasional driving plan”: $25 application fee and $60 annual fee, with no monthly commitment. Monday-Thursday the cost is $8/hour, or $72 per day. Friday-Sunday the cost is $8/hour or $78/day. Gas, insurance, and 180 miles are included in the cost. Additional miles are $0.45/mile.
+				The <q>occasional driving plan</q>: $25 application fee and $60 annual fee, with no monthly commitment. Monday-Thursday the cost is $8/hour, or $72 per day. Friday-Sunday the cost is $8/hour or $78/day. Gas, insurance, and 180 miles are included in the cost. Additional miles are $0.45/mile.
 			</p>
 				</li>
 
 				<li>
 							<p>
-				The “extra value plan”: Same as above, but with a $50 monthly commitment, getting you a 10% discount on the usage costs.
+				The <q>extra value plan</q>: Same as above, but with a $50 monthly commitment, getting you a 10% discount on the usage costs.
 			</p>
 				</li>
 

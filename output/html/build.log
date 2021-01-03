@@ -1,6 +1,4 @@
 Messages from application of C:\Users\msalo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pretext\static\xsl\pretext-html.xsl:
-MBX:WARNING: There are apparent XML elements in locations that should be text only (2 times).
-MBX:WARNING: There is an apparent XML element (<q>) inside an <c> element, which should only contain text.  Using an escaped "less than" ('&lt;') might be the solution, or using a CDATA section.
-             located within: "ex_conditional6" (xml:id)
-MBX:WARNING: There is an apparent XML element (<q>) inside an <c> element, which should only contain text.  Using an escaped "less than" ('&lt;') might be the solution, or using a CDATA section.
-             located within: "ex_conditional6" (xml:id)
+MBX:DEPRECATE: (2019-06-28) the "table" element needs a "title", not a "caption".  An existing "caption" will be used instead.  Both will display below the "tabular" (1 time)
+             located within: "table_unitconversions" (xml:id), "Unit Conversions" (title)
+--------------

@@ -481,11 +481,791 @@
     <section xml:id="sec_truthtables1">
         <title>Truth Tables I</title>
         
+        <objectives>
+            <ol>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+            </ol>
+        </objectives>
+        
+
+        <p>
+				Before we focus on truth tables, we’re going to introduce some symbols that are commonly used for <em>and</em>, <em>or</em>, and <em>not</em>.
+        </p>
+
+        <definition xml:id="def_compound">
+            <title>Symbols for Compound Statements</title>
+
+            <statement>
+                <p>
+				    The symbol <m>\wedge</m> is used for <em>and</em>: <em>A</em> and <em>B</em> is notated <m>A\wedge B</m>
+                </p>
+
+                <p>
+                    The symbol <m>\vee</m> is used for <em>or</em>: <em>A</em> or <em>B</em> is notated <m>A\vee B</m>
+                </p>
+
+                <p>
+                    The symbol <m>\sim</m> is used for <em>not</em>: not <em>A</em> is notated <m>\sim A</m>
+                </p>
+            </statement>
+        </definition>
+
+        <p>
+            You can remember the first two symbols by relating them to the shapes for the union and intersection. <m>A\wedge B</m> would be the elements that exist in both sets, in <m>A\cap B</m>. Likewise, <m>A\vee B</m> would be the elements that exist in either set, in <m>A\cup B</m>. When we are working with sets, we use the rounded version of the symbols; when we are working with statements, we use the pointy version.
+        </p>
+
+        <remark xml:id="ex_truth1">
+            <p>
+				Translate each statement into symbolic notation. Let <em>P</em> represent <q>I like Pepsi</q> and let <em>C</em> represent <q>I like Coke</q>.
+			</p>
+
+			<p>
+				1. I like Pepsi or I like Coke.
+			</p>
+
+			<p>
+				2. I like Pepsi and I like Coke.
+			</p>
+
+			<p>
+				3. I do not like Pepsi.
+			</p>
+
+			<p>
+				4. It is not the case that I like Pepsi or Coke.
+			</p>
+
+			<p>
+				5. I like Pepsi and I do not like Coke.
+			</p>
+
+            <ol>
+                <li>
+                    <p>
+                        <m>P \vee C</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>P \wedge C</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sim P</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sim(P\vee C)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>P \wedge \sim C</m>
+                    </p>
+                </li>
+            </ol>
+        </remark>
+
+        <p>
+            As you can see, we can use parentheses to organize more complicated statements.
+        </p>
+
+        <problem xml:id="tin_truth1">
+            <statement>
+                <p>
+				    Translate <q>We have carrots or we will not make soup</q> into symbols. Let <em>C</em> represent <q>we have carrots</q> and let <em>S</em> represent <q>we will make soup</q>.
+			    </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>C \vee \sim S</m>
+                </p>
+            </answer>
+        </problem>
+
+        <p>
+            Because complex Boolean statements can get tricky to think about, we can create a <term>truth table</term> to keep track of what truth values for the simple statements make the complex statement true and false.
+        </p>
+
+        <definition xml:id="def_truthtable">
+            <title>Truth table</title>
+            <statement>
+                <p>
+				    A table showing what the resulting truth value of a complex statement is for all the possible truth values for the simple statements.
+		    	</p>
+            </statement>
+        </definition>
+
+        <video youtube="_5Z_0824RHw"/> <!-- Truth Tables for Compound Statements-->
+
+        <remark xml:id="ex_truth2">
+            <statement>
+                <p>
+				Suppose you’re picking out a new couch, and your significant other says <q>get a sectional <em>or</em> something with a chaise</q>.
+			    </p>
+
+                <p>
+                    This is a complex statement made of two simpler conditions: <q>is a sectional</q>, and <q>has a chaise</q>. For simplicity, let’s use <em>S</em> to designate <q>is a sectional</q>, and <em>C</em> to designate <q>has a chaise</q>.
+                </p>
+
+                <p>
+                    A truth table for this situation would look like this:
+                </p>
+
+                <table xml:id="tab_truth1">
+                    <tabular halign="center">
+                        <row bottom="medium">
+                        <cell>
+                            S
+                        </cell>
+                        <cell>
+                            C
+                        </cell>
+                        <cell>
+                            S or C
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        </row>
+                    </tabular>
+                </table>
+
+                <p>
+                    In the table, T is used for true, and F for false. In the first row, if <em>S</em> is true and <em>C</em> is also true, then the complex statement <q><em>S</em> or <em>C</em></q> is true. This would be a sectional that also has a chaise, which meets our desire. (Remember that <em>or</em> in logic is not exclusive; if the couch has both features, it meets the condition.)
+                </p>
+            </statement>
+        </remark>
+
+        <p>
+            In the previous example about the couch, the truth table was really just summarizing what we already know about how the <em>or</em> statement work. The truth tables for the basic <em>and</em>, <em>or</em>, and <em>not</em> statements are shown below.
+		</p>
+
+        <theorem xml:id="thm_basictruth">
+            <title>Basic truth tables</title>
+            <statement>
+                <table>
+                <tabular halign="center">
+                    <row>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        Conjunction
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        Disjunction
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        Negation
+                    </cell>
+                    </row>
+                    <row>
+                    <cell bottom="medium">
+                        <m>A​</m>
+                    </cell>
+                    <cell bottom="medium">
+                        <m>B</m>
+                    </cell>
+                    <cell bottom="medium">
+                        <m>​A\wedge B</m>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell bottom="medium">
+                        <m>A</m>
+                    </cell>
+                    <cell bottom="medium">
+                        <m>B​</m>
+                    </cell>
+                    <cell bottom="medium">
+                        <m>A\vee B​</m>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell bottom="medium">
+                        <m>A</m>
+                    </cell>
+                    <cell bottom="medium">
+                        <m>\sim A​</m>
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    <cell>
+                    </cell>
+                    </row>
+                </tabular>
+                </table>
+            </statement>
+        </theorem>
+
+        <p>
+            Truth tables really become useful when we analyze more complex Boolean statements.
+        </p>
+
+        <remark xml:id="ex_truth3">
+            <p>
+				Create a truth table for the statement <m>A\vee{} \sim B</m>.
+			</p>
+
+            <p>
+				When we create the truth table, we need to list all the possible truth value combinations for <em>A</em> and <em>B</em>. Notice how the first column contains 2 Ts followed by 2 Fs, and the second column alternates T, F, T, F. This pattern ensures that all 4 combinations are considered.
+			</p>
+
+            <table>
+                <tabular halign="center">
+                    <row bottom="medium">
+                    <cell>
+                        <m>​A</m>
+                    </cell>
+                    <cell>
+                        <m>B​</m>
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <p>
+				After creating columns with those initial values, we create a third column for the expression <m>\sim B</m>. Now we will temporarily ignore the column for <em>A</em> and write the truth values for <m>\sim B</m>.
+			</p>
+
+            <table>
+                <tabular halign="center">
+                    <row bottom="medium">
+                    <cell>
+                        <m>​A</m>
+                    </cell>
+                    <cell>
+                        <m>B​</m>
+                    </cell>
+                    <cell>
+                        <m>\sim B​</m>
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <p>
+				Next we can find the truth values of <m>A\vee{} \sim B</m>, using the first and third columns.
+			</p>
+
+            <table>
+                <tabular halign="center">
+                    <row bottom="medium">
+                    <cell>
+                        <m>A​</m>
+                    </cell>
+                    <cell>
+                        <m>B​</m>
+                    </cell>
+                    <cell>
+                        <m>​\sim B</m>
+                    </cell>
+                    <cell>
+                        <m>A\vee{} \sim B​</m>
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    </row>
+                    <row>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        F
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    <cell>
+                        T
+                    </cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <p>
+                The truth table shows that <m>A\vee{}\sim B</m> is true in three cases and false in one case. 
+            </p>
+                
+            <p>
+                If you’re wondering what the point of this is, suppose it is the last day of the baseball season and two teams, who are not playing each other, are competing for the final playoff spot. Anaheim will make the playoffs if it wins its game <em>or</em> if Boston does not win its game. (Anaheim owns the tie-breaker; if both teams win, or if both teams lose, then Anaheim gets the playoff spot.)
+            </p>
+            <p> 
+                If <em>A</em> = Anaheim wins its game and <em>B</em> = Boston wins its game, then <m>A\vee{}\sim B</m> represents the situation <q>Anaheim wins its game or Boston does not win its game</q>. The truth table shows us the different scenarios related to Anaheim making the playoffs.
+            </p>
+            <p>
+                In the first row, Anaheim wins its game and Boston wins its game, so it is true that Anaheim makes the playoffs. In the second row, Anaheim wins and Boston does not win, so it is true that Anaheim makes the playoffs. In the third row, Anaheim does not win its game and Boston wins its game, so it is <em>false</em> that Anaheim makes the playoffs. In the fourth row, Anaheim does not win and Boston does not win, so it is true that Anaheim makes the playoffs.
+			</p>
+
+
+        </remark>
+
+        <problem xml:id="tin_truth2">
+            <statement>
+                <p>
+                    Create a truth table for this statement: <m>\mathop\sim A \wedge B</m>.
+                </p>
+            </statement>
+            <answer>
+                <table>
+                    <tabular halign="center">
+                        <row bottom="medium">
+                        <cell>
+                            <m>A​</m>
+                        </cell>
+                        <cell>
+                            <m>B​</m>
+                        </cell>
+                        <cell>
+                            <m>\sim A​</m>
+                        </cell>
+                        <cell>
+                            <m>\sim A \wedge B​</m>
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        </row>
+                        <row>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        <cell>
+                            T
+                        </cell>
+                        <cell>
+                            F
+                        </cell>
+                        </row>
+                    </tabular>
+                </table>
+            </answer>
+        </problem>
+
+        <remark xml:id="ex_truth4">
+            <statement>
+                <p>
+				    Create a truth table for the statement <m>A \wedge {} \sim\!(B\vee C)</m>.
+                </p>
+
+                <p>
+				    It helps to work from the inside out when creating a truth table, and to create columns in the table for intermediate operations. We start by listing all the possible truth value combinations for <em>A</em>, <em>B</em>, and <em>C</em>. 
+		    	</p>
+
+                <table>
+                    <tabular halign="center">
+                    <row header="yes">
+                        <cell bottom="medium"><em>A</em></cell>
+                        <cell bottom="medium"><em>B</em></cell>
+                        <cell bottom="medium"><em>C</em></cell>
+                        <cell bottom="medium"><em>B</em> ⋁ <em>C</em></cell>
+                    </row>
+                    <row class="odd">
+                        <cell>T</cell>
+                        <cell>T</cell>
+                        <cell>T</cell>
+                        <cell>T</cell>
+                    </row>
+                    <row class="even">
+                        <cell>T</cell>
+                        <cell>T</cell>
+                        <cell>F</cell>
+                        <cell>T</cell>
+                    </row>
+                    <row class="odd">
+                        <cell>T</cell>
+                        <cell>F</cell>
+                        <cell>T</cell>
+                        <cell>T</cell>
+                    </row>
+                    <row class="even">
+                        <cell>T</cell>
+                        <cell>F</cell>
+                        <cell>F</cell>
+                        <cell>F</cell>
+                    </row>
+                    <row class="odd">
+                        <cell>F</cell>
+                        <cell>T</cell>
+                        <cell>T</cell>
+                        <cell>T</cell>
+                    </row>
+                    <row class="even">
+                        <cell>F</cell>
+                        <cell>T</cell>
+                        <cell>F</cell>
+                        <cell>T</cell>
+                    </row>
+                    <row class="odd">
+                        <cell>F</cell>
+                        <cell>F</cell>
+                        <cell>T</cell>
+                        <cell>T</cell>
+                    </row>
+                    <row class="even">
+                        <cell>F</cell>
+                        <cell>F</cell>
+                        <cell>F</cell>
+                        <cell>F</cell>
+                    </row>
+                    </tabular>
+                </table>
+
+                <p>
+                    Notice how the first column contains 4 Ts followed by 4 Fs, the second column contains 2 Ts, 2 Fs, then repeats, and the last column alternates T, F, T, F... This pattern ensures that all 8 combinations are considered. After creating columns with those initial values, we create a fourth column for the innermost expression, <m>B\vee C</m>. Now we will temporarily ignore the column for <em>A</em> and focus on <em>B</em> and <em>C</em>, writing the truth values for <m>B\vee C</m>.
+                </p>
+
+
+
+
+
+            </statement>
+
+        </remark>
+
     </section>    
 
     <section xml:id="sec_truthtables2">
         <title>Truth Tables II</title>
         
+
+        <video youtube="https://www.youtube.com/watch?v=9rz_iC2t0iE"/> <!-- When Are Conditional Statements True? In Language and Truth Tables -->
+
+        <video youtube="https://www.youtube.com/watch?v=2npo-L0DJRQ"/> <!-- Truth Tables for Conditional Statements-->
+
+        <video youtube="https://www.youtube.com/watch?v=-r8FzV84sj8"/> <!-- Truth Tables for Biconditional Statements-->
+
+        <video youtube="https://www.youtube.com/watch?v=hfz1gAoNd1w"/> <!-- Truth Tables for Equivalence -->
+
     </section>
 
     <section xml:id="sec_demorgan">
