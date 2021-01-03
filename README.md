@@ -23,7 +23,7 @@ COMPLETED CHAPTERS:
 
 WORKING CHAPTERS:
 
-[ ] Problem Solving 
+[ ] Problem Solving (Completed sections: 1.)
 
 [_] Logic (Completed sections: 1. 2. 3.)
 
