@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2021-01-03T23:37:12-05:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MIS Geometry</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" class="hidden-content" style="display:none">\(\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href="" target="_blank"><img src="images/cover2.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="math-in-society.html"><span class="title">Math In Society</span></a></h1>
+<p class="byline">David Lippman</p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec_proportions.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_problemsolving.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec_problemsolving.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec_proportions.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_problemsolving.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec_problemsolving.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul><li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li></ul>
+</li>
+<li class="link part"><a href="pt_prob.html" data-scroll="pt_prob"><span class="codenumber">I</span> <span class="title">Problem Solving</span></a></li>
+<li class="link">
+<a href="ch_problemsolving.html" data-scroll="ch_problemsolving"><span class="codenumber">1</span> <span class="title">Problem Solving</span></a><ul>
+<li><a href="sec_percents.html" data-scroll="sec_percents">Percents</a></li>
+<li><a href="sec_proportions.html" data-scroll="sec_proportions">Proportions and Rates</a></li>
+<li><a href="sec_geometry.html" data-scroll="sec_geometry" class="active">Geometry</a></li>
+<li><a href="sec_problemsolving.html" data-scroll="sec_problemsolving">Problem Solving and Estimation</a></li>
+</ul>
+</li>
+<li class="link part"><a href="pt_civics.html" data-scroll="pt_civics"><span class="codenumber">II</span> <span class="title">Civic Mathematics</span></a></li>
+<li class="link"><a href="ch_votingtheory.html" data-scroll="ch_votingtheory"><span class="codenumber">2</span> <span class="title">Voting Theory</span></a></li>
+<li class="link"><a href="ch_weightedvoting.html" data-scroll="ch_weightedvoting"><span class="codenumber">3</span> <span class="title">Weighted Voting</span></a></li>
+<li class="link"><a href="ch_apportionment.html" data-scroll="ch_apportionment"><span class="codenumber">4</span> <span class="title">Apportionment</span></a></li>
+<li class="link"><a href="ch_fairdivision.html" data-scroll="ch_fairdivision"><span class="codenumber">5</span> <span class="title">Fair Division</span></a></li>
+<li class="link part"><a href="pt_finite.html" data-scroll="pt_finite"><span class="codenumber">III</span> <span class="title">Finite Mathematics</span></a></li>
+<li class="link"><a href="ch_graphtheory.html" data-scroll="ch_graphtheory"><span class="codenumber">6</span> <span class="title">Graph Theory</span></a></li>
+<li class="link"><a href="ch_scheduling.html" data-scroll="ch_scheduling"><span class="codenumber">7</span> <span class="title">Scheduling</span></a></li>
+<li class="link"><a href="ch_growthmodels.html" data-scroll="ch_growthmodels"><span class="codenumber">8</span> <span class="title">Growth Models</span></a></li>
+<li class="link"><a href="ch_finance.html" data-scroll="ch_finance"><span class="codenumber">9</span> <span class="title">Finance</span></a></li>
+<li class="link part"><a href="pt_data.html" data-scroll="pt_data"><span class="codenumber">IV</span> <span class="title">Data Literacy</span></a></li>
+<li class="link"><a href="ch_statistics.html" data-scroll="ch_statistics"><span class="codenumber">10</span> <span class="title">Statistics</span></a></li>
+<li class="link"><a href="ch_describingdata.html" data-scroll="ch_describingdata"><span class="codenumber">11</span> <span class="title">Describing Data</span></a></li>
+<li class="link"><a href="ch_probability.html" data-scroll="ch_probability"><span class="codenumber">12</span> <span class="title">Probability</span></a></li>
+<li class="link part"><a href="pt_topics.html" data-scroll="pt_topics"><span class="codenumber">V</span> <span class="title">Topics in Math</span></a></li>
+<li class="link">
+<a href="sets.html" data-scroll="sets"><span class="codenumber">13</span> <span class="title">Sets</span></a><ul>
+<li><a href="sec_setbasics.html" data-scroll="sec_setbasics">Basics</a></li>
+<li><a href="sec_setoperations.html" data-scroll="sec_setoperations">Union, Intersection, and Complement</a></li>
+<li><a href="sec_venndiagrams.html" data-scroll="sec_venndiagrams">Venn Diagrams</a></li>
+<li><a href="cardinality.html" data-scroll="cardinality">Cardinality</a></li>
+</ul>
+</li>
+<li class="link"><a href="ch_historical.html" data-scroll="ch_historical"><span class="codenumber">14</span> <span class="title">Historical Counting Systems</span></a></li>
+<li class="link"><a href="ch_fractals.html" data-scroll="ch_fractals"><span class="codenumber">15</span> <span class="title">Fractals</span></a></li>
+<li class="link"><a href="ch_cryptography.html" data-scroll="ch_cryptography"><span class="codenumber">16</span> <span class="title">Cryptography</span></a></li>
+<li class="link">
+<a href="ch_logic.html" data-scroll="ch_logic"><span class="codenumber">17</span> <span class="title">Logic</span></a><ul>
+<li><a href="sec_boolean.html" data-scroll="sec_boolean">Boolean Logic</a></li>
+<li><a href="sec_conditional.html" data-scroll="sec_conditional">Conditional Statements</a></li>
+<li><a href="sec_quantified.html" data-scroll="sec_quantified">Quantified Statements</a></li>
+<li><a href="sec_truthtables1.html" data-scroll="sec_truthtables1">Truth Tables I</a></li>
+<li><a href="sec_truthtables2.html" data-scroll="sec_truthtables2">Truth Tables II</a></li>
+<li><a href="sec_demorgan.html" data-scroll="sec_demorgan">De Morgan's Laws</a></li>
+<li><a href="sec_arguments.html" data-scroll="sec_arguments">Arguments and Fallacies</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Back Matter</span></a></li>
+<li class="link"><a href="appendix-solutions.html" data-scroll="appendix-solutions"><span class="codenumber">A</span> <span class="title">Solutions to Selected Exercises</span></a></li>
+<li class="link"><a href="appendix-gfdl.html" data-scroll="appendix-gfdl"><span class="codenumber">B</span> <span class="title">GNU Free Documentation License</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="sec_geometry"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.3</span> <span class="title">Geometry</span>
+</h2>
+<article class="objectives goal-like" id="objectives-3"><h6 class="heading"><span class="type">Objectives</span></h6>
+<ol class="decimal"><li id="li-29"><p id="p-181">Identify needed information and/or eliminate extraneous information towards solving contextual problems</p></li></ol></article><p id="p-182">Geometric shapes, as well as area and volumes, can often be important in problem solving.</p>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-12" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/X9YIsu1f6WE?&amp;modestbranding=1&amp;rel=0"></iframe></div>
+<article class="remark remark-like" id="ex_geometry21"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
+</h6>
+<p id="p-183">You are curious how tall a tree is, but don’t have any way to climb it. Describe a method for determining the height.</p>
+<p id="p-184">There are several approaches we could take. We’ll use one based on triangles, which requires that it’s a sunny day.</p>
+<p id="p-185">Suppose the tree is casting a shadow, say 15 ft long. I can then have a friend help me measure my own shadow. Suppose I am 6 ft tall, and cast a 1.5 ft shadow. Since the triangle formed by the tree and its shadow has the same angles as the triangle formed by me and my shadow, these triangles are called <dfn class="terminology">similar triangles</dfn> and their sides will scale proportionally.</p>
+<p id="p-186">In other words, the ratio of height to width will be the same in both triangles. Using this, we can find the height of the tree, which we’ll denote by <em class="emphasis">h</em>:</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{6\text{ ft tall}}{1.5\text{ ft shadow}} = \frac{h\text{ ft tall}}{15\text{ ft shadow}}
+\end{equation*}
+</div>
+<p id="p-187">Multiplying both sides by 15, we get \(h=60\text{.}\) The tree is about 60 ft tall.</p></article><p id="p-188">It may be helpful to recall some formulas for areas and volumes of a few basic shapes.</p>
+<figure class="table table-like" id="table-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.2<span class="period">.</span></span><span class="space"> </span></figcaption><table>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Areas</dfn></td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Rectangle</em></td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">
+<em class="emphasis">Circle, radius</em> \(​r\)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Area: \(​L\cdot W\)</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">Area: \(​\pi r^2\)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Perimeter: \(​2L+2W\)</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">Circumference: \(​2\pi r\)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/problemsolving/geometry-1a.jpg" style="width: 100%; height: auto;" alt=""></div></td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/problemsolving/geometry-1b.jpg" style="width: 100%; height: auto;" alt=""></div></td>
+</tr>
+</table></figure><figure class="table table-like" id="table-4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.3.3<span class="period">.</span></span><span class="space"> </span></figcaption><table>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Volumes</dfn></td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Rectangular Box</em></td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell"><em class="emphasis">Cylinder</em></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Volume: \(​L\cdot W\cdot H\)</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">Volume: \(​\pi r^2\, h\)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/problemsolving/geometry-2a.jpg" style="width: 100%; height: auto;" alt=""></div></td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/problemsolving/geometry-2b.jpg" style="width: 100%; height: auto;" alt=""></div></td>
+</tr>
+</table></figure><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-13" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/e75bk1qCsUE?&amp;modestbranding=1&amp;rel=0"></iframe></div>
+<article class="remark remark-like" id="ex_geometry22"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
+</h6>
+<p id="p-189">If a 12 inch diameter pizza requires 10 ounces of dough, how much dough is needed for a 16 inch pizza?</p>
+<p id="p-190">To answer this question, we need to consider how the weight of the dough will scale. The weight will be based on the volume of the dough. However, since both pizzas will be about the same thickness, the weight will scale with the area of the top of the pizza. We can find the area of each pizza using the formula for area of a circle, \(A = \pi r^2\text{:}\)</p>
+<p id="p-191">A 12" pizza has radius 6 inches, so the area will be \(\pi\, 6^2 ={} \) about 113 square inches.</p>
+<p id="p-192">A 16" pizza has radius 8 inches, so the area will be \(\pi\, 8^2 ={} \) about 201 square inches.</p>
+<p id="p-193">Notice that if both pizzas were 1 inch thick, the volumes would be 113 in3 and 201 in3 respectively, which are at the same ratio as the areas. As mentioned earlier, since the thickness is the same for both pizzas, we can safely ignore it.</p>
+<p id="p-194">We can now set up a proportion to find the weight of the dough for a 16" pizza:</p>
+<div class="displaymath">
+\begin{align*}
+\frac{10\text{ ounces}}{113\text{ in}^2} &amp;= \frac{x\text{ ounces}}{201\text{ in}^2} &amp; \text{Multiply both sides by 201}\\
+x &amp;=201\cdot\frac{10}{113} = \text{about }17.8 \text{ ounces}
+\end{align*}
+</div>
+<p data-braille="continuation">of dough for a 16" pizza.</p>
+<p id="p-195">It is interesting to note that while the diameter is \(\frac{16}{12} \approx  1.33\) times larger, the dough required, which scales with area, is \(1.33^2\approx  1.78\) times larger.</p></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-14" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/QJgGpxzRt6Y?&amp;modestbranding=1&amp;rel=0"></iframe></div>
+<article class="remark remark-like" id="ex_geometry23"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
+</h6>
+<figure class="figure figure-like" id="fig_geometry23"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/problemsolving/geometry-3.jpg" style="width: 100%; height: auto;" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.6<span class="period">.</span></span><span class="space"> </span>Photo courtesy <a class="external" href="http://christopherdanielson.wordpress.com/" target="_blank">Christopher Danielson</a></figcaption></figure><p id="p-196">A company makes regular and jumbo marshmallows. The regular marshmallow has 25 calories. How many calories will the jumbo marshmallow have?</p>
+<p id="p-197">We would expect the calories to scale with volume. Since the marshmallows have cylindrical shapes, we can use that formula to find the volume. From the grid in the image, we can estimate the radius and height of each marshmallow.</p>
+<p id="p-198">The regular marshmallow appears to have a diameter of about 3.5 units, giving a radius of 1.75 units, and a height of about 3.5 units. The volume is about \(\pi\bigl(1.75\bigr)^2\bigl(3.5\bigr) = 33.7\text{ units}^3\text{.}\)</p>
+<p id="p-199">The jumbo marshmallow appears to have a diameter of about 5.5 units, giving a radius of 2.75 units, and a height of about 5 units. The volume is about \(\pi\bigl(2.75\bigr)^2\bigl(5\bigr) = 118.8\text{ units}^3\text{.}\)</p>
+<p id="p-200">We could now set up a proportion, or use rates. The regular marshmallow has 25 calories for 33.7 cubic units of volume. The jumbo marshmallow will have:</p>
+<div class="displaymath">
+\begin{equation*}
+118.8\text{ units}^3 \cdot \frac{25\text{ calories}}{33.7\text{ units}^3} = 88.1\text{ calories}.
+\end{equation*}
+</div>
+<p id="p-201">It is interesting to note that while the diameter and height are about 1.5 times larger for the jumbo marshmallow, the volume and calories are about \(1.5^3 = 3.375\) times larger.</p></article><article class="problem example-like" id="tin_geometry5"><a data-knowl="" class="id-ref problem-knowl original" data-refid="hk-tin_geometry5"><h6 class="heading">
+<span class="type">Try It Now</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-tin_geometry5"><article class="problem example-like"><p id="p-202">A website says that you’ll need 48 fifty-pound bags of sand to fill a sandbox that measure 8ft by 8ft by 1ft. How many bags would you need for a sandbox 6ft by 4ft by 1ft?</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-5" id="answer-5"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-5"><div class="answer solution-like">
+<p id="p-203">The original sandbox has volume \(64 \text{ ft}^3\text{.}\) The smaller sandbox has volume \(24 \text{ ft}^3\text{.}\)</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{48\text{ bags}}{64\text{ ft}^3} = \frac{x\text{ bags}}{24\text{ ft}^3}
+\end{equation*}
+</div>
+<p data-braille="continuation">results in \(x=18\) bags.</p>
+</div></div>
+</div></article></div>
+<section class="exercises" id="exercises_geometry"><h3 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">1.3.1</span> <span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="exercise-51"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
+<p id="p-204">A piece of paper can be made into a cylinder in two ways: by joining the short sides together, or by joining the long sides together. Which cylinder would hold more? How much more? (Source: Dan Meyer)</p>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-15" class="video" allowfullscreen="" src="https://player.vimeo.com/video/42501010?color=ffffff" frameborder="0" allow="fullscreen"></iframe></div></article><article class="exercise exercise-like" id="exercise-52"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel" style="width:50%;justify-content:flex-start;"><p id="p-205">Which of these glasses contains more liquid? How much more?</p></div>
+<div class="sbspanel" style="width:50%;justify-content:flex-start;"><img src="images/problemsolving/geometry-4.jpg" style="width: 100%; height: auto;" alt=""></div>
+</div></div></article></section></section></div></main>
+</div>
+</body>
+</html>

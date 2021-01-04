@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-01-03T22:41:27-05:00       *-->
+<!--*       on 2021-01-03T23:37:14-05:00       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -96,6 +96,8 @@ MathJax.Hub.Config({
 <a href="ch_problemsolving.html" data-scroll="ch_problemsolving"><span class="codenumber">1</span> <span class="title">Problem Solving</span></a><ul>
 <li><a href="sec_percents.html" data-scroll="sec_percents">Percents</a></li>
 <li><a href="sec_proportions.html" data-scroll="sec_proportions">Proportions and Rates</a></li>
+<li><a href="sec_geometry.html" data-scroll="sec_geometry">Geometry</a></li>
+<li><a href="sec_problemsolving.html" data-scroll="sec_problemsolving">Problem Solving and Estimation</a></li>
 </ul>
 </li>
 <li class="link part"><a href="pt_civics.html" data-scroll="pt_civics"><span class="codenumber">II</span> <span class="title">Civic Mathematics</span></a></li>
@@ -143,47 +145,47 @@ MathJax.Hub.Config({
 <main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="sec_boolean"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">17.1</span> <span class="title">Boolean Logic</span>
 </h2>
-<article class="objectives goal-like" id="objectives-7"><h6 class="heading"><span class="type">Objectives</span></h6>
-<ol class="decimal"><li id="li-90"><p id="p-445">Use and interpret Boolean logic expressions.</p></li></ol></article><p id="p-446">We can often classify items as belonging to sets. If you went the library to search for a book and they asked you to express your search using unions, intersections, and complements of sets, that would feel a little strange. Instead, we typically using words like “and”, “or”, and “not” to connect our keywords together to form a search. These words, which form the basis of <dfn class="terminology">Boolean logic</dfn>, are directly related to our <a href="sec_setoperations.html" class="internal" title="Section 13.2: Union, Intersection, and Complement">set operations</a>. (Boolean logic was developed by the 19th-century English mathematician George Boole.)</p>
+<article class="objectives goal-like" id="objectives-8"><h6 class="heading"><span class="type">Objectives</span></h6>
+<ol class="decimal"><li id="li-91"><p id="p-470">Use and interpret Boolean logic expressions.</p></li></ol></article><p id="p-471">We can often classify items as belonging to sets. If you went the library to search for a book and they asked you to express your search using unions, intersections, and complements of sets, that would feel a little strange. Instead, we typically using words like “and”, “or”, and “not” to connect our keywords together to form a search. These words, which form the basis of <dfn class="terminology">Boolean logic</dfn>, are directly related to our <a href="sec_setoperations.html" class="internal" title="Section 13.2: Union, Intersection, and Complement">set operations</a>. (Boolean logic was developed by the 19th-century English mathematician George Boole.)</p>
 <article class="definition definition-like" id="def_boolean"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">17.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Boolean Logic.</span>
 </h6>
-<p id="p-447">Boolean logic combines multiple statements that are either true or false into an expression that is either true or false.</p>
-<p id="p-448">In connection to sets, a search is true if the element is part of the set.</p></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-20" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/ZOLinnoXEAw?&amp;modestbranding=1&amp;rel=0"></iframe></div>
-<p id="p-449">Suppose <em class="emphasis">M</em> is the set of all mystery books, and <em class="emphasis">C</em> is the set of all comedy books. If we search for “mystery”, we are looking for all the books that are an element of the set <em class="emphasis">M</em>; the search is true for books that are in the set.</p>
-<p id="p-450">When we search for “mystery <em class="emphasis">and</em> comedy”, we are looking for a book that is an element of both sets, in the intersection. If we were to search for “mystery <em class="emphasis">or</em> comedy”, we are looking for a book that is a mystery, a comedy, or both, which is the union of the sets. If we searched for “<em class="emphasis">not</em> comedy”, we are looking for any book in the library that is not a comedy, the complement of the set <em class="emphasis">C</em>.</p>
+<p id="p-472">Boolean logic combines multiple statements that are either true or false into an expression that is either true or false.</p>
+<p id="p-473">In connection to sets, a search is true if the element is part of the set.</p></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-24" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/ZOLinnoXEAw?&amp;modestbranding=1&amp;rel=0"></iframe></div>
+<p id="p-474">Suppose <em class="emphasis">M</em> is the set of all mystery books, and <em class="emphasis">C</em> is the set of all comedy books. If we search for “mystery”, we are looking for all the books that are an element of the set <em class="emphasis">M</em>; the search is true for books that are in the set.</p>
+<p id="p-475">When we search for “mystery <em class="emphasis">and</em> comedy”, we are looking for a book that is an element of both sets, in the intersection. If we were to search for “mystery <em class="emphasis">or</em> comedy”, we are looking for a book that is a mystery, a comedy, or both, which is the union of the sets. If we searched for “<em class="emphasis">not</em> comedy”, we are looking for any book in the library that is not a comedy, the complement of the set <em class="emphasis">C</em>.</p>
 <article class="definition definition-like" id="def_connectives"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">17.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Connection to Set Operations.</span>
 </h6>
-<div class="displaymath" id="p-451">
+<div class="displaymath" id="p-476">
 \begin{align*}
 A\text{ and }B &amp;&amp; \text{elements in the intersection } A\cap B\\
 A\text{ or }B &amp;&amp; \text{elements in the union } A\cup B\\
 \text{not }A &amp;&amp; \text{elements in the complement } A^c
 \end{align*}
-</div></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-21" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/7tm-sDKCnO4?&amp;modestbranding=1&amp;rel=0"></iframe></div>
-<p id="p-452">Notice here that <em class="emphasis">or</em> is not exclusive. This is a difference between the Boolean logic use of the word and common everyday use. When your significant other asks “do you want to go to the park or the movies?” they usually are proposing an exclusive choice – one option or the other, but not both. In Boolean logic, the <em class="emphasis">or</em> is not exclusive – more like being asked at a restaurant “would you like fries or a drink with that?” Answering “both, please” is an acceptable answer.</p>
+</div></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe id="video-25" class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/7tm-sDKCnO4?&amp;modestbranding=1&amp;rel=0"></iframe></div>
+<p id="p-477">Notice here that <em class="emphasis">or</em> is not exclusive. This is a difference between the Boolean logic use of the word and common everyday use. When your significant other asks “do you want to go to the park or the movies?” they usually are proposing an exclusive choice – one option or the other, but not both. In Boolean logic, the <em class="emphasis">or</em> is not exclusive – more like being asked at a restaurant “would you like fries or a drink with that?” Answering “both, please” is an acceptable answer.</p>
 <article class="remark remark-like" id="ex_boolean1"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.3</span><span class="period">.</span>
 </h6>
-<p id="p-453">Suppose we are searching a library database for Mexican universities. Express a reasonable search using Boolean logic.</p>
-<p id="p-454">We could start with the search “Mexico <em class="emphasis">and</em> university”, but would be likely to find results for the U.S. state New Mexico. To account for this, we could revise our search to read:</p>
-<p id="p-455">Mexico <em class="emphasis">and</em> university <em class="emphasis">not</em> “New Mexico”</p></article><article class="remark remark-like" id="ex_boolean2"><h6 class="heading">
+<p id="p-478">Suppose we are searching a library database for Mexican universities. Express a reasonable search using Boolean logic.</p>
+<p id="p-479">We could start with the search “Mexico <em class="emphasis">and</em> university”, but would be likely to find results for the U.S. state New Mexico. To account for this, we could revise our search to read:</p>
+<p id="p-480">Mexico <em class="emphasis">and</em> university <em class="emphasis">not</em> “New Mexico”</p></article><article class="remark remark-like" id="ex_boolean2"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.4</span><span class="period">.</span>
 </h6>
-<p id="p-456">Describe the numbers that meet the condition:</p>
-<p id="p-457">even <em class="emphasis">and</em> less than 10 <em class="emphasis">and</em> greater than 0.</p>
-<p id="p-458">The numbers that satisfy all three requirements are \(\{2, 4, 6, 8\}\text{.}\)</p></article><p id="p-459">Sometimes statements made in English can be ambiguous. For this reason, Boolean logic uses parentheses to show precedence, just like in algebraic order of operations.</p>
+<p id="p-481">Describe the numbers that meet the condition:</p>
+<p id="p-482">even <em class="emphasis">and</em> less than 10 <em class="emphasis">and</em> greater than 0.</p>
+<p id="p-483">The numbers that satisfy all three requirements are \(\{2, 4, 6, 8\}\text{.}\)</p></article><p id="p-484">Sometimes statements made in English can be ambiguous. For this reason, Boolean logic uses parentheses to show precedence, just like in algebraic order of operations.</p>
 <article class="remark remark-like" id="ex_boolean3"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.5</span><span class="period">.</span>
 </h6>
-<p id="p-460">Describe the numbers that meet the condition:</p>
-<p id="p-461">odd number <em class="emphasis">and</em> less than 20 <em class="emphasis">and</em> greater than 0 <em class="emphasis">and</em> (multiple of 3 <em class="emphasis">or</em> multiple of 5).</p>
-<p id="p-462">The first three conditions limit us to the set \(\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\}\text{.}\)</p>
-<p id="p-463">The last grouped conditions tell us to find elements of this set that are also either a multiple of 3 or a multiple of 5. This leaves us with the set \(\{3, 5, 9, 15\}\text{.}\)</p>
-<p id="p-464">Notice that we would have gotten a very different result if we had written</p>
-<p id="p-465">(odd number <em class="emphasis">and</em> less than 20 <em class="emphasis">and</em> greater than 0 <em class="emphasis">and</em> multiple of 3) <em class="emphasis">or</em> multiple of 5.</p>
-<p id="p-466">The first grouped set of conditions would give \(\{3, 9, 15\}\text{.}\) When combined with the last condition, though, this set expands without limits:</p>
+<p id="p-485">Describe the numbers that meet the condition:</p>
+<p id="p-486">odd number <em class="emphasis">and</em> less than 20 <em class="emphasis">and</em> greater than 0 <em class="emphasis">and</em> (multiple of 3 <em class="emphasis">or</em> multiple of 5).</p>
+<p id="p-487">The first three conditions limit us to the set \(\{1, 3, 5, 7, 9, 11, 13, 15, 17, 19\}\text{.}\)</p>
+<p id="p-488">The last grouped conditions tell us to find elements of this set that are also either a multiple of 3 or a multiple of 5. This leaves us with the set \(\{3, 5, 9, 15\}\text{.}\)</p>
+<p id="p-489">Notice that we would have gotten a very different result if we had written</p>
+<p id="p-490">(odd number <em class="emphasis">and</em> less than 20 <em class="emphasis">and</em> greater than 0 <em class="emphasis">and</em> multiple of 3) <em class="emphasis">or</em> multiple of 5.</p>
+<p id="p-491">The first grouped set of conditions would give \(\{3, 9, 15\}\text{.}\) When combined with the last condition, though, this set expands without limits:</p>
 <div class="displaymath">
 \begin{equation*}
 \{3, 5, 9, 15, 20, 25, 30, 35, 40, 45, \ldots\}.
@@ -191,24 +193,24 @@ A\text{ or }B &amp;&amp; \text{elements in the union } A\cup B\\
 </div></article><article class="remark remark-like" id="ex_boolean4"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">17.1.6</span><span class="period">.</span>
 </h6>
-<p id="p-467">The English phrase “Go to the store and buy me eggs and bagels or cereal” is ambiguous; it is not clear whether the requestors is asking for eggs always along with either bagels or cereal, or whether they’re asking for either the combination of eggs and bagels, or just cereal.</p>
-<p id="p-468">For this reason, using parentheses clarifies the intent:</p>
+<p id="p-492">The English phrase “Go to the store and buy me eggs and bagels or cereal” is ambiguous; it is not clear whether the requestors is asking for eggs always along with either bagels or cereal, or whether they’re asking for either the combination of eggs and bagels, or just cereal.</p>
+<p id="p-493">For this reason, using parentheses clarifies the intent:</p>
 <div class="displaymath">
 \begin{align*}
 \text{Eggs and (bagels or cereal) } &amp;\text{means}&amp; \text{Option 1: Eggs and bagels, Option 2: Eggs and cereal}\\
 \text{(Eggs and bagels) or cereal } &amp;\text{means}&amp; \text{Option 1: Eggs and bagels, Option 2: Cereal}
 \end{align*}
-</div></article><p id="p-469">Be aware that when a string of conditions is written without grouping symbols, it is often interpreted from the left to right, resulting in the latter interpretation.</p>
+</div></article><p id="p-494">Be aware that when a string of conditions is written without grouping symbols, it is often interpreted from the left to right, resulting in the latter interpretation.</p>
 <section class="exercises" id="exercises_boolean"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">17.1.1</span> <span class="title">Exercises</span>
 </h3>
-<p id="p-470">For questions 1-2, list the set of integers that satisfy the given conditions.</p>
-<article class="exercise exercise-like" id="exercise-97"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
-<p id="p-471">A positive multiple of 5 and not a multiple of 2.</p>
+<p id="p-495">For questions 1-2, list the set of integers that satisfy the given conditions.</p>
+<article class="exercise exercise-like" id="exercise-99"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
+<p id="p-496">A positive multiple of 5 and not a multiple of 2.</p>
 <div class="solutions">
-<a data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-32" id="answer-32"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-32"><div class="answer solution-like"><p id="p-472">\(\{5, 15, 25, \ldots \}\text{.}\)</p></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-98"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
-<p id="p-473">Greater than 12 and less than or equal to 18.</p></article></section></section></div></main>
+<a data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-33" id="answer-33"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-33"><div class="answer solution-like"><p id="p-497">\(\{5, 15, 25, \ldots \}\text{.}\)</p></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-100"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<p id="p-498">Greater than 12 and less than or equal to 18.</p></article></section></section></div></main>
 </div>
 </body>
 </html>

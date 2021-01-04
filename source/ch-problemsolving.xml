@@ -639,7 +639,7 @@
 					</li>
 					<li>
 						<p>
-							4) Solve problems involving proportions and unit conversions
+							Solve problems involving proportions and unit conversions
 						</p>
 					</li>
 				</ol>
@@ -1263,6 +1263,245 @@
 			</exercises>
 		</section> <!-- Rates and proportions -->
 
+		<section xml:id="sec_geometry"> <!-- COMPLETE MS 1/3/2021 -->
+			<title>Geometry</title>
 
+			<objectives> <!-- Meh, probably want to expand on these sometime -MS -->
+				<ol>
+					<li>
+						<p>
+							Identify needed information and/or eliminate extraneous information towards solving contextual problems
+						</p>
+					</li>
+				</ol>
+			</objectives>
+
+			<p>
+				Geometric shapes, as well as area and volumes, can often be important in problem solving.
+			</p>
+			
+			<video youtube="X9YIsu1f6WE"/> <!-- Similar triangles - scaling with length -->
+
+			<remark xml:id="ex_geometry21">
+				<statement>
+					<p>
+						You are curious how tall a tree is, but don’t have any way to climb it. Describe a method for determining the height.
+					</p>
+					<p>
+						There are several approaches we could take. We’ll use one based on triangles, which requires that it’s a sunny day. 
+					</p>
+					<p>
+						Suppose the tree is casting a shadow, say 15 ft long. I can then have a friend help me measure my own shadow. Suppose I am 6 ft tall, and cast a 1.5 ft shadow. Since the triangle formed by the tree and its shadow has the same angles as the triangle formed by me and my shadow, these triangles are called <term>similar triangles</term> and their sides will scale proportionally.
+					</p>
+					<p>
+						In other words, the ratio of height to width will be the same in both triangles. Using this, we can find the height of the tree, which we’ll denote by <em>h</em>: <me>\frac{6\text{ ft tall}}{1.5\text{ ft shadow}} = \frac{h\text{ ft tall}}{15\text{ ft shadow}}</me>
+					</p>
+
+					<p>
+						Multiplying both sides by 15, we get <m>h=60</m>. The tree is about 60 ft tall.
+					</p>
+				</statement>
+			</remark>
+
+			<p>
+				It may be helpful to recall some formulas for areas and volumes of a few basic shapes.
+			</p>
+
+			<table>
+				<tabular>
+					<row>
+					<cell>
+						<term>Areas</term>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						<em>Rectangle</em>
+					</cell>
+					<cell>
+						<em>Circle, radius</em> <m>​r</m>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						Area: <m>​L\cdot W</m>
+					</cell>
+					<cell>
+						Area: <m>​\pi r^2</m>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						Perimeter: <m>​2L+2W</m>
+					</cell>
+					<cell>
+						Circumference: <m>​2\pi r</m>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						<image source="images/problemsolving/geometry-1a.jpg" width="50%"/>
+					</cell>
+					<cell>
+						<image source="images/problemsolving/geometry-1b.jpg" width="50%"/>
+					</cell>
+					</row>
+				</tabular>
+			</table>
+
+			<table>
+				<tabular>
+					<row>
+					<cell>
+						<term>Volumes</term>
+					</cell>
+					<cell>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						<em>Rectangular Box</em>
+					</cell>
+					<cell>
+						<em>Cylinder</em>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						Volume: <m>​L\cdot W\cdot H</m>
+					</cell>
+					<cell>
+						Volume: <m>​\pi r^2\, h</m>
+					</cell>
+					</row>
+					<row>
+					<cell>
+						<image source="images/problemsolving/geometry-2a.jpg" width="50%"/>
+					</cell>
+					<cell>
+						<image source="images/problemsolving/geometry-2b.jpg" width="50%"/>
+					</cell>
+					</row>
+				</tabular>
+			</table>
+
+			<video youtube="e75bk1qCsUE"/> <!-- Scaling with area -->
+
+			<remark xml:id="ex_geometry22">
+				<statement>
+					<p>
+						If a 12 inch diameter pizza requires 10 ounces of dough, how much dough is needed for a 16 inch pizza?
+					</p>
+
+					<p>
+						To answer this question, we need to consider how the weight of the dough will scale. The weight will be based on the volume of the dough. However, since both pizzas will be about the same thickness, the weight will scale with the area of the top of the pizza. We can find the area of each pizza using the formula for area of a circle, <m>A = \pi r^2</m>:
+					</p>
+
+					<p>
+						A 12" pizza has radius 6 inches, so the area will be <m>\pi\, 6^2 ={} </m> about 113 square inches.
+					</p>
+
+					<p>
+						A 16" pizza has radius 8 inches, so the area will be <m>\pi\, 8^2 ={} </m> about 201 square inches.
+					</p>
+
+					<p>
+						Notice that if both pizzas were 1 inch thick, the volumes would be 113 in<sup>3</sup> and 201 in<sup>3</sup> respectively, which are at the same ratio as the areas. As mentioned earlier, since the thickness is the same for both pizzas, we can safely ignore it.
+					</p>
+
+					<p>
+						We can now set up a proportion to find the weight of the dough for a 16" pizza:
+						<md>
+							<mrow>\frac{10\text{ ounces}}{113\text{ in}^2} &amp;= \frac{x\text{ ounces}}{201\text{ in}^2} &amp; \text{Multiply both sides by 201}</mrow>
+							<mrow>x &amp;=201\cdot\frac{10}{113} = \text{about }17.8 \text{ ounces}</mrow>
+						</md>
+						 of dough for a 16" pizza.
+					</p>
+
+					<p>
+						It is interesting to note that while the diameter is <m>\frac{16}{12} \approx  1.33</m> times larger, the dough required, which scales with area, is <m>1.33^2\approx  1.78</m> times larger.
+					</p>
+				</statement>
+			</remark>
+
+			<video youtube="QJgGpxzRt6Y"/> <!-- Scaling with volume -->
+
+			<remark xml:id="ex_geometry23">
+				<statement>
+					<figure xml:id="fig_geometry23">
+						<image source="images/problemsolving/geometry-3.jpg" width="50%"/>
+						<caption>Photo courtesy <url href="http://christopherdanielson.wordpress.com/">Christopher Danielson</url></caption>
+					</figure>
+					<p>
+						A company makes regular and jumbo marshmallows. The regular marshmallow has 25 calories. How many calories will the jumbo marshmallow have?
+					</p>
+					<p>
+						We would expect the calories to scale with volume. Since the marshmallows have cylindrical shapes, we can use that formula to find the volume. From the grid in the image, we can estimate the radius and height of each marshmallow.
+					</p>
+
+					<p>
+						The regular marshmallow appears to have a diameter of about 3.5 units, giving a radius of 1.75 units, and a height of about 3.5 units. The volume is about <m>\pi\bigl(1.75\bigr)^2\bigl(3.5\bigr) = 33.7\text{ units}^3</m>.
+					</p>
+
+					<p>
+						The jumbo marshmallow appears to have a diameter of about 5.5 units, giving a radius of 2.75 units, and a height of about 5 units. The volume is about <m>\pi\bigl(2.75\bigr)^2\bigl(5\bigr) = 118.8\text{ units}^3</m>.
+					</p>
+
+					<p>
+						We could now set up a proportion, or use rates. The regular marshmallow has 25 calories for 33.7 cubic units of volume. The jumbo marshmallow will have: <me>118.8\text{ units}^3 \cdot \frac{25\text{ calories}}{33.7\text{ units}^3} = 88.1\text{ calories}.</me>
+					</p>
+
+					<p>
+						It is interesting to note that while the diameter and height are about 1.5 times larger for the jumbo marshmallow, the volume and calories are about <m>1.5^3 = 3.375</m> times larger.
+					</p>
+				</statement>
+			</remark>
+
+			<problem xml:id="tin_geometry5">
+				<statement>
+					<p>
+						A website says that you’ll need 48 fifty-pound bags of sand to fill a sandbox that measure 8ft by 8ft by 1ft. How many bags would you need for a sandbox 6ft by 4ft by 1ft?
+					</p>
+				</statement>
+				<answer>
+					<p>
+						The original sandbox has volume <m>64 \text{ ft}^3</m>. The smaller sandbox has volume <m>24 \text{ ft}^3</m>. <me> \frac{48\text{ bags}}{64\text{ ft}^3} = \frac{x\text{ bags}}{24\text{ ft}^3}</me>
+						results in <m>x=18</m> bags.
+					</p>
+				</answer>
+			</problem>
+
+			<exercises xml:id="exercises_geometry">
+				<exercise>
+					<statement>
+						<p>
+							A piece of paper can be made into a cylinder in two ways: by joining the short sides together, or by joining the long sides together. Which cylinder would hold more? How much more? (Source: Dan Meyer)
+						</p>
+						<video vimeo="42501010"/>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<sidebyside>
+							<p>
+								Which of these glasses contains more liquid? How much more?
+							</p>
+							<image source="images/problemsolving/geometry-4.jpg" width="50%"/>
+						</sidebyside>
+					</statement>
+				</exercise>
+			</exercises>
+		</section> <!-- Geometry -->
+
+		<section xml:id="sec_problemsolving">
+			<title>Problem Solving and Estimation</title>
+
+
+			<exercises xml:id="exercises_problemsolving">
+
+			</exercises>
+		</section>
 
 </chapter>
