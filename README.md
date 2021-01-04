@@ -23,7 +23,7 @@ COMPLETED CHAPTERS:
 
 WORKING CHAPTERS:
 
-[ ] Problem Solving (Completed sections: All but not the projects.)
+[ ] Problem Solving (Completed sections: All but "Extension: Taxes".)
 
 [_] Logic (Completed sections: 1. 2. 3.)
 
