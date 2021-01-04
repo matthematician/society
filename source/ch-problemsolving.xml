@@ -310,7 +310,7 @@
 				</statement>
 			</remark>
 
-			<exercises xml:id="exercises_percents"> <!-- Numbers 1 Through 20-->
+			<exercises xml:id="exercises_percents"> <!-- Numbers 1 Through 26 -->
 				<exercise>
 					<statement>
 						<p>
@@ -558,13 +558,93 @@
 						</p>
 					</statement>
 				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Are these two claims equivalent, in conflict, or not comparable because they’re talking about different things?
+							<ol>
+								<li>
+									<p>
+										<q>The school levy is only a 0.1% increase of the property tax rate.</q>
+									</p>
+								</li>
+								<li>
+									<p>
+										<q>This new levy is a 12% tax hike, raising our total rate to $9.33 per $1000 of value.</q>
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Are the values compared in this statement comparable or not comparable? <q>Guns have murdered more Americans here at home in recent years than have died on the battlefields of Iraq and Afghanistan. In support of the two wars, more than 6,500 American soldiers have lost their lives. During the same period, however, guns have been used to murder about 100,000 people on American soil</q>. (<url href="http://www.northjersey.com/news/opinions/lautenberg_073112.html?c=y&amp;page=2">Source</url>)
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							A high school currently has a 30% dropout rate. They’ve been tasked to decrease that rate by 20%. Find the equivalent percentage point drop.
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							A politician’s support grew from 42% by 3 percentage points to 45%. What percent (relative) change is this?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Marcy has a 70% average in her class going into the final exam. She says "I need to get a 100% on this final so I can raise my score to 85%." Is she correct?
+						</p>
+					</statement>
+				</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Suppose you have one quart of water/juice mix that is 50% juice, and you add 2 quarts of juice. What percent juice is the final mix?
+						</p>
+					</statement>
+				</exercise>
 
 			</exercises>
 
 		</section> <!-- Percent -->
 
-		<section xml:id="sec_proportions">
+		<section xml:id="sec_proportions"> <!-- COMPLETE MS 1/3/2021 -->
 			<title>Proportions and Rates</title>
+
+			<objectives>
+				<ol>
+					<li>
+						<p>
+							Identify needed information and/or eliminate extraneous information towards solving contextual problems
+						</p>
+					</li>
+					<li>
+						<p>
+							Recognize proportional relationships from verbal, graphical, symbolic or numerical scenarios
+						</p>
+					</li>
+					<li>
+						<p>
+							Use proportionality to solve and analyze a variety of multi-step contextual problems
+						</p>
+					</li>
+					<li>
+						<p>
+							4) Solve problems involving proportions and unit conversions
+						</p>
+					</li>
+				</ol>
+			</objectives>
+			
 
 			<p>
 				If you wanted to power the city of Seattle using wind power, how many windmills would you need to install? Questions like these can be answered using rates and proportions.
@@ -582,6 +662,8 @@
 					</p>
 				</statement>
 			</definition>
+
+			<video youtube="aZrio6ztHKE"/> <!-- Basic rates and proportions -->
 
 			<remark xml:id="ex_rates12">
 				<statement>
@@ -636,6 +718,8 @@
 			<p>
 				Many proportion problems can also be solved using <term>dimensional analysis</term>, the process of multiplying a quantity by rates to change the units.
 			</p>
+
+			<video youtube="jYwi3YqP0Wk"/> <!-- Proportions using dimensional analysis -->
 
 			<remark xml:id="ex_rates15">
 				<statement>
@@ -816,12 +900,369 @@
 				*Fluid ounces are a capacity measurement for liquids. 1 fluid ounce <m>\approx</m> 1 ounce (weight) for water only.
 			</p>
 
-			<!-- RESUME WITH EXAMPLE 16 -->
+			<video youtube="fyOcLcIVipM"/> <!-- Proportions with unit conversion-->
 
+			<remark xml:id="ex_rates16">
+				<statement>
+					<p>
+						A bicycle is traveling at 15 miles per hour. How many feet will it cover in 20 seconds?
+					</p>
+					<p>
+						To answer this question, we need to convert 20 seconds into feet. If we know the speed of the bicycle in feet per second, this question would be simpler. Since we don’t, we will need to do additional unit conversions. We will need to know that 5280 ft = 1 mile. We might start by converting the 20 seconds into hours: <md><mrow> 20\text{ seconds}\cdot \frac{1\text{ minute}}{60\text{ seconds}}\cdot\frac{1\text{ hour}}{60\text{ minutes}} &amp;= \frac{1}{180}\text{ hour} &amp; \text{Now we can multiply by the 15 miles/hr}</mrow><mrow>\frac{1}{180}\text{ hour} \cdot \frac{15\text{ miles}}{1\text{ hour}} &amp;= \frac{1}{12}\text{ mile} &amp; \text{Now we can convert to feet}</mrow><mrow> \frac{1}{12}\text{ mile} \cdot \frac{5280\text{ feet}}{1\text{ mile}} &amp;= 440\text{ feet}</mrow></md>
+					</p>
 
-			<exercises xml:id="exercises_proportions">
+					<p>
+						We could have also done this entire calculation in one long set of products: <me> 20\text{ seconds}\cdot \frac{1\text{ minute}}{60\text{ seconds}} \cdot \frac{1\text{ hour}}{60\text{ minutes}} \cdot \frac{15\text{ miles}}{1\text{ hour}}\cdot \frac{5280\text{ feet}}{1\text{ mile}} = 440\text{ feet}.</me>
+					</p>
+				</statement>
+			</remark>
 
+			<problem xml:id="tin_rates4">
+				<statement>
+					<p>
+						A 1000 foot spool of bare 12-gauge copper wire weighs 19.8 pounds. How much will 18 inches of the wire weigh, in ounces?
+					</p>
+				</statement>
+				<answer>
+					<p>
+						<me>18\text{ inches}\cdot \frac{1\text{ foot}}{12\text{ inches}} \cdot \frac{19.8\text{ pounds}}{1000\text{ feet}} \cdot \frac{16\text{ ounces}}{1\text{ pound}} \approx 0.475\text{ ounces}.</me>
+					</p>
+				</answer>
+			</problem>
+
+			<p>
+				Notice that with the miles per gallon example, if we double the miles driven, we double the gas used. Likewise, with the map distance example, if the map distance doubles, the real-life distance doubles. This is a key feature of proportional relationships, and one we must confirm before assuming two things are related proportionally.
+			</p>
+
+			<video youtube="-e2typcrhLE"/> <!-- Considering how/if things scale -->
+
+			<remark xml:id="ex_rates17">
+				<statement>
+					<p>
+						Suppose you’re tiling the floor of a 10 ft by 10 ft room, and find that 100 tiles will be needed. How many tiles will be needed to tile the floor of a 20 ft by 20 ft room?
+					</p>
+					<p>
+						In this case, while the width the room has doubled, the area has quadrupled. Since the number of tiles needed corresponds with the area of the floor, not the width, 400 tiles will be needed. We could find this using a proportion based on the areas of the rooms: <me>\frac{100\text{ tiles}}{100\text{ ft}^2} = \frac{n\text{ tiles}}{400\text{ ft}^2}.</me>
+					</p>
+				</statement>
+			</remark>
+
+			<p>
+				Other quantities just don’t scale proportionally at all.
+			</p>
+
+			<remark xml:id="ex_rates18">
+				<statement>
+					<p>
+						Suppose a small company spends $1000 on an advertising campaign, and gains 100 new customers from it. How many new customers should they expect if they spend $10,000?
+					</p>
+
+					<p>
+						While it is tempting to say that they will gain 1000 new customers, it is likely that additional advertising will be less effective than the initial advertising. For example, if the company is a hot tub store, there are likely only a fixed number of people interested in buying a hot tub, so there might not even be 1000 people in the town who would be potential customers.
+					</p>
+				</statement>
+			</remark>
+
+			<p>
+				Sometimes when working with rates, proportions, and percents, the process can be made more challenging by the magnitude of the numbers involved. Sometimes, large numbers are just difficult to comprehend.
+			</p>
+
+			<remark xml:id="ex_rates19">
+				<statement>
+					<p>
+						Compare the 2010 U.S. military budget of $683.7 billion to other quantities.
+					</p>
+
+					<p>
+						Here we have a very large number, about $683,700,000,000 written out. Of course, imagining a billion dollars is very difficult, so it can help to compare it to other quantities.
+					</p>
+
+					<p>
+						If that amount of money was used to pay the salaries of the 1.4 million Walmart employees in the U.S., each would earn over $488,000.
+					</p>
+
+					<p>
+						There are about 300 million people in the U.S. The military budget is about $2,200 per person.
+					</p>
+
+					<p>
+						If you were to put $683.7 billion in $100 bills, and count out 1 per second, it would take 216 years to finish counting it.
+					</p>
+				</statement>
+			</remark>
+			
+			<video youtube="rCLh8ZvSQr8"/> <!-- Comparing quantities involving large numbers -->
+
+			<remark xml:id="ex_rates20">
+				<statement>
+					<p>
+						Compare the electricity consumption per capita in China to the rate in Japan.
+					</p>
+
+					<p>
+						To address this question, we will first need data. From the CIA website (<url href="https://www.cia.gov/library/publications/the-world-factbook/rankorder/2042rank.html">Source</url>) we can find the electricity consumption in 2011 for China was 4,693,000,000,000 KWH (kilowatt-hours), or 4.693 trillion KWH, while the consumption for Japan was 859,700,000,000, or 859.7 billion KWH. To find the rate per capita (per person), we will also need the population of the two countries. 
+					</p>
+					<p>	From the World Bank (<url href="http://data.worldbank.org/indicator/SP.POP.TOTL">Source</url>), we can find the population of China is 1,344,130,000, or 1.344 billion, and the population of Japan is 127,817,277, or 127.8 million.
+					</p>
+
+					<p>
+						Computing the consumption per capita for each country:
+						<md>
+							<mrow>\text{China:} &amp; \frac{4,693,000,000,000\text{ KWH}}{1,344,130,000\text{ people}} &amp;\approx 3491.5\text{ KWH per person}</mrow>
+							<mrow>\text{Japan:} &amp; \frac{859,700,000,000\text{ KWH}}{127,817,277\text{ people}} &amp;\approx 6726\text{ KWH per person}</mrow>
+						</md>
+					</p>
+					<p>
+						While China uses more than 5 times the electricity of Japan overall, because the population of Japan is so much smaller, it turns out Japan uses almost twice the electricity per person compared to China.
+					</p>
+				</statement>
+			</remark>
+
+			<exercises xml:id="exercises_proportions"> <!-- 27 through 50 -->
+				<exercise>
+					<statement>
+						<p>
+							Find a unit rate: You bought 10 pounds of potatoes for $4.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Find a unit rate: Joel ran 1500 meters in 4 minutes, 45 seconds.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Solve: <m>\displaystyle\frac{2}{5} = \displaystyle\frac{6}{x}.</m>
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Solve: <m>\displaystyle\frac{n}{5} = \displaystyle\frac{16}{20}.</m>
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							A crepe recipe calls for 2 eggs, 1 cup of flour, and 1 cup of milk. How much flour would you need if you use 5 eggs?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							An 8ft length of 4 inch wide crown molding costs $14. How much will it cost to buy 40ft of crown molding?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Four 3-megawatt wind turbines can supply enough electricity to power 3000 homes. How many turbines would be required to power 55,000 homes?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							A highway had a landslide, where 3,000 cubic yards of material fell on the road, requiring 200 dump truck loads to clear. On another highway, a slide left 40,000 cubic yards on the road. How many dump truck loads would be needed to clear this slide?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Convert 8 feet to inches.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Convert 6 kilograms to grams.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							A wire costs $2 per meter. How much will 3 kilometers of wire cost?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Sugar contains 15 calories per teaspoon. How many calories are in 1 cup of sugar?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							A car is driving at 100 kilometers per hour. How far does it travel in 2 seconds?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							A chain weighs 10 pounds per foot. How many ounces will 4 inches weigh?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							The table below gives data on three movies. Gross earnings is the amount of money the movie brings in. Compare the net earnings (money made after expenses) for the three movies. (<url href="http://www.the-numbers.com/movies/records/budgets.php">Source</url>)
+						</p>
+						<table>
+							<tabular>
+								<row bottom="medium">
+								<cell>
+									Movie
+								</cell>
+								<cell>
+									Release Date
+								</cell>
+								<cell>
+									Budget
+								</cell>
+								<cell>
+									Gross Earnings
+								</cell>
+								</row>
+								<row>
+								<cell>
+									Saw
+								</cell>
+								<cell>
+									10/29/2004
+								</cell>
+								<cell>
+									$1,200,000
+								</cell>
+								<cell>
+									$103,096,345
+								</cell>
+								</row>
+								<row>
+								<cell>
+									Titanic
+								</cell>
+								<cell>
+									12/19/1997
+								</cell>
+								<cell>
+									$200,000,000
+								</cell>
+								<cell>
+									$1,842,879,955
+								</cell>
+								</row>
+								<row>
+								<cell>
+									Jurassic Park
+								</cell>
+								<cell>
+									6/11/1993
+								</cell>
+								<cell>
+									$63,000,000
+								</cell>
+								<cell>
+									$923,83,984
+								</cell>
+								</row>
+							</tabular>
+						</table>
+
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							For the movies in the previous problem, which provided the best return on investment?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							The population of the U.S. is about 309,975,000, covering a land area of 3,717,000 square miles. The population of India is about 1,184,639,000, covering a land area of 1,269,000 square miles. Compare the population densities of the two countries.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							The GDP (Gross Domestic Product) of China was $5,739 billion in 2010, and the GDP of Sweden was $435 billion. The population of China is about 1,347 million, while the population of Sweden is about 9.5 million. Compare the GDP per capita of the two countries.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							In June 2012, Twitter was reporting 400 million tweets per day. Each tweet can consist of up to 140 characters (letter, numbers, etc.). Create a comparison to help understand the amount of tweets in a year by imagining each character was a drop of water and comparing to filling something up.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							The photo sharing site Flickr had 2.7 billion photos in June 2012. Create a comparison to understand this number by assuming each picture is about 2 megabytes in size, and comparing to the data stored on other media like DVDs, iPods, or flash drives.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							Your chocolate milk mix says to use 4 scoops of mix for 2 cups of milk. After pouring in the milk, you start adding the mix, but get distracted and accidentally put in 5 scoops of mix. How can you adjust the mix if:
+							<ol>
+								<li>
+									<p>
+										There is still room in the cup?
+									</p>
+								</li>
+								<li>
+									<p>
+										The cup is already full?
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							A recipe for sabayon calls for 2 egg yolks, 3 tablespoons of sugar, and <m>\frac14</m> cup of white wine. After cracking the eggs, you start measuring the sugar, but accidentally put in 4 tablespoons of sugar. How can you compensate?
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							The Deepwater Horizon oil spill resulted in 4.9 million barrels of oil spilling into the Gulf of Mexico. Each barrel of oil can be processed into about 19 gallons of gasoline. How many cars could this have fueled for a year? Assume an average car gets 20 miles to the gallon, and drives about 12,000 miles in a year.
+						</p>
+					</statement>
+				</exercise>
+							<exercise>
+					<statement>
+						<p>
+							The store is selling lemons at 2 for $1. Each yields about 2 tablespoons of juice. How much will it cost to buy enough lemons to make a 9-inch lemon pie requiring <m>\frac12</m> cup of lemon juice?
+						</p>
+					</statement>
+				</exercise>
 			</exercises>
-		</section>
+		</section> <!-- Rates and proportions -->
+
+
 
 </chapter>

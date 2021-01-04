@@ -1,4 +1,9 @@
 Messages from application of C:\Users\msalo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pretext\static\xsl\pretext-html.xsl:
-MBX:DEPRECATE: (2019-06-28) the "table" element needs a "title", not a "caption".  An existing "caption" will be used instead.  Both will display below the "tabular" (1 time)
-             located within: "table_unitconversions" (xml:id), "Unit Conversions" (title)
+MBX:DEPRECATE: (2019-02-06) the "dollar" element is no longer necessary, simply replace with a bare "$" character (6 times)
+             located within: "exercises_proportions" (xml:id)
+             located within: "exercises_proportions" (xml:id)
+             located within: "exercises_proportions" (xml:id)
+             located within: "exercises_proportions" (xml:id)
+             located within: "exercises_proportions" (xml:id)
+             located within: "exercises_proportions" (xml:id)
 --------------
