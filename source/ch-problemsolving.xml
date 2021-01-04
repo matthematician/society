@@ -1498,8 +1498,973 @@
 		<section xml:id="sec_problemsolving">
 			<title>Problem Solving and Estimation</title>
 
+			<objectives>
+				<ol>
+					<li>
+						<p>
+							Identify needed information and/or eliminate extraneous information towards solving contextual problems
+						</p>
+					</li>
+					<li>
+						<p>
+							Clearly convey the solutions to problems
+						</p>
+					</li>
+					<li>
+						<p>
+							Use mathematical results to guide decision-making
+						</p>
+					</li>
+				</ol>
+			</objectives>
 
-			<exercises xml:id="exercises_problemsolving">
+			<p>
+				Finally, we will bring together the mathematical tools we’ve reviewed, and use them to approach more complex problems. In many problems, it is tempting to take the given information, plug it into whatever formulas you have handy, and hope that the result is what you were supposed to find. Chances are, this approach has served you well in other math classes.
+			</p>
+
+			<p>
+				This approach does not work well with real life problems. Instead, problem solving is best approached by first starting at the end: identifying exactly what you are looking for. From there, you then work backwards, asking <q>what information and procedures will I need to find this?</q> Very few interesting questions can be answered in one mathematical step; often times you will need to chain together a solution pathway, a series of steps that will allow you to answer the question.
+			</p>
+
+			<definition xml:id="def_problemsolving">
+				<title>Problem Solving Process</title>
+				<statement>
+					<p>
+						<ol>
+							<li>
+								<p>
+									Identify the question you’re trying to answer.
+								</p>
+							</li>
+							<li>
+								<p>
+									Work backwards, identifying the information you will need and the relationships you will use to answer that question.
+								</p>
+							</li>
+							<li>
+								<p>
+									Continue working backwards, creating a solution pathway.
+								</p>
+							</li>
+							<li>
+								<p>
+									If you are missing necessary information, look it up or estimate it. If you have unnecessary information, ignore it.
+								</p>
+							</li>
+							<li>
+								<p>
+									Solve the problem, following your solution pathway.
+								</p>
+							</li>
+						</ol>
+					</p>
+				</statement>
+			</definition>
+
+			<p>
+				In most problems we work, we will be approximating a solution, because we will not have perfect information. We will begin with a few examples where we will be able to approximate the solution using basic knowledge from our lives.
+			</p>
+
+			<video youtube="xF5BNEr0gjo"/> <!-- Estimating with imperfect information -->
+
+			<remark xml:id="ex_problemsolving24">
+				<statement>
+					<p>
+						How many times does your heart beat in a year?
+					</p>
+					<p>
+						This question is asking for the rate of heart beats per year. Since a year is a long time to measure heart beats for, if we knew the rate of heart beats per minute, we could scale that quantity up to a year. So the information we need to answer this question is heart beats per minute. This is something you can easily measure by counting your pulse while watching a clock for a minute.
+					</p>
+
+					<p>
+						Suppose you count 80 beats in a minute. To convert this beats per year: <me>\frac{80\text{ beats}}{1\text{ minute}}\cdot\frac{60\text{ minutes}}{1\text{ hour}}\cdot \frac{24\text{ hours}}{1\text{ day}}\cdot \frac{365\text{ days}}{1\text{ year}} = 42,048,000\text{ beats per year}.</me>
+					</p>
+				</statement>
+			</remark>
+
+			<remark xml:id="ex_problemsolving25">
+				<statement>
+					<p>
+						How thick is a single sheet of paper? How much does it weigh?
+					</p>
+
+					<p>
+						While you might have a sheet of paper handy, trying to measure it would be tricky. Instead we might imagine a stack of paper, and then scale the thickness and weight to a single sheet. If you’ve ever bought paper for a printer or copier, you probably bought a ream, which contains 500 sheets. We could estimate that a ream of paper is about 2 inches thick and weighs about 5 pounds. Scaling these down,
+					
+
+					<md>
+						<mrow> \frac{2\text{ inches}}{\text{ream}} \cdot \frac{1\text{ ream}}{500\text{ pages}} &amp;= 0.004\text{ inches per sheet}</mrow>
+					
+						<mrow> \frac{5\text{ pounds}}{\text{ream}}\cdot \frac{1\text{ ream}}{500\text{ pages}} &amp;= 0.01\text{ pounds per sheet, or }0.16\text{ ounces per sheet}.</mrow>
+					</md>
+
+					</p>
+
+			
+				</statement>
+			</remark>
+
+			<video youtube="NVCwFO-w2z4"/> <!-- Multistep proportions / problem solving process -->
+
+			<remark xml:id="ex_problemsolving26">
+				<statement>
+					<p>
+						A recipe for zucchini muffins states that it yields 12 muffins, with 250 calories per muffin. You instead decide to make mini-muffins, and the recipe yields 20 muffins. If you eat 4, how many calories will you consume?
+					</p>
+
+					<p>
+						There are several possible solution pathways to answer this question. We will explore one.
+					</p>
+
+					<p>
+						To answer the question of how many calories 4 mini-muffins will contain, we would want to know the number of calories in each mini-muffin. To find the calories in each mini-muffin, we could first find the total calories for the entire recipe, then divide it by the number of mini-muffins produced. To find the total calories for the recipe, we could multiply the calories per standard muffin by the number per muffin. Notice that this produces a multi-step solution pathway. It is often easier to solve a problem in small steps, rather than trying to find a way to jump directly from the given information to the solution.
+					</p>
+
+					<p>
+						We can now execute our plan:
+						<md>
+							<mrow> 12\text{ muffins}\cdot \frac{250\text{ calories}}{\text{muffin}} &amp;= 3000\text{ calories} &amp; \text{for the whole recipe}</mrow>
+							<mrow> \frac{3000\text{ calories}}{20 \text{mini-muffins}} &amp;= 150\text{ calories} &amp; \text{per mini-muffin}</mrow>
+							<mrow> 4\text{ mini-muffins} \cdot \frac{150\text{ calories}}{\text{mini-muffin}} &amp;= 600\text{ calories} &amp; \text{consumed.}</mrow>
+						</md>
+					
+					</p>
+				</statement>
+			</remark>
+
+			<video youtube="adPGfeTy-Pc"/> <!-- Estimating the cost of a deck -->
+
+			<remark xml:id="ex_problemsolving27">
+				<statement>
+					<p>
+						You need to replace the boards on your deck. About how much will the materials cost?
+					</p>
+
+					<p>
+						There are two approaches we could take to this problem: 1) estimate the number of boards we will need and find the cost per board, or 2) estimate the area of the deck and find the approximate cost per square foot for deck boards. We will take the latter approach.
+					</p>
+
+					<p>
+						For this solution pathway, we will be able to answer the question if we know the cost per square foot for decking boards and the square footage of the deck. To find the cost per square foot for decking boards, we could compute the area of a single board, and divide it into the cost for that board. We can compute the square footage of the deck using geometric formulas. So first we need information: the dimensions of the deck, and the cost and dimensions of a single deck board.
+					</p>
+
+					<p>
+						Suppose that measuring the deck, it is rectangular, measuring 16 ft by 24 ft, for a total area of 384 ft<sup>2</sup>.
+					</p>
+
+					<p>
+						From a visit to the local home store, you find that an 8 foot by 4 inch cedar deck board costs about $7.50. The area of this board, doing the necessary conversion from inches to feet, is: <me>8\text{ feet} \cdot 4\text{ inches} \cdot \frac{1\text{ foot}}{12\text{ inches}} = 2.667\text{ ft}^2.</me> 
+						The cost per square foot is then <me>\frac{\$7.50}{2.667\text{ ft}^2}= \$2.8125\text{ per ft}^2.</me>
+					</p>
+
+					<p>
+						This will allow us to estimate the material cost for the whole 384 ft<sup>2</sup> deck:
+						<me>384\text{ ft}^2 \cdot \frac{\$2.8125}{\text{ft}^2} = \$1080\text{ total cost}.</me>
+					</p>
+
+					<p>
+						Of course, this cost estimate assumes that there is no waste, which is rarely the case. It is common to add at least 10% to the cost estimate to account for waste.
+					</p>
+				</statement>
+			</remark>
+
+			<video youtube="HXmc-EkOYJE"/> <!-- Guiding decision using math : Sonata vs Hybrid -->
+
+			<remark xml:id="ex_problemsolving28">
+				<statement>
+					<p>
+						Is it worth buying a Hyundai Sonata hybrid instead the regular Hyundai Sonata?
+					</p>
+
+					<p>
+						To make this decision, we must first decide what our basis for comparison will be. For the purposes of this example, we’ll focus on fuel and purchase costs, but environmental impacts and maintenance costs are other factors a buyer might consider.
+					</p>
+
+					<p>
+						It might be interesting to compare the cost of gas to run both cars for a year. To determine this, we will need to know the miles per gallon both cars get, as well as the number of miles we expect to drive in a year. From that information, we can find the number of gallons required from a year. Using the price of gas per gallon, we can find the running cost.
+					</p>
+
+					<p>
+						From Hyundai’s website, the 2013 Sonata will get 24 miles per gallon (mpg) in the city, and 35 mpg on the highway. The hybrid will get 35 mpg in the city, and 40 mpg on the highway.
+					</p>
+
+					<p>
+						An average driver drives about 12,000 miles a year. Suppose that you expect to drive about 75% of that in the city, so 9,000 city miles a year, and 3,000 highway miles a year.
+					</p>
+
+					<p>
+						We can then find the number of gallons each car would require for the year.
+					</p>
+
+					<p>
+						Sonata:
+						<me>9000\text{ city miles}\cdot\frac{1\text{ gallon}}{24\text{ city miles}} + 3000\text{ highway miles}\cdot \frac{1\text{ gallon}}{35\text{ highway miles}} = 460.7\text{ gallons}</me>
+
+					
+						Hybrid:
+						<me>9000\text{ city miles}\cdot\frac{1\text{ gallon}}{35\text{ city miles}} + 3000\text{ highway miles}\cdot \frac{1\text{ gallon}}{40\text{ highway miles}} = 332.1\text{ gallons}</me>
+					</p><m> 460.7\text{ gallons} \cdot \frac{\$3.50}{\text{gallon}} = \$1612.45</m>
+
+					<p>
+						If gas in your area averages about $3.50 per gallon, we can use that to find the running cost:
+					</p>
+
+					<p>
+						Sonata: <m> 460.7\text{ gallons} \cdot \frac{\$3.50}{\text{gallon}} = \$1612.45</m>
+					</p>
+
+					<p>
+						Hybrid: <m> 332.1\text{ gallons} \cdot \frac{\$3.50}{\text{gallon}} = \$1162.35</m>
+					</p>
+
+					<p>
+						The hybrid will save $450.10 a year. The gas costs for the hybrid are about <m>\frac{\$450.10}{\$1612.45} = 0.279 = 27.9%</m> lower than the costs for the standard Sonata.
+					</p>
+
+					<p>
+						While both the absolute and relative comparisons are useful here, they still make it hard to answer the original question, since <q>is it worth it</q> implies there is some tradeoff for the gas savings. Indeed, the hybrid Sonata costs about $25,850, compared to the base model for the regular Sonata, at $20,895.
+					</p>
+
+					<p>
+						To better answer the <q>is it worth it</q> question, we might explore how long it will take the gas savings to make up for the additional initial cost. The hybrid costs $4965 more. With gas savings of $451.10 a year, it will take about 11 years for the gas savings to make up for the higher initial costs.
+					</p>
+
+					<p>
+						We can conclude that if you expect to own the car 11 years, the hybrid is indeed worth it. If you plan to own the car for less than 11 years, it may still be worth it, since the resale value of the hybrid may be higher, or for other non-monetary reasons. This is a case where math can help guide your decision, but it can’t make it for you.
+					</p>
+				</statement>
+			</remark>
+
+			<problem xml:id="tin_problemsolving6">
+				<statement>
+					<p>
+						If traveling from Seattle, WA to Spokane, WA for a three-day conference, does it make more sense to drive or fly?
+					</p>
+				</statement>
+				<answer>
+					<p>
+								There is not enough information provided to answer the question, so we will have to make some assumptions, and look up some values.
+					</p>
+
+					<p>
+						Assumptions:
+					</p>
+
+					<p>
+						a) We own a car. Suppose it gets 24 miles to the gallon. We will only consider gas cost.
+					</p>
+
+					<p>
+						b) We will not need to rent a car in Spokane, but will need to get a taxi from the airport to the conference hotel downtown and back.
+					</p>
+
+					<p>
+						c) We can get someone to drop us off at the airport, so we don’t need to consider airport parking.
+					</p>
+
+					<p>
+						d) We will not consider whether we will lose money by having to take time off work to drive.
+					</p>
+
+					<p>
+						Values looked up (your values may be different)
+					</p>
+
+					<p>
+						a) Flight cost: $184
+					</p>
+
+					<p>
+						b) Taxi cost: $25 each way (estimate, according to hotel website)
+					</p>
+
+					<p>
+						c) Driving distance: 280 miles each way
+					</p>
+
+					<p>
+						d) Gas cost: $3.79 a gallon
+					</p>
+
+					<p>
+						Cost for flying: $184 flight cost + $50 in taxi fares = $234.
+					</p>
+
+					<p>
+						Cost for driving: 560 miles round trip will require 23.3 gallons of gas, costing $88.31.
+					</p>
+
+					<p>
+						Based on these assumptions, driving is cheaper. However, our assumption that we only include gas cost may not be a good one. Tax law allows you deduct $0.55 (in 2012) for each mile driven, a value that accounts for gas as well as a portion of the car cost, insurance, maintenance, etc. Based on this number, the cost of driving would be $319.
+					</p>
+				</answer>
+			</problem>
+
+			<exercises xml:id="exercises_problemsolving"> <!-- Numbers 53 through 80 -->
+			<exercise>
+				<statement>
+					<p>
+						Estimate how many gallons of water you drink in a year.
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						Estimate how many times you blink in a day.
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						How much does the water in a 6-person hot tub weigh?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						How many gallons of paint would be needed to paint a two-story house 40 ft long and 30 ft wide?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						During the landing of the Mars Science Laboratory <em>Curiosity</em>, it was reported that the signal from the rover would take 14 minutes to reach earth. Radio signals travel at the speed of light, about 186,000 miles per second. How far was Mars from Earth when <em>Curiosity</em> landed?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						It is estimated that a driver takes, on average, 1.5 seconds from seeing an obstacle to reacting by applying the brake or swerving. How far will a car traveling at 60 miles per hour travel (in feet) before the driver reacts to an obstacle?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						The flash of lightning travels at the speed of light, which is about 186,000 miles per second. The sound of lightning (thunder) travels at the speed of sound, which is about 750 miles per hour.
+						<ol>
+							<li>
+								<p>
+									If you see a flash of lightning, then hear the thunder 4 seconds later, how far away is the lightning?
+								</p>
+							</li>
+							<li>
+								<p>
+									Now let’s generalize that result. Suppose it takes <m>n</m> seconds to hear the thunder after a flash of lightning. How far away is the lightning, in terms of <m>n</m>?
+								</p>
+							</li>
+						</ol>
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						Sound travels about 750 miles per hour. If you stand in a parking lot near a building and sound a horn, you will hear an echo.
+						<ol>
+							<li>
+								<p>
+									Suppose it takes about ½ a second to hear the echo. How far away is the building?
+								</p>
+								<video vimeo="40377128"/>
+							</li>
+							<li>
+								<p>
+									Now let’s generalize that result. Suppose it takes <m>n</m> seconds to hear the echo. How far away is the building, in terms of <m>n</m>?
+								</p>
+							</li>
+						</ol>
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						It takes an air pump 5 minutes to fill a twin sized air mattress (39 by 8.75 by 75 inches). How long will it take to fill a queen sized mattress (60 by 8.75 by 80 inches)?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						It takes your garden hose 20 seconds to fill your 2-gallon watering can. How long will it take to fill
+						<ol>
+							<li>
+								<p>
+									An inflatable pool measuring 3 feet wide, 8 feet long, and 1 foot deep?
+								</p>
+								<video youtube="DIkwefReHZc"/>
+							</li>
+							<li>
+								<p>
+									A circular inflatable pool 13 feet in diameter and 3 feet deep?
+								</p>
+								<video youtube="p9SABH7Yg9M"/>
+							</li>
+						</ol>
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						You want to put a 2" thick layer of topsoil for a new 20'x30' garden.  The dirt store sells by the cubic yards. How many cubic yards will you need to order?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						A box of Jell-O costs $0.50, and makes 2 cups. How much would it cost to fill a swimming pool 4 feet deep, 8 feet wide, and 12 feet long with Jell-O? (1 cubic foot is about 7.5 gallons)
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						You read online that a 15 ft by 20 ft brick patio would cost about $2,275 to have professionally installed. Estimate the cost of having a 18 by 22 ft brick patio installed.
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<sidebyside>
+						<p>
+							I was at the store, and saw two sizes of avocados being sold. The regular size sold for $0.88 each, while the jumbo ones sold for $1.68 each. Which is the better deal?
+						</p>
+						<image source="images/problemsolving/exercise66.jpg" width="50%"/>
+					</sidebyside>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<sidebyside>
+						<p>
+							The grocery store has bulk pecans on sale, which is great since you’re planning on making 10 pecan pies for a wedding. Your recipe calls for 1¾ cups pecans per pie. However, in the bulk section there’s only a scale available, not a measuring cup. You run over to the baking aisle and find a bag of pecans, and look at the nutrition label to gather some info. How many pounds of pecans should you buy?			
+						</p>
+						<image source="images/problemsolving/exercise67.jpg" width="50%"/>
+					</sidebyside>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<sidebyside>
+						<p>
+							Soda is often sold in 20 ounce bottles. The nutrition label for one of these bottles is shown to the right. A packet of sugar (the kind they have at restaurants for your coffee or tea) typically contain 4 grams of sugar in the U.S. Drinking a 20 oz soda is equivalent to eating how many packets of sugar?
+						</p>
+						<image source="images/problemsolving/exercise68.jpg" width="50%"/>
+					</sidebyside>
+					<video youtube="62JMfv0tf3Q"/>
+				</statement>
+			</exercise>
+
+			<p>
+				For the next set of questions, <em>first</em> identify the information you need to answer the question, and <em>then</em> click on the <q>Hint</q> to find that information. The details may be imprecise; answer the question the best you can with the provided information. Be sure to justify your decision.
+			</p>
+
+			<exercise>
+				<statement>
+					<p>
+						You’re planning on making 6 meatloafs for a party. You go to the store to buy breadcrumbs, and see they are sold by the canister. How many canisters do you need to buy?
+					</p>
+				</statement>
+				<hint>
+					<p>
+						How much breadcrumbs does the recipe call for?
+					</p>
+
+					<p>
+						It calls for <m>1\frac12</m> cups of breadcrumbs.
+					</p>
+
+					<p>
+						How many meatloafs does the recipe make?
+					</p>
+
+					<p>
+						It makes 1 meatloaf.
+					</p>
+
+					<p>
+						How many servings does that recipe make?
+					</p>
+
+					<p>
+						It says it serves 8.
+					</p>
+
+					<p>
+						How big is the canister?
+					</p>
+
+					<p>
+						It is cylindrical, 3.5 inches across and 7 inches tall.
+					</p>
+
+					<p>
+						What is the net weight of the contents of 1 canister?
+					</p>
+
+					<p>
+						15 ounces.
+					</p>
+
+					<sidebyside>
+						<p>
+							How much does a cup of breadcrumbs weigh?: 	I’m not sure, but maybe something from the nutritional label will help.
+						</p>
+						<image source="images/problemsolving/exercise69.jpg" width="40%"/>
+					</sidebyside>
+
+					<p>
+						How much does a canister cost?
+					</p>
+					
+					<p>$2.39.
+					</p>
+				</hint>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						Your friend wants to cover their car in bottle caps, like in this picture. How many bottle caps are you going to need?
+
+						<figure xml:id="fig_exercise70">
+							<image source="https://live.staticflickr.com/2111/3539627430_c50562119e_b.jpg" width="50%"/>
+							<caption>Photo credit: <url href="http://www.flickr.com/photos/swayze">David Swayze</url>, CC-BY</caption>
+							</figure>
+					</p>
+				</statement>
+				<hint>
+					<p>
+						What kind of car is that?
+					</p>
+
+					<p>
+						A 1993 Honda Accord.
+					</p>
+
+					<p>
+						How big is that car / what are the dimensions? Here is some details from MSN autos:
+					</p>
+
+					<p>
+						Weight: 2800lb Length: 185.2 in Width: 67.1 in Height: 55.2 in
+					</p>
+
+					<p>
+						How much of the car was covered with caps?
+					</p>
+
+					<p>
+						Everything but the windows and the underside.
+					</p>
+
+					<p>
+						How big is a bottle cap?
+					</p>
+
+					<p>
+						Caps are 1 inch in diameter.
+					</p>
+				</hint>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						You need to buy some chicken for dinner tonight. You found an ad showing that the store across town has it on sale for $2.99 a pound, which is cheaper than your usual neighborhood store, which sells it for $3.79 a pound. Is it worth the extra drive?
+					</p>
+				</statement>
+				<hint>
+					<p>
+						How much chicken will you be buying?
+					</p>
+
+					<p>
+						Four pounds
+					</p>
+
+					<p>
+						How far are the two stores?
+					</p>
+
+					<p>
+						My neighborhood store is 2.2 miles away, and takes about 7 minutes. The store across town is 8.9 miles away, and takes about 25 minutes.
+					</p>
+
+					<p>
+						What kind of mileage does your car get?
+					</p>
+
+					<p>
+						It averages about 24 miles per gallon in the city.
+					</p>
+
+					<p>
+						How many gallons does your car hold?
+					</p>
+
+					<p>
+						About 14 gallons
+					</p>
+
+					<p>
+						How much is gas?
+					</p>
+
+					<p>
+						About $3.69/gallon right now.
+					</p>
+				</hint>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						I have an old gas furnace, and am considering replacing it with a new, high efficiency model. Is upgrading worth it?
+					</p>
+				</statement>
+				<hint>
+					<p>
+						How efficient is the current furnace?
+					</p>
+
+					<p>
+						It is a 60% efficient furnace.
+					</p>
+
+					<p>
+						How efficient is the new furnace?
+					</p>
+
+					<p>
+						It is 94% efficient.
+					</p>
+
+					<p>
+						What is your gas bill?
+					</p>
+
+					<p>
+						Here is the history for 2 years:
+					</p>
+
+					<figure>
+						<image source="images/problemsolving/exercise72a.jpg" width="80%"/>
+						<caption></caption>
+					</figure>
+
+					<p>
+						How much do you pay for gas?
+					</p>
+
+					<p>
+						There is $10.34 base charge, plus $0.39097 per Therm for a delivery charge, and $0.65195 per Therm for cost of gas.
+					</p>
+
+					<p>
+						How much gas do you use?
+					</p>
+
+					<p>
+						Here is the history for 2 years:
+					</p>
+
+						<figure>
+						<image source="images/problemsolving/exercise72a.jpg" width="80%"/>
+						<caption></caption>
+						</figure>
+
+					<p>
+						How much does the new furnace cost?
+					</p>
+
+					<p>
+						It will cost $7,450.
+					</p>
+
+					<p>
+						How long do you plan to live in the house?
+					</p>
+
+					<p>
+						Probably at least 15 years.
+					</p>
+				</hint>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						Janine is considering buying a water filter and a reusable water bottle rather than buying bottled water. Will doing so save her money?
+					</p>
+				</statement>
+				<hint>
+					<p>
+						How much water does Janine drink in a day?
+					</p>
+
+					<p>
+						She normally drinks 3 bottles a day, each 16.9 ounces.
+					</p>
+
+					<p>
+						How much does a bottle of water cost?
+					</p>
+
+					<p>
+						She buys 24-packs of 16.9 ounce bottles for $3.99.
+					</p>
+
+					<p>
+						How much does a reusable water bottle cost?
+					</p>
+
+					<p>
+						About $10.
+					</p>
+
+					<p>
+						How long does a reusable water bottle last?
+					</p>
+
+					<p>
+						Basically forever (or until you lose it).
+					</p>
+
+					<p>
+						How much does a water filter cost? How much water will they filter?
+					</p>
+
+					<p><ul>
+						<li>
+									<p>
+						A faucet-mounted filter costs about $28. Refill filters cost about $33 for a 3-pack. The box says each filter will filter up to 100 gallons (378 liters)
+					</p>
+						</li>
+
+						<li>
+									<p>
+						A water filter pitcher costs about $22. Refill filters cost about $20 for a 4-pack. The box says each filter lasts for 40 gallons or 2 months
+					</p>
+						</li>
+
+						<li>
+									<p>
+						An under-sink filter costs $130. Refill filters cost about $60 each. The filter lasts for 500 gallons.
+					</p>
+						</li>
+
+					</ul></p>
+				</hint>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						Marcus is considering going car-free to save money and be more environmentally friendly. Is this financially a good decision?
+					</p>
+				</statement>
+				<hint>
+					<p>
+						Where does Marcus currently drive? He:
+					</p>
+
+					<p><ul>
+						<li>
+									<p>
+						Drives to work 5 days a week, located 4 miles from his house.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						Drives to the store twice a week, located 7 miles from his house.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						Drives to other locations on average 5 days a week, with locations ranging from 1 mile to 20 miles.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						Drives to his parent’s house 80 miles away once a month.
+					</p>
+						</li>
+
+					</ul></p>
+
+					<p>
+						How will he get to these locations without a car?
+					</p>
+
+					<p><ul>
+						<li>
+									<p>
+						For work, he can walk when it’s sunny and he gets up early enough. Otherwise he can take a bus, which takes about 20 minutes
+					</p>
+						</li>
+
+						<li>
+									<p>
+						For the store, he can take a bus, which takes about 35 minutes.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						Some of the other locations he can bus to. Sometimes he’ll be able to get a friend to pick him up. A few locations he is able to walk to. A couple locations are hard to get to by bus, but there is a ZipCar (short term car rental) location within a few blocks.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						He’ll need to get a ZipCar to visit his parents.
+					</p>
+						</li>
+
+					</ul></p>
+
+					<p>
+						How much does gas cost?
+					</p>
+
+					<p>
+						About $3.69/gallon.
+					</p>
+
+					<p>
+						How much does he pay for insurance and maintenance?
+					</p>
+
+					<p><ul>
+						<li>
+									<p>
+						He pays $95/month for insurance.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						He pays $30 every 3 months for an oil change, and has averaged about $300/year for other maintenance costs.
+					</p>
+						</li>
+
+					</ul></p>
+
+					<p>
+						How much is he paying for the car?
+					</p>
+
+					<p><ul>
+						<li>
+									<p>
+						He’s paying $220/month on his car loan right now, and has 3 years left on the loan.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						If he sold the car, he’d be able to make enough to pay off the loan.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						If he keeps the car, he’s planning on trading the car in for a newer model in a couple years.
+					</p>
+						</li>
+
+					</ul></p>
+
+					<p>
+						What mileage does his car get?
+					</p>
+
+					<p>
+						About 26 miles per gallon on average.
+					</p>
+
+					<p>
+						How much does a bus ride cost?
+					</p>
+
+					<p>
+						$2.50 per trip, or $90 for an unlimited monthly pass.
+					</p>
+
+					<p>
+						How much does a ZipCar rental cost?
+					</p>
+
+					<p><ul>
+						<li>
+									<p>
+						The <q>occasional driving plan</q>: $25 application fee and $60 annual fee, with no monthly commitment. Monday-Thursday the cost is $8/hour, or $72 per day. Friday-Sunday the cost is $8/hour or $78/day. Gas, insurance, and 180 miles are included in the cost. Additional miles are $0.45/mile.
+					</p>
+						</li>
+
+						<li>
+									<p>
+						The <q>extra value plan</q>: Same as above, but with a $50 monthly commitment, getting you a 10% discount on the usage costs.
+					</p>
+						</li>
+
+					</ul></p>
+				</hint>
+			</exercise>
+
+			<p>
+				For the next set of problems, research or make educated estimates for any unknown quantities needed to answer the question.
+			</p>
+
+			<exercise>
+				<statement>
+					<p>
+						You want to travel from Tacoma, WA to Chico, CA for a wedding. Compare the costs and time involved with driving, flying, and taking a train. Assume that if you fly or take the train you’ll need to rent a car while you’re there. Which option is best?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						You want to paint the walls of a 6ft by 9ft storage room that has one door and one window. You want to put on two coats of paint. How many gallons and/or quarts of paint should you buy to paint the room as cheaply as possible?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						A restaurant in New York tiled their floor with pennies. (<url href="http://www.notcot.com/archives/2009/06/floor-of-pennie.php">Source</url>) Just for the materials, is this more expensive than using a more traditional material like ceramic tiles? If each penny has to be laid by hand, estimate how long it would take to lay the pennies for a 12ft by 10ft room. Considering material and labor costs, are pennies a cost-effective replacement for ceramic tiles?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						You are considering taking up part of your back yard and turning it into a vegetable garden, to grow broccoli, tomatoes, and zucchini. Will doing so save you money, or cost you more than buying vegetables from the store?
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						Barry is trying to decide whether to keep his 1993 Honda Civic with 140,000 miles, or trade it in for a used 2008 Honda Civic. Consider gas, maintenance, and insurance costs in helping him make a decision.
+					</p>
+				</statement>
+			</exercise>
+			<exercise>
+				<statement>
+					<p>
+						Some people claim it costs more to eat vegetarian, while some claim it costs less. Examine your own grocery habits, and compare your current costs to the costs of switching your diet (from omnivore to vegetarian or vice versa as appropriate). Which diet is more cost effective based on your eating habits?
+					</p>
+				</statement>
+			</exercise>
 
 			</exercises>
 		</section>
