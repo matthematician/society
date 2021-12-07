@@ -27,6 +27,10 @@ WORKING CHAPTERS:
 
 [_] Logic (Completed sections: 1. 2. 3.)
 
+[_] Statistics
+
+[_] Describing Data
+
 FUTURE:
 
 [ ] Integrate Lippman's Objectives from his MyOpenMath course
